@@ -1,6 +1,6 @@
 /* Flotog BA Insights — design tokens
    Idea: the BA's workshop wall. Cool whiteboard paper, navy marker ink,
-   one sticky-note yellow reserved for the outcome. */
+   brand yellow reserved for the outcome. */
 :root {
   /* Flotog brand palette, taken from the Flotog logo in Wix */
   --paper: #F5F8FB;
@@ -76,22 +76,25 @@ p { margin: 0 0 1em; max-width: 66ch; }
 .proof { font-size: .98rem; color: var(--muted); }
 .proof strong { color: var(--ink); }
 .flow svg { width: 100%; }
-.flow { margin: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: .75rem; }
+.flow { margin: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 1rem; }
 .flow figcaption { font-size: .9rem; color: var(--muted); padding: .5rem .25rem 0; }
-.flow .lane { fill: var(--lane); }
-.flow .lane-label { font: 700 13px var(--sans); fill: var(--marker); }
-.flow .task { fill: #fff; stroke: var(--ink); stroke-width: 2; }
-.flow .task-text { font: 600 13.5px var(--sans); fill: var(--ink); }
-.flow .edge { fill: none; stroke: var(--ink); stroke-width: 2; }
+.flow .lane-a { fill: #EEF3F9; }
+.flow .lane-b { fill: #F8FAFC; }
+.flow .lane-head { fill: var(--marker); }
+.flow .lane-divider { stroke: var(--line); stroke-width: 1.5; }
+.flow .pool { fill: none; stroke: var(--marker); stroke-width: 1.5; }
+.flow .lane-label { font: 700 13px var(--sans); fill: #fff; letter-spacing: .02em; }
+.flow .start { fill: #fff; stroke: var(--marker); stroke-width: 2; }
+.flow .end { fill: #fff; stroke: var(--marker); stroke-width: 4.5; }
+.flow .task { fill: #fff; stroke: var(--marker); stroke-width: 1.75; }
+.flow .task-text { font: 600 13px var(--sans); fill: var(--ink); }
+.flow .outcome { fill: var(--note); stroke: var(--marker); stroke-width: 1.75; }
+.flow .outcome-text { font: 800 13px var(--sans); fill: var(--ink); }
+.flow .gate { fill: #fff; stroke: var(--marker); stroke-width: 1.75; }
+.flow .edge { fill: none; stroke: var(--marker); stroke-width: 1.75; stroke-linejoin: round; }
+.flow .edge-muted { stroke-dasharray: 5 4; }
+.flow .arrowhead { fill: var(--marker); }
 .flow .edge-label { font: 600 12px var(--sans); fill: var(--muted); }
-.flow .gate { fill: #fff; stroke: var(--ink); stroke-width: 2; }
-.flow .note { fill: var(--note); stroke: var(--ink); stroke-width: 2; }
-.flow .note-text { font: 800 16px var(--sans); fill: var(--ink); }
-@media (prefers-reduced-motion: no-preference) {
-  .flow .note-group { transform-box: fill-box; transform-origin: center; animation: stick .7s .5s cubic-bezier(.2,.9,.3,1.3) both; }
-  @keyframes stick { from { opacity: 0; transform: translateY(-14px) rotate(-10deg); } to { opacity: 1; transform: rotate(-3deg); } }
-}
-.flow .note-group { transform: rotate(-3deg); transform-box: fill-box; transform-origin: center; }
 @media (max-width: 900px) { .hero-grid { grid-template-columns: 1fr; } .hero h1 { max-width: 18ch; } }
 
 /* Audience paths */
