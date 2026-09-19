@@ -32,46 +32,51 @@ faqs:
     </div>
 
     <figure class="flow">
-      <svg viewBox="0 0 600 340" role="img" aria-labelledby="flow-title flow-desc">
+      <svg viewBox="0 0 720 360" role="img" aria-labelledby="flow-title flow-desc">
         <title id="flow-title">Your route to a business analyst role</title>
-        <desc id="flow-desc">A process map with two lanes. You book a free call. Flotog reviews your skills gap and mentors you on real cases. If you are not yet interview ready, you keep practising. When you are ready, you land your BA role.</desc>
+        <desc id="flow-desc">A two-lane process map. You book a free call. Flotog reviews your skills gap, then mentors you on real BA cases. At the interview-ready check, if you are not ready you return to mentoring; when you are ready, you land your BA role.</desc>
         <defs>
-          <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#042251"/></marker>
+          <marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="arrowhead"/></marker>
         </defs>
-        <rect class="lane" x="0" y="0" width="600" height="166" rx="4"/>
-        <rect class="lane" x="0" y="174" width="600" height="166" rx="4" style="opacity:.6"/>
-        <text class="lane-label" transform="translate(22 83) rotate(-90)" text-anchor="middle">You</text>
-        <text class="lane-label" transform="translate(22 257) rotate(-90)" text-anchor="middle">With Flotog</text>
 
-        <circle cx="62" cy="85" r="11" fill="#fff" stroke="#042251" stroke-width="2"/>
-        <path class="edge" d="M73 85H90" marker-end="url(#arrow)"/>
+        <rect class="lane lane-a" x="0" y="0" width="720" height="180"/>
+        <rect class="lane lane-b" x="0" y="180" width="720" height="180"/>
+        <rect class="lane-head" x="0" y="0" width="40" height="360"/>
+        <line class="lane-divider" x1="40" y1="180" x2="720" y2="180"/>
+        <rect class="pool" x="0.75" y="0.75" width="718.5" height="358.5"/>
+        <text class="lane-label" transform="translate(25 90) rotate(-90)" text-anchor="middle">You</text>
+        <text class="lane-label" transform="translate(25 270) rotate(-90)" text-anchor="middle">With Flotog</text>
 
-        <rect class="task" x="92" y="60" width="116" height="50" rx="8"/>
-        <text class="task-text" x="150" y="90" text-anchor="middle">Book a free call</text>
-        <path class="edge" d="M150 110V255H168" marker-end="url(#arrow)"/>
+        <circle class="start" cx="78" cy="90" r="12"/>
+        <path class="edge" d="M90 90H118" marker-end="url(#arrow)"/>
 
-        <rect class="task" x="170" y="230" width="128" height="50" rx="8"/>
-        <text class="task-text" x="234" y="260" text-anchor="middle">Skills-gap review</text>
-        <path class="edge" d="M298 255H314" marker-end="url(#arrow)"/>
+        <rect class="task" x="120" y="64" width="120" height="52" rx="10"/>
+        <text class="task-text" x="180" y="90" text-anchor="middle" dominant-baseline="middle">Book a free call</text>
+        <path class="edge" d="M180 116V270H268" marker-end="url(#arrow)"/>
 
-        <rect class="task" x="316" y="230" width="128" height="50" rx="8"/>
-        <text class="task-text" x="380" y="251" text-anchor="middle">Mentoring on</text>
-        <text class="task-text" x="380" y="268" text-anchor="middle">real BA cases</text>
-        <path class="edge" d="M392 230V117" marker-end="url(#arrow)"/>
+        <rect class="task" x="270" y="244" width="120" height="52" rx="10"/>
+        <text class="task-text" x="330" y="270" text-anchor="middle" dominant-baseline="middle">Skills-gap review</text>
+        <path class="edge" d="M390 270H416" marker-end="url(#arrow)"/>
 
-        <path class="gate" d="M392 55L422 85L392 115L362 85Z"/>
-        <text class="edge-label" x="392" y="42" text-anchor="middle">Interview ready?</text>
-        <path class="edge" d="M362 85H336V228" marker-end="url(#arrow)"/>
-        <text class="edge-label" x="330" y="160" text-anchor="end">Not yet,</text>
-        <text class="edge-label" x="330" y="175" text-anchor="end">keep practising</text>
-        <path class="edge" d="M422 85H458" marker-end="url(#arrow)"/>
-        <text class="edge-label" x="438" y="76" text-anchor="middle">Yes</text>
+        <rect class="task" x="418" y="244" width="120" height="52" rx="10"/>
+        <text class="task-text" x="478" y="262" text-anchor="middle" dominant-baseline="middle">Mentoring on</text>
+        <text class="task-text" x="478" y="279" text-anchor="middle" dominant-baseline="middle">real BA cases</text>
+        <path class="edge" d="M478 244V116" marker-end="url(#arrow)"/>
 
-        <g class="note-group">
-          <rect class="note" x="462" y="44" width="122" height="84" rx="3"/>
-          <text class="note-text" x="523" y="81" text-anchor="middle">Your BA</text>
-          <text class="note-text" x="523" y="101" text-anchor="middle">role</text>
-        </g>
+        <path class="gate" d="M478 66L502 90L478 114L454 90Z"/>
+        <text class="edge-label" x="478" y="50" text-anchor="middle">Interview ready?</text>
+
+        <path class="edge edge-muted" d="M454 90H436V242" marker-end="url(#arrow)"/>
+        <text class="edge-label" x="428" y="160" text-anchor="end">Not yet,</text>
+        <text class="edge-label" x="428" y="175" text-anchor="end">keep practising</text>
+
+        <path class="edge" d="M502 90H532" marker-end="url(#arrow)"/>
+        <text class="edge-label" x="517" y="80" text-anchor="middle">Yes</text>
+        <rect class="outcome" x="534" y="64" width="112" height="52" rx="10"/>
+        <text class="outcome-text" x="590" y="82" text-anchor="middle" dominant-baseline="middle">Land your</text>
+        <text class="outcome-text" x="590" y="99" text-anchor="middle" dominant-baseline="middle">BA role</text>
+        <path class="edge" d="M646 90H670" marker-end="url(#arrow)"/>
+        <circle class="end" cx="684" cy="90" r="12"/>
       </svg>
       <figcaption>How mentorship works, drawn the way a BA would draw it.</figcaption>
     </figure>
