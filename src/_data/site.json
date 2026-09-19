@@ -1,0 +1,66 @@
+{
+  "name": "Flotog BA Insights",
+  "legalName": "Flotog Business Analysis Insights",
+  "url": "https://www.flotogbainsights.com",
+  "locale": "en_AE",
+  "defaultDescription": "Business analyst training, mentorship and interview coaching from a Dubai-based practitioner with 13+ years' experience. Online worldwide and in the UAE.",
+  "defaultImage": "/images/og-default.jpg",
+  "foundingDate": "2012",
+  "founder": {
+    "name": "Tosin Ogunkoya",
+    "jobTitle": "Founder and Lead BA Mentor",
+    "image": "/images/brand/tosin-ogunkoya.jpg"
+  },
+  "phone": "+971508026896",
+  "phoneDisplay": "+971 50 802 6896",
+  "whatsapp": "https://wa.me/971508026896",
+  "email": "info@flotogbainsights.com",
+  "address": {
+    "street": "Al Rabee'a 2 Street, Al Thanyah First",
+    "locality": "Barsha Heights",
+    "region": "Dubai",
+    "country": "AE",
+    "countryName": "United Arab Emirates"
+  },
+  "geo": {
+    "lat": 25.0957,
+    "lng": 55.174
+  },
+  "booking": {
+    "freeConsultation": "https://cal.com/REPLACE-ME/free-consultation",
+    "coachingSession": "https://cal.com/REPLACE-ME/1-1-coaching"
+  },
+  "social": {
+    "youtube": "https://www.youtube.com/@FlotogBAInsights",
+    "linkedinCompany": "",
+    "linkedinPersonal": "",
+    "instagram": "",
+    "tiktok": ""
+  },
+  "googleVerification": "r6TkFXGBgRVbhXxc7il8rbh5Vn7JUPkDVjK6legwzMc",
+  "bingVerification": "7332E0F1BAA83E956B1B8A3CDFDD7D1F",
+  "newsletterAction": "https://REPLACE-ME-with-your-MailerLite-or-Formspree-form-endpoint",
+  "logo": "/images/brand/flotog-logo.jpg",
+  "clients": [
+    {
+      "name": "Renascence CX",
+      "country": "UAE",
+      "logo": "/images/brand/client-renascence.png"
+    },
+    {
+      "name": "IHS Towers",
+      "country": "UAE",
+      "logo": "/images/brand/client-ihs-towers.jpg"
+    },
+    {
+      "name": "The Rock Tower",
+      "country": "UK",
+      "logo": "/images/brand/client-the-rock-tower.png"
+    },
+    {
+      "name": "HOTR London",
+      "country": "UK",
+      "logo": "/images/brand/client-hotr-london.png"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <p class="footer-brand">{{ site.name }}</p>
+      <p>Business analyst training, mentorship and consultancy since {{ site.foundingDate }}.</p>
+      <address>
+        {{ site.address.street }}<br>
+        {{ site.address.locality }}, {{ site.address.region }}<br>
+        {{ site.address.countryName }}<br>
+        <a href="tel:{{ site.phone }}">{{ site.phoneDisplay }}</a><br>
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      </address>
+    </div>
+    <div>
+      <p class="footer-head">Explore</p>
+      <ul class="footer-links">
+        <li><a href="/book/">1:1 coaching</a></li>
+        <li><a href="/services/digital-transformation/">Digital transformation for business</a></li>
+        <li><a href="/blog/">BA career blog</a></li>
+        <li><a href="/free-ba-interview-guide/">Free BA interview guide</a></li>
+        <li><a href="/about/">About Tosin Ogunkoya</a></li>
+        <li><a href="/privacy-policy/">Privacy policy</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-head">Get one practical BA lesson a week</p>
+      <form name="newsletter" method="POST" action="{{ site.newsletterAction }}" class="newsletter">
+        <input type="hidden" name="_next" value="{{ site.url }}/thanks/">
+        <label for="nl-email">Email address</label>
+        <div class="newsletter-row">
+          <input id="nl-email" type="email" name="email" required autocomplete="email" placeholder="you@example.com">
+          <button class="btn" type="submit">Subscribe</button>
+        </div>
+      </form>
+      {%- if site.social.youtube %}<p class="footer-social"><a href="{{ site.social.youtube }}" rel="me">YouTube</a>{% if site.social.linkedinCompany %} <a href="{{ site.social.linkedinCompany }}" rel="me">LinkedIn</a>{% endif %}{% if site.social.instagram %} <a href="{{ site.social.instagram }}" rel="me">Instagram</a>{% endif %}</p>{% endif %}
+    </div>
+  </div>
+  <div class="wrap footer-base"><p>© {{ year }} {{ site.legalName }}. Dubai, UAE.</p></div>
+</footer>

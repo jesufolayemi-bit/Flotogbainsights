@@ -1,0 +1,67 @@
+---
+layout: layouts/base.njk
+permalink: /book/
+title: "Book Business Analyst Coaching | Flotog BA Insights"
+titleIsFull: true
+description: "Book a free 30-minute BA career consultation or a 1-hour coaching session (AED 400): interview prep, CV review and career planning with Tosin Ogunkoya."
+includeServiceSchema: true
+breadcrumbs:
+  - name: "Book coaching"
+    url: "/book/"
+faqs:
+  - q: "What happens after I book?"
+    a: "You receive a calendar confirmation with a video call link. Before the session, send a short note on your background and what you want to get out of it so the time goes on your real problem."
+  - q: "Can I reschedule?"
+    a: "Yes. Use the reschedule link in your booking confirmation, or contact us on WhatsApp."
+---
+<section class="page-head">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / Book coaching</nav>
+    <h1>Book business analyst coaching</h1>
+    <p class="lead">Start with a free 30-minute consultation, or go straight to a focused one-hour session. Sessions run online, so you can join from Dubai or anywhere in the world.</p>
+  </div>
+</section>
+
+<section class="section" style="padding-top:1.5rem">
+  <div class="wrap">
+    <div class="offers">
+      {%- for s in services %}
+      <article class="offer{% if loop.first %} offer-featured{% endif %}" id="{{ s.id }}">
+        <h2 class="h3" style="font-size:var(--step-2)">{{ s.name }}</h2>
+        <div class="offer-meta">
+          <span class="offer-price">{{ s.priceDisplay }}</span>
+          <span class="offer-duration">{{ s.duration }}</span>
+        </div>
+        <p>{{ s.description }}</p>
+        <ul>
+          {%- for i in s.includes %}<li>{{ i }}</li>{% endfor %}
+        </ul>
+        <a class="btn{% if not loop.first %} btn-ghost{% endif %}" href="{{ site.booking[s.bookingKey] }}">Book {{ s.name | lower }}</a>
+      </article>
+      {%- endfor %}
+    </div>
+    <p style="margin-top:1.5rem">Prefer to ask a question first? <a href="{{ site.whatsapp }}">Message us on WhatsApp</a> or email <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="wrap">
+    <div class="section-head"><h2>How it works</h2></div>
+    <ol class="steps">
+      <li><h3>Pick a time</h3><p>Choose a slot that suits your time zone. You get a confirmation and a video link straight away.</p></li>
+      <li><h3>Share your context</h3><p>Send a few lines on your background, the role you want and what's blocking you.</p></li>
+      <li><h3>Leave with a plan</h3><p>Every session ends with written action points you can start on that week.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head"><h2>Booking questions</h2></div>
+    <div class="faq">
+      {%- for f in faqs %}
+      <details><summary>{{ f.q }}</summary><p>{{ f.a }}</p></details>
+      {%- endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,11 @@
+{
+  "_note": "Files copied from the Wix Media Manager at build time by scripts/fetch-wix-media.mjs. Once downloaded they live in src/images/brand/ and no longer depend on Wix.",
+  "files": {
+    "flotog-logo.jpg": "https://static.wixstatic.com/media/f4dc16_adb8f53222ad4f0d8ee328b974546727~mv2.jpg",
+    "tosin-ogunkoya.jpg": "https://static.wixstatic.com/media/f4dc16_c9a3efba5d6246f7b6262b32075ed5f2~mv2.jpeg",
+    "client-renascence.png": "https://static.wixstatic.com/media/f4dc16_e76d96a741774f3da7497e9a5a689f9f~mv2.png",
+    "client-ihs-towers.jpg": "https://static.wixstatic.com/media/f4dc16_3e6aadbf6b6b4754bb095b5decc9ec5c~mv2.jpeg",
+    "client-the-rock-tower.png": "https://static.wixstatic.com/media/f4dc16_26bc28e1568d4cfa841bb3751a6dbda2~mv2.png",
+    "client-hotr-london.png": "https://static.wixstatic.com/media/f4dc16_d8a215e375df4c81b46c9b7ac437e5ce~mv2.png"
+  }
+}

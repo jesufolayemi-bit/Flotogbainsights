@@ -1,0 +1,22 @@
+[
+  {
+    "id": "free-consultation",
+    "name": "Free career consultation",
+    "duration": "30 minutes",
+    "price": 0,
+    "priceDisplay": "Free",
+    "bookingKey": "freeConsultation",
+    "description": "A 30-minute call to understand where you are in your business analysis career, where you want to be, and the fastest honest route between the two.",
+    "includes": ["Review of your background and target role", "Your biggest skills gap, named plainly", "A recommended next step, with no obligation"]
+  },
+  {
+    "id": "one-to-one-coaching",
+    "name": "1:1 tech career coaching session",
+    "duration": "60 minutes",
+    "price": 400,
+    "priceDisplay": "AED 400",
+    "bookingKey": "coachingSession",
+    "description": "A focused one-hour session on the problem in front of you: breaking into a BA role, preparing for an interview, handling a stakeholder, or planning your next career move.",
+    "includes": ["CV, LinkedIn or interview preparation", "Real BA scenarios from telecoms, real estate and the public sector", "Written action points after the session"]
+  }
+]

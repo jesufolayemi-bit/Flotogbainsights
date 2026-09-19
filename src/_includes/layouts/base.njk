@@ -1,0 +1,48 @@
+{%- set pageTitle = title if (title and titleIsFull) else ((title ~ " | " ~ site.name) if title else site.name) -%}
+{%- set pageDesc = description or site.defaultDescription -%}
+{%- set canonical = page.url | absUrl(site.url) -%}
+{%- set ogImg = (ogImage or site.defaultImage) | absUrl(site.url) -%}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ pageTitle }}</title>
+  <meta name="description" content="{{ pageDesc }}">
+  <link rel="canonical" href="{{ canonical }}">
+  {%- if noindex %}<meta name="robots" content="noindex, follow">{% endif %}
+  <meta name="google-site-verification" content="{{ site.googleVerification }}">
+  <meta name="msvalidate.01" content="{{ site.bingVerification }}">
+
+  <meta property="og:type" content="{{ ogType or 'website' }}">
+  <meta property="og:site_name" content="{{ site.name }}">
+  <meta property="og:title" content="{{ pageTitle }}">
+  <meta property="og:description" content="{{ pageDesc }}">
+  <meta property="og:url" content="{{ canonical }}">
+  <meta property="og:image" content="{{ ogImg }}">
+  <meta property="og:locale" content="{{ site.locale }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ pageTitle }}">
+  <meta name="twitter:description" content="{{ pageDesc }}">
+  <meta name="twitter:image" content="{{ ogImg }}">
+
+  <link rel="icon" href="{{ site.logo }}" type="image/jpeg">
+  <link rel="apple-touch-icon" href="{{ site.logo }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;700;800&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap">
+  <link rel="stylesheet" href="/css/site.css">
+
+  <script type="application/ld+json">
+{{ schemaBuilder(site, { url: page.url, title: pageTitle, description: pageDesc, pageType: pageType, breadcrumbs: breadcrumbs, faqs: faqs, services: (services if includeServiceSchema else []) }) | jsonld | safe }}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  {% include "partials/header.njk" %}
+  <main id="main">
+    {{ content | safe }}
+  </main>
+  {% include "partials/footer.njk" %}
+</body>
+</html>
