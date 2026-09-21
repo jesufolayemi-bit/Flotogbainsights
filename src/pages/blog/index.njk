@@ -1,0 +1,53 @@
+---
+layout: layouts/base.njk
+permalink: /blog/
+title: "Business Analyst Career Blog: Practical BA Lessons"
+description: "Weekly business analysis lessons from Tosin Ogunkoya: requirements, BPMN, stakeholders, prioritisation, certifications and growing your BA career."
+breadcrumbs:
+  - name: "Blog"
+    url: "/blog/"
+pageType: "CollectionPage"
+---
+<section class="page-head">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / Blog</nav>
+    <h1>The BA career blog</h1>
+    <p class="lead">One practical topic a week, taught in five short lessons, Monday to Friday. Real situations from telecoms, real estate and the public sector, written for business analysts at every stage.</p>
+  </div>
+</section>
+
+<section class="section" style="padding-top:1.5rem">
+  <div class="wrap">
+    {%- if collections.series.length %}
+    <ul class="series-grid">
+      {%- for s in collections.series %}
+      <li class="series-card">
+        {%- if s.cover %}<a href="/blog/series/{{ s.slug }}/" tabindex="-1" aria-hidden="true"><img src="{{ s.cover }}" alt="" loading="lazy" width="640" height="358"></a>{% endif %}
+        <div class="series-card-body">
+          <p class="eyebrow">{{ s.posts.length }}-part series · {{ s.start | readableDate }}</p>
+          <h2><a href="/blog/series/{{ s.slug }}/">{{ s.title }}</a></h2>
+          <ol class="series-days">
+            {%- for p in s.posts %}
+            <li><a href="{{ p.url }}">{% if p.data.day %}Day {{ p.data.day }}: {% endif %}{{ p.data.title }}</a></li>
+            {%- endfor %}
+          </ol>
+        </div>
+      </li>
+      {%- endfor %}
+    </ul>
+    {%- endif %}
+
+    {%- if collections.standalonePosts.length %}
+    <h2 style="margin-top:3rem">More articles</h2>
+    <ul class="article-list">
+      {%- for p in collections.standalonePosts %}
+      <li><a href="{{ p.url }}">{{ p.data.title }}</a> <span class="muted">{{ p.date | readableDate }}</span></li>
+      {%- endfor %}
+    </ul>
+    {%- endif %}
+
+    {%- if not collections.posts.length %}
+    <p>Posts are being moved over from the old site. Check back shortly.</p>
+    {%- endif %}
+  </div>
+</section>

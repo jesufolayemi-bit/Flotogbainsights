@@ -1,0 +1,57 @@
+---
+layout: layouts/base.njk
+permalink: /services/digital-transformation/
+title: "Digital Transformation & Business Analysis Consultancy, Dubai"
+titleIsFull: false
+description: "Business process improvement, BA team training and digital transformation consultancy for organisations in Dubai, the UAE and beyond. Book a free consultation."
+breadcrumbs:
+  - name: "For business"
+    url: "/services/digital-transformation/"
+faqs:
+  - q: "What kinds of organisations do you work with?"
+    a: "Organisations that want to improve processes, build business analysis capability in their teams, or run digital transformation that delivers results. Past work spans telecoms, real estate and the public sector in the UAE, UK and other markets."
+  - q: "Can you train our existing business analysts?"
+    a: "Yes. Team training is built around your real projects, covering requirements, process modelling, stakeholder management and prioritisation."
+  - q: "How does an engagement start?"
+    a: "With a free consultation to understand the problem, the people involved and what a good outcome looks like. From there we agree a scope that fits."
+---
+{# DRAFT: built from your homepage "grow my business" section. Add your Wix service details and pricing before launch. #}
+<section class="page-head">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / For business</nav>
+    <h1>Digital transformation and business analysis consultancy</h1>
+    <p class="lead">For organisations in Dubai, the UAE and beyond that want to improve processes, upskill their teams and run digital transformation that actually delivers.</p>
+    <div class="btn-row"><a class="btn" href="{{ site.booking.freeConsultation }}">Book a free consultation</a></div>
+  </div>
+</section>
+<section class="section section-alt">
+  <div class="wrap">
+    <div class="section-head"><h2>How we help</h2></div>
+    <div class="cards-3">
+      <div class="card"><h3>Business process improvement</h3><p>Map how work really happens today, find where time and money leak out, and redesign it using Lean Six Sigma methods that your team can sustain.</p></div>
+      <div class="card"><h3>BA team training</h3><p>Build business analysis capability inside your organisation, taught through your own projects: requirements, process modelling, stakeholders and prioritisation.</p></div>
+      <div class="card"><h3>Transformation consultancy</h3><p>Hands-on business analysis for digital transformation: discovery, requirements, vendor evaluation and making sure the change lands with the people who use it.</p></div>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="wrap split" style="grid-template-columns:1fr 1fr">
+    <div class="prose">
+      <h2 style="margin-top:0">Experience you can check</h2>
+      <p>Thirteen years leading business analysis across thirteen markets in telecoms, real estate and the public sector, including HR transformation, workflow automation and productivity tracking at IHS Towers, and work with Renascence CX, The Rock Tower and HOTR London.</p>
+      <p>Lean Six Sigma Black Belt, ITIL 4 and ISEB Business Analysis certified, with an MSc in Software Technology.</p>
+    </div>
+    <figure class="quote">
+      <blockquote><p>Their business analysis training brought real clarity and structure to our approach, especially in the areas of process optimisation.</p></blockquote>
+      <figcaption>Urban</figcaption>
+    </figure>
+  </div>
+</section>
+<section class="section section-alt">
+  <div class="wrap">
+    <div class="section-head"><h2>Common questions</h2></div>
+    <div class="faq">
+      {%- for f in faqs %}<details><summary>{{ f.q }}</summary><p>{{ f.a }}</p></details>{% endfor %}
+    </div>
+  </div>
+</section>

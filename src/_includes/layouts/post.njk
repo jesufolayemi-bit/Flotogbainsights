@@ -1,0 +1,48 @@
+---
+layout: layouts/base.njk
+---
+{%- set seriesSlug = series | slugify if series else "" -%}
+{%- set seriesObj = collections.series | findSeries(seriesSlug) -%}
+<article class="post">
+  <header class="post-head">
+    <div class="wrap-narrow">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a> / <a href="/blog/">Blog</a>{% if series %} / <a href="/blog/series/{{ seriesSlug }}/">{{ series }}</a>{% endif %}
+      </nav>
+      {%- if series %}
+      <p class="eyebrow">{% if day %}Day {{ day }} · {% endif %}<a href="/blog/series/{{ seriesSlug }}/">{{ series }}</a></p>
+      {%- endif %}
+      <h1>{{ title }}</h1>
+      {%- if dek %}<p class="lead">{{ dek }}</p>{% endif %}
+      <p class="post-meta">
+        By <a href="/about/">Tosin Ogunkoya</a> ·
+        <time datetime="{{ page.date | isoDate }}">{{ page.date | readableDate }}</time>
+        {%- if readingTime %} · {{ readingTime }} min read{% endif %}
+      </p>
+    </div>
+  </header>
+
+  <div class="wrap-narrow post-body">
+    {{ content | safe }}
+  </div>
+
+  <aside class="wrap-narrow post-cta" aria-label="Work with Tosin">
+    <h2>Want help applying this to your own career?</h2>
+    <p>Book a free 30-minute call and we'll look at where you are, where you want to be, and the fastest honest route between the two.</p>
+    <div class="btn-row">
+      <a class="btn" href="{{ site.booking.freeConsultation }}">Book a free call</a>
+      <a class="btn btn-ghost" href="/free-ba-interview-guide/">Get the free interview guide</a>
+    </div>
+  </aside>
+
+  {%- if seriesObj and seriesObj.posts.length > 1 %}
+  <nav class="wrap-narrow series-nav" aria-label="More from this series">
+    <h2>The full series: {{ series }}</h2>
+    <ol>
+      {%- for p in seriesObj.posts %}
+      <li>{% if p.url == page.url %}<strong aria-current="page">{% if p.data.day %}Day {{ p.data.day }}: {% endif %}{{ p.data.title }}</strong>{% else %}<a href="{{ p.url }}">{% if p.data.day %}Day {{ p.data.day }}: {% endif %}{{ p.data.title }}</a>{% endif %}</li>
+      {%- endfor %}
+    </ol>
+  </nav>
+  {%- endif %}
+</article>

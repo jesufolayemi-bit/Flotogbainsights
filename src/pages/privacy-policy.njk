@@ -1,0 +1,41 @@
+---
+layout: layouts/base.njk
+permalink: /privacy-policy/
+title: "Privacy Policy"
+description: "How Flotog BA Insights collects, uses and protects your personal information."
+breadcrumbs:
+  - name: "Privacy policy"
+    url: "/privacy-policy/"
+---
+{# DRAFT: replace with your existing Wix privacy policy text, or have this reviewed before launch. #}
+<section class="page-head">
+  <div class="wrap-narrow">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / Privacy policy</nav>
+    <h1>Privacy policy</h1>
+    <p class="muted">Last updated: {{ year }}</p>
+  </div>
+</section>
+<section class="section" style="padding-top:1rem">
+  <div class="wrap-narrow prose">
+    <p>This policy explains how {{ site.legalName }} ("Flotog BA Insights", "we") handles personal information collected through {{ site.url | replace("https://", "") }}.</p>
+    <h2>What we collect</h2>
+    <ul>
+      <li><strong>Contact details you give us</strong>, such as your name and email address when you subscribe, download a guide or book a session.</li>
+      <li><strong>Booking details</strong> you provide when scheduling a consultation or coaching session.</li>
+      <li><strong>Basic usage data</strong>, such as pages visited, collected by privacy-friendly analytics to improve the site.</li>
+    </ul>
+    <h2>How we use it</h2>
+    <ul>
+      <li>To deliver what you asked for: the guide, the newsletter, or your booked session.</li>
+      <li>To reply to your enquiries.</li>
+      <li>To improve our content and services.</li>
+    </ul>
+    <p>We do not sell your personal information.</p>
+    <h2>Services we use</h2>
+    <p>We use trusted third parties to run the site and our services, including website hosting, an email newsletter provider and a booking calendar. They process your information only to provide those services.</p>
+    <h2>Your choices</h2>
+    <p>You can unsubscribe from emails at any time using the link in every email. To access, correct or delete your information, email <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+    <h2>Contact</h2>
+    <address>{{ site.legalName }}<br>{{ site.address.street }}, {{ site.address.locality }}, {{ site.address.region }}, {{ site.address.countryName }}<br><a href="mailto:{{ site.email }}">{{ site.email }}</a></address>
+  </div>
+</section>

@@ -161,7 +161,28 @@ faqs:
   </div>
 </section>
 
+{%- if collections.series.length %}
 <section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>This week on the blog</h2>
+      <p>A new five-part lesson every week, Monday to Friday.</p>
+    </div>
+    <ul class="latest-grid">
+      {%- for s in collections.series | head(3) %}
+      <li>
+        <p class="eyebrow">{{ s.posts.length }}-part series</p>
+        <h3><a href="/blog/series/{{ s.slug }}/">{{ s.title }}</a></h3>
+        <p class="muted">{{ s.description }}</p>
+      </li>
+      {%- endfor %}
+    </ul>
+    <p style="margin-top:2rem"><a href="/blog/">Browse every series</a></p>
+  </div>
+</section>
+{%- endif %}
+
+<section class="section section-alt">
   <div class="wrap">
     <div class="section-head"><h2>Questions people ask before starting</h2></div>
     <div class="faq">

@@ -1,0 +1,44 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: collections.series
+  size: 1
+  alias: s
+  addAllPagesToCollections: true
+permalink: "/blog/series/{{ s.slug }}/"
+eleventyComputed:
+  title: "{{ s.title }}"
+  description: "{{ s.description }}"
+  ogImage: "{{ s.cover }}"
+  breadcrumbs:
+    - name: "Blog"
+      url: "/blog/"
+    - name: "{{ s.title }}"
+      url: "/blog/series/{{ s.slug }}/"
+pageType: "CollectionPage"
+---
+<section class="page-head">
+  <div class="wrap-narrow">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/blog/">Blog</a> / Series</nav>
+    <p class="eyebrow">{{ s.posts.length }}-part series · {{ s.start | readableDate }}</p>
+    <h1>{{ s.title }}</h1>
+    {%- if s.description %}<p class="lead">{{ s.description }}</p>{% endif %}
+  </div>
+</section>
+<section class="section" style="padding-top:1rem">
+  <div class="wrap-narrow">
+    <ol class="series-list">
+      {%- for p in s.posts %}
+      <li>
+        <p class="eyebrow">{% if p.data.day %}Day {{ p.data.day }}{% endif %}{% if p.data.readingTime %} · {{ p.data.readingTime }} min read{% endif %}</p>
+        <h2><a href="{{ p.url }}">{{ p.data.title }}</a></h2>
+        {%- if p.data.description %}<p>{{ p.data.description }}</p>{% endif %}
+      </li>
+      {%- endfor %}
+    </ol>
+    <div class="post-cta">
+      <h2>Want to go deeper on this with a mentor?</h2>
+      <div class="btn-row"><a class="btn" href="{{ site.booking.freeConsultation }}">Book a free call</a></div>
+    </div>
+  </div>
+</section>

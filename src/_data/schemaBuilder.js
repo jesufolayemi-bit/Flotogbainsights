@@ -56,7 +56,7 @@ export default function () {
     };
 
     const webpage = {
-      "@type": page.pageType || "WebPage",
+      "@type": page.pageType && page.pageType !== "BlogPosting" ? page.pageType : "WebPage",
       "@id": url(page.url) + "#webpage",
       url: url(page.url),
       name: page.title,
@@ -76,6 +76,25 @@ export default function () {
     };
 
     const graph = [website, organization, person, webpage];
+
+    if (page.article) {
+      const a = page.article;
+      const post = {
+        "@type": "BlogPosting",
+        "@id": url(page.url) + "#article",
+        mainEntityOfPage: { "@id": webpage["@id"] },
+        headline: a.headline,
+        description: page.description,
+        datePublished: a.published,
+        dateModified: a.modified || a.published,
+        author: { "@id": personId },
+        publisher: { "@id": orgId },
+        inLanguage: "en"
+      };
+      if (a.image) post.image = url(a.image);
+      if (a.series) post.isPartOf = { "@type": "CreativeWorkSeries", name: a.series, url: url(a.seriesUrl) };
+      graph.push(post);
+    }
 
     if (page.breadcrumbs && page.breadcrumbs.length) {
       graph.push({

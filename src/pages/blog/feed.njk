@@ -1,0 +1,22 @@
+---
+permalink: /blog/feed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ site.name }} blog</title>
+  <link href="{{ site.url }}/blog/feed.xml" rel="self"/>
+  <link href="{{ site.url }}/blog/"/>
+  <id>{{ site.url }}/blog/</id>
+  <updated>{% if collections.posts.length %}{{ collections.posts[0].date | isoDate }}{% else %}{{ "2026-01-01" | isoDate }}{% endif %}</updated>
+  <author><name>Tosin Ogunkoya</name></author>
+  {%- for p in collections.posts | head(30) %}
+  <entry>
+    <title>{% if p.data.series %}{{ p.data.series | xmlEscape }}, Day {{ p.data.day }}: {% endif %}{{ p.data.title | xmlEscape }}</title>
+    <link href="{{ p.url | absUrl(site.url) }}"/>
+    <id>{{ p.url | absUrl(site.url) }}</id>
+    <updated>{{ p.date | isoDate }}</updated>
+    <summary>{{ p.data.description | xmlEscape }}</summary>
+  </entry>
+  {%- endfor %}
+</feed>
