@@ -11,6 +11,8 @@ breadcrumbs:
 faqs:
   - q: "What happens after I book?"
     a: "You receive a calendar confirmation with a video call link. Before the session, send a short note on your background and what you want to get out of it so the time goes on your real problem."
+  - q: "How do I pay for a coaching session?"
+    a: "After choosing your time, pay AED 400 through a secure Ziina payment page by card, Apple Pay or Google Pay. Your booking is confirmed as soon as the payment is received. The free consultation needs no payment."
   - q: "Can I reschedule?"
     a: "Yes. Use the reschedule link in your booking confirmation, or contact us on WhatsApp."
 ---
@@ -37,6 +39,12 @@ faqs:
           {%- for i in s.includes %}<li>{{ i }}</li>{% endfor %}
         </ul>
         <a class="btn{% if not loop.first %} btn-ghost{% endif %}" href="{{ site.booking[s.bookingKey] }}">Book {{ s.name | lower }}</a>
+        {%- if s.price > 0 and site.booking.paymentLink %}
+        <div class="pay-step">
+          <p><strong>Two simple steps:</strong> choose your time, then pay AED {{ s.price }} securely with Ziina (card, Apple Pay or Google Pay). Your session is confirmed as soon as payment is received.</p>
+          <a class="pay-link" href="{{ site.booking.paymentLink }}" rel="noopener" target="_blank">Pay AED {{ s.price }} with Ziina →</a>
+        </div>
+        {%- endif %}
       </article>
       {%- endfor %}
     </div>

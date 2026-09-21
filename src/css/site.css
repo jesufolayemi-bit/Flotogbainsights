@@ -361,3 +361,9 @@ p { margin: 0 0 1em; max-width: 66ch; }
 @media (max-width: 760px) { .cards-4 { grid-template-columns: 1fr; } }
 .track-unsure { background: var(--note); border-color: var(--ink); border-top-color: var(--ink); }
 .track-unsure .track-tag { color: var(--ink); }
+
+.pay-step { margin-top: 1.25rem; padding-top: 1rem; border-top: 1px dashed var(--line); }
+.pay-step p { font-size: .95rem; margin-bottom: .6rem; }
+.pay-link { font-weight: 700; }
+.rung-note { font-size: .88rem; color: var(--muted); margin: .75rem 0 0; }
+.rung .rung-note + .btn, .rung .btn + .rung-note { margin-top: .75rem; }

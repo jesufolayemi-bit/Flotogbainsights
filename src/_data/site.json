@@ -28,7 +28,8 @@
   },
   "booking": {
     "freeConsultation": "https://cal.com/flotogbainsights/free-consultation",
-    "coachingSession": "https://cal.com/flotogbainsights/1-1-tech-career-coaching"
+    "coachingSession": "https://cal.com/flotogbainsights/1-1-tech-career-coaching",
+    "paymentLink": "https://pay.ziina.com/flotogbainsight/DbZzRTbBse"
   },
   "social": {
     "linkedinPersonal": "https://www.linkedin.com/in/oluwatosin-ogunkoya/",
