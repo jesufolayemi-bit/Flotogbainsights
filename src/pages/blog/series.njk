@@ -7,13 +7,13 @@ pagination:
   addAllPagesToCollections: true
 permalink: "/blog/series/{{ s.slug }}/"
 eleventyComputed:
-  title: "{{ s.title }}"
-  description: "{{ s.description }}"
+  title: "{{ s.title | safe }}"
+  description: "{{ s.description | safe }}"
   ogImage: "{{ s.cover }}"
   breadcrumbs:
     - name: "Blog"
       url: "/blog/"
-    - name: "{{ s.title }}"
+    - name: "{{ s.title | safe }}"
       url: "/blog/series/{{ s.slug }}/"
 pageType: "CollectionPage"
 ---

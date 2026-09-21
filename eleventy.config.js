@@ -14,6 +14,13 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("jsonld", (obj) => JSON.stringify(obj, null, 2).replace(/</g, "\\u003c"));
   eleventyConfig.addFilter("slugify", slugify);
   eleventyConfig.addFilter("findSeries", (list, slug) => (list || []).find((s) => s.slug === slug) || null);
+  // Series whose title matches any of the given regex patterns (case-insensitive); empty list returns all
+  eleventyConfig.addFilter("seriesMatching", (list, patterns) => {
+    if (!patterns || !patterns.length) return list || [];
+    const res = patterns.map((p) => new RegExp(p, "i"));
+    return (list || []).filter((s) => res.some((r) => r.test(s.title)));
+  });
+  eleventyConfig.addFilter("liveOnly", (arr) => (arr || []).filter((t) => t.status === "live"));
   eleventyConfig.addFilter("head", (arr, n) => (arr || []).slice(0, n));
   eleventyConfig.addFilter("xmlEscape", (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"));
 

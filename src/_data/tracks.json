@@ -1,0 +1,115 @@
+[
+  {
+    "slug": "business-analysis",
+    "status": "live",
+    "name": "Business analysis",
+    "tag": "Core track",
+    "card": "Break into a BA role, pass the interview, or step up to senior.",
+    "seoTitle": "Business Analyst Coaching & Mentorship, Dubai and Online",
+    "seoDescription": "1:1 business analyst coaching with Tosin Ogunkoya: break into a BA role, prepare for interviews and grow to senior. Dubai-based, coaching worldwide.",
+    "h1": "Business analyst coaching and mentorship",
+    "lead": "The core of everything at Flotog. Practical mentorship from a business analyst with 13+ years across telecoms, real estate and the public sector, for people breaking in and people stepping up.",
+    "whoFor": [
+      "Career changers moving into business analysis from operations, finance, HR, customer service or project roles",
+      "New and junior BAs who want to stop learning by trial and error",
+      "Mid-level BAs preparing for senior roles and bigger stakeholders",
+      "Anyone with a BA interview coming up"
+    ],
+    "topics": [
+      { "t": "Breaking into business analysis", "d": "Translate the experience you already have into BA language employers recognise, and plan the fastest route in." },
+      { "t": "Requirements that get built right", "d": "From vague requests to clear problem statements, user stories and acceptance criteria." },
+      { "t": "Stakeholders and workshops", "d": "Run sessions with senior people, handle disagreement, and keep decisions moving." },
+      { "t": "Interview preparation", "d": "Practise the questions BA hiring managers actually ask, with structured stories from your own experience." },
+      { "t": "CV and LinkedIn", "d": "Position yourself clearly as a business analyst, with outcomes rather than duties." },
+      { "t": "Junior to senior", "d": "The judgement, influence and visibility that separate senior BAs from busy ones." }
+    ],
+    "proof": "13+ years leading business analysis across thirteen markets, more than three thousand people trained, and a new five-part BA lesson published every week.",
+    "blogMatch": [],
+    "faqs": [
+      { "q": "Do I need a technical background to become a business analyst?", "a": "No. Many business analysts come from operations, customer service, finance, HR or project roles. What matters is understanding how a business works, asking good questions and writing clear requirements. Coaching helps you translate the experience you already have into BA language." },
+      { "q": "How much does business analyst coaching cost?", "a": "The first 30-minute call is free. A one-hour 1:1 session is AED 400." },
+      { "q": "Is coaching available outside the UAE?", "a": "Yes. Coaching is based in Dubai and runs online for clients worldwide." }
+    ]
+  },
+  {
+    "slug": "ai-for-business-analysts",
+    "status": "live",
+    "name": "AI for business analysts",
+    "tag": "New",
+    "card": "Use AI across your BA work, safely and well, and stay the analyst teams can't do without.",
+    "seoTitle": "AI for Business Analysts: Coaching & Team Workshops, Dubai",
+    "seoDescription": "Learn to use AI tools across business analysis work: discovery, requirements, process mapping and analysis. 1:1 coaching and team workshops from a practising BA in Dubai.",
+    "h1": "AI for business analysts",
+    "lead": "AI won't replace good analysts, but analysts who use it well will replace those who don't. Learn where AI genuinely speeds up business analysis work, where it quietly gets things wrong, and how to use it without risking your organisation's data.",
+    "whoFor": [
+      "Business analysts who want to use AI tools in their day-to-day work, properly",
+      "Aspiring BAs who want AI skills on their CV from day one",
+      "BA and delivery teams adopting AI and wanting shared, safe ways of working",
+      "Managers deciding how their analysts should and shouldn't use AI"
+    ],
+    "topics": [
+      { "t": "AI across the BA lifecycle", "d": "Where AI helps in discovery, interview and workshop preparation, synthesis, requirements drafting and process mapping, and where it doesn't." },
+      { "t": "Prompting for analysis work", "d": "Practical prompting for BA tasks: turning notes into user stories, stress-testing requirements, drafting acceptance criteria and summarising stakeholder input." },
+      { "t": "Checking the output", "d": "How to review AI output like an analyst: spotting invented detail, missing edge cases and confident nonsense before it reaches a stakeholder." },
+      { "t": "Data, privacy and governance", "d": "What should never go into a public AI tool, how to work within company policy, and how to raise the question when there isn't one." },
+      { "t": "AI-assisted process improvement", "d": "Using AI to find automation opportunities and analyse processes, without automating a broken process faster." },
+      { "t": "Your career in an AI world", "d": "The skills that become more valuable as AI takes over routine documentation, and how to show them in interviews." }
+    ],
+    "proof": "Tosin leads the adoption of AI tools across a multi-country workforce in his current IT leadership role, and writes regularly on the business analyst's role in the age of AI.",
+    "teamOffer": "AI adoption workshops for BA, delivery and operations teams: shared ways of working, safe-use guidelines and hands-on practice on your own processes.",
+    "blogMatch": ["\\bAI\\b", "artificial intelligence"],
+    "faqs": [
+      { "q": "Do I need technical or coding skills to use AI in business analysis?", "a": "No. The coaching focuses on using AI tools in everyday analysis work: preparing, drafting, checking and summarising. No coding is required." },
+      { "q": "Which AI tools do you cover?", "a": "The approach works with the general-purpose AI assistants most organisations use. Sessions focus on techniques and judgement that transfer between tools, and on working within your organisation's policies." },
+      { "q": "Can you run an AI workshop for our team in Dubai?", "a": "Yes. Team workshops are tailored to your processes and policies and can run online or in person in the UAE. Book a free consultation to scope it." },
+      { "q": "Is it safe to put company information into AI tools?", "a": "Often it isn't, depending on the tool and your organisation's policy. Data protection and safe use are covered in every session and workshop." }
+    ]
+  },
+  {
+    "slug": "process-improvement",
+    "status": "live",
+    "name": "Process improvement & optimisation",
+    "tag": "Lean Six Sigma",
+    "card": "Map how work really happens, remove the waste, and make the change stick.",
+    "seoTitle": "Process Improvement & Lean Six Sigma Coaching, Dubai",
+    "seoDescription": "Process improvement and optimisation coaching from a Lean Six Sigma Black Belt: process mapping, finding waste, measuring results and making change stick. Dubai and online.",
+    "h1": "Process improvement and optimisation coaching",
+    "lead": "Most organisations know their processes are slow. Few can say exactly where the time goes, or fix it in a way that lasts. Learn to map, measure and improve processes the way a Lean Six Sigma Black Belt does, and apply it to real work.",
+    "whoFor": [
+      "Business analysts adding process improvement to their toolkit",
+      "Operations, quality and shared-services professionals moving into process excellence roles",
+      "People preparing for Lean Six Sigma projects or certification who want real-world practice",
+      "Teams that need to fix a specific process, not just learn the theory"
+    ],
+    "topics": [
+      { "t": "Mapping the as-is honestly", "d": "Process maps and BPMN that show how work actually flows, including the workarounds nobody writes down." },
+      { "t": "Finding the waste", "d": "Spotting delays, rework, handoffs and bottlenecks, and sizing which ones are worth fixing." },
+      { "t": "Measuring what matters", "d": "Baselines, cycle times and simple metrics that prove an improvement worked." },
+      { "t": "Designing the to-be", "d": "Redesigning processes with the people who run them, so the new way is actually adopted." },
+      { "t": "Automation and technology", "d": "When to automate, when to simplify first, and how to write requirements for process tools." },
+      { "t": "Making change stick", "d": "Controls, ownership and communication that stop processes drifting back." }
+    ],
+    "proof": "Tosin is a Lean Six Sigma Black Belt and Green Belt who has led process improvement across HR, workflow automation and operations in telecoms, real estate and the public sector.",
+    "teamOffer": "Process improvement engagements and team training: map and fix a real process with your team while building the skills to repeat it.",
+    "blogMatch": ["process", "BPMN", "lean", "six sigma"],
+    "faqs": [
+      { "q": "Is this Lean Six Sigma certification training?", "a": "It's practical coaching in process improvement methods, taught by a certified Black Belt. It's ideal preparation for Lean Six Sigma projects and complements formal certification courses." },
+      { "q": "Can you help improve a specific process in our organisation?", "a": "Yes. For organisations, work can be scoped around a real process, improving it while building your team's skills. Book a free consultation to discuss it." },
+      { "q": "Do I need a business analysis background?", "a": "No. Process improvement coaching suits operations, quality and shared-services professionals as well as BAs." }
+    ]
+  },
+  {
+    "slug": "ba-to-product",
+    "status": "coming",
+    "name": "BA to product owner & product manager",
+    "tag": "Coming soon",
+    "card": "Make the move from business analysis into product roles."
+  },
+  {
+    "slug": "ba-to-project-management",
+    "status": "coming",
+    "name": "BA to project & delivery management",
+    "tag": "Coming soon",
+    "card": "Step from analysis into leading delivery."
+  }
+]

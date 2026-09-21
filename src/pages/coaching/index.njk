@@ -1,0 +1,52 @@
+---
+layout: layouts/base.njk
+permalink: /coaching/
+title: "Coaching for Business Analysis, AI & Process Improvement | Flotog"
+titleIsFull: true
+description: "1:1 coaching in business analysis, AI for business analysts and process improvement, from a Dubai-based practitioner with 13+ years' experience. Free first call."
+pageType: "CollectionPage"
+breadcrumbs:
+  - name: "Coaching"
+    url: "/coaching/"
+---
+<section class="page-head">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / Coaching</nav>
+    <h1>Coaching for the people who connect business and technology</h1>
+    <p class="lead">Business analysis is the core. Around it sit the skills that make analysts, and the teams they work with, genuinely valuable: using AI well, improving processes, and moving into product and delivery roles. Pick your track.</p>
+  </div>
+</section>
+
+<section class="section" style="padding-top:1.5rem">
+  <div class="wrap">
+    {% include "partials/tracks-grid.njk" %}
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Same simple way to start, whatever the track</h2>
+    </div>
+    <div class="ladder" style="grid-template-columns:repeat(3,1fr)">
+      <article class="rung">
+        <p class="rung-tag">Start here</p><h3>Free career call</h3>
+        <p class="rung-price">Free <span>30 minutes</span></p>
+        <p>Your situation, your biggest gap, and a clear next step.</p>
+        <a class="btn btn-ghost" href="{{ site.booking.freeConsultation }}">Book a free call</a>
+      </article>
+      <article class="rung">
+        <p class="rung-tag">Focused help</p><h3>1:1 coaching session</h3>
+        <p class="rung-price">AED 400 <span>60 minutes</span></p>
+        <p>Work on your specific goal in any track, with written action points after.</p>
+        <a class="btn btn-ghost" href="{{ site.booking.coachingSession }}">Book a session</a>
+      </article>
+      <article class="rung rung-featured">
+        <p class="rung-tag">Flagship programme</p><h3>BA Launchpad</h3>
+        <p class="rung-price">8 weeks <span>small group</span></p>
+        <p>A structured route into business analysis, taught live in a small cohort.</p>
+        <a class="btn" href="/ba-launchpad/">Join the waitlist</a>
+      </article>
+    </div>
+  </div>
+</section>

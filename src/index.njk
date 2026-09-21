@@ -16,6 +16,8 @@ faqs:
     a: "A one-hour 1:1 tech career coaching session is AED 400. The first 30-minute consultation is free."
   - q: "Can you help me prepare for a business analyst interview?"
     a: "Yes. Interview preparation is one of the most requested coaching topics. You can start with the free BA interview guide, then book a 1:1 session to practise answers to real BA interview scenarios."
+  - q: "Do you coach beyond business analysis?"
+    a: "Yes. Business analysis is the core, with coaching tracks in AI for business analysts and in process improvement and optimisation. Tracks for moving from BA into product and project management roles are coming soon."
   - q: "What is BA Launchpad?"
     a: "BA Launchpad is an 8-week small-group programme for people moving into business analysis. Join the waitlist to hear first when the next cohort opens."
   - q: "Do you train business analysis teams in companies?"
@@ -24,9 +26,9 @@ faqs:
 <section class="hero hero-v2">
   <div class="wrap hero-grid">
     <div>
-      <p class="eyebrow">Business analyst training &amp; mentorship · Dubai and online</p>
+      <p class="eyebrow">Business analysis, AI &amp; process coaching · Dubai and online</p>
       <h1>Become the business analyst teams trust with the hard problems</h1>
-      <p class="lead">Mentorship from Tosin Ogunkoya, a practising BA with {{ site.stats.years }} years across telecoms, real estate and the public sector. Break into your first BA role, pass the interview, or step up to senior, with someone who has done the job, not just studied it.</p>
+      <p class="lead">Mentorship from Tosin Ogunkoya, a practising BA with {{ site.stats.years }} years across telecoms, real estate and the public sector. Break into your first BA role, pass the interview, learn to use AI in your work, or step up to senior, with someone who has done the job, not just studied it.</p>
       <div class="btn-row">
         <a class="btn" href="{{ site.booking.freeConsultation }}">Book a free 30-minute call</a>
         <a class="btn btn-ghost" href="/ba-readiness-check/">Take the 3-minute readiness check</a>
@@ -59,30 +61,16 @@ faqs:
 <section class="section">
   <div class="wrap">
     <div class="section-head">
-      <h2>Where would you like to start?</h2>
+      <h2>Choose your coaching track</h2>
+      <p>Business analysis is the core. Around it: the skills that make analysts and their teams more valuable.</p>
     </div>
-    <div class="paths">
-      <div class="path">
-        <h3>I want to grow my tech career</h3>
-        <p>For aspiring, junior and mid-level business analysts, data analysts and project managers who are ready to break into tech and grow fast.</p>
-        <ul>
-          <li>Career change into business analysis</li>
-          <li>BA interview preparation and practice</li>
-          <li>CV and LinkedIn positioning for BA roles</li>
-          <li>Moving from junior to senior BA</li>
-        </ul>
-        <a class="btn" href="#work-with-me">See ways to work together</a>
+    {% include "partials/tracks-grid.njk" %}
+    <div class="biz-strip">
+      <div>
+        <h3>Coaching a team, not just yourself?</h3>
+        <p>BA team training, process improvement engagements and AI adoption workshops for organisations in the UAE and beyond.</p>
       </div>
-      <div class="path">
-        <h3>I want to grow my business</h3>
-        <p>For organisations that want to improve processes, upskill their teams and run digital transformation that delivers results.</p>
-        <ul>
-          <li>Business process improvement and Lean Six Sigma</li>
-          <li>BA team training and capability building</li>
-          <li>Requirements and digital transformation consultancy</li>
-        </ul>
-        <a class="btn btn-ghost" href="/services/digital-transformation/">Explore business services</a>
-      </div>
+      <a class="btn btn-ghost" href="/services/digital-transformation/">Explore business services</a>
     </div>
   </div>
 </section>

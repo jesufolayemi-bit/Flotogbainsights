@@ -116,6 +116,22 @@ export default function () {
       });
     }
 
+    if (page.track) {
+      graph.push({
+        "@type": "Service",
+        "@id": url(page.url) + "#service",
+        name: page.track.h1,
+        serviceType: page.track.name + " coaching",
+        description: page.track.seoDescription,
+        provider: { "@id": orgId },
+        areaServed: organization.areaServed,
+        offers: [
+          { "@type": "Offer", name: "Free career consultation", price: "0", priceCurrency: "AED", url: site.booking.freeConsultation },
+          { "@type": "Offer", name: "1:1 coaching session (60 minutes)", price: "400", priceCurrency: "AED", url: site.booking.coachingSession }
+        ]
+      });
+    }
+
     if (page.services && page.services.length) {
       page.services.forEach((s) => graph.push({
         "@type": "Service",

@@ -34,7 +34,7 @@
   <link rel="stylesheet" href="/css/site.css">
 
   <script type="application/ld+json">
-{{ schemaBuilder(site, { url: page.url, title: pageTitle, description: pageDesc, pageType: pageType, breadcrumbs: breadcrumbs, faqs: faqs, services: (services if includeServiceSchema else []), article: ({ headline: title, published: (page.date | isoDate), modified: ((updated or page.date) | isoDate), image: cover, series: series, seriesUrl: ('/blog/series/' ~ (series | slugify) ~ '/') } if pageType == 'BlogPosting' else null) }) | jsonld | safe }}
+{{ schemaBuilder(site, { url: page.url, title: pageTitle, description: pageDesc, pageType: pageType, breadcrumbs: breadcrumbs, faqs: (track.faqs if track else faqs), services: (services if includeServiceSchema else []), track: track, article: ({ headline: title, published: (page.date | isoDate), modified: ((updated or page.date) | isoDate), image: cover, series: series, seriesUrl: ('/blog/series/' ~ (series | slugify) ~ '/') } if pageType == 'BlogPosting' else null) }) | jsonld | safe }}
   </script>
 </head>
 <body>

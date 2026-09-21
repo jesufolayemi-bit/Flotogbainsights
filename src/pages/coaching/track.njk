@@ -1,0 +1,108 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: liveTracks
+  size: 1
+  alias: track
+  addAllPagesToCollections: true
+permalink: "/coaching/{{ track.slug }}/"
+titleIsFull: true
+eleventyComputed:
+  title: "{{ track.seoTitle | safe }}"
+  description: "{{ track.seoDescription | safe }}"
+  breadcrumbs:
+    - name: "Coaching"
+      url: "/coaching/"
+    - name: "{{ track.name | safe }}"
+      url: "/coaching/{{ track.slug }}/"
+---
+{%- set related = collections.series | seriesMatching(track.blogMatch) | head(3) -%}
+<section class="page-head track-head">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/coaching/">Coaching</a> / {{ track.name }}</nav>
+    <p class="eyebrow">Coaching track · {{ track.tag }}</p>
+    <h1>{{ track.h1 }}</h1>
+    <p class="lead">{{ track.lead }}</p>
+    <div class="btn-row">
+      <a class="btn" href="{{ site.booking.freeConsultation }}">Book a free 30-minute call</a>
+      <a class="btn btn-ghost" href="{{ site.booking.coachingSession }}">Book a 1:1 session · AED 400</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="wrap split" style="grid-template-columns:1fr 1.4fr">
+    <div>
+      <h2>Who it's for</h2>
+      <ul class="check-list">
+        {%- for w in track.whoFor %}<li>{{ w }}</li>{% endfor %}
+      </ul>
+    </div>
+    <div>
+      <h2>What we work on</h2>
+      <div class="topic-grid">
+        {%- for tp in track.topics %}
+        <div class="topic"><h3>{{ tp.t }}</h3><p>{{ tp.d }}</p></div>
+        {%- endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap split" style="grid-template-columns:1fr 1fr">
+    <div class="prose">
+      <h2 style="margin-top:0">Why learn this with Tosin</h2>
+      <p>{{ track.proof }}</p>
+      <p>Every session is built around your real situation: the role you're going for, the project you're on, or the process you need to fix. You leave each one with written action points.</p>
+      <p><a href="/about/">Read Tosin's full story</a></p>
+    </div>
+    <div class="track-offers">
+      <h2 style="margin-top:0">How to start</h2>
+      <ol class="how-steps">
+        <li><strong>Free 30-minute call.</strong> Tell me where you are and where you want to be.</li>
+        <li><strong>1:1 sessions, AED 400 per hour.</strong> Focused work on your specific goal, at your pace.</li>
+        {%- if track.teamOffer %}<li><strong>For teams:</strong> {{ track.teamOffer }} <a href="/services/digital-transformation/">Business services</a></li>{% endif %}
+      </ol>
+    </div>
+  </div>
+</section>
+
+{%- if related.length %}
+<section class="section section-alt">
+  <div class="wrap">
+    <div class="section-head"><h2>Free lessons on this topic</h2></div>
+    <ul class="latest-grid">
+      {%- for s in related %}
+      <li>
+        <p class="eyebrow">Series · {{ s.posts.length }} lesson{% if s.posts.length != 1 %}s{% endif %}</p>
+        <h3><a href="/blog/series/{{ s.slug }}/">{{ s.title }}</a></h3>
+        <p class="muted">{{ s.description }}</p>
+      </li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
+{%- endif %}
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head"><h2>Questions about {{ track.name | lower }} coaching</h2></div>
+    <div class="faq">
+      {%- for f in track.faqs %}<details><summary>{{ f.q }}</summary><p>{{ f.a }}</p></details>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section cta-band">
+  <div class="wrap">
+    <div>
+      <h2>Start with a free 30-minute call</h2>
+      <p>No obligation. You'll leave with a clear picture of your next step in {{ track.name | lower }}.</p>
+    </div>
+    <div class="btn-row">
+      <a class="btn" href="{{ site.booking.freeConsultation }}">Book a free call</a>
+      <a class="btn btn-ghost" href="/coaching/">See all coaching tracks</a>
+    </div>
+  </div>
+</section>

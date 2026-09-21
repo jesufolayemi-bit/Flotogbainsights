@@ -1,0 +1,20 @@
+<ul class="tracks-grid">
+  {%- for t in tracks %}
+  <li class="track-card{% if t.status != 'live' %} track-soon{% endif %}{% if loop.first %} track-core{% endif %}">
+    <p class="track-tag">{{ t.tag }}</p>
+    <h3>{% if t.status == 'live' %}<a href="/coaching/{{ t.slug }}/">{{ t.name }}</a>{% else %}{{ t.name }}{% endif %}</h3>
+    <p>{{ t.card }}</p>
+    {%- if t.status == 'live' %}
+    <a class="track-link" href="/coaching/{{ t.slug }}/" aria-hidden="true" tabindex="-1">Explore this track →</a>
+    {%- else %}
+    <a class="track-link" href="{{ site.booking.freeConsultation }}">Interested? Book a free call →</a>
+    {%- endif %}
+  </li>
+  {%- endfor %}
+  <li class="track-card track-unsure">
+    <p class="track-tag">Not sure yet?</p>
+    <h3>Find your starting point</h3>
+    <p>Take the 3-minute readiness check, or talk it through on a free call.</p>
+    <a class="track-link" href="/ba-readiness-check/">Take the readiness check →</a>
+  </li>
+</ul>

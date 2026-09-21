@@ -328,3 +328,36 @@ p { margin: 0 0 1em; max-width: 66ch; }
 .rc-result .post-cta h2 { font-size: var(--step-1); }
 .hero-badge strong { font-size: 1.35rem; }
 @media (max-width: 900px) { .hero-portrait { width: min(300px, 78%); } .hero-portrait img { box-shadow: 8px 8px 0 var(--marker); } }
+
+/* ---------- Coaching tracks ---------- */
+.tracks-grid { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+.track-card { position: relative; background: var(--surface); border: 1px solid var(--line); border-top: 4px solid var(--marker); border-radius: var(--radius); padding: 1.5rem; display: flex; flex-direction: column; }
+.track-card h3 { font-size: 1.3rem; }
+.track-card h3 a { color: var(--ink); text-decoration: none; }
+.track-card h3 a::after { content: ""; position: absolute; inset: 0; }
+.track-card:hover { border-color: var(--marker); box-shadow: 6px 6px 0 var(--note); }
+.track-tag { font-size: .78rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--marker); margin-bottom: .5rem; }
+.track-link { margin-top: auto; font-weight: 700; text-decoration: none; }
+.track-core { grid-column: span 1; border-top-color: var(--note); }
+.track-soon { background: transparent; border-style: dashed; border-top: 4px dashed var(--line); }
+.track-soon:hover { box-shadow: none; }
+.track-soon .track-tag { color: var(--muted); }
+.track-soon .track-link { position: relative; z-index: 1; }
+@media (max-width: 1000px) { .tracks-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 600px) { .tracks-grid { grid-template-columns: 1fr; } }
+.biz-strip { margin-top: 1.75rem; display: flex; justify-content: space-between; align-items: center; gap: 1.5rem; flex-wrap: wrap; border: 2px solid var(--ink); border-radius: var(--radius); padding: 1.25rem 1.5rem; background: var(--surface); }
+.biz-strip h3 { margin-bottom: .3rem; }
+.biz-strip p { margin: 0; }
+.track-head h1 { max-width: 20ch; }
+.check-list { list-style: none; padding: 0; margin: 0; }
+.check-list li { padding-left: 1.8rem; position: relative; margin-bottom: .8rem; }
+.check-list li::before { content: ""; position: absolute; left: 0; top: .35em; width: 1rem; height: 1rem; border-radius: 3px; background: var(--note); border: 2px solid var(--ink); }
+.topic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.topic { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.1rem 1.2rem; }
+.topic h3 { font-size: 1.05rem; margin-bottom: .35rem; }
+.topic p { font-size: .96rem; margin: 0; color: var(--muted); }
+@media (max-width: 760px) { .topic-grid { grid-template-columns: 1fr; } }
+.cards-4 { grid-template-columns: repeat(2, 1fr); }
+@media (max-width: 760px) { .cards-4 { grid-template-columns: 1fr; } }
+.track-unsure { background: var(--note); border-color: var(--ink); border-top-color: var(--ink); }
+.track-unsure .track-tag { color: var(--ink); }
