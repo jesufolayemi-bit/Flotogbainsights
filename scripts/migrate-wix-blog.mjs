@@ -63,14 +63,20 @@ function clip(text, max = 158) {
   return t.slice(0, t.lastIndexOf(" ", max - 1)).replace(/[,;:\-–]+$/, "") + "…";
 }
 
-// "DAY 4 | The Mistakes... - Getting a room to act" -> { day: 4, title, dek }
+// Finds "DAY 4 | The Mistakes... - Getting a room to act" (also "DAY 1: ..." or "Day 2 - ...")
+// in the first few blocks. Returns { day, title, dek, nodeId }.
+const DAY_RE = /^DAY\s*(\d+)\s*[|:\u2013\u2014-]\s*(.+)$/i;
 function parseDayHeading(post) {
-  const first = (post.richContent?.nodes || []).find((n) => n.type === "HEADING" || (n.type === "PARAGRAPH" && textOf(n).trim()));
-  const text = (first ? textOf(first) : post.excerpt || "").replace(/\s+/g, " ").trim();
-  const m = text.match(/^DAY\s*(\d+)\s*\|\s*(.+)$/i);
-  if (!m) return null;
-  const [main, ...rest] = m[2].split(/\s+[-–—]\s+/);
-  return { day: Number(m[1]), title: main.trim(), dek: rest.join(" - ").trim(), usedHeading: first?.type === "HEADING" };
+  const blocks = (post.richContent?.nodes || []).filter((n) => textOf(n).trim()).slice(0, 4);
+  for (const n of blocks) {
+    const text = textOf(n).replace(/\s+/g, " ").trim();
+    const m = text.match(DAY_RE);
+    if (m) {
+      const [main, ...rest] = m[2].split(/\s+[-\u2013\u2014]\s+/);
+      return { day: Number(m[1]), title: main.trim(), dek: rest.join(" - ").trim(), nodeId: n.id };
+    }
+  }
+  return null;
 }
 
 function firstParagraph(post, skip) {
@@ -85,13 +91,32 @@ async function main() {
   console.log(`Found ${posts.length} published posts`);
   let written = 0, skipped = 0;
 
+  // Work out series + day for every post first, so typos in Wix day labels
+  // (two "Day 1"s in one week) can be corrected using publish order.
+  const info = new Map(posts.map((p) => [p.id, parseDayHeading(p)]));
+  const bySeries = new Map();
+  for (const p of posts) {
+    if (!info.get(p.id)) continue;
+    const key = p.title.replace(/\s+/g, " ").trim().toLowerCase();
+    if (!bySeries.has(key)) bySeries.set(key, []);
+    bySeries.get(key).push(p);
+  }
+  for (const group of bySeries.values()) {
+    const days = group.map((p) => info.get(p.id).day);
+    if (new Set(days).size !== days.length) {
+      group.sort((a, b) => new Date(a.firstPublishedDate) - new Date(b.firstPublishedDate))
+        .forEach((p, i) => { info.get(p.id).day = i + 1; });
+    }
+  }
+
   for (const post of posts) {
     const file = `${POSTS_DIR}/${post.slug}.md`;
     if (!FORCE && (await exists(file))) { skipped++; continue; }
 
-    const dayInfo = parseDayHeading(post);
-    const title = dayInfo ? dayInfo.title : post.title;
-    const body = ricosToMarkdown(post.richContent, { onImage: queueImage, skipFirstHeading: !!dayInfo?.usedHeading, defaultAlt: title });
+    const dayInfo = info.get(post.id);
+    const seriesTitle = post.title.replace(/\s+/g, " ").trim();
+    const title = dayInfo ? dayInfo.title : seriesTitle;
+    const body = ricosToMarkdown(post.richContent, { onImage: queueImage, skipNodeId: dayInfo?.nodeId, defaultAlt: title });
     const coverId = post.media?.wixMedia?.image?.id;
     const cover = coverId ? queueImage(coverId) : "";
 
@@ -100,7 +125,7 @@ async function main() {
     const fm = [
       "---",
       `title: ${yaml(title)}`,
-      dayInfo ? `series: ${yaml(post.title)}` : null,
+      dayInfo ? `series: ${yaml(seriesTitle)}` : null,
       dayInfo ? `day: ${dayInfo.day}` : null,
       dayInfo?.dek ? `dek: ${yaml(dayInfo.dek)}` : null,
       `description: ${yaml(description)}`,

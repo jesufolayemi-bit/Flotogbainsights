@@ -20,7 +20,7 @@ pageType: "CollectionPage"
 <section class="page-head">
   <div class="wrap-narrow">
     <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/blog/">Blog</a> / Series</nav>
-    <p class="eyebrow">{{ s.posts.length }}-part series · {{ s.start | readableDate }}</p>
+    <p class="eyebrow">Series · {{ s.posts.length }} lesson{% if s.posts.length != 1 %}s{% endif %} · {{ s.start | readableDate }}</p>
     <h1>{{ s.title }}</h1>
     {%- if s.description %}<p class="lead">{{ s.description }}</p>{% endif %}
   </div>

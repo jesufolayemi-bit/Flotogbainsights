@@ -171,7 +171,7 @@ faqs:
     <ul class="latest-grid">
       {%- for s in collections.series | head(3) %}
       <li>
-        <p class="eyebrow">{{ s.posts.length }}-part series</p>
+        <p class="eyebrow">Series · {{ s.posts.length }} lesson{% if s.posts.length != 1 %}s{% endif %}</p>
         <h3><a href="/blog/series/{{ s.slug }}/">{{ s.title }}</a></h3>
         <p class="muted">{{ s.description }}</p>
       </li>

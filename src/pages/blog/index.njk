@@ -24,7 +24,7 @@ pageType: "CollectionPage"
       <li class="series-card">
         {%- if s.cover %}<a href="/blog/series/{{ s.slug }}/" tabindex="-1" aria-hidden="true"><img src="{{ s.cover }}" alt="" loading="lazy" width="640" height="358"></a>{% endif %}
         <div class="series-card-body">
-          <p class="eyebrow">{{ s.posts.length }}-part series · {{ s.start | readableDate }}</p>
+          <p class="eyebrow">Series · {{ s.posts.length }} lesson{% if s.posts.length != 1 %}s{% endif %} · {{ s.start | readableDate }}</p>
           <h2><a href="/blog/series/{{ s.slug }}/">{{ s.title }}</a></h2>
           <ol class="series-days">
             {%- for p in s.posts %}
