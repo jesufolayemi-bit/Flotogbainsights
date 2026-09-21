@@ -1,0 +1,14 @@
+{#- Social profile links. Any platform left blank in site.json > social is hidden automatically. -#}
+{%- set socialList = [
+  { key: "youtube", label: "YouTube" },
+  { key: "linkedinPersonal", label: "Tosin on LinkedIn" },
+  { key: "linkedinCompany", label: "Flotog on LinkedIn" },
+  { key: "instagram", label: "Instagram" },
+  { key: "tiktok", label: "TikTok" },
+  { key: "facebook", label: "Facebook" }
+] -%}
+<ul class="social-links{% if socialClass %} {{ socialClass }}{% endif %}">
+  {%- for s in socialList %}{% if site.social[s.key] %}
+  <li><a href="{{ site.social[s.key] }}" rel="me noopener" target="_blank">{{ s.label }}</a></li>
+  {%- endif %}{% endfor %}
+</ul>

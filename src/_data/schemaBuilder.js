@@ -4,7 +4,7 @@ export default function () {
     const url = (p) => new URL(p, site.url).href;
     const orgId = url("/#organization");
     const personId = url("/#tosin-ogunkoya");
-    const sameAs = Object.values(site.social).filter(Boolean);
+    const sameAs = Object.entries(site.social).filter(([k, v]) => v && k !== "linkedinPersonal").map(([, v]) => v);
 
     const organization = {
       "@type": ["ProfessionalService", "EducationalOrganization"],

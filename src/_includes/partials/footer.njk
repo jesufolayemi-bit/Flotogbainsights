@@ -31,7 +31,8 @@
           <button class="btn" type="submit">Subscribe</button>
         </div>
       </form>
-      {%- if site.social.youtube %}<p class="footer-social"><a href="{{ site.social.youtube }}" rel="me">YouTube</a>{% if site.social.linkedinCompany %} <a href="{{ site.social.linkedinCompany }}" rel="me">LinkedIn</a>{% endif %}{% if site.social.instagram %} <a href="{{ site.social.instagram }}" rel="me">Instagram</a>{% endif %}</p>{% endif %}
+      <p class="footer-head" style="margin-top:1.75rem">Follow for short video lessons</p>
+      {% include "partials/social.njk" %}
     </div>
   </div>
   <div class="wrap footer-base"><p>© {{ year }} {{ site.legalName }}. Dubai, UAE.</p></div>

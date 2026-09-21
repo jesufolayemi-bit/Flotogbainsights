@@ -27,15 +27,16 @@
     "lng": 55.174
   },
   "booking": {
-    "freeConsultation": "https://cal.com/REPLACE-ME/free-consultation",
-    "coachingSession": "https://cal.com/REPLACE-ME/1-1-coaching"
+    "freeConsultation": "https://cal.com/flotogbainsights/free-consultation",
+    "coachingSession": "https://cal.com/flotogbainsights/1-1-tech-career-coaching"
   },
   "social": {
-    "youtube": "https://www.youtube.com/@FlotogBAInsights",
-    "linkedinCompany": "",
     "linkedinPersonal": "",
+    "linkedinCompany": "",
+    "youtube": "https://www.youtube.com/@FlotogBAInsights",
     "instagram": "",
-    "tiktok": ""
+    "tiktok": "",
+    "facebook": ""
   },
   "googleVerification": "r6TkFXGBgRVbhXxc7il8rbh5Vn7JUPkDVjK6legwzMc",
   "bingVerification": "7332E0F1BAA83E956B1B8A3CDFDD7D1F",
