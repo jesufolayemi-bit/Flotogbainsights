@@ -25,8 +25,19 @@ This is the reframe that matters most. Figuring everything out alone feels respo
 
 ## What this actually looked like
 
-| **A REAL KIND OF CONVERSATION A MENTOR MAKES POSSIBLEYou:***I keep getting asked in interviews to describe a time I handled conflicting stakeholder priorities, and I never know how much detail is too much or too little.***Mentor:***Keep it to one specific situation, not a general philosophy. State what the two priorities actually were, what you did, and what happened after. Thirty seconds, not three minutes. Interviewers are listening for whether you can be concise under pressure just as much as they're listening for the answer itself.* |
-| --- |
+<div class="callout">
+
+<strong>A REAL KIND OF CONVERSATION A MENTOR MAKES POSSIBLE</strong>
+
+<strong>You:</strong>
+
+<em>I keep getting asked in interviews to describe a time I handled conflicting stakeholder priorities, and I never know how much detail is too much or too little.</em>
+
+<strong>Mentor:</strong>
+
+<em>Keep it to one specific situation, not a general philosophy. State what the two priorities actually were, what you did, and what happened after. Thirty seconds, not three minutes. Interviewers are listening for whether you can be concise under pressure just as much as they're listening for the answer itself.</em>
+
+</div>
 
 That exchange took under a minute. Working out that lesson alone, through a string of interviews that went slightly wrong for reasons that were never quite clear, could easily have taken months, and the cost would not have been abstract, it would have been actual missed opportunities along the way.
 
@@ -45,10 +56,10 @@ I have mentored a good number of people into this field now, and the pattern rep
 
 This is not a criticism. It is exactly the position I was in myself, in a field with no network, no obvious next step, and no idea whether the mistakes I was making were normal or catastrophic. The only thing that changed that was someone willing to tell me plainly which was which. That is a small thing to give, and it is nearly impossible to give it to yourself, no matter how capable or self aware you are.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya | Flotog BA Insights  |  www.flotogbainsights.com
 
-*TOMORROW*
+<em>TOMORROW</em>
 
-*What a Good Mentor Actually Does -* *Clearing up the myth of the mentor as a fixer, and what real mentorship looks like day to day.*
+<em>What a Good Mentor Actually Does - Clearing up the myth of the mentor as a fixer, and what real mentorship looks like day to day.</em>

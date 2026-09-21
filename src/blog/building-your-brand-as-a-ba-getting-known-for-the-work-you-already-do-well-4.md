@@ -10,9 +10,9 @@ wixId: "667c0a33-1d58-4451-800b-aa8e7240f221"
 ---
 <img src="/images/blog/f4dc16_5590fa1b937d457181c9f18e92908a53.png" alt="Nobody Goes Viral on the First Post: Why Consistency Beats Confidence" width="2752" height="1536" loading="lazy">
 
-**Somewhere around the fifth post, almost everyone quits.** The first post gets a handful of likes, mostly from people who already knew you before you hit publish. The feeling is pleasant enough to keep going. The second and third posts feel similar. Then somewhere around the fourth or fifth, the numbers barely move, the silence feels louder than before, and the natural conclusion is that this does not work, or at least does not work for someone like you. That conclusion is wrong, and it is wrong at exactly the moment most people believe it most strongly.
+<strong>Somewhere around the fifth post, almost everyone quits.</strong> The first post gets a handful of likes, mostly from people who already knew you before you hit publish. The feeling is pleasant enough to keep going. The second and third posts feel similar. Then somewhere around the fourth or fifth, the numbers barely move, the silence feels louder than before, and the natural conclusion is that this does not work, or at least does not work for someone like you. That conclusion is wrong, and it is wrong at exactly the moment most people believe it most strongly.
 
-**A brand is not a moment**; **it is a pattern**
+<strong>A brand is not a moment</strong>; <strong>it is a pattern</strong>
 
 Nobody builds a professional reputation off one clever post. What actually happens is quieter and slower. Someone sees your name attached to something useful once, barely registers it. They see it again a few weeks later, and something faint clicks, a sense of having seen this person say something sensible before. By the fifth or sixth time, without consciously deciding to, they have started treating you as someone who knows what they are talking about in this area. That process cannot be compressed into one viral post, no matter how good it is. It requires repetition long enough and boring enough that most people give up before the pattern has time to form in anyone else's mind.
 
@@ -26,10 +26,10 @@ It is also worth being honest about the timeline. Most of what I have described 
 
 ## What we covered this week
 
-- **Monday**: silence is not neutral. Every week you say nothing, the default and least interesting version of your reputation wins by default, and someone else's memory of a single good moment stands in for years of solid work nobody documented.
-- **Tuesday**: the three buckets. Lessons from the work, opinions about how the job should be done, and your own story. Rotate through them, and you never face a blank screen wondering what to say.
-- **Wednesday**: your profile as a case file. Four sections: headline, About, Featured, and your most recent role, rewritten to argue your worth instead of describing your duties.
-- **Thursday**: writing honestly about real work without breaking a single confidence, by generalising the pattern and stripping out anything identifying, always erring toward more disguise rather than less.
+- <strong>Monday</strong>: silence is not neutral. Every week you say nothing, the default and least interesting version of your reputation wins by default, and someone else's memory of a single good moment stands in for years of solid work nobody documented.
+- <strong>Tuesday</strong>: the three buckets. Lessons from the work, opinions about how the job should be done, and your own story. Rotate through them, and you never face a blank screen wondering what to say.
+- <strong>Wednesday</strong>: your profile as a case file. Four sections: headline, About, Featured, and your most recent role, rewritten to argue your worth instead of describing your duties.
+- <strong>Thursday</strong>: writing honestly about real work without breaking a single confidence, by generalising the pattern and stripping out anything identifying, always erring toward more disguise rather than less.
 
 None of this week helps if it stays as five articles you read and agreed with. Pick the one thing that felt most useful, not the one that felt easiest, and do it before Monday. Rewrite your headline. Draft one honest post from bucket one. Pin something real to your Featured section. Then do something from this list again next week. And the week after. That repetition, not any single post, is the entire brand.
 
@@ -41,10 +41,10 @@ I will not pretend this feels natural at first. Every analyst I have mentored th
 
 You already do work worth talking about. Your background, whatever shape it took to get you here, is already an asset rather than an apology. The only thing left to build is the habit of saying so.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya | Flotog BA Insights  |  www.flotogbainsights.com
 
-*NEXT WEEK*
+<em>NEXT WEEK</em>
 
-*Difficult Stakeholders and Hard Conversations -* *How to handle the conversations most analysts dread, without losing the relationship or backing down on the work.*
+<em>Difficult Stakeholders and Hard Conversations - How to handle the conversations most analysts dread, without losing the relationship or backing down on the work.</em>

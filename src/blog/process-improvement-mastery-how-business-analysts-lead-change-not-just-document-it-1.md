@@ -8,11 +8,9 @@ cover: "/images/blog/f4dc16_92798cb61f194e9985ba4c53e43ab773.png"
 readingTime: 7
 wixId: "f276250c-2341-4787-9734-acc89e27a3bc"
 ---
-**DAY 2** | **Root Cause Analysis: Finding the Real Problem**
-
 <img src="/images/blog/f4dc16_92798cb61f194e9985ba4c53e43ab773.png" alt="Root Cause Analysis: Finding the Real Problem" width="2848" height="1472" loading="lazy">
 
-**There is a pattern I have seen repeat itself across improvement projects in different industries and different organisations.** A problem is visible. Management asks for it to be fixed. A team is assembled. They look at the problem, discuss it, and design a solution based on what they can see. The solution is implemented. The problem either returns or a new version of it appears somewhere else in the process. The reason is almost always the same. ***The solution addressed the symptom. The root cause was never found.***
+<strong>There is a pattern I have seen repeat itself across improvement projects in different industries and different organisations.</strong> A problem is visible. Management asks for it to be fixed. A team is assembled. They look at the problem, discuss it, and design a solution based on what they can see. The solution is implemented. The problem either returns or a new version of it appears somewhere else in the process. The reason is almost always the same. <strong><em>The solution addressed the symptom. The root cause was never found.</em></strong>
 
 Root cause analysis is the structured work of tracing a visible problem back to its origin. Not the step where it becomes visible. Not the place where it hurts the most. The point in the process, the system, or the organisation where, if something were changed, the problem would stop occurring. Finding that point is harder than it sounds. Problems present themselves at the surface. Their causes are often several layers down, in places that are not immediately connected to where the pain is felt. The BA who knows how to dig is the one who produces improvements that last.
 
@@ -44,7 +42,7 @@ The 5 Whys works best for problems with a clear cause-and-effect chain, where ea
 
 ## Technique 2: The Fishbone Diagram
 
-The fishbone diagram, also called the Ishikawa diagram or cause-and-effect diagram, is a structured visual technique for mapping all the potential causes of a problem and organising them by category. The problem statement sits at the right of the diagram, at the head of the fish. The main categories of cause form the bones of the fish. The most commonly used categories in process improvement work are ***People, Process, Technology, Measurement, Environment, and Management***. Within each category, the team identifies specific causes that may be contributing to the problem. The fishbone is particularly valuable in two situations.
+The fishbone diagram, also called the Ishikawa diagram or cause-and-effect diagram, is a structured visual technique for mapping all the potential causes of a problem and organising them by category. The problem statement sits at the right of the diagram, at the head of the fish. The main categories of cause form the bones of the fish. The most commonly used categories in process improvement work are <strong><em>People, Process, Technology, Measurement, Environment, and Management</em></strong>. Within each category, the team identifies specific causes that may be contributing to the problem. The fishbone is particularly valuable in two situations.
 
 1. The first is when a problem has multiple potential causes across different parts of the operation, and you need to ensure none are overlooked.
 2. The second is in a group setting, where the structured format gives everyone a framework for contributing without the conversation drifting.
@@ -63,19 +61,19 @@ In BA practice, fault tree analysis is most valuable in high-risk process design
 
 The three techniques are not interchangeable. Each is suited to a specific type of problem investigation.
 
-- **Use the 5 Whys** when the problem has a clear causal chain, and you need a fast, low-overhead way to trace it. It works well for operational problems with a single dominant cause and is the right starting point for most day-to-day improvement conversations.
-- **Use the fishbone** when the problem is complex, when multiple causes are suspected across different parts of the operation, or when you need to run a group session that surfaces contributions from people with different perspectives. It is the right technique when you want to ensure completeness before narrowing down to the most likely causes.
-- **Use fault tree analysis** when the concern is about failure risk in a new or redesigned process, or when the logical pathways to failure are complex, and you need to map them systematically. It is the right technique for risk-focused improvement work and for any situation where understanding how a process could fail is as important as understanding how it should succeed.
+- <strong>Use the 5 Whys</strong> when the problem has a clear causal chain, and you need a fast, low-overhead way to trace it. It works well for operational problems with a single dominant cause and is the right starting point for most day-to-day improvement conversations.
+- <strong>Use the fishbone</strong> when the problem is complex, when multiple causes are suspected across different parts of the operation, or when you need to run a group session that surfaces contributions from people with different perspectives. It is the right technique when you want to ensure completeness before narrowing down to the most likely causes.
+- <strong>Use fault tree analysis</strong> when the concern is about failure risk in a new or redesigned process, or when the logical pathways to failure are complex, and you need to map them systematically. It is the right technique for risk-focused improvement work and for any situation where understanding how a process could fail is as important as understanding how it should succeed.
 
 ## The Mistakes That Produce Surface-Level Fixes
 
-1. **Stopping at the first answer**: The first cause identified in any root cause session is almost always a symptom of something deeper. The BA who accepts the first answer and moves to solution design is designing a fix for the wrong problem. Keep asking why until the answer leads somewhere that, if changed, would prevent the problem entirely.
-2. **Analysing without data**: Root cause analysis produces hypotheses. Data validates them. A fishbone session that identifies six potential causes and then immediately proceeds to solution design is guesswork with a framework attached. Before designing a fix, gather the data that confirms which cause is actually driving the problem. Process data, error logs, complaint records, and observations are all valid sources.
-3. **Running the analysis with the wrong people in the room**: The people closest to the problem know things that nobody else does. A root cause analysis run entirely by managers and analysts, without the people who actually run the process every day, will miss the tacit knowledge that explains why the process really fails. The person who has been working the complaints queue for three years knows exactly where the bottlenecks are. Ask them.
-4. **Confusing cause with blame**: Root cause analysis is not a search for who is at fault. It is a search for what needs to change. When sessions drift toward blame, people stop contributing honest information and start protecting themselves. Keep the conversation on the process, the system, and the structure. The question is always: what needs to be different, not who did something wrong.
+1. <strong>Stopping at the first answer</strong>: The first cause identified in any root cause session is almost always a symptom of something deeper. The BA who accepts the first answer and moves to solution design is designing a fix for the wrong problem. Keep asking why until the answer leads somewhere that, if changed, would prevent the problem entirely.
+2. <strong>Analysing without data</strong>: Root cause analysis produces hypotheses. Data validates them. A fishbone session that identifies six potential causes and then immediately proceeds to solution design is guesswork with a framework attached. Before designing a fix, gather the data that confirms which cause is actually driving the problem. Process data, error logs, complaint records, and observations are all valid sources.
+3. <strong>Running the analysis with the wrong people in the room</strong>: The people closest to the problem know things that nobody else does. A root cause analysis run entirely by managers and analysts, without the people who actually run the process every day, will miss the tacit knowledge that explains why the process really fails. The person who has been working the complaints queue for three years knows exactly where the bottlenecks are. Ask them.
+4. <strong>Confusing cause with blame</strong>: Root cause analysis is not a search for who is at fault. It is a search for what needs to change. When sessions drift toward blame, people stop contributing honest information and start protecting themselves. Keep the conversation on the process, the system, and the structure. The question is always: what needs to be different, not who did something wrong.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya | Flotog BA Insights | www.flotogbainsights.com
 
-*Tomorrow: Lean Thinking and Kaizen. How to see waste in a process the way Lean practitioners see it, what Value Stream Mapping looks like in BA practice, and how to apply continuous improvement principles without needing a certification.*
+<em>Tomorrow: Lean Thinking and Kaizen. How to see waste in a process the way Lean practitioners see it, what Value Stream Mapping looks like in BA practice, and how to apply continuous improvement principles without needing a certification.</em>

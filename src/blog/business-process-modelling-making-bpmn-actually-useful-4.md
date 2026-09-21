@@ -17,8 +17,15 @@ A process map that gets a polite nod in a meeting and never gets opened again ha
 
 The single most important change here is what you ask the room, not anything about the diagram itself. 'Does this look right?' or 'Does this match how the process works? ' invites agreement, and agreement is easy to give without engaging closely, which is exactly how a diagram gets nodded at and forgotten. A sharper question forces real engagement.
 
-| **THE QUESTION THAT GETS A DECISION INSTEAD OF A NODYou:***Looking at this map, there are three points where a request can stall for more than two days. Which one should we tackle first, given the resources we actually have this quarter?* |
-| --- |
+<div class="callout">
+
+<strong>THE QUESTION THAT GETS A DECISION INSTEAD OF A NOD</strong>
+
+<strong>You:</strong>
+
+<em>Looking at this map, there are three points where a request can stall for more than two days. Which one should we tackle first, given the resources we actually have this quarter?</em>
+
+</div>
 
 That question cannot be answered with a polite nod. It forces the room to actually look at the specific gateways and delays on the diagram, weigh them against each other, and commit to a real next step before the meeting ends. The map did its job the moment it made that comparison possible in a way plain description never could have. Here is a complete process map built using everything covered this week: two pools, one of them split into two lanes, the core symbol set from Tuesday, an as-is level of honesty about where things actually branch, and no missing exception paths.
 
@@ -40,10 +47,10 @@ If you started this week with little or no BPMN experience, you now have the act
 
 The first diagram you draw after this week will probably not look as clean as the examples above, and that is completely normal. Every clean diagram in this series went through a rougher first draft that got tightened once the actual flow became clear. What changes after this week is not that your first attempt becomes perfect; it is that you now have a way to recognise what is wrong with a rough first draft and fix it deliberately, rather than either leaving it messy or not knowing where to start.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
-**Oluwatosin Ogunkoya**  **·  Flotog BA Insights  ·  1:1 mentoring and coaching for BAs at every career stage  ·**  [**www.flotogbainsights.com**](/)
+<strong>Oluwatosin Ogunkoya</strong> <strong>·  Flotog BA Insights  ·  1:1 mentoring and coaching for BAs at every career stage  ·</strong>  [<strong>www.flotogbainsights.com</strong>](/)
 
-*NEXT WEEK*
+<em>NEXT WEEK</em>
 
-*Requirements Prioritisation: Deciding What Gets Built First -* *MoSCoW, Kano, and the practical judgment calls that decide what actually makes the cut.*
+<em>Requirements Prioritisation: Deciding What Gets Built First - MoSCoW, Kano, and the practical judgment calls that decide what actually makes the cut.</em>

@@ -11,7 +11,7 @@ wixId: "1137bf4c-0d91-4c35-9018-0528a79fd57a"
 ---
 <img src="/images/blog/f4dc16_32dcb7e504ee45599dba4e4ef2686040.png" alt="The Clear-Thinking Toolkit" width="1024" height="572" loading="lazy">
 
-**Clear thinking is not four separate skills. It is one habit, distrusting your own certainty long enough to check it, wearing four different faces. Here is the week on one page.** A toolkit is not there to teach you something new each time you open it. It is there to hold the good habits steady on the days you are rushed, sure of yourself, and under pressure to just decide. So before the worked example, here is the whole week distilled to what you would actually reach for in the moment a real decision lands.
+<strong>Clear thinking is not four separate skills. It is one habit, distrusting your own certainty long enough to check it, wearing four different faces. Here is the week on one page.</strong> A toolkit is not there to teach you something new each time you open it. It is there to hold the good habits steady on the days you are rushed, sure of yourself, and under pressure to just decide. So before the worked example, here is the whole week distilled to what you would actually reach for in the moment a real decision lands.
 
 ## The week in four short passes
 
@@ -36,11 +36,12 @@ In real life, these blur into a single motion, so here is one call taken through
 
 - Start with bias: the belief that the portal will cut calls feels obvious, and obvious is the warning sign, so you slow down.
 - The frame is that we lack a self-service portal, which points to exactly one answer. Reframe it to customers cannot solve their own problems, and other doors open, including fixing whatever is generating the calls in the first place.
-- Now, how do we know? The conclusion sits on an assumption: that customers call because self-service is missing. You climb down the ladder to the actual data and read a sample of recent tickets. Most calls come from one confusing step in the product itself, not from the absence of help articles. That is the load-bearing assumption, and it is false.
+- Now, how do we know? The conclusion sits on an assumption: that customers call because self-service is missing. You climb down the ladder to the actual data and read a sample of recent tickets. Most calls come from one confusing step in the product itself, not from the absence of help articles. That is the load-bearing assumption, and it is false. 
 Then the tools.
 - A pre-mortem imagines the portal shipped and calls did not drop, and the reason is obvious once named: a portal full of articles about a confusing step just gives people a new place to get confused.
 - Second-order thinking asks, and then what: build the portal, calls hold steady, and now you maintain a portal and still have the original problem.
-- The outside view notes that self-service projects reduce contact volume far less often than their business cases promise.
+- The outside view notes that self-service projects reduce contact volume far less often than their business cases promise. 
+
 The honest decision is to fix the confusing step first, at a fraction of the cost, and revisit the portal only if calls remain high. Same facts as the original plan. A completely different, and far better, answer, because the thinking was checked before the money moved.
 
 ## Why clear thinking compounds
@@ -51,5 +52,4 @@ So whether you are saving this to return to or recognising habits you already ha
 
 [THE CLEAR THINKING TOOLKIT](/product-page/clear-thinking-toolkit)
 
-***Go out and be successful.***
-**Oluwatosin Ogunkoya |** **Flotog BA Insights  |**  [**www.flotogbainsights.com**](/)
+<strong><em>Go out and be successful.</em></strong> <strong>Oluwatosin Ogunkoya | Flotog BA Insights  |</strong>  [<strong>www.flotogbainsights.com</strong>](/)

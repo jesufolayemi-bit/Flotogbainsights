@@ -16,7 +16,7 @@ Agile is the most misunderstood methodology in our profession. Not by people who
 
 Before we examine what Agile is, it is worth spending a moment on what it is not because the misrepresentations are common enough that they are actively damaging BA practice in many organisations.
 
-Agile is not an excuse to skip analysis. It is not a licence to produce no documentation. It is not a methodology where the BA role is less demanding or less critical than in Waterfall. And it is most definitely not a framework that makes project delivery easier;  it makes it more difficult.
+Agile is not an excuse to skip analysis. It is not a licence to produce no documentation. It is not a methodology where the BA role is less demanding or less critical than in Waterfall. And it is most definitely not a framework that makes project delivery easier; it makes it more difficult.
 
 I have observed BA practitioners in Agile environments who have gradually reduced their practice to attending ceremonies and responding to Slack messages. No structured elicitation. No maintained backlog quality. No product vision documentation. No acceptance criteria that would withstand a tester's scrutiny.
 
@@ -46,7 +46,7 @@ In practice, this means that your stakeholder relationship is ongoing and collab
 
 This does not mean there is no plan. It means the plan is a living document, not a contract. For the BA, responding to change analytically means processing new information through a structured lens: What is the business impact of this change? What does it displace or affect in the existing backlog? What decisions does the Product Owner need to make? Change is information. Your job is to process it, not resist it.
 
-## The Scrum Framework & The BA's Role in Every Ceremony
+## The Scrum Framework &amp; The BA's Role in Every Ceremony
 
 Most Agile delivery uses the Scrum framework. Understanding your specific contribution to each ceremony is the difference between being a passive participant and a driving force in the team's effectiveness.
 
@@ -58,7 +58,7 @@ During sprint planning, you are the business context expert. When the team asks 
 
 ## Daily Standup
 
-Your standup contribution is brief, but your listening is critical. Blockers that are stated as technical problems are frequently, at their root, requirements problems. A developer who says '*I'm not sure how to handle the case where the user has two active accounts*' is telling you that your acceptance criteria did not cover that scenario. Address it today.
+Your standup contribution is brief, but your listening is critical. Blockers that are stated as technical problems are frequently, at their root, requirements problems. A developer who says '<em>I'm not sure how to handle the case where the user has two active accounts</em>' is telling you that your acceptance criteria did not cover that scenario. Address it today.
 
 ## Sprint Review
 
@@ -96,7 +96,7 @@ A technology company is building a product for a market segment that does not ye
 
 Agile's emphasis on validated learning over comprehensive planning is not just appropriate here; it is the only intellectually honest approach. The BA's role in this environment is to design the learning experiments, capture what each sprint teaches about user behaviour, and translate those insights into evolving product direction.
 
-## Where Agile Quietly Fails & The BA's Warning Signs
+## Where Agile Quietly Fails &amp; The BA's Warning Signs
 
 ## Warning Sign 1: The Backlog Has No Coherent Vision
 
@@ -104,12 +104,12 @@ A product backlog should not be a flat list of feature requests. It should tell 
 
 ## Warning Sign 2: Acceptance Criteria Written as Technical Tasks
 
-Acceptance criteria must describe observable, verifiable business behaviour, not technical implementation steps. '*Update the database record*' is an implementation task. '*When a customer updates their address, the change is reflected across all relevant systems within 30 seconds, and the customer receives a confirmation notification*' is an acceptance criterion. The distinction matters enormously in testing and in resolving disputes about whether a story is done.
+Acceptance criteria must describe observable, verifiable business behaviour, not technical implementation steps. '<em>Update the database record</em>' is an implementation task. '<em>When a customer updates their address, the change is reflected across all relevant systems within 30 seconds, and the customer receives a confirmation notification</em>' is an acceptance criterion. The distinction matters enormously in testing and in resolving disputes about whether a story is done.
 
 ## Warning Sign 3: Sprint Reviews Without Real Stakeholders
 
 A sprint review attended only by the delivery team is a ceremony, not a feedback loop. If business stakeholders are not present, the most valuable source of learning in the Agile cycle is absent. When stakeholder attendance is low, that is a signal to investigate, and the investigation usually reveals either that the sprint review format is not engaging, that the right people were not invited, or that there is a relationship issue between the delivery team and the business. All of these are BA problems to solve.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## — Oluwatosin Ogunkoya

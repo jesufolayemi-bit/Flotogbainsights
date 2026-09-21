@@ -31,8 +31,27 @@ It is just as important to be honest about the limits, because expecting a mento
 
 ## A conversation that shows the difference
 
-| **WHAT A MENTOR'S HELP ACTUALLY SOUNDS LIKEYou:***I think I should push back on this deadline, but I'm worried it makes me look difficult this early in the project.***Mentor:***What's the actual risk if you don't push back?***You:***We'd be shipping with two known defects still open.***Mentor:***Then that's not a difficult conversation; that's a responsible one. The framing that makes it land well is naming the specific risk, not the general feeling that the date is tight. I'd flag it today rather than closer to the date.* |
-| --- |
+<div class="callout">
+
+<strong>WHAT A MENTOR'S HELP ACTUALLY SOUNDS LIKE</strong>
+
+<strong>You:</strong>
+
+<em>I think I should push back on this deadline, but I'm worried it makes me look difficult this early in the project.</em>
+
+<strong>Mentor:</strong>
+
+<em>What's the actual risk if you don't push back?</em>
+
+<strong>You:</strong>
+
+<em>We'd be shipping with two known defects still open.</em>
+
+<strong>Mentor:</strong>
+
+<em>Then that's not a difficult conversation; that's a responsible one. The framing that makes it land well is naming the specific risk, not the general feeling that the date is tight. I'd flag it today rather than closer to the date.</em>
+
+</div>
 
 Notice the mentor did not draft the message, attend the meeting, or make the decision. They sharpened the thinking behind a decision the analyst was always going to have to make and act on themselves. That is the actual shape of good mentorship, in almost every case worth having.
 
@@ -46,11 +65,10 @@ When someone I mentor brings me a genuinely hard situation, the instinct to just
 
 It is worth adding one honest caveat before moving on. Not every mentoring conversation will feel useful in the moment, even with the right person and the right expectations. Some of the most valuable input I ever received felt underwhelming when I first heard it, and only proved its worth weeks later when the situation it applied to actually arrived. Judging a mentor, or the entire idea of mentorship, on a single conversation that did not land is the same mistake as judging a whole certification path on one difficult exam question. Give it more than one data point before deciding whether it is working.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
-**Oluwatosin Ogunkoya · Flotog BA Insights**
-**1:1 mentoring and coaching for BAs at every career stage ·** [**http://www.flotogbainsights.com/**](/)
+<strong>Oluwatosin Ogunkoya · Flotog BA Insights</strong> <strong>1:1 mentoring and coaching for BAs at every career stage ·</strong> [<strong>http://www.flotogbainsights.com/</strong>](/)
 
-*TOMORROW*
+<em>TOMORROW</em>
 
-*How to Find and Approach a Mentor -* *A practical framework for identifying the right person and actually asking, instead of assuming the answer is no.*
+<em>How to Find and Approach a Mentor - A practical framework for identifying the right person and actually asking, instead of assuming the answer is no.</em>

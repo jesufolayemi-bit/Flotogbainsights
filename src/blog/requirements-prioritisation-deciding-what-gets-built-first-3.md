@@ -27,8 +27,31 @@ The actual value of this exercise is rarely the finished chart, though. It is th
 
 A real prioritisation session that combines all three tools follows roughly this shape. Start with MoSCoW to separate the genuine Musts, using the honest test from Tuesday, and set those aside as already committed. Run Kano quickly on the remaining Should and Could items to flag any potential delighters that a pure urgency lens would undervalue. Then plot everything that is left on the value versus effort matrix, and let the room argue about placement, because the argument itself is where the real information surfaces.
 
-| **A DISAGREEMENT THE MATRIX SURFACESStakeholder A:***The legacy data import tool should be near the top; it's high value, we get asked about it constantly.***You:***How many customers actually ask for it, and how much effort would it genuinely take to build?***Stakeholder A:***Maybe a handful of customers a quarter. Effort-wise, it would probably take a full sprint; the legacy format is a mess.***You:***So a handful of requests a quarter against a full sprint of effort. On the matrix, that reads a lot closer to a thankless task than a major project. Does that match your instinct once we see it plotted that way?***Stakeholder A:***Honestly, when you put it like that, no, it doesn't seem worth a full sprint.* |
-| --- |
+<div class="callout">
+
+<strong>A DISAGREEMENT THE MATRIX SURFACES</strong>
+
+<strong>Stakeholder A:</strong>
+
+<em>The legacy data import tool should be near the top; it's high value, we get asked about it constantly.</em>
+
+<strong>You:</strong>
+
+<em>How many customers actually ask for it, and how much effort would it genuinely take to build?</em>
+
+<strong>Stakeholder A:</strong>
+
+<em>Maybe a handful of customers a quarter. Effort-wise, it would probably take a full sprint; the legacy format is a mess.</em>
+
+<strong>You:</strong>
+
+<em>So a handful of requests a quarter against a full sprint of effort. On the matrix, that reads a lot closer to a thankless task than a major project. Does that match your instinct once we see it plotted that way?</em>
+
+<strong>Stakeholder A:</strong>
+
+<em>Honestly, when you put it like that, no, it doesn't seem worth a full sprint.</em>
+
+</div>
 
 Nobody in that exchange was wrong or arguing in bad faith. The stakeholder's instinct that the item mattered was genuine, built from real customer conversations. What the matrix did was force that instinct to be compared against an actual effort estimate and an actual frequency, rather than staying a feeling that a Must or Should label could have absorbed without ever being tested.
 
@@ -42,10 +65,10 @@ Whichever version of the session you run, one discipline is worth protecting: pl
 
 Value tends to generate the most disagreement in these sessions, but effort causes just as much damage when it is wrong, usually more quietly. The person requesting a feature is rarely the person who has to build it, and a request that sounds simple from outside a codebase can hide real complexity that only becomes visible once someone who actually works in that system weighs in. The fix is procedural rather than clever: never finalise an effort estimate on the matrix without input from whoever would actually build the item, even a rough five-minute gut check, rather than letting the room guess based on how the request sounds when described out loud.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
-**Oluwatosin Ogunkoya**  **·  Flotog BA Insights  ·  1:1 mentoring and coaching for BAs at every career stage  ·**  [**www.flotogbainsights.com**](/)
+<strong>Oluwatosin Ogunkoya</strong> <strong>·  Flotog BA Insights  ·  1:1 mentoring and coaching for BAs at every career stage  ·</strong>  [<strong>www.flotogbainsights.com</strong>](/)
 
-*TOMORROW*
+<em>TOMORROW</em>
 
-*From Priority List to Actual Commitment -* *How a prioritised list survives contact with a real release, and communicating what didn't make the cut without damaging trust.*
+<em>From Priority List to Actual Commitment - How a prioritised list survives contact with a real release, and communicating what didn't make the cut without damaging trust.</em>

@@ -47,16 +47,16 @@ To design effective data visualizations, business analysts need to follow some k
 
 A coherent structure is essential for creating a clear and persuasive data story. A common structure for data presentations consists of three main parts: introduction, body, and conclusion.
 
-- ***Introduction***: The introduction should capture the attention and interest of the audience, provide context and background information for the data story, state the purpose and message of the presentation, and preview the main points or arguments.
-- ***Body***: The body should detail the data analysis process and results, highlight the key insights and recommendations derived from the data, support them with evidence and examples, use visuals to illustrate them and address any potential questions or objections from the audience.
-- ***Conclusion***: The conclusion should summarize the main points or arguments of the presentation, restate the purpose and message of the presentation, emphasize the implications or benefits of following the recommendations, and provide a call to action or next steps for the audience.
+- <strong><em>Introduction</em></strong>: The introduction should capture the attention and interest of the audience, provide context and background information for the data story, state the purpose and message of the presentation, and preview the main points or arguments.
+- <strong><em>Body</em></strong>: The body should detail the data analysis process and results, highlight the key insights and recommendations derived from the data, support them with evidence and examples, use visuals to illustrate them and address any potential questions or objections from the audience.
+- <strong><em>Conclusion</em></strong>: The conclusion should summarize the main points or arguments of the presentation, restate the purpose and message of the presentation, emphasize the implications or benefits of following the recommendations, and provide a call to action or next steps for the audience.
 
 ## Tools and Technologies
 
 Various tools and technologies can help business analysts create effective data visualizations and presentations. Some of these tools include:
 
-- ***Tableau***: Tableau is a popular software for creating interactive dashboards that allow users to explore and analyze data from various sources. Tableau offers a range of features such as drag-and-drop functionality, filters, calculations, aggregations, animations, etc. that enable users to create customized and dynamic visualizations.
-- ***Microsoft Power BI***: is another software for creating interactive dashboards that integrate with various Microsoft products such as Excel, SQL Server, Azure, etc. Power BI offers features such as connectors, transformations, models, reports, etc. that enable users to connect, clean, shape, visualize, and share data.
+- <strong><em>Tableau</em></strong>: Tableau is a popular software for creating interactive dashboards that allow users to explore and analyze data from various sources. Tableau offers a range of features such as drag-and-drop functionality, filters, calculations, aggregations, animations, etc. that enable users to create customized and dynamic visualizations.
+- <strong><em>Microsoft Power BI</em></strong>: is another software for creating interactive dashboards that integrate with various Microsoft products such as Excel, SQL Server, Azure, etc. Power BI offers features such as connectors, transformations, models, reports, etc. that enable users to connect, clean, shape, visualize, and share data.
 
 Other tools can be used for creating specific types of visualizations or presentations. For example, Google Charts for creating web-based charts, Infogram for creating infographics, Prezi for creating zooming presentations, etc.
 
@@ -64,9 +64,9 @@ Other tools can be used for creating specific types of visualizations or present
 
 Data alone is not enough to persuade the audience to take action. Business analysts also need to integrate data with persuasive elements that reinforce the message and engage the audience. Some of these elements include:
 
-- ***Ethos***: Ethos refers to the credibility and trustworthiness of the speaker or the source of the data. You can establish ethos by demonstrating your expertise, experience, or qualifications, citing reputable sources, providing accurate and reliable data, etc.
-- ***Pathos***: Pathos refers to the emotional appeal of the message or the data. You can use pathos by using stories, anecdotes, metaphors, analogies, humour, etc. to connect with the audience's values, beliefs, or emotions.
-- ***Logos***: Logos refers to the logical appeal of the message or the data. You can use logos by using facts, statistics, examples, etc. to support claims and arguments, using clear and coherent reasoning and structure, addressing counterarguments or objections, etc.
+- <strong><em>Ethos</em></strong>: Ethos refers to the credibility and trustworthiness of the speaker or the source of the data. You can establish ethos by demonstrating your expertise, experience, or qualifications, citing reputable sources, providing accurate and reliable data, etc.
+- <strong><em>Pathos</em></strong>: Pathos refers to the emotional appeal of the message or the data. You can use pathos by using stories, anecdotes, metaphors, analogies, humour, etc. to connect with the audience's values, beliefs, or emotions.
+- <strong><em>Logos</em></strong>: Logos refers to the logical appeal of the message or the data. You can use logos by using facts, statistics, examples, etc. to support claims and arguments, using clear and coherent reasoning and structure, addressing counterarguments or objections, etc.
 
 As business analysts, we need to balance data-driven insights with emotional appeals to engage stakeholders effectively. Too much data may overwhelm or bore the audience, while too much emotion may undermine the credibility or objectivity of the message. A good balance can be achieved by:
 
@@ -96,6 +96,6 @@ Interactive data presentations are presentations that incorporate interactive el
 
 Some examples of interactive elements that can be used in data presentations are:
 
-- ***Interactive dashboards***: Interactive dashboards are visual displays that allow users to filter, sort, slice, drill down, or zoom in on data using various controls such as buttons, sliders, drop-down menus, etc.
-- ***Real-time data analytics***: Real-time data analytics are systems that allow users to access and analyze data that is updated continuously from various sources such as sensors, social media, web traffic, etc.
-- ***Gamification***: Gamification is the application of game elements such as points, badges, leaderboards, challenges, etc. to non-game contexts such as data presentations. Gamification can motivate and reward users for engaging with the data.
+- <strong><em>Interactive dashboards</em></strong>: Interactive dashboards are visual displays that allow users to filter, sort, slice, drill down, or zoom in on data using various controls such as buttons, sliders, drop-down menus, etc.
+- <strong><em>Real-time data analytics</em></strong>: Real-time data analytics are systems that allow users to access and analyze data that is updated continuously from various sources such as sensors, social media, web traffic, etc.
+- <strong><em>Gamification</em></strong>: Gamification is the application of game elements such as points, badges, leaderboards, challenges, etc. to non-game contexts such as data presentations. Gamification can motivate and reward users for engaging with the data.

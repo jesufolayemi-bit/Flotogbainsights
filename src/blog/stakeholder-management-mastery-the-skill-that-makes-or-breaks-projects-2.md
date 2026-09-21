@@ -8,11 +8,9 @@ cover: "/images/blog/f4dc16_f72b38643e6848eba29ed583d72366ba.jpeg"
 readingTime: 7
 wixId: "1353d69c-4b85-4adb-af2b-20dc1609c5e3"
 ---
-**DAY 3**   |  **Communication and Trust: How the Best BAs Build Relationships That Deliver**
-
 <img src="/images/blog/f4dc16_f72b38643e6848eba29ed583d72366ba.jpeg" alt="Communication and Trust: How the Best BAs Build Relationships That Deliver" width="1024" height="559" loading="lazy">
 
-There is a version of communication that most Business Analysts practise, and there is a version that the best BAs have mastered. The difference between them is not vocabulary, confidence, or presentation skills.  **It is intent.**
+There is a version of communication that most Business Analysts practise, and there is a version that the best BAs have mastered. The difference between them is not vocabulary, confidence, or presentation skills. <strong>It is intent.</strong>
 
 The average BA communicates to inform. They send updates, produce status reports, run workshops, and send meeting notes. They are producing communication as an output of the project process.
 
@@ -28,15 +26,15 @@ The BAs who are trusted with the programmes that matter are the ones who have ma
 
 ## Tailoring Your Communication to the Stakeholder
 
-The single most important communication principle for a Business Analyst is this: ***the message that matters is the one the stakeholder receives, not the one you sent.*** The same information, communicated in the same way to two different stakeholders, will produce two entirely different responses. Stakeholders have different backgrounds, different levels of technical literacy, different priorities, different pressures, and different relationships with the project. One-size communication does not fit all of them.
+The single most important communication principle for a Business Analyst is this: <strong><em>the message that matters is the one the stakeholder receives, not the one you sent.</em></strong> The same information, communicated in the same way to two different stakeholders, will produce two entirely different responses. Stakeholders have different backgrounds, different levels of technical literacy, different priorities, different pressures, and different relationships with the project. One-size communication does not fit all of them.
 
-**Senior executives want the headline**. They want to know what is happening, what decisions are needed, and what it means for the outcomes they care about. A ten-page status report with detailed technical content is not communication for a C-suite stakeholder. It is documentation that creates the risk of their reading the wrong part and drawing the wrong conclusion. Give them a concise executive summary: ***what is on track, what is at risk, what you need from them, and what happens next.***
+<strong>Senior executives want the headline</strong>. They want to know what is happening, what decisions are needed, and what it means for the outcomes they care about. A ten-page status report with detailed technical content is not communication for a C-suite stakeholder. It is documentation that creates the risk of their reading the wrong part and drawing the wrong conclusion. Give them a concise executive summary: <strong><em>what is on track, what is at risk, what you need from them, and what happens next.</em></strong>
 
-**Subject matter experts want depth**. They are the people who understand the details of the business operations your project is changing. They do not want to be talked at in executive summaries. They want to be consulted, challenged, and engaged as the experts they are. When you communicate with your SMEs, show that you have done your homework. Ask specific questions. Invite pushback. The SME who feels genuinely respected will tell you things in a one-to-one conversation that they will never say in a workshop.
+<strong>Subject matter experts want depth</strong>. They are the people who understand the details of the business operations your project is changing. They do not want to be talked at in executive summaries. They want to be consulted, challenged, and engaged as the experts they are. When you communicate with your SMEs, show that you have done your homework. Ask specific questions. Invite pushback. The SME who feels genuinely respected will tell you things in a one-to-one conversation that they will never say in a workshop.
 
-**End users want clarity and reassurance**. Their relationship with change is often primarily emotional, not analytical. ***What does this mean for me? Will I be able to do my job? Will my role change? Will it get harder?*** These are the questions running through their minds even when they are asking something technical. Communicate with end users in plain language, be honest about what will change and what support they will have, and do not underestimate how much goodwill you can build simply by treating them as people rather than a deployment audience.
+<strong>End users want clarity and reassurance</strong>. Their relationship with change is often primarily emotional, not analytical. <strong><em>What does this mean for me? Will I be able to do my job? Will my role change? Will it get harder?</em></strong> These are the questions running through their minds even when they are asking something technical. Communicate with end users in plain language, be honest about what will change and what support they will have, and do not underestimate how much goodwill you can build simply by treating them as people rather than a deployment audience.
 
-**Technical teams want precision**. Ambiguity is their enemy. When you communicate requirements to a development team, vague language creates interpretation risk. Be specific. Define terms. Use examples. And create a clear, easy channel for them to raise queries before they make assumptions. An assumption made by a developer in week four of a sprint, because they could not get a clear answer, is a defect waiting to be discovered in testing.
+<strong>Technical teams want precision</strong>. Ambiguity is their enemy. When you communicate requirements to a development team, vague language creates interpretation risk. Be specific. Define terms. Use examples. And create a clear, easy channel for them to raise queries before they make assumptions. An assumption made by a developer in week four of a sprint, because they could not get a clear answer, is a defect waiting to be discovered in testing.
 
 ## Building Trust Under Pressure
 
@@ -52,15 +50,15 @@ Make stakeholders feel heard, not just heard from. There is a difference between
 
 Most stakeholder communication problems are expectation management failures. A stakeholder who feels disappointed, surprised, or let down by a project outcome almost always had an expectation that was not properly managed somewhere along the way.
 
-***Expectation management is not about telling stakeholders what they want to hear. It is about ensuring that what they expect to receive is aligned with what you are actually going to deliver.*** When those two things are misaligned, the gap between them will eventually surface. The later it surfaces, the more damage it causes.
+<strong><em>Expectation management is not about telling stakeholders what they want to hear. It is about ensuring that what they expect to receive is aligned with what you are actually going to deliver.</em></strong> When those two things are misaligned, the gap between them will eventually surface. The later it surfaces, the more damage it causes.
 
 The BA's job is to surface those gaps as early as possible and address them directly. This sometimes means having uncomfortable conversations: telling a stakeholder that the feature they are expecting is out of scope, that the timeline they have been told about is not realistic, or that the level of change their team is being asked to absorb is higher than they have been led to believe. These conversations are not easy. But they are almost always less painful when they happen early than when they happen late. A stakeholder who is told in month two that their expectation cannot be met has time to adapt, reprioritise, and engage in a constructive conversation about what can be delivered. A stakeholder who discovers the same thing in month six has a problem, and they may decide to make it yours.
 
 ## What a Practical Stakeholder Communication Plan Looks Like
 
-A stakeholder communication plan is not a spreadsheet listing every stakeholder and ticking a box for email or meeting. That is a contact list with extra columns. A genuine communication plan answers six questions for each key stakeholder or group. ***What do they need to know? When do they need to know it? How should it be communicated (format, channel, tone)? Who is responsible for communicating it? What response or action do you need from them? And how will you know whether the communication has been effective?***
+A stakeholder communication plan is not a spreadsheet listing every stakeholder and ticking a box for email or meeting. That is a contact list with extra columns. A genuine communication plan answers six questions for each key stakeholder or group. <strong><em>What do they need to know? When do they need to know it? How should it be communicated (format, channel, tone)? Who is responsible for communicating it? What response or action do you need from them? And how will you know whether the communication has been effective?</em></strong>
 
-That last question is the one most plans miss entirely. Communication effectiveness cannot be assumed from the fact that an email was sent. It requires a feedback mechanism. Did the stakeholder understand the message? Did they take the expected action? Are they still aligned with the project direction? If you are not checking, you are broadcasting, not communicating. The most effective communication plans I have seen are l***ight on documentation and heavy on intention***. They do not try to script every interaction. They establish a rhythm, a set of principles about how different stakeholders will be engaged and how communication will flow, and then they are adjusted based on what is actually working.
+That last question is the one most plans miss entirely. Communication effectiveness cannot be assumed from the fact that an email was sent. It requires a feedback mechanism. Did the stakeholder understand the message? Did they take the expected action? Are they still aligned with the project direction? If you are not checking, you are broadcasting, not communicating. The most effective communication plans I have seen are l<strong><em>ight on documentation and heavy on intention</em></strong>. They do not try to script every interaction. They establish a rhythm, a set of principles about how different stakeholders will be engaged and how communication will flow, and then they are adjusted based on what is actually working.
 
 ## The Relationship That Carries the Project
 
@@ -70,8 +68,8 @@ A sponsor who trusts you will give you the space to solve problems. A user commu
 
 Build those relationships before you need them. Invest in them consistently, through the ordinary moments of the project, through the updates and the workshops and the conversations that do not feel significant at the time. Because when the difficult moment comes, and it always does, the question will not be whether you have the right answer. It will be whether you have the right relationships.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
-## Oluwatosin Ogunkoya
+<strong>Oluwatosin Ogunkoya</strong>
 
-*Tomorrow: Difficult Stakeholders. The types of resistance you will face, what drives them, and the BA toolkit for moving forward without losing the relationship.*
+<em>Tomorrow: Difficult Stakeholders. The types of resistance you will face, what drives them, and the BA toolkit for moving forward without losing the relationship.</em>

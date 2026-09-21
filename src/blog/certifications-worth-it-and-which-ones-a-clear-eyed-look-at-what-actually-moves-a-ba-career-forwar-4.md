@@ -1,14 +1,15 @@
 ---
-title: "What Actually Moves the Needle Besides Certifications"
+title: "Your Certification Decision, Made"
 series: "Certifications, Worth It and Which Ones: A Clear-Eyed Look at What Actually Moves a BA Career Forward"
 day: 5
 description: "If you have read this whole series and still are not sure what to actually do next, that is a fair thing to feel, and it is worth closing with the plain…"
-date: 2026-08-21T13:21:19.741Z
+date: 2026-08-21T13:21:19Z
+updated: 2026-09-21T07:50:09.151Z
 cover: "/images/blog/f4dc16_3ccd02571e2247a980d36a7f9fde4d89.png"
 readingTime: 4
 wixId: "b6f8fcfe-4c70-41ed-a703-a58bb154f33e"
 ---
-<img src="/images/blog/f4dc16_3ccd02571e2247a980d36a7f9fde4d89.png" alt="What Actually Moves the Needle Besides Certifications" width="1024" height="572" loading="lazy">
+<img src="/images/blog/f4dc16_3ccd02571e2247a980d36a7f9fde4d89.png" alt="Your Certification Decision, Made" width="1024" height="572" loading="lazy">
 
 If you have read this whole series and still are not sure what to actually do next, that is a fair thing to feel, and it is worth closing with the plain version rather than another layer of nuance. Five days of frameworks and examples can start to feel heavier than the actual decision needs to be. Underneath all of it, there are really only six common situations, and almost every business analyst reading this fits cleanly into one of them.
 
@@ -37,12 +38,12 @@ Pick the bullet above that actually describes you. If it points to a certificati
 
 Either way, the decision is smaller and more concrete than it felt at the start of the week. That was the entire point of building it out this way.
 
-If none of this sticks and you only remember one sentence from the whole week, let it be this: ***a certification is worth exactly as much as the eligibility, the market demand, and the gap it closes make it worth, and no amount of prestige attached to the name changes that arithmetic for your specific situation.*** Run the four questions honestly, choose based on the answer rather than the reputation, and build the evidence alongside it regardless of which way the decision goes. That combination is what actually moves a BA career forward, not the credential sitting on its own.
+If none of this sticks and you only remember one sentence from the whole week, let it be this: <strong><em>a certification is worth exactly as much as the eligibility, the market demand, and the gap it closes make it worth, and no amount of prestige attached to the name changes that arithmetic for your specific situation.</em></strong> Run the four questions honestly, choose based on the answer rather than the reputation, and build the evidence alongside it regardless of which way the decision goes. That combination is what actually moves a BA career forward, not the credential sitting on its own.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya | Flotog BA Insights  |  www.flotogbainsights.com
 
-*NEXT WEEK*
+<em>NEXT WEEK</em>
 
-*Managing Up and Getting Visible -* *How to make sure the work you are doing, and the judgment behind it, is actually seen by the people who decide what happens next in your career.*
+<em>Managing Up and Getting Visible - How to make sure the work you are doing, and the judgment behind it, is actually seen by the people who decide what happens next in your career.</em>

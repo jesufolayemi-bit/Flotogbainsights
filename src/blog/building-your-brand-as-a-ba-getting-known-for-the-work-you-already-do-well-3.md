@@ -10,9 +10,9 @@ wixId: "1fb13c24-bd22-4028-83aa-22d58241eb51"
 ---
 <img src="/images/blog/f4dc16_330b9cfd76054672819a40ab5872ba5b.png" alt="Writing About Real Work Without Breaking Trust" width="2752" height="1536" loading="lazy">
 
-**The single richest source of content you will ever have is the work sitting in front of you right now. It is also the source most likely to get you in trouble if you are careless with it.** Every analyst who builds a real body of work eventually faces this tension. The most specific, most useful lessons come directly from real client engagements. And real client engagements come with obligations you signed up for, whether or not you remembered signing them.
+<strong>The single richest source of content you will ever have is the work sitting in front of you right now. It is also the source most likely to get you in trouble if you are careless with it.</strong> Every analyst who builds a real body of work eventually faces this tension. The most specific, most useful lessons come directly from real client engagements. And real client engagements come with obligations you signed up for, whether or not you remembered signing them.
 
-Before anything goes live that is drawn from actual client work, I run it through one question. ***Could someone who was in the room read this and know exactly who and what I am describing?*** If the answer is yes, or even a hesitant maybe, it is not ready. Not because the lesson is not valuable, but because the specific packaging around it is still identifiable. The fix is rarely to abandon the story. It is to disguise it properly.
+Before anything goes live that is drawn from actual client work, I run it through one question. <strong><em>Could someone who was in the room read this and know exactly who and what I am describing?</em></strong> If the answer is yes, or even a hesitant maybe, it is not ready. Not because the lesson is not valuable, but because the specific packaging around it is still identifiable. The fix is rarely to abandon the story. It is to disguise it properly.
 
 ## Four moves that keep you safe
 
@@ -34,8 +34,8 @@ This is the part people get wrong most often. An NDA or a standard confidentiali
 
 In my writing experience, these are the safe bets to publish:
 
-- **Patterns are always safe**. The observation that stakeholders often say they want one thing and mean another. The lesson that a process map surfaces political tension a requirements document never would. The fact that a scope discussion that felt like conflict was actually a communication gap. None of that needs a client name attached to be true, and none of it becomes less useful when it is written as a general principle rather than a specific case.
-- **Your own reactions are also always safe**. What confused you, what you got wrong the first time, what changed your mind. That material belongs entirely to you, no disguising required.
+- <strong>Patterns are always safe</strong>. The observation that stakeholders often say they want one thing and mean another. The lesson that a process map surfaces political tension a requirements document never would. The fact that a scope discussion that felt like conflict was actually a communication gap. None of that needs a client name attached to be true, and none of it becomes less useful when it is written as a general principle rather than a specific case.
+- <strong>Your own reactions are also always safe</strong>. What confused you, what you got wrong the first time, what changed your mind. That material belongs entirely to you, no disguising required.
 
 The goal this week is not to write braver content. It is to write honest content you can defend if anyone ever asks where it came from, including the client themselves.
 
@@ -49,10 +49,10 @@ And if the answer is no, that is useful information too. It tells you the story 
 
 The same discipline applies when you write about mentoring conversations rather than client work. I mentor several people into this field, and the lessons from those conversations are some of the most useful content I have. I never describe a specific person's situation in enough detail that they, or anyone who knows them, would recognise it. What I share instead is the pattern behind the question, stripped of the person entirely. Someone asking how to explain a career gap becomes a general post about how to frame a gap in an interview. The individual disappears from the story, and the lesson survives intact.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya | Flotog BA Insights  |  www.flotogbainsights.com
 
-*TOMORROW*
+<em>TOMORROW</em>
 
-*Why Consistency Beats Confidence -* *Closing the series: the compounding effect that actually builds a reputation, and what to do starting Monday.*
+<em>Why Consistency Beats Confidence - Closing the series: the compounding effect that actually builds a reputation, and what to do starting Monday.</em>

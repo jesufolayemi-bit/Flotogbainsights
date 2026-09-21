@@ -15,7 +15,7 @@ Most business analysts learn BPMN once, in a course or a certification prep, and
 
 ## What BPMN is actually for
 
-BPMN, Business Process Model and Notation, exists to answer one question clearly: ***what happens, in what order, and who does it***. That is the whole job. It is not there to demonstrate that you know the full specification, and it is not there to impress anyone with the number of symbols on the page. A process map earns its place the moment someone unfamiliar with the process can look at it and understand, without a verbal explanation, what happens and who is responsible for each step.
+BPMN, Business Process Model and Notation, exists to answer one question clearly: <strong><em>what happens, in what order, and who does it</em></strong>. That is the whole job. It is not there to demonstrate that you know the full specification, and it is not there to impress anyone with the number of symbols on the page. A process map earns its place the moment someone unfamiliar with the process can look at it and understand, without a verbal explanation, what happens and who is responsible for each step.
 
 The full BPMN specification includes dozens of event types, gateway types, and connector variations, most of which exist for edge cases that rarely show up in a typical business process. Almost none of that belongs in a diagram meant for a room of stakeholders who are not BPMN experts, and treating the full spec as the standard to aim for is exactly what produces the diagrams nobody reads twice.
 
@@ -23,7 +23,7 @@ The full BPMN specification includes dozens of event types, gateway types, and c
 
 <img src="/images/blog/f4dc16_e9f92b068d1f402aa68222340f15f492.png" alt="Why Nobody Reads Most BPMN Diagrams Twice" width="969" height="220" loading="lazy">
 
-*The same underlying process, drawn two different ways.*
+<em>The same underlying process, drawn two different ways.</em>
 
 Both diagrams above are technically valid BPMN. Both would pass a strict notation review. Only one of them would survive being shown to a stakeholder who has never seen a process map before and asked to confirm it is accurate. The left version demonstrates knowledge of parallel gateways and sub-process decomposition. The right version does the actual job a process map exists to do: it lets a reader understand what happens in a single pass, with no verbal narration required.
 
@@ -47,11 +47,10 @@ By the end of Friday, if you have never drawn a BPMN diagram before this week, y
 
 Nothing this week requires special software. Every diagram covered here could be sketched on a whiteboard, a napkin, or a plain page with a pen, and in the early stages of mapping a real process, that is very often exactly where it should stay. The tool matters far less than the discipline behind it. A polished diagram built in dedicated modelling software still fails if it is drawn with the wrong granularity or missing the exception paths covered later this week, and a rough pen sketch on paper still succeeds if it gets those fundamentals right. Learn the thinking first. The software is a formatting choice you can make afterwards.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
-## Oluwatosin Ogunkoya
+<strong>Oluwatosin Ogunkoya</strong>
 
-*Flotog BA Insights  ·  1:1 mentoring and coaching for BAs at every career stage  ·*  [*www.flotogbainsights.com*](/)
-*TOMORROW*
+<em>Flotog BA Insights  ·  1:1 mentoring and coaching for BAs at every career stage  ·</em>  [<em>www.flotogbainsights.com</em>](/) <em>TOMORROW</em>
 
-*The Handful of Symbols That Do Almost All the Work -* *The complete practical toolkit, explained clearly enough to start drawing immediately.*
+<em>The Handful of Symbols That Do Almost All the Work - The complete practical toolkit, explained clearly enough to start drawing immediately.</em>

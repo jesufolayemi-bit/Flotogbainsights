@@ -10,7 +10,7 @@ wixId: "81779222-13d6-463d-a2cb-361c4248610b"
 ---
 <img src="/images/blog/f4dc16_2e271ab10f2b440e89d613aeea816103.png" alt="The first answer is almost never the real one" width="2752" height="1536" loading="lazy">
 
-**A stakeholder once asked me for a faster horse.** I am being slightly unfair to him, because he did not use those words. What he said was that the monthly reporting pack needed to come out in half the time, and that the fix was to add three more people to the reporting team. That was the request. Three more people. He had even worked out the cost and pre-approved it. All I had to do was write it up.
+<strong>A stakeholder once asked me for a faster horse.</strong> I am being slightly unfair to him, because he did not use those words. What he said was that the monthly reporting pack needed to come out in half the time, and that the fix was to add three more people to the reporting team. That was the request. Three more people. He had even worked out the cost and pre-approved it. All I had to do was write it up.
 
 I almost did. The request was clear, the sponsor was senior, and writing it down would have made my week look productive. Instead I asked one slow question. Not what he wanted, but what the reporting pack was actually for. Who read it, and what decision did they make after reading it?
 
@@ -54,10 +54,10 @@ That is why a junior reading this can take away a clean technique today, the two
 
 For now, sit with the discomfort of the first idea. The next time someone hands you a fully formed solution, resist the small relief of writing it down. That relief is the trap. It feels like progress, and it is often the exact moment a project quietly points itself at the wrong target. Ask what the solution would let them do instead. Ask what they do today to cope without it. Then wait. The silence after that question is where the real requirement lives, and the willingness to sit in it, when everyone in the room expects you to move on, is the first real mark of a business analyst who has stopped collecting requests and started finding needs.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya | Flotog BA Insights  |  www.flotogbainsights.com
 
-*Tomorrow:* *Not All Questions Are Equal*
+<em>Tomorrow: Not All Questions Are Equal</em>
 
-*The question types, the funnel, and why the order you ask in decides what you learn.*
+<em>The question types, the funnel, and why the order you ask in decides what you learn.</em>

@@ -10,7 +10,7 @@ wixId: "54e9a04e-b4c0-433a-ab05-5ae358c992ed"
 ---
 <img src="/images/blog/f4dc16_13097ad5113d47f7954bdc762d40c524.png" alt="What a Certification Actually Signals, and What It Does Not" width="1024" height="572" loading="lazy">
 
-**A hiring manager told me once that she stopped shortlisting candidates based on certifications three years before we spoke.** Not because she thought certifications were worthless, but because she had hired two CBAP holders back to back who could recite the BABOK guide almost verbatim and could not run a stakeholder workshop without a script sitting in front of them. The credential had proven they understood the theory. It had told her almost nothing about whether they could do the job in a room full of people who did not care about the theory at all.
+<strong>A hiring manager told me once that she stopped shortlisting candidates based on certifications three years before we spoke.</strong> Not because she thought certifications were worthless, but because she had hired two CBAP holders back to back who could recite the BABOK guide almost verbatim and could not run a stakeholder workshop without a script sitting in front of them. The credential had proven they understood the theory. It had told her almost nothing about whether they could do the job in a room full of people who did not care about the theory at all.
 
 ## The Signal Gap
 
@@ -26,13 +26,43 @@ However, it does not prove you can run a difficult stakeholder conversation. It 
 
 Here is roughly how this gap surfaces in an actual interview, when a hiring manager is trying to work out which side of the certification a candidate is actually standing on.
 
-| **TESTING THE SIGNAL AGAINST THE SUBSTANCEInterviewer:***I see you're CBAP certified. Walk me through a time a stakeholder flatly rejected a requirement you'd written and how you handled it.***Candidate A:***The BABOK guide recommends using elicitation techniques to clarify requirements before finalising documentation, and I always follow that structured approach.***Interviewer:***Sure, but can you walk me through an actual situation, what the stakeholder said and what you did next?***Candidate A:***I generally follow the standard requirements traceability process outlined in the certification.* |
-| --- |
+<div class="callout">
+
+<strong>TESTING THE SIGNAL AGAINST THE SUBSTANCE</strong>
+
+<strong>Interviewer:</strong>
+
+<em>I see you're CBAP certified. Walk me through a time a stakeholder flatly rejected a requirement you'd written and how you handled it.</em>
+
+<strong>Candidate A:</strong>
+
+<em>The BABOK guide recommends using elicitation techniques to clarify requirements before finalising documentation, and I always follow that structured approach.</em>
+
+<strong>Interviewer:</strong>
+
+<em>Sure, but can you walk me through an actual situation, what the stakeholder said and what you did next?</em>
+
+<strong>Candidate A:</strong>
+
+<em>I generally follow the standard requirements traceability process outlined in the certification.</em>
+
+</div>
 
 That exchange, or a close version of it, is exactly what trained the hiring manager I mentioned earlier to stop trusting the credential on its own. Compare it to a second candidate answering the same question.
 
-| **THE VERSION THAT LANDSInterviewer:***Walk me through a time a stakeholder flatly rejected a requirement you'd written.***Candidate B:***A finance stakeholder rejected an approval workflow I'd documented because it added two steps to something her team did dozens of times a day. I hadn't accounted for volume. I went back, sat with two of her analysts for an hour, and rebuilt it around a fast path for routine cases with the extra checks only triggering above a certain threshold. She approved it the same week.* |
-| --- |
+<div class="callout">
+
+<strong>THE VERSION THAT LANDS</strong>
+
+<strong>Interviewer:</strong>
+
+<em>Walk me through a time a stakeholder flatly rejected a requirement you'd written.</em>
+
+<strong>Candidate B:</strong>
+
+<em>A finance stakeholder rejected an approval workflow I'd documented because it added two steps to something her team did dozens of times a day. I hadn't accounted for volume. I went back, sat with two of her analysts for an hour, and rebuilt it around a fast path for routine cases with the extra checks only triggering above a certain threshold. She approved it the same week.</em>
+
+</div>
 
 Nothing in that second answer references a certification at all, and it is a far stronger answer, because it demonstrates the actual capability the certification was only ever meant to be a proxy for.
 
@@ -44,10 +74,10 @@ The analysts who close this gap well tend to do one thing differently while they
 
 So, the right question is not whether certifications matter. It is which certification, at which point in your career, actually closes a gap you genuinely have, rather than adding a credential to a profile that is already missing something more fundamental. Tomorrow I am breaking down the actual certification options, plainly, including who each major one is genuinely built for and who is wasting money getting it.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya | Flotog BA Insights  |  www.flotogbainsights.com
 
-*TOMORROW*
+<em>TOMORROW</em>
 
-*Decoding the Major Certifications -* *CBAP, CCBA, ECBA, PMI-PBA, and the agile certifications, explained plainly and who each one actually fits.*
+<em>Decoding the Major Certifications - CBAP, CCBA, ECBA, PMI-PBA, and the agile certifications, explained plainly and who each one actually fits.</em>

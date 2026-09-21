@@ -1,14 +1,14 @@
 ---
-title: "Stakeholder Management Mastery: The Skill That Makes or Breaks Projects        "
+title: "Why Stakeholder Management Is the Most Underrated Skill in Business Analysis"
+series: "Stakeholder Management Mastery: The Skill That Makes or Breaks Projects"
+day: 1
 description: "Let me tell you about a project that should not have failed. The scope was clear, the budget was approved, the development team was experienced, and the…"
 date: 2026-05-11T13:55:13.455Z
 cover: "/images/blog/f4dc16_cd16a12c8fdf4216bc31e60fe30ec9d2.png"
 readingTime: 6
 wixId: "95fc0183-934f-49d7-886c-be53bfb8ef5f"
 ---
-#### DAY 1: Why Stakeholder Management Is the Most Underrated Skill in Business Analysis
-
-<img src="/images/blog/f4dc16_cd16a12c8fdf4216bc31e60fe30ec9d2.png" alt="Stakeholder Management Mastery: The Skill That Makes or Breaks Projects        " width="1424" height="752" loading="lazy">
+<img src="/images/blog/f4dc16_cd16a12c8fdf4216bc31e60fe30ec9d2.png" alt="Why Stakeholder Management Is the Most Underrated Skill in Business Analysis" width="1424" height="752" loading="lazy">
 
 Let me tell you about a project that should not have failed. The scope was clear, the budget was approved, the development team was experienced, and the technology was proven. By every conventional measure of project readiness, this one had everything it needed to succeed.
 
@@ -82,8 +82,8 @@ When you hold that view, stakeholder engagement stops being a task on your proje
 
 Those are different questions. The first one is about process compliance. The second one is about outcomes. And the Business Analysts who consistently deliver outstanding results are the ones asking the second question. That is what this week is about. Let us get into it.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
-## Oluwatosin Ogunkoya
+<strong>Oluwatosin Ogunkoya</strong>
 
-*Tomorrow: Mapping Your Stakeholders. The analytical tools every BA must know, how to build a stakeholder register that actually works, and the mistakes that most BAs make with each framework.*
+<em>Tomorrow: Mapping Your Stakeholders. The analytical tools every BA must know, how to build a stakeholder register that actually works, and the mistakes that most BAs make with each framework.</em>

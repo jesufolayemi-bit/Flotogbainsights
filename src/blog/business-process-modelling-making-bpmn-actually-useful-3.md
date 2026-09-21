@@ -28,7 +28,7 @@ The before version places the approval task inside the employee's lane, alongsid
 
 The after version fixes both at once. The gateway and the approval decision now sit inside IT's lane, correctly showing who owns that call. And the denied path leads somewhere real, a notification back to the employee, rather than disappearing off the edge of the diagram. Neither fix required new symbols or more complexity. Both required actually thinking through the full range of what can happen, not just the version where everything goes smoothly.
 
-Beyond the two above, wrong granularity quietly undermines more diagrams than people realise. A task labelled '***Handle the request***' technically satisfies the rule that a task represents one piece of work, but it hides so much inside that label that the diagram stops being useful the moment someone asks what actually happens during that step. The fix from Tuesday's granularity test still applies here: could two different people read this task and describe the same action? If not, the task needs to be broken into the actual steps it is currently hiding.
+Beyond the two above, wrong granularity quietly undermines more diagrams than people realise. A task labelled '<strong><em>Handle the request</em></strong>' technically satisfies the rule that a task represents one piece of work, but it hides so much inside that label that the diagram stops being useful the moment someone asks what actually happens during that step. The fix from Tuesday's granularity test still applies here: could two different people read this task and describe the same action? If not, the task needs to be broken into the actual steps it is currently hiding.
 
 A short, repeatable check catches most of what matters here, run before a diagram goes anywhere near a stakeholder review.
 
@@ -40,10 +40,10 @@ None of these checks requires new BPMN knowledge. They require treating a first 
 
 All three mistakes covered today share something in common: they do not break the diagram's internal logic. A reviewer skimming for whether the notation is used correctly will pass a diagram with a misplaced lane or a missing exception path, because nothing about the symbols themselves is wrong. Catching these requires reading the diagram for meaning, not just for notation, asking whether it actually reflects the real situation rather than whether it follows the rules from Tuesday correctly. That shift, from checking notation to checking meaning, is most of what separates a reviewed diagram from a trustworthy one.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
-**Oluwatosin Ogunkoya**  ·  ***Flotog BA Insights  ·  1:1 mentoring and coaching for BAs at every career stage  ·***  [***www.flotogbainsights.com***](/)
+<strong>Oluwatosin Ogunkoya</strong>  ·  <strong><em>Flotog BA Insights  ·  1:1 mentoring and coaching for BAs at every career stage  ·</em></strong>  [<strong><em>www.flotogbainsights.com</em></strong>](/)
 
-*TOMORROW*
+<em>TOMORROW</em>
 
-*From Diagram to Decision -* *Closing the week: how to get a room to actually act on a process map, plus a full worked example pulling everything together.*
+<em>From Diagram to Decision - Closing the week: how to get a room to actually act on a process map, plus a full worked example pulling everything together.</em>

@@ -11,13 +11,13 @@ wixId: "9c643ac3-4b05-4066-8ce3-32c18a0fde48"
 ---
 <img src="/images/blog/f4dc16_a950f44111ea4b78ac8ad1876425400a.png" alt="The Junior Analyst: Learning to Be Useful" width="1024" height="572" loading="lazy">
 
-**A business analyst career is not one job you slowly get better at. It is four different jobs wearing the same title, and most careers stall because nobody says so out loud.** We tend to picture a career as a single climb: you start knowing a little, you learn more, you get faster and more confident, and one day you are senior. That picture is wrong in a way that quietly traps people, because it suggests the job stays the same and only your skill at it grows. It does not. At each real stage, the thing you are actually being paid for changes, and the skills that made you excellent at one stage can become the exact thing holding you back at the next. Understanding that shape early is worth more than any single technique, because it tells you what to build before you need it, instead of after you have been passed over.
+<strong>A business analyst career is not one job you slowly get better at. It is four different jobs wearing the same title, and most careers stall because nobody says so out loud.</strong> We tend to picture a career as a single climb: you start knowing a little, you learn more, you get faster and more confident, and one day you are senior. That picture is wrong in a way that quietly traps people, because it suggests the job stays the same and only your skill at it grows. It does not. At each real stage, the thing you are actually being paid for changes, and the skills that made you excellent at one stage can become the exact thing holding you back at the next. Understanding that shape early is worth more than any single technique, because it tells you what to build before you need it, instead of after you have been passed over.
 
-- So this week is a map:
-The junior BA executes: they do the defined work well and reliably.
-The senior Analyst owns: they take an ambiguous problem and figure out what needs doing.
-The lead multiplies: their value becomes the output of the whole team, not their own.
-The consultant advises: they sell judgement and perspective across many organisations rather than labour inside one.
+- So this week is a map: 
+The junior BA executes: they do the defined work well and reliably. 
+The senior Analyst owns: they take an ambiguous problem and figure out what needs doing. 
+The lead multiplies: their value becomes the output of the whole team, not their own. 
+The consultant advises: they sell judgement and perspective across many organisations rather than labour inside one. 
 Four stages, four different jobs. Marshall Goldsmith wrote a whole book on the idea that what got you here will not get you there, and nowhere is that truer than here, where each promotion asks you to let go of the very thing you just mastered. Today we start at the foundation, because how well you build it decides how high the rest can go.
 
 ## What the junior stage is really for
@@ -55,7 +55,6 @@ A few habits quietly cap people at this stage, and most of them come from trying
 
 It is tempting to rush through this stage, because it feels like the least important one, the place you are trying to leave. That is exactly why so many careers quietly cap out later: they were built on a foundation that was never quite finished. The reliability, the craft, and the deep business understanding you build now are not junior skills you outgrow. They are the base that every later stage rests on, and you can feel the difference years later between a senior who mastered the fundamentals early and one who is still, quietly, papering over gaps they skipped. The analyst who becomes truly dependable and truly skilled at the base gets trusted with more, sooner, and that head start compounds for the rest of their career. Build this stage properly, and you are not just doing the junior job well. You are setting how high the whole path can go.
 
-***Go out and be successful.***
-**Oluwatosin Ogunkoya |** **Flotog BA Insights  |**  [**www.flotogbainsights.com**](/)
+<strong><em>Go out and be successful.</em></strong> <strong>Oluwatosin Ogunkoya | Flotog BA Insights  |</strong>  [<strong>www.flotogbainsights.com</strong>](/)
 
-*Tomorrow:* *The Senior Analyst: From Executing to Owning -* *The leap from doing the work to owning the outcome, and why seniority is not years.*
+<em>Tomorrow: The Senior Analyst: From Executing to Owning - The leap from doing the work to owning the outcome, and why seniority is not years.</em>

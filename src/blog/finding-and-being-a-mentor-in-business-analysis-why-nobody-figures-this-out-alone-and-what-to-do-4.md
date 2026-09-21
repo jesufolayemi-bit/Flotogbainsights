@@ -40,12 +40,12 @@ None of this week argued that you need anyone's help to become good at this work
 
 Monday started with an admission that felt small at the time and turned out to matter more than almost anything else in my career: I asked for help before I felt ready to, and someone said yes. Whatever stage you are at right now, that same small, uncomfortable step is still available to you, and it is very likely the fastest path through whatever you are currently stuck on.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya · Flotog BA Insights
 
-**1:1 mentoring and coaching for BAs at every career stage ·** [**http://www.flotogbainsights.com/**](/)
+<strong>1:1 mentoring and coaching for BAs at every career stage ·</strong> [<strong>http://www.flotogbainsights.com/</strong>](/)
 
-*NEXT WEEK*
+<em>NEXT WEEK</em>
 
-*Business Process Modelling: Making BPMN Actually Useful -* *Turning a notation most analysts learned once and rarely use well into a genuinely useful daily tool.*
+<em>Business Process Modelling: Making BPMN Actually Useful - Turning a notation most analysts learned once and rarely use well into a genuinely useful daily tool.</em>

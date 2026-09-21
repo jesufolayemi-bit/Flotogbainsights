@@ -8,8 +8,6 @@ cover: "/images/blog/f4dc16_5ec41c25aeec42eab698bbdb2db13332.png"
 readingTime: 5
 wixId: "4d24549a-905d-428f-9452-26788cb529ee"
 ---
-**DAY 5** | **The Data Analysis Toolkit: Your Practical Reference Guide**
-
 <img src="/images/blog/f4dc16_5ec41c25aeec42eab698bbdb2db13332.png" alt="The Data Analysis Toolkit: Your Practical Reference Guide" width="2816" height="1536" loading="lazy">
 
 This is a reference guide, not an argument. It pulls together everything from this week into a single place you can return to whenever you are working with data. If you followed the series from Monday, this is the distilled version. If you are arriving here first, each section stands on its own well enough to be useful immediately.
@@ -100,8 +98,8 @@ Thank you for following this series. Data confidence is one of the skills that m
 
 Subscribe at [www.flotogbainsights.com](/) to receive next week's series directly.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya | Flotog BA Insights | www.flotogbainsights.com
 
-*Next week: a new series to build another core area of Business Analysis practice. AI for Business Analysts. What to hand to AI, what to never hand over, and why the role gets sharper rather than smaller.* [*Day*](http://smaller.Day) *1 launches Monday, 15th June 2026.*
+<em>Next week: a new series to build another core area of Business Analysis practice. AI for Business Analysts. What to hand to AI, what to never hand over, and why the role gets sharper rather than smaller.</em> [<em>Day</em>](http://smaller.Day) <em>1 launches Monday, 15th June 2026.</em>

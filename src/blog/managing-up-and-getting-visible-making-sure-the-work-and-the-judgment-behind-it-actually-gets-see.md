@@ -32,8 +32,15 @@ Closing the Awareness Gap does not mean turning every status update into a highl
 
 ## A short version of what this looks like
 
-| **CLOSING THE GAP IN ONE LINE, NOT A HIGHLIGHT REELYou:***Quick flag before our one to one, wanted you to have context rather than surprise you later. I caught an issue with the approval workflow spec before it went to development*; *it would have meant a rebuild two sprints in. Fixed it in the requirements review; no impact to timeline, just wanted it on your radar.* |
-| --- |
+<div class="callout">
+
+<strong>CLOSING THE GAP IN ONE LINE, NOT A HIGHLIGHT REEL</strong>
+
+<strong>You:</strong>
+
+<em>Quick flag before our one to one, wanted you to have context rather than surprise you later. I caught an issue with the approval workflow spec before it went to development</em>; <em>it would have meant a rebuild two sprints in. Fixed it in the requirements review; no impact to timeline, just wanted it on your radar.</em>
+
+</div>
 
 That is the entire shape of it. No performance, no exaggeration, just a specific fact your manager genuinely did not have and genuinely needed, delivered in a way that respects their limited time rather than demanding a reaction from them.
 
@@ -46,10 +53,10 @@ It is worth being concrete about the actual cost of leaving the Awareness Gap un
 - Thursday covers the harder version of this, managing up when the news is not good.
 - Friday closes with how visibility inside your organisation and visibility outside it, the brand work covered a few weeks ago, reinforce each other rather than competing for the same energy.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya | Flotog BA Insights  |  www.flotogbainsights.com
 
-*TOMORROW*
+<em>TOMORROW</em>
 
-*The Weekly Visibility Habit -* *A simple, low-effort structure for staying on your manager's radar without turning into a self-promotion machine.*
+<em>The Weekly Visibility Habit - A simple, low-effort structure for staying on your manager's radar without turning into a self-promotion machine.</em>

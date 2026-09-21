@@ -13,7 +13,7 @@ wixId: "ce0524aa-97e2-4bba-a546-a27a318ae453"
 
 The most common mistake I see in process improvement work, more common than any BPMN notation error, is skipping straight to how a process should work without ever properly mapping how it actually works right now. It feels efficient to jump straight to the redesign, especially under time pressure. It usually is not, because the current, messy version of a process almost always contains information nobody has said out loud in a meeting, and that hidden information is very often exactly what makes a redesigned process fail in practice once it gets missed.
 
-Ask most people to describe a process from memory**,** and you get the clean, intended version: submit a form, get approval, get paid. That description is not dishonest; it is simply what the process looks like from thirty thousand feet, and the workarounds, manual patches, and quiet inefficiencies that make up the real day-to-day version of the process rarely survive being described from memory. Mapping the actual current state, step by step, based on what people genuinely do rather than what they say they do, is very often where the real analysis happens.
+Ask most people to describe a process from memory<strong>,</strong> and you get the clean, intended version: submit a form, get approval, get paid. That description is not dishonest; it is simply what the process looks like from thirty thousand feet, and the workarounds, manual patches, and quiet inefficiencies that make up the real day-to-day version of the process rarely survive being described from memory. Mapping the actual current state, step by step, based on what people genuinely do rather than what they say they do, is very often where the real analysis happens.
 
 Below is a real category of process, generalised, mapped as-is exactly the way I would map it before touching any redesign at all.
 
@@ -25,8 +25,27 @@ On paper, before this map existed, the process sounded simple: submit a form, ge
 
 The specific move that finds hidden steps like the one above is asking about the handoff, not the task. Most people can describe their own task accurately. Far fewer people naturally think to describe what happens to the work right before it reaches them, or right after it leaves their hands, because that boundary belongs to nobody's job description specifically.
 
-| **ASKING ABOUT THE HANDOFF, NOT JUST THE TASKYou:***Once the manager approves the form, what actually happens to it next?***Employee:***It goes to finance, I think; they sort out the payment.***You:***Do you know what finance actually does with the paper form once they get it?***Employee:***Not really, I just know I eventually get paid.* |
-| --- |
+<div class="callout">
+
+<strong>ASKING ABOUT THE HANDOFF, NOT JUST THE TASK</strong>
+
+<strong>You:</strong>
+
+<em>Once the manager approves the form, what actually happens to it next?</em>
+
+<strong>Employee:</strong>
+
+<em>It goes to finance, I think; they sort out the payment.</em>
+
+<strong>You:</strong>
+
+<em>Do you know what finance actually does with the paper form once they get it?</em>
+
+<strong>Employee:</strong>
+
+<em>Not really, I just know I eventually get paid.</em>
+
+</div>
 
 This is exactly the point where the mapping session needs to move to whoever sits on the other side of that handoff, in this case finance, and ask the same category of question from their end. The hidden re-keying step only surfaces once someone from finance describes what they actually do when a paper form lands on their desk, which rarely comes up when you only interview the employee side of the process.
 
@@ -40,10 +59,10 @@ Tomorrow builds directly on this map, using it and several other common patterns
 
 Mapping the as-is properly does something beyond producing an accurate diagram. It builds the specific kind of credibility covered in the Difficult Stakeholders series, the credibility that comes from clearly understanding someone's actual situation before proposing anything about it. A stakeholder who watches you map their real process accurately, including the awkward manual workaround they were half embarrassed to mention, trusts your eventual recommendation far more than one who watched you skip straight to a proposed solution based on a five-minute description.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
-**Oluwatosin Ogunkoya**  ·  **Flotog BA Insights  ·  1:1 mentoring and coaching for BAs at every career stage  ·**  [**www.flotogbainsights.com**](/)
+<strong>Oluwatosin Ogunkoya</strong>  ·  <strong>Flotog BA Insights  ·  1:1 mentoring and coaching for BAs at every career stage  ·</strong>  [<strong>www.flotogbainsights.com</strong>](/)
 
-*TOMORROW*
+<em>TOMORROW</em>
 
-*The Mistakes That Quietly Make a Process Map Useless -* *Swimlane confusion, missing exception paths, and other common errors, with before-and-after fixes.*
+<em>The Mistakes That Quietly Make a Process Map Useless - Swimlane confusion, missing exception paths, and other common errors, with before-and-after fixes.</em>

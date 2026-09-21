@@ -30,6 +30,6 @@ If you have not already, start the weekly Friday habit from earlier this week th
 
 It is tempting to treat internal visibility as the safe, sensible choice and external visibility as the optional, slightly indulgent one, or the reverse, treating a public presence as the real career move and internal reporting as busywork. Both framings miss the actual point of this week. An analyst who is deeply trusted inside one organisation but invisible everywhere else has built something real, but something that depends entirely on that one organisation continuing to be the right fit. An analyst with a strong public presence but a thin relationship with their own manager has built something real too, but something that is not yet earning them what it could inside the room where their day to day career actually gets decided. Building both is not extra effort layered on top of the actual work. It is the same habit of noticing, aimed properly at the two places that decide what happens next.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya | Flotog BA Insights  |  www.flotogbainsights.com

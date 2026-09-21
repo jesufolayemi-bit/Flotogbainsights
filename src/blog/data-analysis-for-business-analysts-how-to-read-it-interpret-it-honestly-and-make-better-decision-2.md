@@ -8,11 +8,9 @@ cover: "/images/blog/f4dc16_06c091f8588844d09d1ced5a06d2fe67.png"
 readingTime: 6
 wixId: "d73ece85-14a1-4788-beba-cf51ded066ff"
 ---
-**DAY 3** | **Interpreting Data Honestly: Avoiding the Traps That Mislead**
-
 <img src="/images/blog/f4dc16_06c091f8588844d09d1ced5a06d2fe67.png" alt="Interpreting Data Honestly: Avoiding the Traps That Mislead" width="1424" height="736" loading="lazy">
 
-**Here is a single fact about a business, presented two ways.**
+<strong>Here is a single fact about a business, presented two ways.</strong>
 
 - Version one: customer complaints rose by 40% last quarter. A serious problem that demands attention.
 - Version two: customer complaints rose from 10 to 14 last quarter, against a total of 50,000 transactions. A negligible change well within normal variation.
@@ -64,8 +62,8 @@ In most organisations, almost everyone who presents data has a stake in the conc
 
 The BA who builds a reputation as an honest broker of data becomes something rare and valuable in an organisation: a trusted source of interpretation that people rely on precisely because they know it is not bent toward a predetermined answer. That reputation is one of the most powerful professional assets a Business Analyst can have.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya | Flotog BA Insights | www.flotogbainsights.com
 
-*Tomorrow: From Data to Decision. How to turn numbers into analytical judgement, how to present data so it informs rather than manipulates, and how to build a recommendation that data genuinely supports.*
+<em>Tomorrow: From Data to Decision. How to turn numbers into analytical judgement, how to present data so it informs rather than manipulates, and how to build a recommendation that data genuinely supports.</em>

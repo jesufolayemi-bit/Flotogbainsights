@@ -12,17 +12,17 @@ wixId: "1d6b6c5f-4700-46a3-acf2-29c8bf0e26ab"
 
 Yesterday I drew one line: artefact versus accountability. Today I want to make it practical, starting with the side you can give away. Most analysts are carrying work they do not need to carry. It feels like the job because it has always been the job. But a lot of it is scaffolding, not skill, and scaffolding is exactly what AI is built for.
 
-I want to name the feeling that comes up here, because it stopped me for a while. There is a quiet pride in doing the whole thing yourself. It feels like craft. But pride in the wrong place is expensive, and a lot of what we do by hand out of habit is not craft at all. It is just time spent. Here is the test I use. ***If a task mostly turns information you already have into a tidier shape, and a competent stranger could check the result in minutes, it belongs on the safe list.*** ***If the task requires you to decide what is true, what matters, or who to trust, it does not. Keep that question in your head as you read.***
+I want to name the feeling that comes up here, because it stopped me for a while. There is a quiet pride in doing the whole thing yourself. It feels like craft. But pride in the wrong place is expensive, and a lot of what we do by hand out of habit is not craft at all. It is just time spent. Here is the test I use. <strong><em>If a task mostly turns information you already have into a tidier shape, and a competent stranger could check the result in minutes, it belongs on the safe list.</em></strong> <strong><em>If the task requires you to decide what is true, what matters, or who to trust, it does not. Keep that question in your head as you read.</em></strong>
 
 ## The safe list
 
-1. **First drafts of documentation.** Not the final word, the rough clay. Give the tool your notes and a structure, and let it produce a first pass you then shape. Starting from a blank page is the slowest part of writing, and it uses none of your real skill. Start from a draft instead and spend your energy on what the draft gets wrong.
-2. **Summarising long inputs**. Workshop recordings, call transcripts, sprawling email threads, sixty-page vendor responses. AI is strong at pulling the shape of a long document into something you can scan in two minutes. You still read for what it missed, but it gets you to the real reading much faster.
-3. **Reformatting and restructuring**. Turning a messy list into a table. Converting requirements into a consistent template. Rewriting a paragraph into plain language for a non-technical audience. This is mechanical reshaping of content you have already decided on, and it eats hours when you do it by hand.
-4. **Generating first-pass test cases and acceptance criteria**. Hand the tool a user story and ask for the obvious scenarios. It will give you the standard happy path and the common edge cases quickly. Your job is to add the strange, project-specific cases it could never know about, but the routine 90% is a fine starting point.
-5. **Initial data exploration**. Ask it to describe a dataset, suggest what to check, or sketch the questions worth asking. It will not understand your business, but it will save you the setup time of working out where to point your attention.
-6. **Naming and wording options**. Stuck on a heading, a field label, a way to phrase a tricky sentence in a stakeholder email? Ask for ten options and pick the one closest to right. Low stakes, fast, genuinely useful.
-7. **Drafting questions for discovery.** Before a workshop, ask it to generate the questions a thorough analyst would ask about a process. You will know your context better, but it is a good prompt against your own blind spots.
+1. <strong>First drafts of documentation.</strong> Not the final word, the rough clay. Give the tool your notes and a structure, and let it produce a first pass you then shape. Starting from a blank page is the slowest part of writing, and it uses none of your real skill. Start from a draft instead and spend your energy on what the draft gets wrong.
+2. <strong>Summarising long inputs</strong>. Workshop recordings, call transcripts, sprawling email threads, sixty-page vendor responses. AI is strong at pulling the shape of a long document into something you can scan in two minutes. You still read for what it missed, but it gets you to the real reading much faster.
+3. <strong>Reformatting and restructuring</strong>. Turning a messy list into a table. Converting requirements into a consistent template. Rewriting a paragraph into plain language for a non-technical audience. This is mechanical reshaping of content you have already decided on, and it eats hours when you do it by hand.
+4. <strong>Generating first-pass test cases and acceptance criteria</strong>. Hand the tool a user story and ask for the obvious scenarios. It will give you the standard happy path and the common edge cases quickly. Your job is to add the strange, project-specific cases it could never know about, but the routine 90% is a fine starting point.
+5. <strong>Initial data exploration</strong>. Ask it to describe a dataset, suggest what to check, or sketch the questions worth asking. It will not understand your business, but it will save you the setup time of working out where to point your attention.
+6. <strong>Naming and wording options</strong>. Stuck on a heading, a field label, a way to phrase a tricky sentence in a stakeholder email? Ask for ten options and pick the one closest to right. Low stakes, fast, genuinely useful.
+7. <strong>Drafting questions for discovery.</strong> Before a workshop, ask it to generate the questions a thorough analyst would ask about a process. You will know your context better, but it is a good prompt against your own blind spots.
 
 Notice the shape of this list. Every item takes existing information and turns it into something more useful. None of them asks the tool to decide anything that matters. That is not an accident. That is the test doing its work. When you hold a task up against it, the safe ones almost sort themselves.
 
@@ -42,12 +42,12 @@ A simple habit makes this safe. Never send AI output onward without reading ever
 
 Look at your calendar for the past week. Find the single task that took the most time and used the least judgment. That is almost certainly your first safe-list candidate. Run it through a tool once, properly. Give it good input, take the draft, and finish it by hand. Time both the old way and the new way. The gap will tell you, more convincingly than I can, how much of your week you have been spending on scaffolding. Do this honestly, and the result usually surprises people. The task you dreaded most, the one you kept pushing to Friday afternoon, is often the one that frees the most time the moment you stop doing it by hand. Start there. The momentum from one good handoff makes the next one easier.
 
-**Tomorrow we cross the line. We look at what must never go on this list, no matter how good the tools become, because that is where your real value lives.**
+<strong>Tomorrow we cross the line. We look at what must never go on this list, no matter how good the tools become, because that is where your real value lives.</strong>
 
-*Go out and be successful.*
+<em>Go out and be successful.</em>
 
 ## Oluwatosin Ogunkoya  |  Flotog BA Insights  |  www.flotogbainsights.com
 
-*TOMORROW:*  *What to Never Hand Over*
+<em>TOMORROW:  What to Never Hand Over</em>
 
-*The parts of the role that must stay in your hands no matter how good the tools get, and why they are about to be worth far more than they were.*
+<em>The parts of the role that must stay in your hands no matter how good the tools get, and why they are about to be worth far more than they were.</em>

@@ -1,5 +1,5 @@
 ---
-title: "Waterfall vs Agile: The Honest Comparison                                                                                                       "
+title: "Waterfall vs Agile: The Honest Comparison"
 description: "Over the past two days, we have examined Waterfall and Agile on their own terms, their phases, their BA deliverables, their strengths, their failure points…"
 date: 2026-05-06T13:51:35.447Z
 cover: "/images/blog/f4dc16_1d792bd5f60f447da41789b9bd795253.png"
@@ -8,7 +8,7 @@ wixId: "71a9fec1-4781-46e8-9943-4967b54a08a7"
 ---
 ## Eight real dimensions. No tribalism. Just analysis
 
-<img src="/images/blog/f4dc16_0662edabcf0c4e649a60e377ac45083f.png" alt="Waterfall vs Agile: The Honest Comparison                                                                                                       " width="2848" height="1504" loading="lazy">
+<img src="/images/blog/f4dc16_0662edabcf0c4e649a60e377ac45083f.png" alt="Waterfall vs Agile: The Honest Comparison" width="2848" height="1504" loading="lazy">
 
 Over the past two days, we have examined Waterfall and Agile on their own terms, their phases, their BA deliverables, their strengths, their failure points, and the real-world scenarios where each one earns its place. Today, we put them side by side.
 
@@ -18,7 +18,7 @@ But I want to do this differently from the standard methodology comparison table
 
 Before the framework, a critical observation: the methodology debate is consistently distorted by a framing error that affects practitioners on both sides.
 
-Agile advocates compare the best possible Agile implementation: responsive, collaborative, iterative, value-driven,  against a caricature of Waterfall: a slow, bureaucratic, change-resistant process that delivers the wrong thing eighteen months late. Waterfall advocates compare the best possible Waterfall implementation: rigorous, documented, predictable, audit-ready, against a caricature of Agile: chaotic, under-documented, scope-unstable, and lacking in the discipline needed for serious delivery.
+Agile advocates compare the best possible Agile implementation: responsive, collaborative, iterative, value-driven, against a caricature of Waterfall: a slow, bureaucratic, change-resistant process that delivers the wrong thing eighteen months late. Waterfall advocates compare the best possible Waterfall implementation: rigorous, documented, predictable, audit-ready, against a caricature of Agile: chaotic, under-documented, scope-unstable, and lacking in the discipline needed for serious delivery.
 
 Neither comparison is analytically honest. A poorly run Agile project with weak BA involvement and an undisciplined backlog is not a success story. A well-run Waterfall project with experienced BAs, thorough elicitation, and strong stakeholder alignment is not a failure waiting to happen.
 
@@ -32,7 +32,7 @@ Waterfall is optimised for environments where requirements can be fully defined 
 
 Agile is designed for environments where requirements are expected to evolve. Its iterative structure is built on the premise that users do not fully know what they need until they see something working, and that the most valuable requirements information is gathered from interaction with working software, not from workshop elicitation.
 
-The practical question for the BA is not '*which is better*' but '*how stable are the requirements likely to be on this specific project, and which methodology better serves that reality?*'
+The practical question for the BA is not '<em>which is better</em>' but '<em>how stable are the requirements likely to be on this specific project, and which methodology better serves that reality?</em>'
 
 ## 2. Stakeholder Availability and Engagement Model
 
@@ -52,7 +52,7 @@ In regulated industries, government programmes, and environments with formal aud
 
 ## 4. Risk Profile and Discovery Timing
 
-In Waterfall, the primary risk is late discovery of misalignment. If requirements were poorly elicited, if stakeholders change their minds, or if the business context shifts mid-project, the consequences are felt in testing or,  worse, in post-deployment. The cost of fixing a requirements error in UAT is estimated to be 10 times that of fixing it during elicitation.
+In Waterfall, the primary risk is late discovery of misalignment. If requirements were poorly elicited, if stakeholders change their minds, or if the business context shifts mid-project, the consequences are felt in testing or, worse, in post-deployment. The cost of fixing a requirements error in UAT is estimated to be 10 times that of fixing it during elicitation.
 
 In Agile, risks are distributed across the sprint cycle. Because working software is demonstrated to stakeholders every sprint, misalignment is discovered early and corrected cheaply. The risk model is one of many small course corrections rather than one large final reckoning.
 
@@ -96,8 +96,8 @@ When you face a methodology decision on a new project or programme, these four q
 
 In practice, the answer for most complex projects sits in the space between the two methodologies, which is exactly where tomorrow's content begins.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
-## Oluwatosin Ogunkoya
+<strong>Oluwatosin Ogunkoya</strong>
 
-*Tomorrow: The Hybrid Model -  a full deep-dive into what blending actually means, how to structure it, and what the BA's toolkit looks like in a hybrid delivery environment.*
+<em>Tomorrow: The Hybrid Model - a full deep-dive into what blending actually means, how to structure it, and what the BA's toolkit looks like in a hybrid delivery environment.</em>

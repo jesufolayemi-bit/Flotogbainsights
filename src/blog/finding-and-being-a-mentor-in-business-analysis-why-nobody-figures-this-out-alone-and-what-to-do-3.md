@@ -11,7 +11,7 @@ wixId: "d09bd707-a675-4934-84ba-295261322ad0"
 ---
 <img src="/images/blog/f4dc16_9950f6f4c1ea42c4b4a4452d3e0f0a99.png" alt="Being a Mentee Worth Investing In" width="1024" height="572" loading="lazy">
 
-***Getting a mentor to say yes to one conversation is the easy part, once you have actually asked. Keeping that relationship alive and worthwhile for years is a completely different skill, and it is one almost nobody is taught explicitly.***
+<strong><em>Getting a mentor to say yes to one conversation is the easy part, once you have actually asked. Keeping that relationship alive and worthwhile for years is a completely different skill, and it is one almost nobody is taught explicitly.</em></strong>
 
 I have mentored many people into this field now, and I have watched a predictable pattern in the relationships that quietly fade after a promising start. It is rarely a falling out or a bad conversation. It is simply that the mentee stopped closing the loop, and the relationship slowly ran out of the thing that made it worth continuing from the mentor's side.
 
@@ -25,8 +25,15 @@ A mentor's time is finite and given freely, usually without any formal obligatio
 
 ## What this looks like in practice
 
-| **CLOSING THE LOOP WELLYou:***Wanted to follow up on the deadline conversation we talked through last month. I used the framing you suggested, stating the fact first before the context, and it landed a lot better than I expected. The stakeholder actually thanked me for flagging it early. Really appreciated the steer; wanted you to know it helped.* |
-| --- |
+<div class="callout">
+
+<strong>CLOSING THE LOOP WELL</strong>
+
+<strong>You:</strong>
+
+<em>Wanted to follow up on the deadline conversation we talked through last month. I used the framing you suggested, stating the fact first before the context, and it landed a lot better than I expected. The stakeholder actually thanked me for flagging it early. Really appreciated the steer; wanted you to know it helped.</em>
+
+</div>
 
 That message takes under a minute to send and does an enormous amount of quiet work. It tells the mentor their time mattered, gives them a real result to calibrate against, and makes the next ask for advice feel like a continuation of something working, rather than starting cold each time.
 
@@ -48,12 +55,12 @@ The analysts I have mentored the longest are not the ones who asked the most pol
 
 To place some balance, everything in this article describes being a good mentee, but the same discipline matters if you are the one further along, currently mentoring someone else. Following up on whether your own advice was tried, rather than assuming it landed, closes the loop from your side too, and it models exactly the behaviour worth asking for in return. The best mentoring relationships I have been part of, on either end, had both people treating the exchange as genuinely two-directional, not a service one person provides, and the other simply receives.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya · Flotog BA Insights ·
 
-**1:1 mentoring and coaching for BAs at every career stage ·** [**http://www.flotogbainsights.com/**](/)
+<strong>1:1 mentoring and coaching for BAs at every career stage ·</strong> [<strong>http://www.flotogbainsights.com/</strong>](/)
 
-*TOMORROW*
+<em>TOMORROW</em>
 
-*When You've Outgrown Informal Mentorship -* *The honest line between a helpful coffee chat and needing something more structured and consistent.*
+<em>When You've Outgrown Informal Mentorship - The honest line between a helpful coffee chat and needing something more structured and consistent.</em>

@@ -10,7 +10,7 @@ wixId: "0fee1dc4-b341-425d-9007-e22b3999280f"
 ---
 <img src="/images/blog/f4dc16_235efe146ad144a2aef579ea1edd42dd.png" alt="Why having no authority is not the handicap it looks like" width="1024" height="572" loading="lazy">
 
-**I have never once been able to make anyone do anything.** I mean that literally. Across a long career as a business analyst, I have never had a person report to me on a project. I have never signed off on a budget or approved a hire. If I want a developer to build something a particular way, I cannot tell them to. If I want a director to back a decision, I cannot order it. By every measure the org chart cares about, I have no power. And the job, the actual job, is to change what an entire organisation chooses to build. For years, I treated this as the hard part. I thought the people with real titles had it easy, that they could simply decide and have it done, while I had to persuade my way through every conversation. It took me a long time to see that I had it backwards. Having no authority was not the obstacle. It was the thing that forced me to learn the skill that actually matters, the one that keeps working long after any particular title has been handed back.
+<strong>I have never once been able to make anyone do anything.</strong> I mean that literally. Across a long career as a business analyst, I have never had a person report to me on a project. I have never signed off on a budget or approved a hire. If I want a developer to build something a particular way, I cannot tell them to. If I want a director to back a decision, I cannot order it. By every measure the org chart cares about, I have no power. And the job, the actual job, is to change what an entire organisation chooses to build. For years, I treated this as the hard part. I thought the people with real titles had it easy, that they could simply decide and have it done, while I had to persuade my way through every conversation. It took me a long time to see that I had it backwards. Having no authority was not the obstacle. It was the thing that forced me to learn the skill that actually matters, the one that keeps working long after any particular title has been handed back.
 
 ## Responsibility without power is the normal condition now
 
@@ -20,21 +20,21 @@ We have spent a century telling a story about leadership in which the leader sta
 
 ## A map of what you actually have: the six bases of power
 
-In 1959, two social psychologists, John French and Bertram Raven, mapped where power in organisations really comes from, and the map has held up for more than sixty years. They found that influence flows from six sources, and the distinction between them is the most useful thing you can understand about your own position. Three of the six are ***positional,* handed to you by the role you occupy.
+In 1959, two social psychologists, John French and Bertram Raven, mapped where power in organisations really comes from, and the map has held up for more than sixty years. They found that influence flows from six sources, and the distinction between them is the most useful thing you can understand about your own position. Three of the six are <strong><em>positional</em></strong><em>,</em> handed to you by the role you occupy.
 
 - Legitimate power is the plain authority of the title.
 - Reward power is your control over things people want, like money, promotion or recognition.
 - Coercive power is your ability to punish.
 
-These three come with the chair, and they vanish the moment you leave it. The other three are ***personal***, attached to you rather than to the chair.
+These three come with the chair, and they vanish the moment you leave it. The other three are <strong><em>personal</em></strong>, attached to you rather than to the chair.
 
 - Expert power is the influence that comes from people trusting your knowledge and judgement.
 - Referent power is the pull you have when people respect you, like working with you, and care about your opinion.
 - Informational power is holding knowledge that others need.
 
-Here is why this matters more than any pep talk about confidence. The positional kinds are exactly the ones most of us do not have. But the two that travel between jobs and grow over a whole career, ***expert and referent power***, are fully available to someone with no title at all. Every hour spent wishing for legitimate power is an hour not spent building the two forms that would actually serve you for the next twenty years.
+Here is why this matters more than any pep talk about confidence. The positional kinds are exactly the ones most of us do not have. But the two that travel between jobs and grow over a whole career, <strong><em>expert and referent power</em></strong>, are fully available to someone with no title at all. Every hour spent wishing for legitimate power is an hour not spent building the two forms that would actually serve you for the next twenty years.
 
-**Authority is borrowed. Influence is earned.**
+<strong>Authority is borrowed. Influence is earned.</strong>
 
 This is the distinction underneath the framework, and it changed how I work. Authority is something the organisation lends you. It comes with the role, it works because people fear the consequences of ignoring it, and it disappears the moment you leave the role. Authority is rented. It is real, but it is shallow, and people comply with it without believing in it.
 
@@ -67,10 +67,10 @@ Having no authority is an advantage because it forces you to earn agreement hone
 
 Influence without authority rests on three things, and each gets its own day this week: getting heard, building trust, and moving the decision when you cannot cast the deciding vote. For today, just sit with the reframe. You may have less authority than you would like. Almost everyone does. But authority was never the thing that moved people anyway.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya | Flotog BA Insights  |  www.flotogbainsights.com
 
-*Tomorrow:* *Why Smart People Get Ignored*
+<em>Tomorrow: Why Smart People Get Ignored</em>
 
-*The best idea in the room is worthless if it never lands. How to be heard.*
+<em>The best idea in the room is worthless if it never lands. How to be heard.</em>

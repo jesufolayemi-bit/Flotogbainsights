@@ -10,7 +10,7 @@ wixId: "609b5b43-625b-49e9-b0db-3993b8cc0023"
 ---
 <img src="/images/blog/f4dc16_ae03bc5baae64eb4aba6b23c7eaee7a0.png" alt="How the way you state a problem controls the answers you can see" width="2752" height="1536" loading="lazy">
 
-**The frame you put around a problem decides, before anyone says a word about solutions, which solutions are even thinkable.** This is the most powerful idea in the week and the least noticed, because framing happens so early and so quietly that it feels like description rather than choice. When you state a problem, you are not just reporting it. You are drawing a boundary around it, deciding what is inside and what is out, what counts as the problem and what counts as background. Every solution you go on to find will live inside that boundary. Get the frame right and good answers appear almost on their own. Get it wrong, and you can be brilliant and hardworking and still trapped, generating clever solutions to a problem that was never worth solving in that shape.
+<strong>The frame you put around a problem decides, before anyone says a word about solutions, which solutions are even thinkable.</strong> This is the most powerful idea in the week and the least noticed, because framing happens so early and so quietly that it feels like description rather than choice. When you state a problem, you are not just reporting it. You are drawing a boundary around it, deciding what is inside and what is out, what counts as the problem and what counts as background. Every solution you go on to find will live inside that boundary. Get the frame right and good answers appear almost on their own. Get it wrong, and you can be brilliant and hardworking and still trapped, generating clever solutions to a problem that was never worth solving in that shape.
 
 The hard part is that a bad frame does not announce itself. It feels completely natural, because it is usually the first and most obvious way to describe the situation. Yesterday, we worked on catching bias in how you judge. Today is about catching it one step earlier, in how you state the problem in the first place, because a biased frame quietly poisons every good decision that follows it.
 
@@ -28,11 +28,11 @@ Kahneman and Tversky showed that the same facts, described two ways, lead people
 
 One of the most useful reframes is to move from the thing someone is missing to the outcome they actually want. Theodore Levitt, the marketing professor, put it in a line that has lasted for decades: people do not want a quarter-inch drill; they want a quarter-inch hole. Framed as if they need a drill, you sell drills. Framed as if they need a hole, you might sell drills, or a cutting service, or a product that arrives with the holes already made. The frame around the outcome contains the frame around the object, and it holds far more possible answers. Whenever a problem is stated as the lack of a specific thing, a new system, another report, or more training, restate it as the outcome that thing was meant to produce, and watch how many more doors open.
 
-**How high should you frame it?**
+<strong>How high should you frame it?</strong>
 
 Every problem can be stated at different altitudes, and the altitude you pick changes what counts as a solution. Frame it too low, and you solve a symptom. Frame it too high, and it becomes so abstract that no concrete action fits. A team asked to fix a broken export button can frame it as this button fails, or as users cannot get their data out, or as we do not give people control of their own information. Each is a true statement of the same underlying problem at a different height. The lowest fixes one button. The highest could reshape a product. The skill is choosing the altitude that is high enough to open better options than the obvious one, but low enough that you can still act on it this quarter.
 
-A simple way to find the right height is to move up and down on purpose. From any problem, ask "***why does that matter***" to climb up a level, and ask "***what would that look like in practice***" to climb down one. Do this two or three times in each direction, and you can see the whole ladder, then pick the rung where the good, affordable solutions live. Most teams never climb at all. They solve the problem at exactly the height it was handed to them, which is rarely the most useful one.
+A simple way to find the right height is to move up and down on purpose. From any problem, ask "<strong><em>why does that matter</em></strong>" to climb up a level, and ask "<strong><em>what would that look like in practice</em></strong>" to climb down one. Do this two or three times in each direction, and you can see the whole ladder, then pick the rung where the good, affordable solutions live. Most teams never climb at all. They solve the problem at exactly the height it was handed to them, which is rarely the most useful one.
 
 ## How to reframe a stuck problem
 
@@ -58,7 +58,6 @@ Most framing failures come from never realising a frame was chosen at all.
 
 Watch for it the next time a group is stuck and every option on the table is expensive and unappealing. That is the signal, right there in the room, that everyone has quietly accepted one frame and is now competing inside it. The move is to say, gently, "Before we choose between these, can we state the problem a different way?", and then to offer one. Half the time, the room exhales because someone has finally named the box they were all thinking inside. Do that once, successfully, and you will never again reach for a solution before checking the frame it sits in, because you will have felt how much cheaper and better the answers get when the frame is right.
 
-***Go out and be successful.***
-**Oluwatosin Ogunkoya |** **Flotog BA Insights  |**  [**www.flotogbainsights.com**](/)
+<strong><em>Go out and be successful.</em></strong> <strong>Oluwatosin Ogunkoya | Flotog BA Insights  |</strong>  [<strong>www.flotogbainsights.com</strong>](/)
 
-*Tomorrow:* *How Do We Know?* *Testing the assumptions and evidence sitting underneath a conclusion everyone is sure of.*
+<em>Tomorrow: How Do We Know? Testing the assumptions and evidence sitting underneath a conclusion everyone is sure of.</em>

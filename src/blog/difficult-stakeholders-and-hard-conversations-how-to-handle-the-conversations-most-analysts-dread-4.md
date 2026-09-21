@@ -10,7 +10,7 @@ wixId: "f05b1866-02c3-4ac9-aaac-2223fdf45e30"
 ---
 <img src="/images/blog/f4dc16_395c4341806f4e72bfd4a462d2dc463d.png" alt="When to Escalate, and How to Do It Without Burning Bridges" width="1024" height="572" loading="lazy">
 
-**For years I treated escalation as something close to an admission of failure, as if needing to bring in a manager meant I had not been good enough at the conversation myself.** That belief cost me real time on at least one project, where I sat on a genuinely blocked decision for three weeks, cycling through every technique I had, while the actual fix was a single, well-framed escalation that would have unblocked it within days. Escalation is not a failure of skill. It is a tool, with a correct time to use it and a correct way to shape it, the same as everything else covered this week.
+<strong>For years I treated escalation as something close to an admission of failure, as if needing to bring in a manager meant I had not been good enough at the conversation myself.</strong> That belief cost me real time on at least one project, where I sat on a genuinely blocked decision for three weeks, cycling through every technique I had, while the actual fix was a single, well-framed escalation that would have unblocked it within days. Escalation is not a failure of skill. It is a tool, with a correct time to use it and a correct way to shape it, the same as everything else covered this week.
 
 ## The decision framework: when
 
@@ -26,9 +26,19 @@ If only one or two of those are true, it is usually worth one more direct conver
 
 The shape of the escalation matters as much as the timing. A complaint about the person invites your manager into a personality conflict, which is unpleasant for everyone and rarely resolves the actual blocker. A decision request invites them into a specific choice, which is a conversation they can actually act on quickly.
 
-| **ESCALATION, FRAMED AS A COMPLAINT (AVOID THIS)**"I've been trying to get sign-off from \[stakeholder\] for three weeks, and they keep pushing back on everything. I don't know what else to do." |
-| --- |
-| **ESCALATION, FRAMED AS A DECISION REQUEST (USE THIS)You:***I need a decision on the approval workflow by Friday to hold the release date. I've proposed two options to \[stakeholder\] over the last three weeks, and we haven't been able to land on one, mainly around the audit risk of the self-approval step. Could the three of us spend fifteen minutes together this week to close it out, or would you rather make the call directly?* |
+<div class="callout">
+
+<strong>ESCALATION, FRAMED AS A COMPLAINT (AVOID THIS)</strong>
+
+"I've been trying to get sign-off from \[stakeholder\] for three weeks, and they keep pushing back on everything. I don't know what else to do."
+
+<strong>ESCALATION, FRAMED AS A DECISION REQUEST (USE THIS)</strong>
+
+<strong>You:</strong>
+
+<em>I need a decision on the approval workflow by Friday to hold the release date. I've proposed two options to \[stakeholder\] over the last three weeks, and we haven't been able to land on one, mainly around the audit risk of the self-approval step. Could the three of us spend fifteen minutes together this week to close it out, or would you rather make the call directly?</em>
+
+</div>
 
 The second version gives your manager something concrete to do in under a minute of reading, and it does not require them to take a side against the stakeholder, only to help close a specific open decision. This preserves the relationship with the stakeholder far better than a complaint ever would, because nothing said about them was personal; only the decision was named.
 
@@ -36,8 +46,15 @@ The second version gives your manager something concrete to do in under a minute
 
 The fastest way to turn a reasonable escalation into a damaged relationship is for the stakeholder to find out about it secondhand. A short heads up beforehand costs you nothing and protects the relationship far more than the escalation itself risks it.
 
-| **THE HEADS UPYou:***I want to be upfront that I'm planning to bring \[manager\] in to help us land a final decision on this by Friday, since we're both under time pressure now. I'll frame it as needing a decision, not as a complaint about you, and I wanted you to hear that from me directly first.* |
-| --- |
+<div class="callout">
+
+<strong>THE HEADS UP</strong>
+
+<strong>You:</strong>
+
+<em>I want to be upfront that I'm planning to bring \[manager\] in to help us land a final decision on this by Friday, since we're both under time pressure now. I'll frame it as needing a decision, not as a complaint about you, and I wanted you to hear that from me directly first.</em>
+
+</div>
 
 Most stakeholders respond well to this, even when they are not thrilled about the escalation itself, because it treats them as a colleague rather than an obstacle being routed around.
 
@@ -45,12 +62,19 @@ Most stakeholders respond well to this, even when they are not thrilled about th
 
 The relationship damage from escalation, when it happens, almost never comes from the escalation itself. It comes from what happens afterwards, when the stakeholder is left to find out the outcome secondhand or feels like the decision was made about them rather than with them. Close the loop directly and quickly, regardless of which way the decision went.
 
-| **CLOSING THE LOOP AFTER THE DECISIONYou:***Wanted to follow up directly rather than let this sit. We landed on going with the phased rollout starting next week. I know that's not exactly where you'd have taken it, and I appreciate you working through it with us. Anything you need from me to make the transition easier on your side?* |
-| --- |
+<div class="callout">
+
+<strong>CLOSING THE LOOP AFTER THE DECISION</strong>
+
+<strong>You:</strong>
+
+<em>Wanted to follow up directly rather than let this sit. We landed on going with the phased rollout starting next week. I know that's not exactly where you'd have taken it, and I appreciate you working through it with us. Anything you need from me to make the transition easier on your side?</em>
+
+</div>
 
 This single message, sent within a day of the decision, does more to preserve the relationship than almost anything said during the escalation itself. It signals that the stakeholder is still a partner in what happens next, not a party who lost an argument.
 
-Sometimes, even with the best framing, an escalation still stings, particularly if the stakeholder feels it was premature or that a direct conversation could have solved it without involving anyone else. If you sense that afterwards, address it directly rather than letting it quietly settle into the relationship. A short, honest acknowledgement, something close to '***I know bringing this to a decision point felt sudden, and I want to make sure we're still solid. Is there anything I should have done differently?***' costs very little and tends to recover trust faster than simply moving on and hoping it fades.
+Sometimes, even with the best framing, an escalation still stings, particularly if the stakeholder feels it was premature or that a direct conversation could have solved it without involving anyone else. If you sense that afterwards, address it directly rather than letting it quietly settle into the relationship. A short, honest acknowledgement, something close to '<strong><em>I know bringing this to a decision point felt sudden, and I want to make sure we're still solid. Is there anything I should have done differently?</em></strong>' costs very little and tends to recover trust faster than simply moving on and hoping it fades.
 
 ## A Run-through of This week's Discussion
 

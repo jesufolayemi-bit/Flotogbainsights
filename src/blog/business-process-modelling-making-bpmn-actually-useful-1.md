@@ -17,7 +17,7 @@ The full BPMN specification runs to dozens of event types, gateway variations, a
 
 <img src="/images/blog/f4dc16_3591a348a50c472898a93ed81184d9a6.png" alt="The Handful of Symbols That Do Almost All the Work" width="969" height="513" loading="lazy">
 
-*The handful of symbols that do almost all the real work.*
+<em>The handful of symbols that do almost all the real work.</em>
 
 ## Start and end events: the boundary of the process
 
@@ -30,7 +30,7 @@ This sounds obvious, and it is the single most common thing missing from real di
 
 A task, drawn as a rounded rectangle, represents one person or system doing one identifiable piece of work. The discipline that matters here is granularity. A task labelled 'Process the order' is almost always hiding three or four real steps inside it, and a reader cannot tell from that label whether the process actually works. A task labelled 'Check inventory availability' is specific enough to mean something on its own.
 
-A useful test: ***could two different people read this task label and describe the same action?*** If the label is vague enough that two people might picture different things happening, the granularity is probably wrong.
+A useful test: <strong><em>could two different people read this task label and describe the same action?</em></strong> If the label is vague enough that two people might picture different things happening, the granularity is probably wrong.
 
 ## The exclusive gateway: where a real decision lives
 
@@ -76,12 +76,12 @@ Notice what is not on this diagram. No timer showing how long the coffee takes t
 
 Before moving on to Wednesday, try mapping one small process from your own day using only these six symbols, the same way the coffee example above does. Submitting a timesheet, approving a small purchase, checking a package in at reception, anything with a genuine start, a genuine end, and at least one real decision in the middle. The goal is not accuracy or completeness. It is building the physical habit of reaching for a start event, a handful of tasks, one gateway, and an end event, before your instinct has a chance to reach for anything more complicated than that.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
-**Oluwatosin Ogunkoya**  ·
+<strong>Oluwatosin Ogunkoya</strong>  ·
 
 Flotog BA Insights  ·  1:1 mentoring and coaching for BAs at every career stage  · [www.flotogbainsights.com](/)
 
-*TOMORROW*
+<em>TOMORROW</em>
 
-*Map the As-Is Before You Touch the To-Be -* *A fully worked example of mapping a current, messy process, and what it surfaces that nobody had said out loud.*
+<em>Map the As-Is Before You Touch the To-Be - A fully worked example of mapping a current, messy process, and what it surfaces that nobody had said out loud.</em>

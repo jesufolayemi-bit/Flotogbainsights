@@ -10,21 +10,21 @@ wixId: "584b94ab-bc3f-41cb-a4f9-32aaab1fd9a0"
 ---
 <img src="/images/blog/f4dc16_7fe0588dee6048008d38370a92eeae11.png" alt="Why capable, experienced people get confidently wrong" width="1024" height="572" loading="lazy">
 
-**You cannot think your way out of a bias you do not believe you have. That is what makes bias the hardest problem in this whole series, and the right place to begin.**
+<strong>You cannot think your way out of a bias you do not believe you have. That is what makes bias the hardest problem in this whole series, and the right place to begin.</strong>
 
-We tend to imagine that clear thinking is something you either have or you do not, and that careful, intelligent people mostly have it. The uncomfortable truth is that intelligence offers almost no protection. The mind runs a set of fast, automatic shortcuts that were useful for surviving on a savannah and are quietly unreliable in a requirements workshop. These shortcuts do not feel like shortcuts. They feel like seeing clearly. And the more experienced you are, the more confidently they fire, because your pattern recognition is faster and your certainty arrives sooner. Daniel Kahneman spent a career studying this and described two systems in the mind. ***One is fast, intuitive and effortless, and it produces most of your snap judgements. The other is slow, deliberate and lazy, and it only engages when you make it.*** Nearly every bias in this piece is the fast system answering a hard question with an easy one while the slow system dozes. You cannot switch the fast system off. But you can learn to notice when a decision deserves the slow one, and that noticing is most of the skill.
+We tend to imagine that clear thinking is something you either have or you do not, and that careful, intelligent people mostly have it. The uncomfortable truth is that intelligence offers almost no protection. The mind runs a set of fast, automatic shortcuts that were useful for surviving on a savannah and are quietly unreliable in a requirements workshop. These shortcuts do not feel like shortcuts. They feel like seeing clearly. And the more experienced you are, the more confidently they fire, because your pattern recognition is faster and your certainty arrives sooner. Daniel Kahneman spent a career studying this and described two systems in the mind. <strong><em>One is fast, intuitive and effortless, and it produces most of your snap judgements. The other is slow, deliberate and lazy, and it only engages when you make it.</em></strong> Nearly every bias in this piece is the fast system answering a hard question with an easy one while the slow system dozes. You cannot switch the fast system off. But you can learn to notice when a decision deserves the slow one, and that noticing is most of the skill.
 
 ## The four biases that cost analysts the most
 
 There are dozens of documented biases, but four do the most damage in our kind of work, and they are worth knowing by name, because a bias you can name is a bias you can catch.
 
-**The first is confirmation bias**, the pull to notice and believe the evidence that supports what you already think, and to quietly explain away the rest. A team decides customers are leaving because of price, and from that moment, every price complaint is remembered, every other reason is filed under noise, and the theory grows stronger not because it is true but because nobody was looking for the parts that would break it.
+<strong>The first is confirmation bias</strong>, the pull to notice and believe the evidence that supports what you already think, and to quietly explain away the rest. A team decides customers are leaving because of price, and from that moment, every price complaint is remembered, every other reason is filed under noise, and the theory grows stronger not because it is true but because nobody was looking for the parts that would break it.
 
-**The second is anchoring.** The first number said out loud in a room silently drags every later number toward it. Someone guesses the work is about six weeks, and now every estimate in the session orbits six weeks, including yours, even though the guess was made before anyone understood the work.
+<strong>The second is anchoring.</strong> The first number said out loud in a room silently drags every later number toward it. Someone guesses the work is about six weeks, and now every estimate in the session orbits six weeks, including yours, even though the guess was made before anyone understood the work.
 
-**The third is the sunk cost fallacy**, the reason so many doomed projects limp on. Because a fortune has already been spent, stopping feels like admitting waste, so more is spent to protect the first amount, and the past, which cannot be recovered, holds the future hostage.
+<strong>The third is the sunk cost fallacy</strong>, the reason so many doomed projects limp on. Because a fortune has already been spent, stopping feels like admitting waste, so more is spent to protect the first amount, and the past, which cannot be recovered, holds the future hostage.
 
-**The fourth is the availability heuristic**, judging how likely something is by how easily an example comes to mind. One dramatic incident last quarter dominates the risk register for a year, while a quieter, more probable risk goes unlisted because nothing memorable ever forced it into view.
+<strong>The fourth is the availability heuristic</strong>, judging how likely something is by how easily an example comes to mind. One dramatic incident last quarter dominates the risk register for a year, while a quieter, more probable risk goes unlisted because nothing memorable ever forced it into view.
 
 ## Why expertise makes it worse, not better
 
@@ -40,11 +40,11 @@ The natural response, once you accept you are biased, is to resolve to be more o
 
 You cannot delete your biases, but you can build habits that interrupt them at the moment they matter. These are small, deliberate acts of slowing down, aimed at your own thinking rather than anyone else's.
 
-1. **Ask what would change your mind, and whether you have actually looked for it.** If the honest answer is nothing and no, you are not holding a conclusion; you are defending a belief.
-2. **Argue the opposite case out loud before you decide**. Make yourself state the strongest version of the view you are about to reject. If you cannot, you do not understand your own position well enough to trust it.
-3. **Separate the feeling of certainty from the evidence for it**. Write down what you actually know versus what you have assumed. Certainty is an emotion, not a measurement.
-4. **Get one fact on the table before the first opinion anchors the room**. A single real number, spoken early, protects a whole meeting from orbiting someone's guess.
-5. **Name the bias out loud when you suspect it**. Saying this might be sunk cost talking does more to break its grip than any private resolve, because it gives the whole room permission to check the thought too.
+1. <strong>Ask what would change your mind, and whether you have actually looked for it.</strong> If the honest answer is nothing and no, you are not holding a conclusion; you are defending a belief.
+2. <strong>Argue the opposite case out loud before you decide</strong>. Make yourself state the strongest version of the view you are about to reject. If you cannot, you do not understand your own position well enough to trust it.
+3. <strong>Separate the feeling of certainty from the evidence for it</strong>. Write down what you actually know versus what you have assumed. Certainty is an emotion, not a measurement.
+4. <strong>Get one fact on the table before the first opinion anchors the room</strong>. A single real number, spoken early, protects a whole meeting from orbiting someone's guess.
+5. <strong>Name the bias out loud when you suspect it</strong>. Saying this might be sunk cost talking does more to break its grip than any private resolve, because it gives the whole room permission to check the thought too.
 
 ## The mistakes that keep you certain and wrong
 
@@ -59,8 +59,8 @@ The failures here are quiet, because they feel like competence while they happen
 
 Nobody notices their own anchoring on a CV, and no job description asks for it. But it is most of what separates the analyst who gets handed the ambiguous, high-stakes, politically loaded problem from the one who gets the tidy, well-scoped one. The first is trusted because, over the years, they have been wrong less often in the moments that mattered, and they were wrong less often because they learned to distrust their own certainty before it hardened into a plan. That habit never shows up as a dramatic save. It shows up as a career where fewer things blew up than should have, and people are slowly deciding that your judgement can be relied on when the stakes are real. That reputation is the most valuable thing you will build, and it starts with the willingness to doubt yourself on purpose. Tomorrow, the frame, and how the way you state a problem quietly decides which answers you are even able to see.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya | Flotog BA Insights  |  www.flotogbainsights.com
 
-*Tomorrow:* *The Frame Decides the Answer -* *How the way you state a problem controls which solutions you are able to see at all.*
+<em>Tomorrow: The Frame Decides the Answer - How the way you state a problem controls which solutions you are able to see at all.</em>

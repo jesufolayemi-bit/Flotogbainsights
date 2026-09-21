@@ -8,11 +8,9 @@ cover: "/images/blog/f4dc16_b97f4b6b50d0478c91890af2a50a0e8a.png"
 readingTime: 6
 wixId: "08e9d500-dcf2-4b26-8f43-6069d9f42a38"
 ---
-**DAY 2** | **Reading Data: The Foundations Every BA Must Master**
-
 <img src="/images/blog/f4dc16_b97f4b6b50d0478c91890af2a50a0e8a.png" alt="Reading Data: The Foundations Every BA Must Master" width="1424" height="736" loading="lazy">
 
-**Before you can interpret data, you have to be able to read it. And reading data properly is a skill that most Business Analysts never formally learned.** This is not a criticism. The path into business analysis rarely runs through statistics. Most BAs came from business roles, from operations, from project work, from domains where data was something you received rather than something you analysed. The foundations of reading data were never part of the training, and there is rarely a moment later in a career where someone stops and teaches them. So the gap persists quietly. A BA can be experienced, capable, and effective in most of their work, and still feel a flicker of uncertainty when a dataset appears and they are expected to engage with it. Today is about closing that gap with the foundations that make reading data straightforward rather than intimidating.
+<strong>Before you can interpret data, you have to be able to read it. And reading data properly is a skill that most Business Analysts never formally learned.</strong> This is not a criticism. The path into business analysis rarely runs through statistics. Most BAs came from business roles, from operations, from project work, from domains where data was something you received rather than something you analysed. The foundations of reading data were never part of the training, and there is rarely a moment later in a career where someone stops and teaches them. So the gap persists quietly. A BA can be experienced, capable, and effective in most of their work, and still feel a flicker of uncertainty when a dataset appears and they are expected to engage with it. Today is about closing that gap with the foundations that make reading data straightforward rather than intimidating.
 
 #### The Types of Data
 
@@ -72,8 +70,8 @@ Before drawing any conclusion from a dataset, there are questions a Business Ana
 
 None of what is in today's article is advanced. There are no statistics here that a Business Analyst cannot grasp in an afternoon. And yet these foundations are exactly what separates a BA who reads data with quiet confidence from one who feels a flicker of uncertainty every time the numbers appear. The types of data tell you what analysis is valid. The measures of central tendency and spread tell you how to summarise honestly. Understanding distributions tells you which measure to trust. And the questions you ask of a dataset before trusting it protect you from building on a foundation that cannot hold the weight of your conclusion. Master these, and the harder work of interpreting data honestly, which is where we go tomorrow, becomes possible.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya | Flotog BA Insights | www.flotogbainsights.com
 
-*Tomorrow: Interpreting Data Honestly. The traps that mislead, the techniques people use to make data say what they want, and how to be the person in the room who sees through them.*
+<em>Tomorrow: Interpreting Data Honestly. The traps that mislead, the techniques people use to make data say what they want, and how to be the person in the room who sees through them.</em>

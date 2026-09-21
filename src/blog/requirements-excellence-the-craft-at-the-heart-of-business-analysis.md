@@ -8,9 +8,7 @@ cover: "/images/blog/f4dc16_2dc258a486d9464ab34029a532da930b.jpeg"
 readingTime: 7
 wixId: "e99f2299-30da-4e39-b7d7-3532f320d2cc"
 ---
-**DAY 1**   | **Why Requirements Fail & What Excellence Actually Looks Like**
-
-<img src="/images/blog/f4dc16_2dc258a486d9464ab34029a532da930b.jpeg" alt="Why Requirements Fail & What Excellence Actually Looks Like" width="1024" height="559" loading="lazy">
+<img src="/images/blog/f4dc16_2dc258a486d9464ab34029a532da930b.jpeg" alt="Why Requirements Fail &amp; What Excellence Actually Looks Like" width="1024" height="559" loading="lazy">
 
 I want to tell you about a project that almost destroyed a team. Not a small internal tool. A customer-facing platform that had taken eighteen months and a significant budget to build. The business had waited for it. The marketing team had planned campaigns around it. The go-live date had been communicated to customers.
 
@@ -38,23 +36,23 @@ Here is the definition most BA textbooks give you: a requirement is a statement 
 
 That is technically accurate. But it does not help you write better requirements. So let me give you a more useful framing.
 
-***A requirement is a precise, verifiable statement of a capability, behaviour, or quality that a solution must exhibit in order to satisfy a business need.***
+<strong><em>A requirement is a precise, verifiable statement of a capability, behaviour, or quality that a solution must exhibit in order to satisfy a business need.</em></strong>
 
 Every word in that definition is doing work. Precise means there is no room for interpretation. Two people reading the requirement independently should arrive at the same understanding of what it means. Verifiable means there is a way to confirm whether the requirement has been met. If you cannot design a test that would tell you whether the requirement has been satisfied, it is not a requirement. It is an aspiration. Capability, behaviour, or quality covers the full scope of what requirements describe. And in order to satisfy a business need keeps the focus where it belongs: on the business outcome, not the technical implementation.
 
 Now look at how far most requirements documentation is from that standard.
 
-"***The system should be user-friendly***." That is not a requirement. It is an opinion. What does user-friendly mean? How would you test for it? What specific behaviour must the system exhibit?
+"<strong><em>The system should be user-friendly</em></strong>." That is not a requirement. It is an opinion. What does user-friendly mean? How would you test for it? What specific behaviour must the system exhibit?
 
-"***The report must be fast***." Fast according to whom? Fast compared to what? What is the specific performance standard the system must meet?
+"<strong><em>The report must be fast</em></strong>." Fast according to whom? Fast compared to what? What is the specific performance standard the system must meet?
 
-"***The system must handle large volumes of data***." How large? What is the threshold? Under what conditions? Within what timeframe?
+"<strong><em>The system must handle large volumes of data</em></strong>." How large? What is the threshold? Under what conditions? Within what timeframe?
 
 These are not extreme examples. I have seen requirements exactly like these in documents that were reviewed, approved, and used as the basis for system development. And then everyone expressed surprise when the delivered system did not meet the business's expectations.
 
 ## The Difference Between Documenting and Discovering
 
-The most important distinction in requirements work is this: ***there is a difference between documenting what a stakeholder tells you and discovering what the system actually needs to do.***
+The most important distinction in requirements work is this: <strong><em>there is a difference between documenting what a stakeholder tells you and discovering what the system actually needs to do.</em></strong>
 
 Documenting is a clerical function. You ask a question, you write down the answer. The stakeholder says "we need to be able to run a monthly report" and you write "the system must produce a monthly report." The requirement is captured. The question is whether it is right.
 
@@ -74,7 +72,7 @@ It shows up in the elicitation process. A BA pursuing excellence does not accept
 
 ## The Mindset Shift That Changes Everything
 
-Everything in requirements excellence flows from one fundamental shift in how you see your role. ***You are not a scribe. You are an analyst***. A scribe takes what is given and writes it down. An analyst takes what is given and examines it, challenges it, tests it against what else they know, and works to understand not just what was said but what was meant, what was assumed, and what was not said at all.
+Everything in requirements excellence flows from one fundamental shift in how you see your role. <strong><em>You are not a scribe. You are an analyst</em></strong>. A scribe takes what is given and writes it down. An analyst takes what is given and examines it, challenges it, tests it against what else they know, and works to understand not just what was said but what was meant, what was assumed, and what was not said at all.
 
 When you approach requirements work as an analyst, every stakeholder conversation becomes an investigation. Every requirement becomes a hypothesis to be tested, not a statement to be recorded. Every sign-off becomes a milestone on the way to a verified baseline, not a task to be completed.
 
@@ -82,13 +80,13 @@ That shift from scribe to analyst is what separates requirements documentation f
 
 This week, we are going to build every dimension of that practice.
 
-- Day 2: Elicitation Mastery -  the techniques, the questions, and the discipline that gets to the real requirement
+- Day 2: Elicitation Mastery - the techniques, the questions, and the discipline that gets to the real requirement
 - Day 3: Writing Requirements That Hold Up - functional and non-functional requirements in depth, quality criteria, and the documentation failures that cost projects
 - Day 4: Managing Requirements Through the Lifecycle - validation, traceability, change management, and what happens after sign-off
 - Day 5: Requirements Excellence in your career - what mastery looks like at every BA level, interview preparation, and the six principles to carry forward.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya | Flotog BA Insights | www.flotogbainsights.com
 
-*Tomorrow: Elicitation Mastery. The six techniques every BA must command, the questions that surface what stakeholders do not know they know, and the elicitation mistakes that produce shallow requirements.*
+<em>Tomorrow: Elicitation Mastery. The six techniques every BA must command, the questions that surface what stakeholders do not know they know, and the elicitation mistakes that produce shallow requirements.</em>

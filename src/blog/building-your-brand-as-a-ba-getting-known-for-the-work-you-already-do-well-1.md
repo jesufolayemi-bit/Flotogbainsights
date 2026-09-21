@@ -34,7 +34,7 @@ My own version of this bucket is the part of my story I sat on for the longest. 
 
 Here is the part that actually removes the blank screen problem. You do not need to plan a month in advance. You need to notice, once a week, which bucket you have not drawn from recently, and pull from that one. Had a rough elicitation session this week? Bucket one. Argued with a colleague about documentation standards? Bucket two. Thinking about how far you have come since your first process map? Bucket three. The rotation keeps the voice varied and keeps you from ever needing to invent something you do not actually think or feel. One caution. Do not force all three into every post. A post that tries to be a lesson, an opinion, and a life story at once reads like a committee wrote it. Pick one bucket, one small idea, and let it be short.
 
-If the buckets still feel abstract, try this instead of staring at a blank document. At the end of each week, ask yourself three questions. ***What surprised me this week? What did I disagree with someone about, even quietly? What would I tell a version of myself from three years ago?***
+If the buckets still feel abstract, try this instead of staring at a blank document. At the end of each week, ask yourself three questions. <strong><em>What surprised me this week? What did I disagree with someone about, even quietly? What would I tell a version of myself from three years ago?</em></strong>
 
 Whichever question has an answer sitting closest to the surface is the post to write that week. You are not inventing content. You are transcribing something you already thought, in plainer language than you thought it in.
 
@@ -42,10 +42,10 @@ The other trap worth naming is waiting for a story dramatic enough to be worth t
 
 I would also add one thing I got wrong for years. I assumed my own background, the engineering degree, the master's, the fact that I came into this sideways rather than through a traditional business route, was a weakness to manage rather than material to use. It took a long time to realise that the pivot itself, told honestly, was more compelling to most readers than any polished framework I could have written instead. If part of your path feels like something to explain away, it is very likely bucket three material, not a liability.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya | Flotog BA Insights  |  www.flotogbainsights.com
 
-*TOMORROW*
+<em>TOMORROW</em>
 
-*Your Profile Is a Case File, Not a CV -* *How to rebuild your LinkedIn profile so it argues your worth even when you are not in the room.*
+<em>Your Profile Is a Case File, Not a CV - How to rebuild your LinkedIn profile so it argues your worth even when you are not in the room.</em>

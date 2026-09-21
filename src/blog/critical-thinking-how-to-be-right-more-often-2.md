@@ -10,7 +10,7 @@ wixId: "f4227c31-dbf6-4473-8af7-d421392d8cde"
 ---
 <img src="/images/blog/f4dc16_28052522ac9c4233841003da1c3fd00f.png" alt="Testing the assumptions and evidence under a confident conclusion" width="1024" height="572" loading="lazy">
 
-**Behind every confident conclusion sits a chain of small inferences that nobody checked, and if one link is weak the whole conclusion is too.** So far this week we have worked on catching bias in how you judge, and on the frame you put around a problem. Today we go to the join between them: the moment a pile of raw facts turns into a belief you will act on. That turn happens so fast it feels like observation, as if you simply saw the truth. You did not. You selected some of the data, added meaning to it, and leapt to a conclusion, all in a fraction of a second, and now you are defending the view from the top of that leap as though it were the ground floor. Critical thinking is largely the discipline of climbing back down and checking each step you skipped.
+<strong>Behind every confident conclusion sits a chain of small inferences that nobody checked, and if one link is weak the whole conclusion is too.</strong> So far this week we have worked on catching bias in how you judge, and on the frame you put around a problem. Today we go to the join between them: the moment a pile of raw facts turns into a belief you will act on. That turn happens so fast it feels like observation, as if you simply saw the truth. You did not. You selected some of the data, added meaning to it, and leapt to a conclusion, all in a fraction of a second, and now you are defending the view from the top of that leap as though it were the ground floor. Critical thinking is largely the discipline of climbing back down and checking each step you skipped.
 
 This work is uncomfortable, because it is aimed mostly at yourself. It is easy to question other people's assumptions. It is hard to notice the ones you are standing on without realising, the beliefs that feel not like assumptions at all but simply like the way things are. Most of the skill is learning to make those invisible beliefs visible, so they can be tested before they quietly steer months of work in the wrong direction.
 
@@ -31,9 +31,9 @@ Once you accept that every conclusion rests on assumptions, the work is to drag 
 
 Two habits turn this from an attitude into a practice.
 
-**The first is steelmanning, the opposite of the straw man**. Instead of arguing against the weakest version of a view you disagree with, you build the strongest possible version of it, the one its smartest supporter would make, and then see whether your own position still stands. If you cannot state the opposing case well enough that its holder would nod, you do not yet understand the decision; you only understand your side of it.
+<strong>The first is steelmanning, the opposite of the straw man</strong>. Instead of arguing against the weakest version of a view you disagree with, you build the strongest possible version of it, the one its smartest supporter would make, and then see whether your own position still stands. If you cannot state the opposing case well enough that its holder would nod, you do not yet understand the decision; you only understand your side of it.
 
-**The second is actively hunting for the evidence that would prove you wrong**. Most of us, once we have a view, go looking for support, and support is always easy to find, which is why finding it tells you almost nothing. The more powerful move is to ask what evidence would show my conclusion is false, and then go looking for that on purpose. A belief that survives a genuine attempt to break it is worth trusting. A belief you have only ever tried to confirm is just a hope you have grown attached to. This is uncomfortable precisely because it means seeking out the thing you least want to find, and that discomfort is the clearest sign you are doing it properly.
+<strong>The second is actively hunting for the evidence that would prove you wrong</strong>. Most of us, once we have a view, go looking for support, and support is always easy to find, which is why finding it tells you almost nothing. The more powerful move is to ask what evidence would show my conclusion is false, and then go looking for that on purpose. A belief that survives a genuine attempt to break it is worth trusting. A belief you have only ever tried to confirm is just a hope you have grown attached to. This is uncomfortable precisely because it means seeking out the thing you least want to find, and that discomfort is the clearest sign you are doing it properly.
 
 ## Correlation is not causation
 
@@ -55,9 +55,8 @@ Some of the most confident thinking is the least critical, and it fails in recog
 
 The cost of not testing your assumptions is rarely dramatic, which is exactly why it is dangerous. It is a slow tax paid in quiet ways: the recommendation built on a cause nobody verified, the requirement everyone agreed to because it was never named as an assumption and so never questioned, the months of work that followed a conclusion someone reached at the top of the ladder in half a second. None of these looks like thinking failures when they happen. They look like bad luck, or shifting requirements, or somebody else's mistake. They were none of those. They were a single question: 'how do we know this', that nobody asked out loud while it was still cheap to ask. The analysts people come to trust are the ones who ask it early and without drama, and who would rather be briefly uncomfortable now than confidently wrong later.
 
-***Go out and be successful.***
-**Oluwatosin Ogunkoya |** **Flotog BA Insights  |**  [**www.flotogbainsights.com**](/)
+<strong><em>Go out and be successful.</em></strong> <strong>Oluwatosin Ogunkoya | Flotog BA Insights  |</strong>  [<strong>www.flotogbainsights.com</strong>](/)
 
-*Tomorrow:* *Tools That Sharpen Judgment*
+<em>Tomorrow: Tools That Sharpen Judgment</em>
 
-*A small kit of reasoning moves, from the pre-mortem to the outside view, for high-stakes calls.*
+<em>A small kit of reasoning moves, from the pre-mortem to the outside view, for high-stakes calls.</em>

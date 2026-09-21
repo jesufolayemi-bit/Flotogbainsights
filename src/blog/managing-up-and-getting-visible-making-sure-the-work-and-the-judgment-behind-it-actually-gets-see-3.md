@@ -24,8 +24,27 @@ The SAID structure from the Difficult Stakeholders series, State, Acknowledge, I
 
 ## A worked example: a delay that is not your fault
 
-| **REPORTING A DELAY CAUSED UPSTREAMYou (State):***I need to flag that we're going to miss the Friday requirements sign-off. The finance stakeholder group hasn't reviewed the draft I sent ten days ago, and I don't have a firm date from them yet.***You (Acknowledge):***I know this affects the development start date you've already committed upward, and I wanted you to have this now rather than find out closer to Friday.***You (Impact):***If we don't have sign-off by early next week, development slips by roughly the same amount, since there's no other work that can absorb the gap.***You (Decide):***I'm planning to escalate directly to the finance lead tomorrow if I haven't heard back by end of day. Would it help if you sent a short note in parallel, or would you rather I handle it directly first?* |
-| --- |
+<div class="callout">
+
+<strong>REPORTING A DELAY CAUSED UPSTREAM</strong>
+
+<strong>You (State):</strong>
+
+<em>I need to flag that we're going to miss the Friday requirements sign-off. The finance stakeholder group hasn't reviewed the draft I sent ten days ago, and I don't have a firm date from them yet.</em>
+
+<strong>You (Acknowledge):</strong>
+
+<em>I know this affects the development start date you've already committed upward, and I wanted you to have this now rather than find out closer to Friday.</em>
+
+<strong>You (Impact):</strong>
+
+<em>If we don't have sign-off by early next week, development slips by roughly the same amount, since there's no other work that can absorb the gap.</em>
+
+<strong>You (Decide):</strong>
+
+<em>I'm planning to escalate directly to the finance lead tomorrow if I haven't heard back by end of day. Would it help if you sent a short note in parallel, or would you rather I handle it directly first?</em>
+
+</div>
 
 Notice the message does not apologise for something that is not the analyst's fault, and it does not quietly absorb the blame either. It states the fact, names the real cost, and hands the manager a plan with a genuine choice in it. That combination is what makes bad news land as competence rather than as a problem to manage.
 
@@ -33,8 +52,27 @@ Notice the message does not apologise for something that is not the analyst's fa
 
 This is the conversation most people avoid the longest, and it is worth having a plan for before it happens rather than improvising it under stress. The instinct to soften or bury a genuine mistake is strongest exactly when it is most important not to give in to it.
 
-| **REPORTING YOUR OWN MISTAKEYou (State):***I made a mistake in the requirements document, I missed a dependency on the payments API, and it wasn't caught until QA flagged it this week.***You (Acknowledge):***I know this is going to cost the team real rework time, and I take responsibility for missing it during review.***You (Impact):***Best estimate right now is about three days of additional work to fix, which pushes our buffer close to zero for the release.***You (Decide):***I've already started the corrected spec and can have it ready by tomorrow. I'd also like to walk through what I missed with you afterward so I can add a check for this kind of dependency going forward. Does that plan work, or would you want to handle it differently?* |
-| --- |
+<div class="callout">
+
+<strong>REPORTING YOUR OWN MISTAKE</strong>
+
+<strong>You (State):</strong>
+
+<em>I made a mistake in the requirements document, I missed a dependency on the payments API, and it wasn't caught until QA flagged it this week.</em>
+
+<strong>You (Acknowledge):</strong>
+
+<em>I know this is going to cost the team real rework time, and I take responsibility for missing it during review.</em>
+
+<strong>You (Impact):</strong>
+
+<em>Best estimate right now is about three days of additional work to fix, which pushes our buffer close to zero for the release.</em>
+
+<strong>You (Decide):</strong>
+
+<em>I've already started the corrected spec and can have it ready by tomorrow. I'd also like to walk through what I missed with you afterward so I can add a check for this kind of dependency going forward. Does that plan work, or would you want to handle it differently?</em>
+
+</div>
 
 The instinct to disappear into embarrassment after a real mistake is natural, and it is also exactly the wrong move. A manager who hears about a mistake directly from the person responsible, with ownership taken cleanly and a fix already in motion, almost always comes away trusting that person more, not less. What damages trust permanently is not the mistake itself, it is finding out about it from someone else, or watching someone spend more energy managing the appearance of the mistake than actually fixing it.
 
@@ -46,10 +84,10 @@ SAID handles how you deliver bad news well. It does not, on its own, answer the 
 
 A useful rule of thumb: flag it the moment you are reasonably confident it is real, even before you have a full plan, rather than waiting until the plan is polished. The worked examples above both include a Decide step that is honest about not having everything figured out yet. That is deliberate. A manager would almost always rather hear about a problem early with an incomplete plan attached than hear about the same problem later with a complete one, because early warning gives them options that a late one has already closed off.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya | Flotog BA Insights  |  www.flotogbainsights.com
 
-*TOMORROW*
+<em>TOMORROW</em>
 
-*Internal Visibility and External Visibility Are the Same Muscle -* *Closing the series with how managing up inside your organisation reinforces the brand work outside it.*
+<em>Internal Visibility and External Visibility Are the Same Muscle - Closing the series with how managing up inside your organisation reinforces the brand work outside it.</em>

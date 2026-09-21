@@ -25,8 +25,15 @@ A vague request, something close to "can I pick your brain about business analys
 
 ## The actual script
 
-| **A SPECIFIC, LOW-COMMITMENT ASKYou:***I've been following your work on stakeholder management and I'm early in my own BA career, trying to get better at exactly that. Would you have thirty minutes sometime in the next few weeks for me to ask a few specific questions about how you handle it? Happy to work around your schedule.* |
-| --- |
+<div class="callout">
+
+<strong>A SPECIFIC, LOW-COMMITMENT ASK</strong>
+
+<strong>You:</strong>
+
+<em>I've been following your work on stakeholder management and I'm early in my own BA career, trying to get better at exactly that. Would you have thirty minutes sometime in the next few weeks for me to ask a few specific questions about how you handle it? Happy to work around your schedule.</em>
+
+</div>
 
 Notice what this message does. It names something specific and genuine, states clearly what is being asked for, bounds the time commitment, and puts the scheduling burden on you rather than them. That combination removes almost every reason to say no beyond genuinely not having the time.
 
@@ -34,8 +41,15 @@ Notice what this message does. It names something specific and genuine, states c
 
 A no is far more often about capacity than about you personally, and treating it as a referendum on your worth is the fastest way to stop asking altogether. Most people who say no to an ongoing mentoring relationship will still say yes to a single conversation, and most people who say no to any of it are simply overloaded at that specific moment, not making a judgment about whether you deserve their time.
 
-| **RESPONDING WELL TO A NOYou:***Totally understand, thank you for being straight with me. If your schedule opens up down the line I'd still love thirty minutes, no pressure either way.* |
-| --- |
+<div class="callout">
+
+<strong>RESPONDING WELL TO A NO</strong>
+
+<strong>You:</strong>
+
+<em>Totally understand, thank you for being straight with me. If your schedule opens up down the line I'd still love thirty minutes, no pressure either way.</em>
+
+</div>
 
 This keeps the door open without pressure, and it is worth simply asking someone else in the meantime rather than treating one no as evidence the whole approach does not work. It very often takes more than one attempt, and that is completely normal, not a signal you are doing something wrong.
 
@@ -45,11 +59,10 @@ Everything in this series so far argued that mentorship shortens the distance to
 
 This is worth naming plainly, since the framework above assumes you already have someone in mind, and many people stall before that point. LinkedIn is the obvious starting place, particularly people who post genuinely useful content in the specific area you are trying to grow in, since writing publicly about a topic is itself a signal someone is willing to talk about it. Beyond that, look inside your own organisation first, since proximity and shared context make the first ask noticeably easier, and look at professional communities and alumni networks from any course or certification you have completed, since a shared credential gives you an immediate, legitimate reason to reach out that a cold message lacks. One more place worth checking, and often overlooked, is your own past. Former managers, former colleagues who moved further ahead, even an old lecturer or course instructor, already know your context and have already been shown some evidence of how you work, which lowers the barrier to a yes considerably compared to a stranger you are approaching cold. Rebuilding a dormant connection is very often easier than forming a brand new one from scratch.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
-**Oluwatosin Ogunkoya · Flotog BA Insights**
-**1:1 mentoring and coaching for BAs at every career stage ·** [**http://www.flotogbainsights.com/**](/)
+<strong>Oluwatosin Ogunkoya · Flotog BA Insights</strong> <strong>1:1 mentoring and coaching for BAs at every career stage ·</strong> [<strong>http://www.flotogbainsights.com/</strong>](/)
 
-## TOMORROW
+<strong>TOMORROW</strong>
 
-**Being a Mentee Worth Investing In -** What makes a mentor keep showing up for you, and what quietly makes them stop.
+<strong>Being a Mentee Worth Investing In -</strong> What makes a mentor keep showing up for you, and what quietly makes them stop.

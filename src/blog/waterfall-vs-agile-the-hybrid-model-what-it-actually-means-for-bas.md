@@ -6,9 +6,9 @@ cover: "/images/blog/f4dc16_a9378678f475487f8fa664b8c770e5be.png"
 readingTime: 5
 wixId: "6e902f0f-070d-45f9-aa56-d6952706ec36"
 ---
-<img src="/images/blog/f4dc16_a9378678f475487f8fa664b8c770e5be.png" alt="Waterfall vs Agile: The hybrid model & what it actually means for BAs" width="2848" height="1504" loading="lazy">
+<img src="/images/blog/f4dc16_a9378678f475487f8fa664b8c770e5be.png" alt="Waterfall vs Agile: The hybrid model &amp; what it actually means for BAs" width="2848" height="1504" loading="lazy">
 
-Fellow Business Analysts, we have spent three days examining Waterfall and Agile independently and in comparison. Today, we look at the space between them: ***the hybrid delivery model*** that most experienced practitioners quietly use on real projects, regardless of what the organisation officially calls its methodology.
+Fellow Business Analysts, we have spent three days examining Waterfall and Agile independently and in comparison. Today, we look at the space between them: <strong><em>the hybrid delivery model</em></strong> that most experienced practitioners quietly use on real projects, regardless of what the organisation officially calls its methodology.
 
 ## Why Hybrid Is Not a Compromise; It Is the Answer
 
@@ -16,7 +16,7 @@ The word 'hybrid' sometimes carries a connotation of indecision as if being unab
 
 A hybrid methodology is not the result of failing to choose. It is the result of analysing a project's specific characteristics and selecting the practices from each framework that best serve those characteristics. That is not indecision. It is the application of professional judgement which is precisely what distinguishes a senior BA from a practitioner who follows a process.
 
-Consider what Waterfall does exceptionally well: structured discovery, comprehensive documentation, formal governance, phase-gate accountability, and disciplined handoffs. Consider what Agile does exceptionally well: iterative delivery, continuous stakeholder feedback, adaptive prioritisation, early value realisation, and rapid risk discovery. Now ask: is there any complex real-world project that would not benefit from some combination of these capabilities? **The answer, in my experience, is no.**
+Consider what Waterfall does exceptionally well: structured discovery, comprehensive documentation, formal governance, phase-gate accountability, and disciplined handoffs. Consider what Agile does exceptionally well: iterative delivery, continuous stakeholder feedback, adaptive prioritisation, early value realisation, and rapid risk discovery. Now ask: is there any complex real-world project that would not benefit from some combination of these capabilities? <strong>The answer, in my experience, is no.</strong>
 
 ## What Hybrid Actually Means and What It Does Not
 
@@ -46,11 +46,11 @@ Key deliverables in this stage:
 
 •        Product Vision Document: a concise statement of the strategic objectives, the scope boundaries, the target users, and the definition of success. This is the north star that keeps the backlog coherent
 
-•        High-Level Requirements Framework: capturing the must-have requirements and non-negotiable constraints before delivery begins. This is not a full BRD, however,  it is enough to structure the initial backlog intelligently
+•        High-Level Requirements Framework: capturing the must-have requirements and non-negotiable constraints before delivery begins. This is not a full BRD, however, it is enough to structure the initial backlog intelligently
 
 •        As-Is Process Maps: documenting the current state to establish the baseline for improvement
 
-•        Risk and Dependency Register:  identifying the risks that need to be managed across the delivery lifecycle and the dependencies that could constrain sprint sequencing
+•        Risk and Dependency Register: identifying the risks that need to be managed across the delivery lifecycle and the dependencies that could constrain sprint sequencing
 
 •        Technical Architecture Review: ensuring that architectural decisions are understood before sprints begin, reducing the likelihood of late technical constraints disrupting delivery
 
@@ -130,8 +130,8 @@ If your formal change control process is struggling to keep pace with the volume
 
 Many organisations operate in environments that require formal audit trails and documented governance while also needing to deliver quickly and respond to changing business conditions. This is not a contradiction. A hybrid model, Agile delivery inside Waterfall governance checkpoints, is the designed solution for exactly this tension.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## — Oluwatosin Ogunkoya
 
-*Tomorrow: Series Finale  - Interview Masterclass and career application. Six real interview questions with model answers at every BA level, plus the recap that ties this whole week together.*
+<em>Tomorrow: Series Finale - Interview Masterclass and career application. Six real interview questions with model answers at every BA level, plus the recap that ties this whole week together.</em>

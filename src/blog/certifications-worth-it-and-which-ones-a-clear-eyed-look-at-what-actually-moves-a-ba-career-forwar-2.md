@@ -25,8 +25,21 @@ This sounds obvious and gets skipped constantly. CBAP requires 7,500 hours of do
 
 This is the question that catches the most people, because a certification only fixes one of these two problems, and most people misdiagnose which one they actually have.
 
-| **DIAGNOSING THE REAL GAP**A useful test: imagine you are in the interview room right now, not six months from now after studying. Ask yourself honestly which sentence is true.**Knowledge gap:***"I genuinely don't know how to structure a proper requirements traceability matrix, or what the standard elicitation techniques are called and when to use each."***Evidence gap:***"I know exactly how to do this, I've done it for three years, I just have nothing concrete to show a stranger that proves it."* |
-| --- |
+<div class="callout">
+
+<strong>DIAGNOSING THE REAL GAP</strong>
+
+A useful test: imagine you are in the interview room right now, not six months from now after studying. Ask yourself honestly which sentence is true.
+
+<strong>Knowledge gap:</strong>
+
+<em>"I genuinely don't know how to structure a proper requirements traceability matrix, or what the standard elicitation techniques are called and when to use each."</em>
+
+<strong>Evidence gap:</strong>
+
+<em>"I know exactly how to do this, I've done it for three years, I just have nothing concrete to show a stranger that proves it."</em>
+
+</div>
 
 A knowledge gap is genuinely closed by studying for a certification. An evidence gap is not closed by a certification at all, no matter how advanced, because the exam does not produce a work sample. An evidence gap is closed by a portfolio piece, a documented case study, or a Featured section entry showing the actual work, which is far faster and cheaper to build than a six-month study plan aimed at the wrong problem.
 
@@ -40,10 +53,10 @@ If the honest answer is that the next six months are already better spent stabil
 
 Take a BA three years in, targeting a senior BA role at a mid-size consultancy.
 
-- **Question one**: the postings she is targeting mention CBAP in about half of them, and PMI-PBA in a couple, given the consultancy's project-heavy structure.
-- **Question two**: she has roughly 4,200 documented hours, short of the 7,500 CBAP requires.
-- **Question three**: her actual gap is evidence, not knowledge, since she has been doing solid BA work without ever writing any of it up publicly.
-- **Question four**: she has real bandwidth right now, between projects.
+- <strong>Question one</strong>: the postings she is targeting mention CBAP in about half of them, and PMI-PBA in a couple, given the consultancy's project-heavy structure.
+- <strong>Question two</strong>: she has roughly 4,200 documented hours, short of the 7,500 CBAP requires.
+- <strong>Question three</strong>: her actual gap is evidence, not knowledge, since she has been doing solid BA work without ever writing any of it up publicly.
+- <strong>Question four</strong>: she has real bandwidth right now, between projects.
 
 Running the framework honestly points her toward CCBA now, which she qualifies for and which signals genuine progress toward CBAP later, paired with building two portfolio case studies from her existing project work to close the evidence gap immediately rather than waiting for a certification to close it indirectly. That combination moves her further in the next six months than either CBAP alone, which she cannot yet sit for, or waiting silently until she qualifies.
 
@@ -51,10 +64,10 @@ Running the framework honestly points her toward CCBA now, which she qualifies f
 
 The most common pushback on this framework is that some organisations genuinely will not shortlist a resume without a specific certification, regardless of how strong the evidence is elsewhere, and the framework needs to account for that rather than pretend evidence always wins. That objection is fair, and question one exists specifically to catch it. If your honest research on real postings for your target role shows the certification listed as a hard requirement, not a preference, the fit framework already tells you to pursue it, evidence gap or not, because a genuine hard filter cannot be talked around with a case study. The framework is not an argument against certifications when they are genuinely required. It is a safeguard against pursuing one when they are not.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya | Flotog BA Insights  |  www.flotogbainsights.com
 
-*TOMORROW*
+<em>TOMORROW</em>
 
-*What Actually Moves the Needle Besides Certifications -* *The evidence that outperforms a credential almost every time, and how to build it in a month, not a year.*
+<em>What Actually Moves the Needle Besides Certifications - The evidence that outperforms a credential almost every time, and how to build it in a month, not a year.</em>

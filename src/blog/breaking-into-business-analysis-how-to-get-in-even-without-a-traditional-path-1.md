@@ -11,11 +11,11 @@ wixId: "ad7ebfa7-d28d-4e1d-9f97-f6c436e14868"
 ---
 <img src="/images/blog/f4dc16_ef585538c24146159fa46d7f47dad847.png" alt="What a Business Analyst Actually Does" width="2752" height="1536" loading="lazy">
 
-**Most people trying to become a business analyst cannot actually describe what one does, and that is not their fault.** It is one of the most misunderstood roles in the whole of tech. The title comes in a hundred versions: business analyst, systems analyst, product analyst, functional analyst, and the job descriptions are so vague they could mean almost anything. So people picture the surface: piles of documentation, back-to-back meetings, something to do with spreadsheets. All of that appears in the job at times, and none of it is the job. If you are trying to break in, the first thing worth having is a clear, honest picture of what you are actually walking toward.
+<strong>Most people trying to become a business analyst cannot actually describe what one does, and that is not their fault.</strong> It is one of the most misunderstood roles in the whole of tech. The title comes in a hundred versions: business analyst, systems analyst, product analyst, functional analyst, and the job descriptions are so vague they could mean almost anything. So people picture the surface: piles of documentation, back-to-back meetings, something to do with spreadsheets. All of that appears in the job at times, and none of it is the job. If you are trying to break in, the first thing worth having is a clear, honest picture of what you are actually walking toward.
 
 ## The job, underneath everything
 
-Here is the one-line version I wish someone had given me early. ***A business analyst stands between the people who have a problem and the people who can build a solution, and makes each make sense to the other.*** That is it, underneath every framework and template you will ever learn. The business side usually knows something is wrong, or something is needed, but cannot express it in a way a technical team can act on. The technical side can build almost anything, but needs to know exactly what to build and why. The analyst is the bridge: the person who turns a vague business need into something clear enough to build, and turns technical realities back into language the business can make decisions with.
+Here is the one-line version I wish someone had given me early. <strong><em>A business analyst stands between the people who have a problem and the people who can build a solution, and makes each make sense to the other.</em></strong> That is it, underneath every framework and template you will ever learn. The business side usually knows something is wrong, or something is needed, but cannot express it in a way a technical team can act on. The technical side can build almost anything, but needs to know exactly what to build and why. The analyst is the bridge: the person who turns a vague business need into something clear enough to build, and turns technical realities back into language the business can make decisions with.
 
 In practice that means understanding a problem deeply before anyone rushes to build, asking the questions that surface what people actually need rather than what they first ask for, writing it down clearly enough that nobody misreads it, mapping how work really flows and where it breaks, helping people who disagree arrive at what should be built, and checking afterwards that the thing that got built solved the real problem. Notice how little of that is about any single tool. The job is mostly clear thinking and clear communication, aimed at a technical world.
 
@@ -31,7 +31,7 @@ The skills that carry the job are more human than technical: curiosity and the i
 
 It is worth being blunt about the technical question, because it stops so many people at the door. You do not need to code. You do need to be unafraid of technology: willing to learn how a system works, to sit in a conversation about databases or interfaces and follow the thread, to ask an engineer a question without flinching. Curiosity closes that gap far faster than any qualification. The analysts who struggle are rarely the ones who cannot code. They are the ones who are frightened of the technical world and keep it at arm's length, and it always shows.
 
-**Is this actually you?**
+<strong>Is this actually you?</strong>
 
 Since you are deciding whether to point your career at this, here is an honest self-check. Read these slowly and notice which ones make you nod.
 
@@ -49,8 +49,8 @@ The worst reason to become a business analyst is that it looks like an easy side
 
 There is also a quieter reason people wash out, worth knowing before you start. Some arrive expecting to be the decision-maker, the one whose plan gets built and applauded. The analyst is rarely that person. You shape the decision, and you shape what gets built, but you are usually not the one who owns it or takes the visible credit. If your satisfaction depends on being the star, this will quietly frustrate you. If it comes from seeing the right thing happen, whoever ends up holding the trophy, you will do well and last long.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya | Flotog BA Insights  |  www.flotogbainsights.com
 
-*Tomorrow:* *You Have More Experience Than You Think -* *Why the experience you already carry maps onto this job more than you realise.*
+<em>Tomorrow: You Have More Experience Than You Think - Why the experience you already carry maps onto this job more than you realise.</em>

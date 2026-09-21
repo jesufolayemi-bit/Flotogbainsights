@@ -8,11 +8,9 @@ cover: "/images/blog/f4dc16_996c41bade144bca9294d082bda67e98.png"
 readingTime: 5
 wixId: "b0fb9f6f-dfa1-4085-b142-f274393b8647"
 ---
-**DAY 1** | **Why Process Improvement Is a BA's Most Powerful Skill**
-
 <img src="/images/blog/f4dc16_996c41bade144bca9294d082bda67e98.png" alt="Why Process Improvement Is a BA's Most Powerful Skill" width="2848" height="1472" loading="lazy">
 
-**I want to tell you about a warehouse operations team I worked with early in my BA career.**
+<strong>I want to tell you about a warehouse operations team I worked with early in my BA career.</strong>
 
 They had a goods-in process that required three separate sign-offs before any delivery could be accepted. Each sign-off came from a different department. Each department had different working hours. The result was that deliveries regularly sat in the loading bay for hours, sometimes overnight, waiting for the third signature to arrive. Drivers were delayed. Stock was late reaching the floor. The operations team had adapted by building workarounds that created their own problems. I was brought in to document the process as part of a wider system implementation. So I documented it. Every step. Every handoff. Every signature. I produced a process map that accurately reflected exactly what was happening.
 
@@ -47,9 +45,9 @@ When a broken process is documented without question, the people who run it take
 
 Process improvement starts with a single shift in how you approach a process workshop or a current state review.
 
-***Stop asking: what does this process do?***
+<strong><em>Stop asking: what does this process do?</em></strong>
 
-***Start asking: why does this process exist, is it achieving that purpose, and where is it falling short?***
+<strong><em>Start asking: why does this process exist, is it achieving that purpose, and where is it falling short?</em></strong>
 
 The first question produces a map. The second produces an analysis. They sound similar. They lead to completely different conversations. When you ask why a step exists, you find process fossils like the three-signature requirement in the warehouse story. Steps that were introduced for a reason that no longer applies. Checks that duplicate each other. Handoffs that exist because of an organisational structure that changed two years ago.
 
@@ -62,8 +60,8 @@ This week we are going to build every practical skill you need to go from that m
 - Day 4: Leading an Improvement Initiative. How to structure the work, engage stakeholders, manage resistance, and measure whether the change actually worked.
 - Day 5: The Process Improvement Toolkit. A practical reference guide to every tool and technique from this week, with a free downloadable resource to use on your next improvement project.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya | Flotog BA Insights | www.flotogbainsights.com
 
-*Tomorrow: Root Cause Analysis. The three techniques that find the real problem rather than the visible symptom, when to use each one, and the most common mistakes that lead BAs to fix the wrong thing.*
+<em>Tomorrow: Root Cause Analysis. The three techniques that find the real problem rather than the visible symptom, when to use each one, and the most common mistakes that lead BAs to fix the wrong thing.</em>

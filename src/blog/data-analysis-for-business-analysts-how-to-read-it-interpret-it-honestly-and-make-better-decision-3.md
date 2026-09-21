@@ -8,11 +8,9 @@ cover: "/images/blog/f4dc16_bd076ac555b4435abae4257262420812.png"
 readingTime: 5
 wixId: "a0d37c80-dcc5-4439-a313-26f55cef5c34"
 ---
-**DAY 4** | **From Data to Decision: Turning Numbers Into Analytical Judgement**
-
 <img src="/images/blog/f4dc16_bd076ac555b4435abae4257262420812.png" alt="From Data to Decision: Turning Numbers Into Analytical Judgement" width="1424" height="736" loading="lazy">
 
-**There is a comfortable myth that data makes decisions.** It does not. Data informs decisions. People make them. And the gap between having data and making a good decision is wider than most organisations admit. It is entirely possible to be data-rich and decision-poor, to have dashboards full of metrics and still make choices that the data does not support, because nobody did the work of turning the numbers into judgement.
+<strong>There is a comfortable myth that data makes decisions.</strong> It does not. Data informs decisions. People make them. And the gap between having data and making a good decision is wider than most organisations admit. It is entirely possible to be data-rich and decision-poor, to have dashboards full of metrics and still make choices that the data does not support, because nobody did the work of turning the numbers into judgement.
 
 That work is the Business Analyst's contribution. Reading data and interpreting it honestly, which we covered on the previous two days, are the foundations. Today is about the structure that sits on top of them: how to move from an honest interpretation to a recommendation that a decision-maker can act on with confidence.
 
@@ -26,10 +24,10 @@ This framing matters because it positions the BA correctly. The BA is not there 
 
 A recommendation built on data has a structure. Working through that structure is what separates a genuine evidence-based recommendation from a conclusion that has been decorated with a few supporting numbers.
 
-1. **Start with the question**. What decision is this recommendation supporting? A recommendation that is not anchored to a specific decision tends to drift into a general presentation of data that leaves the decision-maker no better placed to choose. Be explicit about the question the recommendation answers.
-2. **Then state what the data shows**. Not everything in the dataset, but the findings that are relevant to the question. Present them in plain language, honestly interpreted, using the principles from the previous two days. This is the evidence.
-3. **Then state what the data does not show**. Every recommendation has limitations, and naming them is what makes the recommendation trustworthy. What factors are relevant to this decision that the data does not capture? What assumptions does the interpretation rest on? Where is the evidence weaker than you would like? A decision-maker who knows the limitations can weigh the recommendation appropriately.
-4. **Then give the recommendation**. Based on the evidence and its limitations, what do you recommend, and why? The recommendation should follow logically from what came before. If a reader can trace the line from the question, through the evidence, through the limitations, to the recommendation, then the recommendation is well-built. If the recommendation appears from nowhere or requires the reader to take a leap that the evidence does not support, it is not.
+1. <strong>Start with the question</strong>. What decision is this recommendation supporting? A recommendation that is not anchored to a specific decision tends to drift into a general presentation of data that leaves the decision-maker no better placed to choose. Be explicit about the question the recommendation answers.
+2. <strong>Then state what the data shows</strong>. Not everything in the dataset, but the findings that are relevant to the question. Present them in plain language, honestly interpreted, using the principles from the previous two days. This is the evidence.
+3. <strong>Then state what the data does not show</strong>. Every recommendation has limitations, and naming them is what makes the recommendation trustworthy. What factors are relevant to this decision that the data does not capture? What assumptions does the interpretation rest on? Where is the evidence weaker than you would like? A decision-maker who knows the limitations can weigh the recommendation appropriately.
+4. <strong>Then give the recommendation</strong>. Based on the evidence and its limitations, what do you recommend, and why? The recommendation should follow logically from what came before. If a reader can trace the line from the question, through the evidence, through the limitations, to the recommendation, then the recommendation is well-built. If the recommendation appears from nowhere or requires the reader to take a leap that the evidence does not support, it is not.
 
 ## Presenting Data So It Informs Rather Than Manipulates
 
@@ -54,8 +52,8 @@ Clarity means being unambiguous about what the data shows, not hiding the inconv
 
 The movement from data to decision is the point in the analytical process where the Business Analyst adds the most distinctive value. Data analysts can produce the numbers. Decision-makers can make the call. The BA is the bridge between them, the person who turns evidence into a form that a decision-maker can actually use, honestly interpreted and clearly presented. This is why data competence matters so much for the BA, and why it is worth the effort of building it. The BA who can read data, interpret it honestly, and turn it into a clear recommendation is operating at the centre of how modern organisations make decisions. That is a position of genuine influence, and it is available to any Business Analyst willing to build the skills this week has covered.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya | Flotog BA Insights | www.flotogbainsights.com
 
-*Tomorrow: The Data Analysis Toolkit. A practical reference guide to everything in this series, with a free downloadable resource to use on your next data-informed project.*
+<em>Tomorrow: The Data Analysis Toolkit. A practical reference guide to everything in this series, with a free downloadable resource to use on your next data-informed project.</em>

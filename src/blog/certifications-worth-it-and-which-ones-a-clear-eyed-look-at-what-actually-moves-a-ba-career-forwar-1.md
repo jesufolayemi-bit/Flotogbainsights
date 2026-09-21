@@ -16,7 +16,7 @@ Most people choose a certification based on which one they have heard mentioned 
 
 ECBA is built for people with little to no professional business analysis experience, typically under two years, who need a way to demonstrate foundational knowledge before they have a track record of real projects to point to. It requires no prior work experience to sit the exam, which is exactly its value and exactly its limit.
 
-This is the right choice if you are breaking into the field and need something concrete to put on a resume alongside real project work you are building through the kind of hands-on evidence covered in the ***Breaking Into Business Analysis series***. It is the wrong choice if you already have several years of real experience, because at that point the credential undersells what you can already demonstrate through your work history alone.
+This is the right choice if you are breaking into the field and need something concrete to put on a resume alongside real project work you are building through the kind of hands-on evidence covered in the <strong><em>Breaking Into Business Analysis series</em></strong>. It is the wrong choice if you already have several years of real experience, because at that point the credential undersells what you can already demonstrate through your work history alone.
 
 ## CCBA: Certification of Capability in Business Analysis
 
@@ -56,10 +56,10 @@ Every one of these credentials is built for a specific point on a specific ladde
 
 Every one of these credentials also comes with a cost most people only discover after they have already committed. Exam fees range from a few hundred to over a thousand dollars depending on IIBA or PMI membership status, and most require continuing education units and a renewal fee every few years to keep the credential active. A lapsed certification usually still counts as having earned it once, but it stops counting as current in the eyes of a strict recruiter or hiring panel. Factor the renewal commitment into the decision now, not after the exam, since a certification you let quietly lapse for two years does less for you than one you never pursued and were honest about not having.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya | Flotog BA Insights  |  www.flotogbainsights.com
 
-*TOMORROW*
+<em>TOMORROW</em>
 
-*The Certification Fit Framework -* *Four questions that tell you which certification actually fits your situation, and when the honest answer is none of them yet.*
+<em>The Certification Fit Framework - Four questions that tell you which certification actually fits your situation, and when the honest answer is none of them yet.</em>

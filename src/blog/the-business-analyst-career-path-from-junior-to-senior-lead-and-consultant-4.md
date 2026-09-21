@@ -11,7 +11,7 @@ wixId: "d12b326f-b920-462c-a6b7-3252077d3a3d"
 ---
 <img src="/images/blog/f4dc16_e6bf56edfb704291819538a49d9decd8.png" alt="The Whole Path, and How to Climb It" width="2752" height="1536" loading="lazy">
 
-**The whole path comes down to one idea: at every stage, moving up means letting go of the thing that made you good at the stage before. Here is the map on one page.**
+<strong>The whole path comes down to one idea: at every stage, moving up means letting go of the thing that made you good at the stage before. Here is the map on one page.</strong>
 
 A career map is not there to tell you something new each time you look at it. It is there to help you see where you actually are, and what to build next, on the days you feel stuck without knowing why. So before the self-assessment, here is the whole week in one view, and the single engine that drives every step of it.
 
@@ -40,6 +40,6 @@ Understanding the shape of the path is itself a career skill, and one that compo
 
 So wherever you are on this path, the work from here is the same. Find your stage honestly. Name the strength you are holding on to that has become your ceiling. And start practising the next stage before anyone gives you permission, because permission almost always follows the behaviour rather than leading it. The junior BA who thinks like an owner becomes a senior BA. The senior BA who multiplies becomes a lead BA. The lead who sees across contexts becomes an advisor. The title is just the recognition, arriving late, of a change you had already made. Thank you for spending the week here. Now go and build the stage you are growing into.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya | Flotog BA Insights  |  www.flotogbainsights.com

@@ -1,5 +1,7 @@
 ---
-title: "Methodologies in Business Analysis: Waterfall vs Agile - Which is Better?     "
+title: "The Great Methodology Debate"
+series: "Methodologies in Business Analysis: Waterfall vs Agile - Which is Better?"
+day: 1
 description: "Welcome to this series. Over the next six editions, we are going somewhere that most BA training programmes, certification courses, and online resources…"
 date: 2026-05-01T14:12:33.481Z
 updated: 2026-05-01T14:18:12.196Z
@@ -7,9 +9,7 @@ cover: "/images/blog/f4dc16_1b1f56771716479c98b48daa31450912.png"
 readingTime: 4
 wixId: "63536654-2ced-475f-964d-1c61d7835813"
 ---
-<img src="/images/blog/f4dc16_4779e0f57bd44026a5d0b027f3a47f61.png" alt="Methodologies in Business Analysis: Waterfall vs Agile - Which is Better?     " width="2044" height="1536" loading="lazy">
-
-## DAY 1: The Great Methodology Debate
+<img src="/images/blog/f4dc16_4779e0f57bd44026a5d0b027f3a47f61.png" alt="The Great Methodology Debate" width="2044" height="1536" loading="lazy">
 
 ## Fellow Business Analysts,
 
@@ -87,8 +87,8 @@ You will also have a practical decision framework for your next project, a deep 
 
 That is what this week is for. Let's get into it. Also, if you want to know more about Business Analysis, click the link here for a free 30-minute session: [Click Here](/book-online)
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## — Oluwatosin Ogunkoya
 
-*Monday: Waterfall Demystified  -  the phases, the deliverables, and the scenarios where choosing Waterfall is not old-fashioned. It is the right call.*
+<em>Monday: Waterfall Demystified - the phases, the deliverables, and the scenarios where choosing Waterfall is not old-fashioned. It is the right call.</em>

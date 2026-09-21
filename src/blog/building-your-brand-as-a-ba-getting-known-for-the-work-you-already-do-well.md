@@ -10,7 +10,7 @@ wixId: "f16d170e-305c-45ef-b819-18de2e2b25f3"
 ---
 <img src="/images/blog/f4dc16_0ea39835cbcc4850b72a3ffa80ac8261.png" alt="The Brand You Already Have, Whether You Built It or Not" width="2752" height="1536" loading="lazy">
 
-**For years I was the one being guided, not the one guiding, and I never once thought of my own path as something worth writing down.** I trained as a computer engineer and did a Master's in software technology, and somewhere in the middle of it I had to admit something that felt almost embarrassing. I did not have a flair for coding. I still don't. What I did have, and still have, is a love for tech that goes bone deep. For a while, I thought those two things could not live together, that if I could not build the software, I did not really belong. When I accepted that development was not my path, the advice was predictable. Go into IT support. Stack up certifications. Grind through the routes everyone points the non-coders toward. Something in me refused a career chosen by default, just because it was the obvious door. So I went looking for a different one, a role that used the way I actually think and sat close to the technology I loved, without asking me to pretend to be a developer.
+<strong>For years I was the one being guided, not the one guiding, and I never once thought of my own path as something worth writing down.</strong> I trained as a computer engineer and did a Master's in software technology, and somewhere in the middle of it I had to admit something that felt almost embarrassing. I did not have a flair for coding. I still don't. What I did have, and still have, is a love for tech that goes bone deep. For a while, I thought those two things could not live together, that if I could not build the software, I did not really belong. When I accepted that development was not my path, the advice was predictable. Go into IT support. Stack up certifications. Grind through the routes everyone points the non-coders toward. Something in me refused a career chosen by default, just because it was the obvious door. So I went looking for a different one, a role that used the way I actually think and sat close to the technology I loved, without asking me to pretend to be a developer.
 
 I did not stumble sideways into business analysis. I found a school that trained people in it, and I went and learned the craft on purpose. And early on, someone who had already walked the road agreed to guide me. I would not have moved half as fast without them. They shortened my mistakes, told me the things nobody writes down, and when I doubted whether I belonged, reminded me that I did.
 
@@ -51,10 +51,10 @@ Start small this week. Before Friday, say one true thing about your work somewhe
 
 That is the whole starting move. Everything else is refinement.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya | Flotog BA Insights  |  www.flotogbainsights.com
 
-*TOMORROW*
+<em>TOMORROW</em>
 
-*The Three Things Worth Posting About -* *A simple framework for never running out of things to say, built from what you already know.*
+<em>The Three Things Worth Posting About - A simple framework for never running out of things to say, built from what you already know.</em>

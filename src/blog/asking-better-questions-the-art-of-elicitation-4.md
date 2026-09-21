@@ -11,7 +11,7 @@ wixId: "23ac224a-ebbc-4dd1-a0a4-124af5105e0f"
 ---
 <img src="/images/blog/f4dc16_b74c164f699e4f9bb3fbfe9f9516d830.png" alt="Your Elicitation Playbook" width="2752" height="1536" loading="lazy">
 
-**Everything this week comes down to a single idea, and then a set of moves for acting on it.** The idea is that the words a stakeholder gives you are the start of the work, not the end of it. Their request is a clue, their tidy answer is a costume, and the real requirement is usually one or two honest questions deeper than where they stopped. Everything below is built to help you get to that deeper place quickly, under pressure, when a senior person is watching, and the easy thing is to just write down what you were told. Keep this one open beside you. The point of a playbook is not that it teaches you something new each time. It is that it holds the good habits steady on the days you are tired, rushed or out of your depth, which is most days. Print it, save it, pin it. Then use it.
+<strong>Everything this week comes down to a single idea, and then a set of moves for acting on it.</strong> The idea is that the words a stakeholder gives you are the start of the work, not the end of it. Their request is a clue, their tidy answer is a costume, and the real requirement is usually one or two honest questions deeper than where they stopped. Everything below is built to help you get to that deeper place quickly, under pressure, when a senior person is watching, and the easy thing is to just write down what you were told. Keep this one open beside you. The point of a playbook is not that it teaches you something new each time. It is that it holds the good habits steady on the days you are tired, rushed or out of your depth, which is most days. Print it, save it, pin it. Then use it.
 
 ## The four principles, in one breath each
 
@@ -71,6 +71,6 @@ This is also the skill that separates a BA that people tolerate from the one peo
 
 So whether you are a junior who printed this to pin to the wall, or a senior who recognised your own habits in it, the work is the same from here. Take one question from the bank into your next conversation. Ask it, then sit in the silence that follows long enough for the real answer to arrive. That silence, the one most people rush to fill, is where the whole craft lives. Thank you for spending the week here. Now go and ask a better question.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya | Flotog BA Insights  |  www.flotogbainsights.com

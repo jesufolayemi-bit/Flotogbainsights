@@ -11,7 +11,7 @@ wixId: "b9836be9-e961-4f3b-a916-9039d475553e"
 ---
 <img src="/images/blog/f4dc16_3ae6526f74734ac28a12bd549b46595b.png" alt="Tools That Sharpen Judgment" width="1024" height="572" loading="lazy">
 
-**You cannot make yourself smarter on demand. But you can run a decision through a shape that catches the things your confidence is hiding, and that is most of what good judgement actually is.**
+<strong>You cannot make yourself smarter on demand. But you can run a decision through a shape that catches the things your confidence is hiding, and that is most of what good judgement actually is.</strong>
 
 This week has been about seeing clearly: catching your own bias, checking the frame, testing the evidence. Today is the practical kit, a small set of reasoning moves you can apply deliberately when a decision matters enough to deserve slow thinking. None of these is clever. Their power is that they force your mind down a path it would not take on its own, and in doing so, they surface the risk, the assumption, or the consequence you were about to walk straight past. You do not need all of them every day. You need to know they exist, so you can reach for the right one when the stakes are real.
 
@@ -27,7 +27,7 @@ The mathematician Carl Jacobi advised his students to invert, always invert, and
 2. Read the reasons out. The honest ones, the political ones, the technical ones. No defending, just collecting.
 3. Take the two or three most likely and most damaging, and build a response to each into the plan before you commit.
 
-**Second-order thinking: and then what?**
+<strong>Second-order thinking: and then what?</strong>
 
 Most poor decisions are not wrong in their first effect. They are wrong about what the first effect causes next. The investor Howard Marks calls the fix second-order thinking, and it is captured in a single question you ask of any decision: and then what happens. You add a discount to win the deal, and then what? Competitors match it, and then what? The whole market resets lower, and the discount you meant as a one-off becomes the new normal you cannot escape. First-order thinking stops at the immediate, pleasing result. Second-order thinking follows the chain two or three steps further, to the consequences of the consequences, which is where the real cost or benefit usually lives. Asking and then what a few times in a row is one of the cheapest ways to avoid a decision that looks smart today and expensive next quarter.
 
@@ -55,10 +55,10 @@ The tools only help if you use them honestly, and a few habits quietly defeat th
 
 Pick your next real decision of any size, and before you make it, run a five-minute pre-mortem on yourself. Imagine it is six months from now, and the decision went badly. Do not ask whether it might fail. Assume it did, and ask why. The reasons your mind produces under that instruction are the risks you were quietly discounting, and they come far more honestly than they ever do when you ask the gentle version. Write them down, and handle the two most likely before you commit. That single habit, imagining the failure in order to prevent it, will do more for how often you are right than any amount of extra analysis, because it uses your imagination against your own optimism.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya | Flotog BA Insights  |  www.flotogbainsights.com
 
-*Tomorrow:* *The Clear-Thinking Toolkit*
+<em>Tomorrow: The Clear-Thinking Toolkit</em>
 
-*The whole week on one page, and one decision runs through every move at once.*
+<em>The whole week on one page, and one decision runs through every move at once.</em>

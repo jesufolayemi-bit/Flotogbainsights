@@ -33,7 +33,7 @@ To carry this week into your actual work, here is a one-page reference. Pin it s
 3. Could a competent stranger check the result in minutes? If yes, it is safe to delegate the draft. If checking it needs context only I hold, it is not.
 4. Will my name and accountability be on the outcome? If yes, the tool may draft it, but I read every line, and I own every word.
 
-Print it, screenshot it, write it on a sticky note. The format does not matter. What matters is that the next time something lands on your desk, you pause for two seconds and run it through the questions, instead of either doing all of it by hand out of habit or dumping all of it on a tool out of laziness. Two seconds of deliberate sorting is the entire discipline. Underneath those four, one rule holds the whole card together. ***The tool drafts. The human decides. If a task ever asks you to hand over the deciding, that is the signal to take it back into your own hands.***
+Print it, screenshot it, write it on a sticky note. The format does not matter. What matters is that the next time something lands on your desk, you pause for two seconds and run it through the questions, instead of either doing all of it by hand out of habit or dumping all of it on a tool out of laziness. Two seconds of deliberate sorting is the entire discipline. Underneath those four, one rule holds the whole card together. <strong><em>The tool drafts. The human decides. If a task ever asks you to hand over the deciding, that is the signal to take it back into your own hands.</em></strong>
 
 ## Where this leaves us
 
@@ -41,10 +41,10 @@ I began this week genuinely unsettled. I end it more confident about this profes
 
 The analysts who struggle will be the ones who either ignore the tools or hide behind them. The analysts who thrive will be the ones who hand over the scaffolding without hesitation and guard the judgment without apology. That is not a defensive crouch. It is a confident posture. You are not protecting your job from a threat. You are concentrating your effort on the part of the work that was always worth your time, and letting a tool clear away the part that never was.
 
-**Hand over the typing. Keep the thinking. Be seen doing the part that matters. That is the whole game now, and it is a better game than the one we were playing before.**
+<strong>Hand over the typing. Keep the thinking. Be seen doing the part that matters. That is the whole game now, and it is a better game than the one we were playing before.</strong>
 
-**Thank you for spending the week with me. If something here shifted how you see your own role, that is the point. Now go and protect the part of your work that was always worth protecting.**
+<strong>Thank you for spending the week with me. If something here shifted how you see your own role, that is the point. Now go and protect the part of your work that was always worth protecting.</strong>
 
-*Go out and be successful.*
+<em>Go out and be successful.</em>
 
 ## Oluwatosin Ogunkoya  |  Flotog BA Insights  |  www.flotogbainsights.com

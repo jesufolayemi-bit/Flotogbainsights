@@ -10,7 +10,7 @@ wixId: "44d480d0-524a-4023-b62c-fd543d569db0"
 ---
 <img src="/images/blog/f4dc16_7c0529cffcf1419fb0cb271aad26bf37.png" alt="How to move a decision you cannot make" width="1024" height="572" loading="lazy">
 
-**The decision meeting is usually where a decision is announced, not where it is made.** It took me years and several painful losses to understand this. I used to pour everything into the meeting itself. I would build the perfect case, rehearse the presentation, anticipate the questions, and walk in ready. And often enough, the room would go a different way, and I would leave baffled, certain I had made the stronger argument. I had. It just did not matter, because the people in that room had quietly made up their minds days earlier, in conversations I was not part of, and the meeting was only ratifying decisions that were already mostly made.
+<strong>The decision meeting is usually where a decision is announced, not where it is made.</strong> It took me years and several painful losses to understand this. I used to pour everything into the meeting itself. I would build the perfect case, rehearse the presentation, anticipate the questions, and walk in ready. And often enough, the room would go a different way, and I would leave baffled, certain I had made the stronger argument. I had. It just did not matter, because the people in that room had quietly made up their minds days earlier, in conversations I was not part of, and the meeting was only ratifying decisions that were already mostly made.
 
 Once you see this, your whole approach changes. You stop treating the meeting as an event and start treating it as the closing ceremony. The actual work of moving a decision happens before, in the small conversations where people form their views while they still feel open to forming them. If you only show up for the formal moment, you are arguing with minds that are already set.
 
@@ -22,10 +22,10 @@ When you have no authority, you cannot move a decision by wanting it more. You m
 
 Before any decision that matters, the people who reliably win them do a quick piece of mapping. The simplest version is a grid borrowed from stakeholder analysis, often called the power and interest grid. You place each person on two axes: how much power they have over this decision, and how much they care about it. The four corners then tell you exactly where to spend your limited time.
 
-- **High power, high interest**: the people you must win in person, one to one, before the meeting. These are the decisions. Everything else is secondary.
-- **High power, low interest**: keep them satisfied and, above all, unsurprised. Their indifference turns into opposition fast if they feel blindsided in public.
-- **Low power, high interest**: your potential allies and your best source of ground truth. They often know the real objections before the powerful people voice them.
-- **Low power, low interest**: keep them informed and move on. Spending your energy here is the most common way good time gets wasted.
+- <strong>High power, high interest</strong>: the people you must win in person, one to one, before the meeting. These are the decisions. Everything else is secondary.
+- <strong>High power, low interest</strong>: keep them satisfied and, above all, unsurprised. Their indifference turns into opposition fast if they feel blindsided in public.
+- <strong>Low power, high interest</strong>: your potential allies and your best source of ground truth. They often know the real objections before the powerful people voice them.
+- <strong>Low power, low interest</strong>: keep them informed and move on. Spending your energy here is the most common way good time gets wasted.
 
 The point of the grid is not the diagram. It is that it stops you from pouring your effort into the loudest person in the room instead of the person who actually decides, which is one of the most common ways a winnable decision gets lost.
 
@@ -66,10 +66,10 @@ Most lost decisions are lost in a handful of predictable ways, and almost all of
 
 None of this is unique to business analysis. Anyone who has needed a group to decide something has either learned these moves or lost decisions they should have won. The parent building an agreement before a family decision, the volunteer moving a committee, the employee getting a new idea through a cautious organisation, they are all doing the same work: understanding what the other side cares about, doing the quiet groundwork in advance, and making the yes easy. A junior BA can take one idea from today, the pre-meeting conversation, and change the outcome of their next proposal. A senior one hopefully already does this on instinct and could not imagine walking into an important decision cold. Tomorrow, I will bring the whole week together into a single reference you can keep beside you.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya | Flotog BA Insights  |  www.flotogbainsights.com
 
 Tomorrow: Your Influence Playbook
 
-*The whole week distilled into a one-page reference you can keep beside you.*
+<em>The whole week distilled into a one-page reference you can keep beside you.</em>

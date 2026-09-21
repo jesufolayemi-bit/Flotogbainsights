@@ -8,11 +8,9 @@ cover: "/images/blog/f4dc16_725e97753ffc457e9bd0c18eaa764f50.png"
 readingTime: 7
 wixId: "e4cd5103-d737-48ad-b949-59fa0fe8b907"
 ---
-**DAY 3** | **Backlog Refinement and Sprint Ceremonies: The BA's Engine Room**
-
 <img src="/images/blog/f4dc16_725e97753ffc457e9bd0c18eaa764f50.png" alt="Backlog Refinement and Sprint Ceremonies: The BA's Engine Room" width="2816" height="1536" loading="lazy">
 
-**There is a version of Agile BA practice where every ceremony is something that happens to you.** Sprint planning happens, and you answer questions when the team asks them. The standup happens, and you give your update when it is your turn. The sprint review happens, and you sit in the room while the developers present. The retrospective happens, and you nod along. This version of the role is passive. And it is far more common than most Agile practitioners would like to admit.
+<strong>There is a version of Agile BA practice where every ceremony is something that happens to you.</strong> Sprint planning happens, and you answer questions when the team asks them. The standup happens, and you give your update when it is your turn. The sprint review happens, and you sit in the room while the developers present. The retrospective happens, and you nod along. This version of the role is passive. And it is far more common than most Agile practitioners would like to admit.
 
 The ceremonies in Scrum are not meetings you attend. They are the primary working tools of the Agile Business Analyst. Each one is an opportunity to do something specific and important: to clarify, to elicit, to align, to capture, to improve. The BA who understands this uses every ceremony deliberately. The BA who does not is a warm body in a room.
 
@@ -34,7 +32,7 @@ The BA should also be watching for stories that are clearly not sprint-ready des
 
 ## The Daily Standup: Five Minutes of Active Listening
 
-The BA's standup contribution should be brief: what you completed yesterday relevant to the team, what you are working on today, and any blockers. That part is simple. What is less obvious is what the BA should be doing while everyone else gives their update. ***Listening. Analytically.***
+The BA's standup contribution should be brief: what you completed yesterday relevant to the team, what you are working on today, and any blockers. That part is simple. What is less obvious is what the BA should be doing while everyone else gives their update. <strong><em>Listening. Analytically.</em></strong>
 
 Developers describe blockers in technical language that often masks a requirements problem underneath. "I am not sure how to handle the case where a user has two active orders at the same time" is a technical statement. It is also a requirements gap. The acceptance criteria for that story did not address concurrent orders. If the BA does not catch this in the standup, the developer will make an assumption. That assumption will either be correct, in which case you were lucky, or it will be wrong, in which case you have a defect.
 
@@ -50,7 +48,7 @@ The sprint review where stakeholders are not present is an Agile failure. It rem
 
 ## The Sprint Retrospective: The BA's Professional Development Tool
 
-The retrospective is where the team reflects on how they worked together and identifies specific improvements for the next sprint. The BA participates as a full team member, not as an observer. If requirements quality was a factor in any sprint problems, whether stories were unclear, acceptance criteria were ambiguous, or edge cases were missed, the retrospective is where the BA should own it explicitly. Not defensively. Not with excessive qualification. Directly. "*The acceptance criteria for the payment story were not specific enough about the error handling, which caused the team to stop and wait for clarification on day three. In the next sprint, I am going to make sure error state criteria are drafted before refinement rather than during it*."
+The retrospective is where the team reflects on how they worked together and identifies specific improvements for the next sprint. The BA participates as a full team member, not as an observer. If requirements quality was a factor in any sprint problems, whether stories were unclear, acceptance criteria were ambiguous, or edge cases were missed, the retrospective is where the BA should own it explicitly. Not defensively. Not with excessive qualification. Directly. "<em>The acceptance criteria for the payment story were not specific enough about the error handling, which caused the team to stop and wait for clarification on day three. In the next sprint, I am going to make sure error state criteria are drafted before refinement rather than during it</em>."
 
 That kind of direct ownership builds credibility. It shows the team that the BA is accountable for the quality of their own work in the same way developers are accountable for the quality of theirs. And it turns the retrospective into a genuine tool for improving BA practice rather than a team meeting where the BA is a spectator.
 
@@ -64,8 +62,8 @@ The sprint review stops generating useful information because stakeholders stop 
 
 All of these are BA problems. Not Scrum problems. Not Product Owner problems. BA problems. And all of them are preventable with the kind of active, deliberate ceremony involvement this article has described.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya | Flotog BA Insights | www.flotogbainsights.com
 
-*Tomorrow: Working With Your Product Owner. The relationship that determines whether Agile works, how to make it function well, and what the experienced BA does when the partnership is not working.*
+<em>Tomorrow: Working With Your Product Owner. The relationship that determines whether Agile works, how to make it function well, and what the experienced BA does when the partnership is not working.</em>

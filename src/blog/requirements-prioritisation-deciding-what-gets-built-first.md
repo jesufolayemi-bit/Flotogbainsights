@@ -18,16 +18,27 @@ I once tracked a real team's backlog labelling over ten consecutive sprints. In 
 
 This is a real pattern, not an exaggerated one. Each individual sprint's markup decisions looked defensible. The trend line is where the actual problem lives, and a trend line is exactly the kind of thing nobody notices from inside a single sprint, because each sprint only ever sees its own small increment of drift. What does this actually cost, once it happens? A priority label exists to do one job: tell someone, quickly, what to work on first when there is not enough time for everything. Once 96% of a backlog carries the same label, it has stopped doing that job entirely. It now carries the same amount of information as no label at all, except with one dangerous difference. Everyone who marked their item high priority believes it is protected, and that belief survives right up until release week, when the real capacity constraint finally forces an honest decision anyway, now under time pressure, with stakeholders who were never told their item was ever actually at risk.
 
-This is the real cost of priority inflation. It does not eliminate hard trade-off decisions. It only delays them to the worst possible moment, and adds a layer of broken trust on top, because the decision now looks like a last-minute cut rather than a considered call made with everyone's full knowledge. None of this happens because anyone is careless, either. Priority inflation is not a discipline failure or evidence that a team does not care about doing this well. It is the predictable result of making prioritisation decisions one at a time, in isolation, with no shared framework forcing anyone to actually compare items against each other or against a fixed, limited amount of capacity. Without a real constraint made visible, every individual request gets judged only against the question '***is this worth doing***,' and the honest answer to that question, for almost anything a stakeholder bothers to ask for, is usually yes.
+This is the real cost of priority inflation. It does not eliminate hard trade-off decisions. It only delays them to the worst possible moment, and adds a layer of broken trust on top, because the decision now looks like a last-minute cut rather than a considered call made with everyone's full knowledge. None of this happens because anyone is careless, either. Priority inflation is not a discipline failure or evidence that a team does not care about doing this well. It is the predictable result of making prioritisation decisions one at a time, in isolation, with no shared framework forcing anyone to actually compare items against each other or against a fixed, limited amount of capacity. Without a real constraint made visible, every individual request gets judged only against the question '<strong><em>is this worth doing</em></strong>,' and the honest answer to that question, for almost anything a stakeholder bothers to ask for, is usually yes.
 
-The question that actually needs asking is never 'is this worth doing.' It is ***'is this worth doing before everything else also competing for the same limited time?***' and that second question cannot be answered one item at a time. It requires seeing the whole list at once, against a real, finite capacity, which is exactly what the frameworks this week cover are built to force.
+The question that actually needs asking is never 'is this worth doing.' It is <strong><em>'is this worth doing before everything else also competing for the same limited time?</em></strong>' and that second question cannot be answered one item at a time. It requires seeing the whole list at once, against a real, finite capacity, which is exactly what the frameworks this week cover are built to force.
 
 ## Catching and Fixing It
 
 One short question, asked at the right moment, is usually enough to surface the trade-off directly.
 
-| **THE QUESTION THAT ACTUALLY SURFACES THE TRADE-OFFStakeholder:***This reporting fix needs to be a high priority; my team relies on those numbers every week.***You:***I don't doubt that it matters. Here's the honest version of the question, though: if this goes in, something else currently planned for this release comes out. Looking at the list together, what would you take out to make room for it?* |
-| --- |
+<div class="callout">
+
+<strong>THE QUESTION THAT ACTUALLY SURFACES THE TRADE-OFF</strong>
+
+<strong>Stakeholder:</strong>
+
+<em>This reporting fix needs to be a high priority; my team relies on those numbers every week.</em>
+
+<strong>You:</strong>
+
+<em>I don't doubt that it matters. Here's the honest version of the question, though: if this goes in, something else currently planned for this release comes out. Looking at the list together, what would you take out to make room for it?</em>
+
+</div>
 
 That second question rarely gets asked in practice, and it is the entire mechanism that prevents inflation. It converts a one-sided request, which is easy to grant, into a genuine trade-off, which forces the requester to weigh their own item against everything else actually competing for the same limited capacity.
 
@@ -47,10 +58,10 @@ Thursday combines both into a value versus effort matrix for the moments framewo
 
 Friday closes with how a prioritised list survives contact with an actual release, and how to communicate what did not make the cut without damaging the trust the whole exercise depends on.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
-**Oluwatosin Ogunkoya**  ·  **Flotog BA Insights  ·  1:1 mentoring and coaching for BAs at every career stage  ·**  [**www.flotogbainsights.com**](/)
+<strong>Oluwatosin Ogunkoya</strong>  ·  <strong>Flotog BA Insights  ·  1:1 mentoring and coaching for BAs at every career stage  ·</strong>  [<strong>www.flotogbainsights.com</strong>](/)
 
-*TOMORROW*
+<em>TOMORROW</em>
 
-*MoSCoW, Done Properly -* *The four categories, taught with real discipline, and the most misused rule: what actually qualifies as a Must.*
+<em>MoSCoW, Done Properly - The four categories, taught with real discipline, and the most misused rule: what actually qualifies as a Must.</em>

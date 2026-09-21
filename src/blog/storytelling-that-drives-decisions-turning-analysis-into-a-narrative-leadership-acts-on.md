@@ -10,7 +10,7 @@ wixId: "b6f3e29b-49b7-42dc-8dfa-0e0febdcaa26"
 ---
 <img src="/images/blog/f4dc16_0a9b62023efc4391a8b31f1bbacd60c7.png" alt="Why correct, careful analysis so often changes nothing" width="1024" height="572" loading="lazy">
 
-**The hardest thing to accept about good analysis is that being right is not enough. It is not even most of the job.** A few weeks ago this series worked through how to get the numbers right: reading data honestly, interpreting it without fooling yourself, turning it into a decision you could defend. That is the hard, unglamorous craft, and it matters. But there is a second half that almost nobody teaches, and it is where most good work quietly dies. You can do the analysis perfectly and still watch it change nothing, because the last stretch, the part where the insight has to cross from your head into the head of the person who can act on it, is not an analysis problem at all. It is a storytelling problem, and it defeats brilliant people every day.
+<strong>The hardest thing to accept about good analysis is that being right is not enough. It is not even most of the job.</strong> A few weeks ago this series worked through how to get the numbers right: reading data honestly, interpreting it without fooling yourself, turning it into a decision you could defend. That is the hard, unglamorous craft, and it matters. But there is a second half that almost nobody teaches, and it is where most good work quietly dies. You can do the analysis perfectly and still watch it change nothing, because the last stretch, the part where the insight has to cross from your head into the head of the person who can act on it, is not an analysis problem at all. It is a storytelling problem, and it defeats brilliant people every day.
 
 You know the scene because you have probably lived it. You are the data analyst who found the real churn driver, the engineer who knows which system is about to fail, the product manager holding the evidence for the roadmap. The work is done, and the answer is solid. Then you get twenty minutes in front of the people who decide, and something goes wrong that has nothing to do with the quality of the work. The room nods, thanks you, and does nothing. The insight was there. It just never made the jump.
 
@@ -34,7 +34,7 @@ It is worth being clear about what storytelling does and does not mean here, bec
 
 ## The shift that changes everything
 
-The whole week turns on one change of mind, and it is worth making now. ***Stop organising your communication around what you did, and start organising it around what they should do.*** The report you are tempted to give walks through your process: here is the question, here is the method, here is the data, here is the analysis, and finally, at the end, here is what it means. The story does the reverse. It starts from the meaning and the decision and offers only the evidence needed to trust them.
+The whole week turns on one change of mind, and it is worth making now. <strong><em>Stop organising your communication around what you did, and start organising it around what they should do.</em></strong> The report you are tempted to give walks through your process: here is the question, here is the method, here is the data, here is the analysis, and finally, at the end, here is what it means. The story does the reverse. It starts from the meaning and the decision and offers only the evidence needed to trust them.
 
 - Lead with the answer and the ask, not the journey. The person deciding needs to know where you are taking them before they will follow you there.
 - Cut everything that does not serve the one decision on the table. Your best material is not the same as your relevant material, and the audience cannot tell the difference between thorough and lost.
@@ -53,7 +53,6 @@ A handful of habits reliably sink strong analysis before it can land.
 
 Here is the part that matters for your own work, not just this week's presentation. The market is full of people who can produce a correct analysis, and that pool is growing as more of the raw analytical work gets automated. What stays scarce, and quietly decides whose careers climb, is the ability to take a finding and make an organisation act on it. Two people can do identical work, and the one whose analysis gets built, funded and remembered is not usually the stronger analyst. It is the one who could make the finding travel. Nobody writes turns analysis into decisions on a job description, but it is the difference between being the person who informs the decision and the person who is trusted to shape it. That reputation compounds, and it starts with treating the presentation as seriously as the analysis.
 
-***Go out and be successful.***
-**Oluwatosin Ogunkoya |** **Flotog BA Insights  |**  [**www.flotogbainsights.com**](/)
+<strong><em>Go out and be successful.</em></strong> <strong>Oluwatosin Ogunkoya | Flotog BA Insights  |</strong>  [<strong>www.flotogbainsights.com</strong>](/)
 
-*Tomorrow:* *Every Case Is a Story With Three Parts.* *The narrative shape that turns a flat report into a decision, and why tension is the engine.*
+<em>Tomorrow: Every Case Is a Story With Three Parts. The narrative shape that turns a flat report into a decision, and why tension is the engine.</em>

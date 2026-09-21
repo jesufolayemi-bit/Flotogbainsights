@@ -41,10 +41,10 @@ None of this is really about process for its own sake, and I want to be honest a
 
 There is also a quieter cost worth naming, separate from the rework and the missed deadlines. A team that ships the wrong solution well loses something harder to rebuild than time: the confidence of the stakeholders who trusted them with the project in the first place. The next request from that same sponsor comes with more oversight, more check-ins, more insistence on seeing drafts earlier, because trust that was spent once on an avoidable mistake takes longer to earn back than it took to lose. Discovery protects that trust as much as it protects the schedule, and the two are more connected than they first appear.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
-**Oluwatosin Ogunkoya**  **·  Flotog BA Insights  ·  1:1 mentoring and coaching for BAs at every career stage  ·**  [**www.flotogbainsights.com**](/)
+<strong>Oluwatosin Ogunkoya</strong> <strong>·  Flotog BA Insights  ·  1:1 mentoring and coaching for BAs at every career stage  ·</strong>  [<strong>www.flotogbainsights.com</strong>](/)
 
-*TOMORROW*
+<em>TOMORROW</em>
 
-*The Five Things Discovery Actually Has to Answer -* *A tight framework for what a real discovery phase covers, and what it can safely leave out.*
+<em>The Five Things Discovery Actually Has to Answer - A tight framework for what a real discovery phase covers, and what it can safely leave out.</em>

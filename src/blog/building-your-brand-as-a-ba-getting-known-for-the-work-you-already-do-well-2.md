@@ -11,7 +11,7 @@ wixId: "6d132951-e940-4f4f-b0a2-62b43a53318a"
 ---
 <img src="/images/blog/f4dc16_91ea4fc8b6c34ce18b5b5af4955818fb.png" alt="Your Profile Is a Case File, Not a CV" width="2752" height="1536" loading="lazy">
 
-**Open your own LinkedIn profile right now and read the first two lines as if you have never met you.** Most people wince a little at this exercise, because most profiles read like a job description that could belong to anyone with the same title. That is the entire problem, and it is fixable in one sitting. A profile that works is not a biography. It is a case file. It states, in specific terms, what you actually solve and what changed because you were in the room. Here are the four sections worth rebuilding, and what to put there instead.
+<strong>Open your own LinkedIn profile right now and read the first two lines as if you have never met you.</strong> Most people wince a little at this exercise, because most profiles read like a job description that could belong to anyone with the same title. That is the entire problem, and it is fixable in one sitting. A profile that works is not a biography. It is a case file. It states, in specific terms, what you actually solve and what changed because you were in the room. Here are the four sections worth rebuilding, and what to put there instead.
 
 ## The headline: state the problem you solve
 
@@ -51,10 +51,10 @@ None of the four sections above matter if the first impression is a blurry photo
 
 One more thing worth saying plainly. None of this requires reinventing who you are or manufacturing a story that is not true. It requires taking the actual shape of your path, whatever it is, and describing it with the same precision you would use in a well-written requirements document. If your path looks unconventional on paper, that is very often the strongest material you have, not something to smooth over into a generic template.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya | Flotog BA Insights  |  www.flotogbainsights.com
 
-*TOMORROW*
+<em>TOMORROW</em>
 
-*Writing About Real Work Without Breaking Trust -* *How to be specific and honest about client work while protecting every confidence you owe.*
+<em>Writing About Real Work Without Breaking Trust - How to be specific and honest about client work while protecting every confidence you owe.</em>

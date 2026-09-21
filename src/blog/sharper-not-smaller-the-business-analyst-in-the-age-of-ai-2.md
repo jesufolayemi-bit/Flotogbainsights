@@ -10,7 +10,7 @@ wixId: "40bafc6f-7825-4f9c-ad8b-1657a481699e"
 ---
 <img src="/images/blog/f4dc16_5c916e50582b48a6bafa4ee1bdef9885.png" alt="What to Never Hand Over (The Lines That Stay Yours)" width="2848" height="1472" loading="lazy">
 
-**Yesterday was about generosity: hand the mechanical work to the tool and free your week. Today is about protection. There are things you must never hand over, and knowing them is what keeps you valuable.**
+<strong>Yesterday was about generosity: hand the mechanical work to the tool and free your week. Today is about protection. There are things you must never hand over, and knowing them is what keeps you valuable.</strong>
 
 These are not tasks AI is merely bad at today and might master next year. They are a different category of work entirely. They are not about turning information into a tidier shape. They are about judgment, trust, and meaning, and those do not live inside any document you could feed a machine.
 
@@ -48,10 +48,10 @@ Notice what these have in common. Every one of them requires being a trusted hum
 
 Here is the part people miss. As AI absorbs the mechanical work, these human-only capabilities do not stay the same size. They become the whole game. The analyst of the next few years is not the one who types fastest. It is the one whose judgment people trust when the stakes are high, and the answer is not obvious.
 
-**So protect these. Spend the time AI gives you back on getting better at them. Sit in more rooms. Have more of the hard conversations. Build the relationships. Practise the judgment. That is where your career compounds.**
+<strong>So protect these. Spend the time AI gives you back on getting better at them. Sit in more rooms. Have more of the hard conversations. Build the relationships. Practise the judgment. That is where your career compounds.</strong>
 
-*Go out and be successful.*
+<em>Go out and be successful.</em>
 
 ## Oluwatosin Ogunkoya  |  Flotog BA Insights  |  www.flotogbainsights.com
 
-*TOMORROW:*  *Building AI Into Your Workflow.* *How to slot AI into discovery, requirements, analysis and validation, step by step, with the one handoff rule that keeps it safe at every stage.*
+<em>TOMORROW:  Building AI Into Your Workflow. How to slot AI into discovery, requirements, analysis and validation, step by step, with the one handoff rule that keeps it safe at every stage.</em>

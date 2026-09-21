@@ -1,16 +1,17 @@
 ---
-title: "Most Stakeholder Conflict Is Not a Communication Problem"
+title: "The Four Difficult Stakeholder Archetypes"
 series: "Difficult Stakeholders and Hard Conversations: How to Handle the Conversations Most Analysts Dread"
 day: 2
 description: "After enough years of this work, almost every difficult stakeholder starts to look like a variation on one of four patterns, and the mistake most BAs make is…"
-date: 2026-08-11T13:49:20.059Z
+date: 2026-08-11T13:49:20Z
+updated: 2026-09-21T07:52:13.932Z
 cover: "/images/blog/f4dc16_88b00f1200444dcd8ac7c52cfa76233c.png"
 readingTime: 5
 wixId: "1178ad0f-5cdc-4d1b-9e74-816cb8bfcab1"
 ---
-<img src="/images/blog/f4dc16_88b00f1200444dcd8ac7c52cfa76233c.png" alt="Most Stakeholder Conflict Is Not a Communication Problem" width="1024" height="572" loading="lazy">
+<img src="/images/blog/f4dc16_88b00f1200444dcd8ac7c52cfa76233c.png" alt="The Four Difficult Stakeholder Archetypes" width="1024" height="572" loading="lazy">
 
-**After enough years of this work, almost every difficult stakeholder starts to look like a variation on one of four patterns, and the mistake most BAs make is running the same script against all of them.** Diagnosing which one you are dealing with, using the Iceberg framework from yesterday, changes everything about how you approach the conversation. Here are the four, what actually drives each one, and the specific opening move that works.
+<strong>After enough years of this work, almost every difficult stakeholder starts to look like a variation on one of four patterns, and the mistake most BAs make is running the same script against all of them.</strong> Diagnosing which one you are dealing with, using the Iceberg framework from yesterday, changes everything about how you approach the conversation. Here are the four, what actually drives each one, and the specific opening move that works.
 
 ## The Blocker
 
@@ -18,8 +19,15 @@ The Blocker says no to almost everything, often before they have finished readin
 
 The instinct is to bring a stronger case. That rarely works, because the Blocker is not evaluating your case on its merits. They are evaluating whether saying yes is safe. The move that actually works is making the yes smaller and more reversible.
 
-| **OPENING MOVE: THE BLOCKERYou:***I hear that you're not comfortable with this as a full rollout. What if we tried it with one team for two weeks, fully reversible, and you get to call it off at any point if it's not working?* |
-| --- |
+<div class="callout">
+
+<strong>OPENING MOVE: THE BLOCKER</strong>
+
+<strong>You:</strong>
+
+<em>I hear that you're not comfortable with this as a full rollout. What if we tried it with one team for two weeks, fully reversible, and you get to call it off at any point if it's not working?</em>
+
+</div>
 
 This does not require them to trust the whole plan. It only requires them to trust a small, safe, reversible version of it, which is a much easier yes to give, and it usually earns you the data you need to make the bigger case later.
 
@@ -29,8 +37,15 @@ The Ghost agrees enthusiastically in every meeting and then goes silent the mome
 
 Chasing a Ghost harder rarely works, because more messages just give them more to ignore. What works is removing the option to stay silent by building a visible default into the process.
 
-| **OPENING MOVE: THE GHOSTYou:***I want to make sure this doesn't stall on my end waiting for you. I'm going to proceed with option B by Friday unless I hear otherwise from you before then. Let me know if that timeline doesn't work.* |
-| --- |
+<div class="callout">
+
+<strong>OPENING MOVE: THE GHOST</strong>
+
+<strong>You:</strong>
+
+<em>I want to make sure this doesn't stall on my end waiting for you. I'm going to proceed with option B by Friday unless I hear otherwise from you before then. Let me know if that timeline doesn't work.</em>
+
+</div>
 
 This is not a threat, it is a default. Ghosts often respond to a deadline with a visible consequence far better than they respond to an open-ended request, because silence is no longer a way to avoid the decision. It just makes the decision for them.
 
@@ -40,8 +55,15 @@ The Scope-Creeper adds one more small thing almost every week, each addition rea
 
 Refusing each request individually creates friction without solving the pattern. What works is making the line visible once, in writing, so every future request is measured against something concrete rather than against your patience.
 
-| **OPENING MOVE: THE SCOPE-CREEPERYou:***This is a reasonable ask on its own, and I want to say yes. Here's where we've landed against the original scope though, and this would be the fourth addition this month. Can we look at what comes off the list, or agree this one goes into the next phase?* |
-| --- |
+<div class="callout">
+
+<strong>OPENING MOVE: THE SCOPE-CREEPER</strong>
+
+<strong>You:</strong>
+
+<em>This is a reasonable ask on its own, and I want to say yes. Here's where we've landed against the original scope though, and this would be the fourth addition this month. Can we look at what comes off the list, or agree this one goes into the next phase?</em>
+
+</div>
 
 This reframes the conversation from you being difficult to the scope document doing the work of being difficult for you. It is far easier for a Scope-Creeper to negotiate against a visible line than against your personal resistance.
 
@@ -51,8 +73,15 @@ The Escalator skips you and goes straight to your manager or theirs the moment s
 
 Getting defensive after the fact rarely repairs anything. What works is addressing it directly, once, calmly, and offering a version of the process they can actually trust going forward.
 
-| **OPENING MOVE: THE ESCALATORYou:***I noticed this went to \[manager\] before we'd finished talking it through. I'd rather solve it directly with you first if that's possible. What would make you comfortable working it through here before it needs to go further?* |
-| --- |
+<div class="callout">
+
+<strong>OPENING MOVE: THE ESCALATOR</strong>
+
+<strong>You:</strong>
+
+<em>I noticed this went to \[manager\] before we'd finished talking it through. I'd rather solve it directly with you first if that's possible. What would make you comfortable working it through here before it needs to go further?</em>
+
+</div>
 
 This is not a scolding, and it should not read as one. It is a direct, unemotional invitation back into a process, which is usually more effective than either ignoring the escalation or matching it with one of your own.
 
@@ -66,10 +95,10 @@ It is also common for a stakeholder to start as one archetype and become another
 
 Across all four patterns, one mistake compounds every one of them: discussing the archetype, even informally, with other people on the project. Calling someone a Blocker or a Ghost in a side conversation, even sympathetically, tends to leak, and once a stakeholder senses they have been categorised rather than heard, every one of the scripts above becomes far less effective, because they are now responding to being labelled rather than to the actual proposal. Use these patterns privately, as your own diagnostic tool, and keep the conversation with the stakeholder itself entirely about the specific situation in front of you.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya | Flotog BA Insights  |  www.flotogbainsights.com
 
-*TOMORROW*
+<em>TOMORROW</em>
 
-*The SAID Framework for the Conversation You're Dreading -* *A four-part structure for the hard conversation itself, with a full worked script.*
+<em>The SAID Framework for the Conversation You're Dreading - A four-part structure for the hard conversation itself, with a full worked script.</em>

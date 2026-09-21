@@ -25,10 +25,21 @@ That structure does three separate jobs at once. It closes the Awareness Gap fro
 
 ## Three worked examples
 
-| **A STRONG WEEK**Quick Friday update. Closed out the approval workflow requirements with sign-off from finance, ahead of schedule. Watching the data migration scope, it's looking more complex than originally estimated; I'll have a clearer number by Wednesday. Next week I'll need ten minutes from you to align on the rollout date once that estimate lands. |
-| --- |
-| **A ROUGH WEEK, TOLD HONESTLY**Quick Friday update. The stakeholder workshop got pushed twice this week, rescheduled for Monday, which puts us a few days behind on requirements sign-off. Flagging now rather than closer to the deadline. Watching whether this affects the broader timeline; will know more after Monday's session. Nothing needed from you yet, just wanted you to have this before the steering meeting. |
-| **A QUIET WEEK, STILL WORTH SENDING**Quick Friday update. Steady week, mostly documentation and follow-ups on the approval workflow, nothing major to flag. Watching the vendor integration timeline, still on track but tight. Nothing needed from you next week; will flag if that changes. |
+<div class="callout">
+
+<strong>A STRONG WEEK</strong>
+
+Quick Friday update. Closed out the approval workflow requirements with sign-off from finance, ahead of schedule. Watching the data migration scope, it's looking more complex than originally estimated; I'll have a clearer number by Wednesday. Next week I'll need ten minutes from you to align on the rollout date once that estimate lands.
+
+<strong>A ROUGH WEEK, TOLD HONESTLY</strong>
+
+Quick Friday update. The stakeholder workshop got pushed twice this week, rescheduled for Monday, which puts us a few days behind on requirements sign-off. Flagging now rather than closer to the deadline. Watching whether this affects the broader timeline; will know more after Monday's session. Nothing needed from you yet, just wanted you to have this before the steering meeting.
+
+<strong>A QUIET WEEK, STILL WORTH SENDING</strong>
+
+Quick Friday update. Steady week, mostly documentation and follow-ups on the approval workflow, nothing major to flag. Watching the vendor integration timeline, still on track but tight. Nothing needed from you next week; will flag if that changes.
+
+</div>
 
 That third example is the one most people skip, assuming a quiet week means nothing worth sending. It is actually one of the most valuable versions of the habit, because consistency is the entire point. A manager who gets this message most Fridays, including the unremarkable ones, starts reading your silence differently on the weeks you do not send it, in a good way, because the habit itself has become a signal of things running smoothly. A strong presentation may be memorable for a day or two and then fades into the general impression a manager holds of you, the same as any single data point fades against a trend. A weekly habit, sustained for months, becomes the trend itself. By the time a promotion conversation or a stretch assignment comes up, a manager working from six months of these messages has a far richer, more accurate picture of your actual judgment and workload than one working from a single standout moment they half remember.
 
@@ -40,10 +51,10 @@ The first message is always the most awkward, because it introduces a new kind o
 
 It is also worth being honest that the habit takes three or four weeks to start paying off. The first message or two might get a brief acknowledgement and nothing more. That is normal, and it is not a signal the habit is not working. Trust built through repetition needs the repetition to actually happen before it compounds into anything visible, the same pattern covered in the Building Your Brand series about consistency outperforming any single strong moment.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya | Flotog BA Insights  |  www.flotogbainsights.com
 
-*TOMORROW*
+<em>TOMORROW</em>
 
-*The Four Moments Worth Flagging -* *A quick-reference framework for exactly what deserves visibility and what should stay quiet.*
+<em>The Four Moments Worth Flagging - A quick-reference framework for exactly what deserves visibility and what should stay quiet.</em>

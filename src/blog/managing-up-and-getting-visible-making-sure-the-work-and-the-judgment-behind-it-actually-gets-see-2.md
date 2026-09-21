@@ -39,14 +39,14 @@ The point of this framework is not to force something into every weekly update f
 
 ## A quick way to test whether something qualifies
 
-When you are not sure whether something from your week fits one of the four moments, ask a simple question: ***would a stranger reading only this description learn something specific about my judgment or my impact, or could this sentence describe almost anyone doing this job competently on any given week?*** A judgment call worth flagging survives that test easily, because the specific reasoning behind the decision is what makes it interesting. Routine, well executed work almost never survives it, because the whole point of routine work is that it looks the same regardless of who is doing it.
+When you are not sure whether something from your week fits one of the four moments, ask a simple question: <strong><em>would a stranger reading only this description learn something specific about my judgment or my impact, or could this sentence describe almost anyone doing this job competently on any given week?</em></strong> A judgment call worth flagging survives that test easily, because the specific reasoning behind the decision is what makes it interesting. Routine, well executed work almost never survives it, because the whole point of routine work is that it looks the same regardless of who is doing it.
 
 This test also protects against the opposite mistake, under-flagging genuinely significant moments because they did not feel dramatic in the moment. A quiet, calm decision that prevented a costly rebuild often does not feel like a big deal while it is happening, precisely because handling it well made it feel routine. Running it through the test above, rather than trusting how dramatic it felt at the time, catches moments that would otherwise slip past unflagged simply because they were handled too smoothly to register as noteworthy.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya | Flotog BA Insights  |  www.flotogbainsights.com
 
-*TOMORROW*
+<em>TOMORROW</em>
 
-*Managing Up When the News Is Bad -* *How to stay visible and trusted even when what you have to report is a delay, a miss, or a mistake.*
+<em>Managing Up When the News Is Bad - How to stay visible and trusted even when what you have to report is a delay, a miss, or a mistake.</em>

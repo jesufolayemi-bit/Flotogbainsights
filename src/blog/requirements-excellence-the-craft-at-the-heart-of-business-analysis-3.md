@@ -8,8 +8,6 @@ cover: "/images/blog/f4dc16_f92988bfd79a44a3ae31bb8ed2a4f9a7.png"
 readingTime: 7
 wixId: "2b98f41f-67d3-4833-85f9-d8829cd3170a"
 ---
-**DAY 4** | **From Discovery to Sign-Off: Managing Requirements Through the Lifecycle**
-
 <img src="/images/blog/f4dc16_f92988bfd79a44a3ae31bb8ed2a4f9a7.png" alt="From Discovery to Sign-Off: Managing Requirements Through the Lifecycle" width="2816" height="1536" loading="lazy">
 
 There is a version of requirements work that ends at sign-off. The BA completes elicitation. They write the requirements. They run the review sessions. They get the document approved. And then, to all intents and purposes, requirements work is done. The document goes into the project repository. The team goes into development. The BA moves on to the next engagement. This version of requirements work is responsible for a significant proportion of project failures that are attributed to other causes.
@@ -32,9 +30,9 @@ After baseline, requirements management is the ongoing practice of maintaining t
 
 Validation and verification are terms that are used interchangeably in much BA practice. They are not the same thing, and understanding the difference changes how you approach quality in your requirements work.
 
-**Validation answers the question: are we building the right thing?** It is the process of confirming that the requirements, if implemented, will actually solve the business problem they are intended to solve. Validation is primarily a business activity. It requires the business stakeholders to confirm that the requirements as documented reflect their actual needs. A requirements review session where business stakeholders go through the documented requirements and confirm their accuracy is a validation activity.
+<strong>Validation answers the question: are we building the right thing?</strong> It is the process of confirming that the requirements, if implemented, will actually solve the business problem they are intended to solve. Validation is primarily a business activity. It requires the business stakeholders to confirm that the requirements as documented reflect their actual needs. A requirements review session where business stakeholders go through the documented requirements and confirm their accuracy is a validation activity.
 
-**Verification answers the question: are we building it right?** It is the process of confirming that the requirements meet the quality standards for requirements documentation; that they are precise, complete, consistent, unambiguous, and testable. Verification is primarily a BA and peer review activity. A structured review of a requirements document against a quality checklist is a verification activity.
+<strong>Verification answers the question: are we building it right?</strong> It is the process of confirming that the requirements meet the quality standards for requirements documentation; that they are precise, complete, consistent, unambiguous, and testable. Verification is primarily a BA and peer review activity. A structured review of a requirements document against a quality checklist is a verification activity.
 
 Both are necessary. A requirements document can pass verification, be technically well-written and internally consistent, and still fail validation because it does not accurately reflect what the business needs. And a requirements document can be validated by stakeholders; confirmed as reflecting their current wishes, and still fail verification because the requirements as written cannot be built or tested without interpretation. In practice, most requirements review sessions try to do both at once. This is less effective than separating them. A peer review focused on technical quality before stakeholder review is much more efficient than putting technically poor requirements in front of stakeholders and asking them to evaluate both accuracy and quality simultaneously.
 
@@ -58,10 +56,10 @@ Business needs evolve. Stakeholders understand the implications of the change mo
 
 A requirements change management process has four components.
 
-1. **A formal change request mechanism**: every proposed change to a baselined requirement is submitted through a documented change request that describes what is being changed, why, who is requesting the change, and what the proposed new requirement is.
-2. **An impact assessment**: every change request is assessed for its effect on the project baseline; scope, schedule, budget, risk, and downstream artefacts including design, development, and test. The impact assessment is what makes the cost of change visible. A stakeholder who wants to change a requirement without going through impact assessment is asking for the change without understanding what it costs. The impact assessment creates the conditions for an informed decision.
-3. **A** **formal approval process**: changes above an agreed threshold are approved by the change control board or the appropriate governance body. The threshold - what level of change requires what level of approval - should be defined at the start of the project, not decided ad hoc when a change arrives.
-4. **Baseline update and communication**: once a change is approved, the requirements baseline is updated, the RTM is updated, and the change is formally communicated to all affected parties: design, development, testing, and any other workstreams that need to respond to the change.
+1. <strong>A formal change request mechanism</strong>: every proposed change to a baselined requirement is submitted through a documented change request that describes what is being changed, why, who is requesting the change, and what the proposed new requirement is.
+2. <strong>An impact assessment</strong>: every change request is assessed for its effect on the project baseline; scope, schedule, budget, risk, and downstream artefacts including design, development, and test. The impact assessment is what makes the cost of change visible. A stakeholder who wants to change a requirement without going through impact assessment is asking for the change without understanding what it costs. The impact assessment creates the conditions for an informed decision.
+3. <strong>A</strong> <strong>formal approval process</strong>: changes above an agreed threshold are approved by the change control board or the appropriate governance body. The threshold - what level of change requires what level of approval - should be defined at the start of the project, not decided ad hoc when a change arrives.
+4. <strong>Baseline update and communication</strong>: once a change is approved, the requirements baseline is updated, the RTM is updated, and the change is formally communicated to all affected parties: design, development, testing, and any other workstreams that need to respond to the change.
 
 The BA who manages requirements change formally and rigorously is not being bureaucratic. They are protecting the project from the compound effect of informal changes: the small adjustments that seemed harmless individually but collectively moved the scope significantly from what was designed, budgeted, and tested.
 
@@ -77,8 +75,8 @@ The BA who treats requirements sign-off as an exit point, who disengages from re
 
 The requirements document is not a handoff artefact. It is a shared commitment between the BA, the business, and the delivery team about what is being built and why. Maintaining that commitment; keeping it current, keeping it visible, and keeping it connected to what is actually being delivered, is what requirements management is for.
 
-***Go out and be successful.***
+<strong><em>Go out and be successful.</em></strong>
 
 ## Oluwatosin Ogunkoya | Flotog BA Insights | www.flotogbainsights.com
 
-*Tomorrow: Series Finale. Requirements Excellence in your career, what mastery looks like at every BA level, interview preparation with model STAR answers, and the six principles to carry forward.*
+<em>Tomorrow: Series Finale. Requirements Excellence in your career, what mastery looks like at every BA level, interview preparation with model STAR answers, and the six principles to carry forward.</em>
