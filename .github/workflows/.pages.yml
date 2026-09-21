@@ -1,1 +1,55 @@
+# Pages CMS (https://pagescms.org) — edit blog posts in the browser.
+# Sign in at app.pagescms.org with GitHub and open this repo.
+media:
+  input: src/images/blog
+  output: /images/blog
 
+content:
+  - name: posts
+    label: Blog posts
+    type: collection
+    path: src/blog
+    filename: "{fields.slug}.md"
+    view:
+      fields: [title, series, day, date]
+      sort: [date]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: title
+        label: Title (the H1 and Google title)
+        type: string
+        required: true
+      - name: slug
+        label: URL slug (lowercase-words-with-dashes, becomes /blog/slug/)
+        type: string
+        required: true
+      - name: series
+        label: Series name (same for all 5 days of a week)
+        type: string
+      - name: day
+        label: Day in series (1-5)
+        type: number
+      - name: dek
+        label: Subtitle
+        type: string
+      - name: description
+        label: Google description (under 160 characters)
+        type: text
+        required: true
+      - name: date
+        label: Publish date
+        type: date
+        options:
+          time: true
+        required: true
+      - name: cover
+        label: Cover image
+        type: image
+      - name: readingTime
+        label: Minutes to read
+        type: number
+      - name: body
+        label: Post
+        type: rich-text
