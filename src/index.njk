@@ -16,21 +16,87 @@ faqs:
     a: "A one-hour 1:1 tech career coaching session is AED 400. The first 30-minute consultation is free."
   - q: "Can you help me prepare for a business analyst interview?"
     a: "Yes. Interview preparation is one of the most requested coaching topics. You can start with the free BA interview guide, then book a 1:1 session to practise answers to real BA interview scenarios."
+  - q: "What is BA Launchpad?"
+    a: "BA Launchpad is an 8-week small-group programme for people moving into business analysis. Join the waitlist to hear first when the next cohort opens."
   - q: "Do you train business analysis teams in companies?"
     a: "Yes. We help organisations improve processes, build BA capability in their teams and run digital transformation that delivers results. Book a free consultation to discuss your team."
 ---
-<section class="hero">
+<section class="hero hero-v2">
   <div class="wrap hero-grid">
     <div>
-      <h1>Business analyst training and mentorship, in Dubai and online</h1>
-      <p class="lead">Practical coaching from Tosin Ogunkoya, a business analyst with 13+ years leading requirements and digital transformation across telecoms, real estate and the public sector. Break into a BA role, pass the interview, or build a stronger BA team.</p>
+      <p class="eyebrow">Business analyst training &amp; mentorship · Dubai and online</p>
+      <h1>Become the business analyst teams trust with the hard problems</h1>
+      <p class="lead">Mentorship from Tosin Ogunkoya, a practising BA with {{ site.stats.years }} years across telecoms, real estate and the public sector. Break into your first BA role, pass the interview, or step up to senior, with someone who has done the job, not just studied it.</p>
       <div class="btn-row">
         <a class="btn" href="{{ site.booking.freeConsultation }}">Book a free 30-minute call</a>
-        <a class="btn btn-ghost" href="/free-ba-interview-guide/">Get the free BA interview guide</a>
+        <a class="btn btn-ghost" href="/ba-readiness-check/">Take the 3-minute readiness check</a>
       </div>
-      <p class="proof"><strong>3,000+ people trained</strong> across 13 markets, coaching since {{ site.foundingDate }}.</p>
+      <p class="proof">Free call, no obligation. You leave with your biggest skills gap named and a clear next step.</p>
     </div>
+    <div class="hero-portrait">
+      <img src="{{ site.founder.image }}" width="600" height="800" alt="Tosin Ogunkoya, business analyst mentor and founder of Flotog BA Insights" fetchpriority="high">
+      <div class="hero-badge">
+        <strong>Since {{ site.foundingDate }}</strong>
+        <span>Dubai-based · coaching worldwide</span>
+      </div>
+    </div>
+  </div>
+</section>
 
+<section class="stats-bar" aria-label="Flotog in numbers">
+  <div class="wrap stats-grid">
+    <div><strong>{{ site.stats.years }}</strong><span>years practising business analysis</span></div>
+    <div><strong>{{ site.stats.trained }}</strong><span>people trained</span></div>
+    <div><strong>{{ site.stats.markets }}</strong><span>markets worked across</span></div>
+    {%- if collections.posts.length > 20 %}
+    <div><strong>{{ collections.posts.length }}</strong><span>free lessons published</span></div>
+    {%- else %}
+    <div><strong>{{ site.foundingDate }}</strong><span>coaching since</span></div>
+    {%- endif %}
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Where would you like to start?</h2>
+    </div>
+    <div class="paths">
+      <div class="path">
+        <h3>I want to grow my tech career</h3>
+        <p>For aspiring, junior and mid-level business analysts, data analysts and project managers who are ready to break into tech and grow fast.</p>
+        <ul>
+          <li>Career change into business analysis</li>
+          <li>BA interview preparation and practice</li>
+          <li>CV and LinkedIn positioning for BA roles</li>
+          <li>Moving from junior to senior BA</li>
+        </ul>
+        <a class="btn" href="#work-with-me">See ways to work together</a>
+      </div>
+      <div class="path">
+        <h3>I want to grow my business</h3>
+        <p>For organisations that want to improve processes, upskill their teams and run digital transformation that delivers results.</p>
+        <ul>
+          <li>Business process improvement and Lean Six Sigma</li>
+          <li>BA team training and capability building</li>
+          <li>Requirements and digital transformation consultancy</li>
+        </ul>
+        <a class="btn btn-ghost" href="/services/digital-transformation/">Explore business services</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="wrap how-grid">
+    <div>
+      <h2>How mentorship works</h2>
+      <ol class="how-steps">
+        <li><strong>Free 30-minute call.</strong> We look at your background, the role you want and what's in the way.</li>
+        <li><strong>Skills-gap review.</strong> You get an honest read on what employers will test you on, and where you stand.</li>
+        <li><strong>Practice on real cases.</strong> You work through situations drawn from real projects, with feedback, until you can handle them in an interview and on the job.</li>
+      </ol>
+    </div>
     <figure class="flow">
       <svg viewBox="0 0 720 360" role="img" aria-labelledby="flow-title flow-desc">
         <title id="flow-title">Your route to a business analyst role</title>
@@ -78,49 +144,67 @@ faqs:
         <path class="edge" d="M646 90H670" marker-end="url(#arrow)"/>
         <circle class="end" cx="684" cy="90" r="12"/>
       </svg>
-      <figcaption>How mentorship works, drawn the way a BA would draw it.</figcaption>
+      <figcaption>The mentorship process, drawn the way a BA would draw it.</figcaption>
     </figure>
   </div>
 </section>
 
-<section class="section section-alt">
+<section class="section" id="work-with-me">
   <div class="wrap">
     <div class="section-head">
-      <h2>Where would you like to start?</h2>
+      <h2>Ways to work together</h2>
+      <p>Start free. Go deeper when you're ready. Prices are listed so you can decide before you book.</p>
     </div>
-    <div class="paths">
-      <div class="path">
-        <h3>I want to grow my tech career</h3>
-        <p>For aspiring, junior and mid-level business analysts, data analysts and project managers who are ready to break into tech and grow fast.</p>
-        <ul>
-          <li>Career change into business analysis</li>
-          <li>BA interview preparation and practice</li>
-          <li>CV and LinkedIn positioning for BA roles</li>
-          <li>Moving from junior to senior BA</li>
-        </ul>
-        <a class="btn" href="/book/">See coaching options</a>
-      </div>
-      <div class="path">
-        <h3>I want to grow my business</h3>
-        <p>For organisations that want to improve processes, upskill their teams and run digital transformation that delivers results.</p>
-        <ul>
-          <li>Business process improvement and Lean Six Sigma</li>
-          <li>BA team training and capability building</li>
-          <li>Requirements and digital transformation consultancy</li>
-        </ul>
-        <a class="btn btn-ghost" href="/services/digital-transformation/">Explore business services</a>
-      </div>
+    <div class="ladder">
+      <article class="rung">
+        <p class="rung-tag">Start here</p>
+        <h3>Free career call</h3>
+        <p class="rung-price">Free <span>30 minutes</span></p>
+        <p>Your situation, your biggest gap, and a clear next step. No obligation.</p>
+        <a class="btn btn-ghost" href="{{ site.booking.freeConsultation }}">Book a free call</a>
+      </article>
+      <article class="rung">
+        <p class="rung-tag">Focused help</p>
+        <h3>1:1 coaching session</h3>
+        <p class="rung-price">AED 400 <span>60 minutes</span></p>
+        <p>Interview practice, CV and LinkedIn review, or one hard problem at work. Written action points after.</p>
+        <a class="btn btn-ghost" href="{{ site.booking.coachingSession }}">Book a session</a>
+      </article>
+      <article class="rung rung-featured">
+        <p class="rung-tag">Flagship programme</p>
+        <h3>BA Launchpad</h3>
+        <p class="rung-price">8 weeks <span>small group</span></p>
+        <p>A structured route into business analysis, taught live in a small cohort, with your work reviewed along the way.</p>
+        <a class="btn" href="/ba-launchpad/">Join the waitlist</a>
+      </article>
+      <article class="rung">
+        <p class="rung-tag">For organisations</p>
+        <h3>Team training &amp; consultancy</h3>
+        <p class="rung-price">Tailored <span>scoped with you</span></p>
+        <p>BA capability building, process improvement and transformation support, built around your projects.</p>
+        <a class="btn btn-ghost" href="/services/digital-transformation/">Explore</a>
+      </article>
     </div>
   </div>
 </section>
 
+<section class="section quiz-band">
+  <div class="wrap quiz-inner">
+    <div>
+      <p class="eyebrow">Free · 3 minutes · instant result</p>
+      <h2>How ready are you for a business analyst role?</h2>
+      <p>Ten questions across the five areas hiring managers test. You get your score, your strongest and weakest areas, and exactly what to work on next.</p>
+    </div>
+    <a class="btn btn-large" href="/ba-readiness-check/">Take the readiness check</a>
+  </div>
+</section>
+
 <section class="section">
-  <div class="wrap mentor">
-    <img class="mentor-photo" src="{{ site.founder.image }}" width="600" height="800" loading="lazy" alt="Tosin Ogunkoya, founder of Flotog BA Insights and business analyst mentor in Dubai">
+  <div class="wrap mentor mentor-text">
     <div>
       <h2>Meet your mentor</h2>
       <p class="lead">I'm Tosin Ogunkoya. For more than thirteen years I've led business analysis and digital transformation across thirteen markets, trained over three thousand people, and built BA capability for teams at organisations like IHS Towers and Renascence CX.</p>
-      <p>I built Flotog to pass that craft on in a way that is practical, honest and built around real outcomes. You learn from situations I have actually handled: messy requirements, difficult stakeholders, and projects that had to deliver.</p>
+      <p>I teach from situations I have actually handled: messy requirements, difficult stakeholders, and projects that had to deliver. That's the difference between knowing the theory and being the analyst people ask for by name.</p>
       <ul class="creds" aria-label="Qualifications">
         <li>MSc Software Technology</li>
         <li>Lean Six Sigma Black Belt</li>
@@ -137,18 +221,13 @@ faqs:
   <div class="wrap">
     <div class="section-head"><h2>What clients and colleagues say</h2></div>
     <div class="quotes">
-      <figure class="quote">
-        <blockquote><p>Their business analysis training brought real clarity and structure to our approach, especially in the areas of process optimisation. The team at Flotog are great collaborators, and their depth of knowledge in business analysis made a lasting impact.</p></blockquote>
-        <figcaption>Urban</figcaption>
+      {%- for t in testimonials.items %}
+      <figure class="quote{% if t.featured %} quote-featured{% endif %}">
+        {%- if t.outcome %}<p class="quote-outcome">{{ t.outcome }}</p>{% endif %}
+        <blockquote><p>{{ t.quote }}</p></blockquote>
+        <figcaption>{{ t.name }}{% if t.role %} <span>{{ t.role }}</span>{% endif %}</figcaption>
       </figure>
-      <figure class="quote">
-        <blockquote><p>He showed real skill in business analysis and process optimisation across a number of the core areas of HR process improvement and I always trusted him to deliver.</p></blockquote>
-        <figcaption>Jenny <span>IHS Towers</span></figcaption>
-      </figure>
-      <figure class="quote">
-        <blockquote><p>I was impressed by Tosin's ability to handle any situation calmly and patiently, even with the toughest users.</p></blockquote>
-        <figcaption>Faryal <span>IHS Towers</span></figcaption>
-      </figure>
+      {%- endfor %}
     </div>
     <div class="clients">
       <h3>Organisations we've worked with</h3>
@@ -181,6 +260,16 @@ faqs:
   </div>
 </section>
 {%- endif %}
+
+<section class="section follow-band">
+  <div class="wrap follow-inner">
+    <div>
+      <h2>Prefer to learn by watching?</h2>
+      <p>Short video lessons on business analysis, interviews and tech careers, posted every weekday. Follow wherever you already scroll.</p>
+    </div>
+    {% set socialClass = "social-links-large" %}{% include "partials/social.njk" %}
+  </div>
+</section>
 
 <section class="section section-alt">
   <div class="wrap">

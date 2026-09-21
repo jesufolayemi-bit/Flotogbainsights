@@ -1,0 +1,24 @@
+{
+  "_note": "Add mentee stories here. 'outcome' is the one-line result shown in bold (e.g. 'Hired as a BA at a Dubai bank in 10 weeks'). Leave it empty for general endorsements. 'featured': true puts a story in the large slot.",
+  "items": [
+    {
+      "name": "Urban",
+      "role": "Client organisation",
+      "outcome": "",
+      "quote": "Their business analysis training brought real clarity and structure to our approach, especially in the areas of process optimisation. The team at Flotog are great collaborators, and their depth of knowledge in business analysis made a lasting impact.",
+      "featured": true
+    },
+    {
+      "name": "Jenny",
+      "role": "IHS Towers",
+      "outcome": "",
+      "quote": "He showed real skill in business analysis and process optimisation across a number of the core areas of HR process improvement and I always trusted him to deliver."
+    },
+    {
+      "name": "Faryal",
+      "role": "IHS Towers",
+      "outcome": "",
+      "quote": "I was impressed by Tosin's ability to handle any situation calmly and patiently, even with the toughest users."
+    }
+  ]
+}

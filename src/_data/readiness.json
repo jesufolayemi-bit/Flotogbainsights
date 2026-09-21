@@ -1,0 +1,26 @@
+{
+  "areas": {
+    "foundations": { "label": "BA foundations", "tip": "Get fluent in what a BA actually does and which technique fits which situation. Start with the blog series on business process modelling and requirements prioritisation, then practise explaining the role in two sentences.", "link": "/blog/" },
+    "requirements": { "label": "Requirements craft", "tip": "Practise turning a vague request into a problem statement, then into user stories with acceptance criteria. This is the skill interviews probe hardest.", "link": "/blog/" },
+    "stakeholders": { "label": "Stakeholder skills", "tip": "Your gap is handling people, not documents. Work on running a short workshop and on facilitating disagreement with a clear prioritisation method.", "link": "/blog/" },
+    "delivery": { "label": "Delivery & tools", "tip": "Get hands-on with how teams actually ship: sprints, backlogs, Jira, and a diagramming tool. A small practice project closes this gap fast.", "link": "/blog/" },
+    "career": { "label": "Job-search readiness", "tip": "Your skills may be ahead of how you present them. Rewrite your CV and LinkedIn around BA outcomes, and prepare three STAR stories. The free interview guide is the fastest start.", "link": "/free-ba-interview-guide/" }
+  },
+  "questions": [
+    { "area": "foundations", "q": "How clearly could you explain what a business analyst does, and the value they add?", "a": ["I'm not really sure yet", "Roughly, in general terms", "Clearly, with an example", "Well enough to teach it"] },
+    { "area": "foundations", "q": "Which business analysis techniques have you used on real work?", "a": ["None yet", "One or two, like a simple process map", "Several: user stories, process models, stakeholder maps", "I choose techniques confidently for each situation"] },
+    { "area": "requirements", "q": "Have you written requirements or user stories that someone actually built from?", "a": ["Never", "Only in practice or training", "Yes, a few times", "Regularly, with acceptance criteria"] },
+    { "area": "requirements", "q": "A stakeholder says: \"We need a new dashboard.\" What do you do first?", "a": ["Start listing what should go on it", "Ask what data they want to see", "Ask what problem the dashboard would solve", "Trace it to a business objective, then test options, including not building it"] },
+    { "area": "stakeholders", "q": "How would you feel leading a workshop with senior stakeholders?", "a": ["I'd avoid it", "Nervous, but I could do it", "I've done a few", "Comfortable, I lead them regularly"] },
+    { "area": "stakeholders", "q": "Two stakeholders disagree about what should be built first. You:", "a": ["Escalate to the manager straight away", "Wait for them to sort it out", "Bring them together to discuss it", "Facilitate the decision with a prioritisation method and clear trade-offs"] },
+    { "area": "delivery", "q": "What's your experience of Agile or Scrum teams?", "a": ["None", "I know the theory", "I've worked in one", "I'm comfortable as the BA inside sprints"] },
+    { "area": "delivery", "q": "Which tools are you comfortable with: Jira, a diagramming tool, Excel or Power BI, SQL?", "a": ["None of them", "One", "Two or three", "Most of them, and I pick up new ones fast"] },
+    { "area": "career", "q": "How well do your CV and LinkedIn position you for BA roles?", "a": ["They don't mention business analysis", "They hint at BA-type work", "They clearly position me as a BA, with examples", "They're tailored, and I'm getting responses"] },
+    { "area": "career", "q": "An interviewer asks: \"Tell me about a time you handled conflicting requirements.\" You:", "a": ["Would go blank", "Would give a vague, general answer", "Have a real example ready", "Have a structured story with a clear outcome"] }
+  ],
+  "bands": [
+    { "min": 0, "title": "Getting started", "text": "You're at the beginning, which is the best place to get the route right. Most career changers lose months learning things in the wrong order. Focus on your weakest area first, and get guidance before you spend on courses or certifications." },
+    { "min": 13, "title": "Building momentum", "text": "You have real foundations. The gap now is usually specific: one or two areas that interviewers will find quickly. Closing those deliberately is what turns applications into offers." },
+    { "min": 22, "title": "Interview-ready", "text": "You're close. At this level, results come from positioning and practice: telling your experience as BA stories and rehearsing under realistic pressure. Sharpen your weakest area and start applying with confidence." }
+  ]
+}

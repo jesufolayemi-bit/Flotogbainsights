@@ -1,0 +1,135 @@
+---
+layout: layouts/base.njk
+permalink: /ba-readiness-check/
+title: "Business Analyst Readiness Check: Are You Ready for a BA Role?"
+description: "Free 3-minute check: score yourself across the five areas BA hiring managers test, see your weakest area, and get a clear next step. Instant results."
+breadcrumbs:
+  - name: "BA readiness check"
+    url: "/ba-readiness-check/"
+---
+<section class="page-head">
+  <div class="wrap-narrow">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / BA readiness check</nav>
+    <p class="eyebrow">Free · 10 questions · instant result</p>
+    <h1>How ready are you for a business analyst role?</h1>
+    <p class="lead">Answer honestly. You'll see your score across the five areas hiring managers test, your weakest area, and what to work on next. Nothing to sign up for.</p>
+  </div>
+</section>
+
+<section class="section" style="padding-top:1rem">
+  <div class="wrap-narrow">
+    <form id="rc" class="rc" novalidate>
+      {%- for item in readiness.questions %}
+      {%- set qi = loop.index0 %}
+      <fieldset class="rc-q" data-area="{{ item.area }}">
+        <legend><span class="rc-num">{{ loop.index }} of {{ readiness.questions.length }}</span>{{ item.q }}</legend>
+        {%- for opt in item.a %}
+        <label class="rc-opt"><input type="radio" name="q{{ qi }}" value="{{ loop.index0 }}" required> <span>{{ opt }}</span></label>
+        {%- endfor %}
+      </fieldset>
+      {%- endfor %}
+      <p class="rc-error" id="rc-error" hidden>Please answer every question to see your result. The first unanswered one is highlighted.</p>
+      <button class="btn btn-large" type="submit">See my result</button>
+    </form>
+
+    <div id="rc-result" class="rc-result" hidden tabindex="-1" aria-live="polite">
+      <p class="eyebrow">Your result</p>
+      <h2><span id="rc-score"></span>/30 · <span id="rc-band"></span></h2>
+      <p id="rc-band-text" class="lead"></p>
+      <h3>Your five areas</h3>
+      <ul id="rc-bars" class="rc-bars"></ul>
+      <div class="rc-focus">
+        <h3>Work on this first: <span id="rc-weak"></span></h3>
+        <p id="rc-tip"></p>
+        <p><a id="rc-tip-link" href="/blog/">Start with the free lessons</a></p>
+      </div>
+      <div class="post-cta">
+        <h2>Want a plan built around your result?</h2>
+        <p>Bring your score to a free 30-minute call. We'll turn your weakest area into a concrete plan for the next few weeks.</p>
+        <div class="btn-row">
+          <a class="btn" id="rc-book" href="{{ site.booking.freeConsultation }}">Book a free call</a>
+          <a class="btn btn-ghost" href="/free-ba-interview-guide/">Get the free interview guide</a>
+        </div>
+      </div>
+      <p><button type="button" class="linklike" id="rc-again">Retake the check</button></p>
+    </div>
+  </div>
+</section>
+
+<script>
+(function () {
+  var data = {{ readiness | dump | safe }};
+  var form = document.getElementById('rc');
+  var result = document.getElementById('rc-result');
+  var err = document.getElementById('rc-error');
+
+  form.addEventListener('change', function (e) {
+    var fs = e.target.closest('.rc-q');
+    if (fs) fs.classList.remove('rc-missing');
+  });
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var totals = {}, max = {}, score = 0, firstMissing = null;
+    data.questions.forEach(function (q, i) {
+      var picked = form.querySelector('input[name="q' + i + '"]:checked');
+      totals[q.area] = totals[q.area] || 0;
+      max[q.area] = (max[q.area] || 0) + 3;
+      if (!picked) {
+        var fs = form.querySelectorAll('.rc-q')[i];
+        fs.classList.add('rc-missing');
+        if (!firstMissing) firstMissing = fs;
+        return;
+      }
+      var v = parseInt(picked.value, 10);
+      totals[q.area] += v; score += v;
+    });
+    if (firstMissing) {
+      err.hidden = false;
+      firstMissing.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      return;
+    }
+    err.hidden = true;
+
+    var band = data.bands.filter(function (b) { return score >= b.min; }).pop();
+    document.getElementById('rc-score').textContent = score;
+    document.getElementById('rc-band').textContent = band.title;
+    document.getElementById('rc-band-text').textContent = band.text;
+
+    var bars = document.getElementById('rc-bars');
+    bars.innerHTML = '';
+    var weakest = null;
+    Object.keys(data.areas).forEach(function (key) {
+      var pct = Math.round((totals[key] / max[key]) * 100);
+      if (!weakest || pct < weakest.pct) weakest = { key: key, pct: pct };
+      var li = document.createElement('li');
+      li.innerHTML = '<span class="rc-bar-label"></span><span class="rc-bar"><span style="width:' + Math.max(pct, 4) + '%"></span></span><span class="rc-bar-pct">' + pct + '%</span>';
+      li.querySelector('.rc-bar-label').textContent = data.areas[key].label;
+      bars.appendChild(li);
+    });
+    var area = data.areas[weakest.key];
+    document.getElementById('rc-weak').textContent = area.label;
+    document.getElementById('rc-tip').textContent = area.tip;
+    document.getElementById('rc-tip-link').href = area.link;
+
+    var book = document.getElementById('rc-book');
+    try {
+      var u = new URL(book.href);
+      u.searchParams.set('notes', 'Readiness check: ' + score + '/30 (' + band.title + '). Weakest area: ' + area.label + '.');
+      book.href = u.toString();
+    } catch (x) {}
+
+    form.hidden = true;
+    result.hidden = false;
+    result.focus();
+    result.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+
+  document.getElementById('rc-again').addEventListener('click', function () {
+    form.reset();
+    result.hidden = true;
+    form.hidden = false;
+    form.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+})();
+</script>

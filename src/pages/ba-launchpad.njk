@@ -1,0 +1,58 @@
+---
+layout: layouts/base.njk
+permalink: /ba-launchpad/
+title: "BA Launchpad: 8-Week Business Analyst Programme (Waitlist)"
+description: "BA Launchpad is an 8-week small-group programme taking you into business analysis, taught live by Tosin Ogunkoya. Join the waitlist for the next cohort."
+breadcrumbs:
+  - name: "BA Launchpad"
+    url: "/ba-launchpad/"
+---
+{# DRAFT: programme details are placeholders built from your BA Launchpad plan. Confirm the weekly outline, dates and price before promoting. #}
+<section class="page-head">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / BA Launchpad</nav>
+  </div>
+</section>
+<section class="section" style="padding-top:0">
+  <div class="wrap split" style="grid-template-columns:1.2fr 1fr">
+    <div class="prose">
+      <p class="eyebrow">Flagship programme · Next cohort opening soon</p>
+      <h1 style="font-size:var(--step-4)">BA Launchpad</h1>
+      <p class="lead">Eight weeks. A small group. A structured route into business analysis, taught live by a practising BA, with your work reviewed along the way.</p>
+      <h2>Who it's for</h2>
+      <ul>
+        <li>Career changers moving into business analysis from operations, finance, HR, customer service or project roles</li>
+        <li>New and junior BAs who want a proper foundation instead of learning by trial and error</li>
+        <li>Data analysts and project managers adding business analysis to their toolkit</li>
+      </ul>
+      <h2>What you'll leave with</h2>
+      <ul>
+        <li>The core BA techniques, practised on realistic cases rather than read about</li>
+        <li>Requirements and process models you can show in interviews</li>
+        <li>A CV and LinkedIn profile positioned for BA roles</li>
+        <li>Interview answers rehearsed until they're natural</li>
+      </ul>
+      <h2>Why a small group</h2>
+      <p>You learn faster alongside people facing the same challenge, and a small cohort means every participant gets direct feedback, not a pre-recorded video and a forum.</p>
+    </div>
+    {%- if site.kit.waitlistFormId %}
+    <form class="form-card" method="POST" action="https://app.kit.com/forms/{{ site.kit.waitlistFormId }}/subscriptions">
+      <h2 style="font-size:var(--step-1)">Join the waitlist</h2>
+      <p>Be first to hear when the next cohort opens, with early-access pricing.</p>
+      <label for="w-name">First name</label>
+      <input id="w-name" name="fields[first_name]" autocomplete="given-name" required>
+      <label for="w-email">Email address</label>
+      <input id="w-email" type="email" name="email_address" autocomplete="email" required>
+      <button class="btn" type="submit">Join the waitlist</button>
+      <p class="form-note">No spam. Unsubscribe any time. See the <a href="/privacy-policy/">privacy policy</a>.</p>
+    </form>
+    {%- else %}
+    <div class="form-card">
+      <h2 style="font-size:var(--step-1)">Interested in the next cohort?</h2>
+      <p>Book a free 30-minute call. We'll check BA Launchpad is right for you, and you'll be first to hear when the next cohort opens.</p>
+      <a class="btn" href="{{ site.booking.freeConsultation }}">Book a free call</a>
+      <p class="form-note">Not sure yet? <a href="/ba-readiness-check/">Take the 3-minute readiness check</a> first.</p>
+    </div>
+    {%- endif %}
+  </div>
+</section>

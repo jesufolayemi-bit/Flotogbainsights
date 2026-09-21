@@ -255,3 +255,76 @@ p { margin: 0 0 1em; max-width: 66ch; }
 .social-links { list-style: none; padding: 0; margin: .5rem 0 0; display: flex; flex-wrap: wrap; gap: .5rem; }
 .social-links a { display: inline-block; padding: .45rem .9rem; border: 2px solid var(--marker); border-radius: 999px; color: var(--marker); font-weight: 600; font-size: .92rem; text-decoration: none; line-height: 1.2; }
 .social-links a:hover { background: var(--marker); color: #fff; }
+
+.social-links-large { gap: .75rem; }
+.social-links-large a { padding: .7rem 1.2rem; font-size: 1rem; }
+.follow-band { background: var(--lane); border-block: 1px solid var(--line); }
+.follow-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center; }
+@media (max-width: 760px) { .follow-inner { grid-template-columns: 1fr; } }
+
+/* ---------- Homepage v2 ---------- */
+.hero-v2 h1 { max-width: 15ch; }
+.hero-portrait { position: relative; justify-self: center; width: min(420px, 100%); }
+.hero-portrait img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: top; border-radius: var(--radius); border: 1px solid var(--line); background: var(--lane); box-shadow: 14px 14px 0 var(--marker); }
+.hero-badge { position: absolute; left: -1.5rem; bottom: 1.75rem; background: var(--note); color: var(--ink); border: 2px solid var(--ink); border-radius: var(--radius); padding: .8rem 1.1rem; max-width: 200px; line-height: 1.25; }
+.hero-badge strong { display: block; font-size: 1.9rem; font-weight: 800; letter-spacing: -.02em; }
+.hero-badge span { font-size: .9rem; font-weight: 600; }
+@media (max-width: 900px) { .hero-badge { left: .75rem; } .hero-portrait { margin-top: 1rem; } }
+
+.stats-bar { background: var(--marker); color: #fff; }
+.stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; padding-block: 1.75rem; }
+.stats-grid div { border-left: 3px solid var(--sky); padding-left: 1rem; }
+.stats-grid strong { display: block; font-size: clamp(1.7rem, 1.2rem + 1.5vw, 2.3rem); font-weight: 800; letter-spacing: -.02em; line-height: 1.1; }
+.stats-grid span { font-size: .95rem; color: #D6E2F0; }
+@media (max-width: 760px) { .stats-grid { grid-template-columns: 1fr 1fr; row-gap: 1.5rem; } }
+
+.how-grid { display: grid; grid-template-columns: 1fr 1.25fr; gap: clamp(2rem, 5vw, 4rem); align-items: center; }
+.how-steps { padding-left: 1.2rem; margin: 0; }
+.how-steps li { margin-bottom: 1rem; }
+@media (max-width: 900px) { .how-grid { grid-template-columns: 1fr; } }
+
+.ladder { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.25rem; align-items: stretch; }
+.rung { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.5rem; display: flex; flex-direction: column; }
+.rung p { font-size: .98rem; }
+.rung .btn { margin-top: auto; align-self: flex-start; }
+.rung-tag { font-size: .78rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin-bottom: .4rem; }
+.rung .rung-price { font-size: 1.6rem; font-weight: 800; letter-spacing: -.01em; margin-bottom: .6rem; }
+.rung .rung-price span { display: block; font-size: .9rem; font-weight: 500; color: var(--muted); letter-spacing: 0; }
+.rung-featured { border: 2px solid var(--marker); box-shadow: 8px 8px 0 var(--note); }
+.rung-featured .rung-tag { color: var(--marker); }
+@media (max-width: 1000px) { .ladder { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 600px) { .ladder { grid-template-columns: 1fr; } }
+
+.quiz-band { background: var(--note); }
+.quiz-inner { display: grid; grid-template-columns: 1.6fr auto; gap: 2rem; align-items: center; }
+.quiz-band .eyebrow { color: var(--ink); }
+.btn-large { padding: 1.05rem 1.6rem; font-size: 1.08rem; }
+@media (max-width: 760px) { .quiz-inner { grid-template-columns: 1fr; } }
+
+.quote-outcome { font-weight: 800; color: var(--marker); margin-bottom: .6rem; }
+.quote-featured blockquote { font-size: 1.45rem; line-height: 1.45; }
+
+/* ---------- Readiness check ---------- */
+.rc-q { border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); padding: 1.25rem 1.4rem 1rem; margin: 0 0 1.25rem; }
+.rc-q legend { font-weight: 700; font-size: 1.1rem; padding: 0; float: left; width: 100%; margin-bottom: .9rem; }
+.rc-q legend + * { clear: both; }
+.rc-num { display: block; font-size: .8rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--marker); margin-bottom: .3rem; }
+.rc-opt { display: flex; gap: .7rem; align-items: flex-start; padding: .65rem .8rem; border: 1px solid var(--line); border-radius: var(--radius); margin-bottom: .5rem; cursor: pointer; clear: both; }
+.rc-opt:hover { border-color: var(--marker); }
+.rc-opt input { margin-top: .3rem; accent-color: var(--marker); width: 1.05rem; height: 1.05rem; flex: none; }
+.rc-opt:has(input:checked) { border-color: var(--marker); background: #EEF3F9; font-weight: 600; }
+.rc-missing { border: 2px solid #B42318; }
+.rc-error { color: #B42318; font-weight: 600; }
+.rc-result h2 { font-size: var(--step-3); }
+.rc-bars { list-style: none; padding: 0; margin: 0 0 2rem; }
+.rc-bars li { display: grid; grid-template-columns: 11rem 1fr 3rem; gap: .8rem; align-items: center; margin-bottom: .7rem; }
+.rc-bar { height: 12px; background: var(--lane); border-radius: 999px; overflow: hidden; }
+.rc-bar span { display: block; height: 100%; background: var(--marker); border-radius: 999px; }
+.rc-bar-pct { font-weight: 700; text-align: right; }
+.rc-focus { background: var(--surface); border-left: 5px solid var(--note); border-radius: var(--radius); padding: 1.25rem 1.5rem; border-top: 1px solid var(--line); border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.linklike { background: none; border: 0; padding: 0; color: var(--marker); text-decoration: underline; font: inherit; cursor: pointer; }
+@media (max-width: 600px) { .rc-bars li { grid-template-columns: 1fr 3rem; } .rc-bar-label { grid-column: 1 / -1; } }
+.mentor-text { grid-template-columns: 1fr; max-width: 52rem; }
+.rc-result .post-cta h2 { font-size: var(--step-1); }
+.hero-badge strong { font-size: 1.35rem; }
+@media (max-width: 900px) { .hero-portrait { width: min(300px, 78%); } .hero-portrait img { box-shadow: 8px 8px 0 var(--marker); } }

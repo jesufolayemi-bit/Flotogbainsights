@@ -65,6 +65,12 @@
   ],
   "kit": {
     "newsletterFormId": "9943144",
-    "guideFormId": "9943112"
+    "guideFormId": "9943112",
+    "waitlistFormId": ""
+  },
+  "stats": {
+    "years": "13+",
+    "trained": "3,000+",
+    "markets": "13"
   }
 }
