@@ -10,9 +10,9 @@ faqs:
   - q: "Who is the BA interview guide for?"
     a: "Anyone preparing for a business analyst interview, from career changers going for a first BA role to experienced analysts stepping up to senior positions."
   - q: "Is the guide really free?"
-    a: "Yes. Enter your email and the guide is sent to your inbox. You'll also get one practical BA lesson a week, and you can unsubscribe at any time."
+    a: "Yes. Enter your email, confirm your address, and the guide is sent to your inbox. You'll also get one practical BA lesson a week, and you can unsubscribe at any time."
 ---
-{# Connect the form to your email tool: set site.json > newsletterAction and send the guide PDF from an automation tagged "interview-guide". #}
+{# Posts to your Kit "Interview guide" form (site.json > kit.guideFormId). Kit emails the guide PDF as the form's incentive email. #}
 <section class="page-head">
   <div class="wrap">
     <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / Free BA interview guide</nav>
@@ -33,14 +33,12 @@ faqs:
       </ul>
       <p>Written by Tosin Ogunkoya, drawing on thirteen years in business analysis and more than three thousand people trained.</p>
     </div>
-    <form class="form-card" method="POST" action="{{ site.newsletterAction }}">
+    <form class="form-card" method="POST" action="https://app.kit.com/forms/{{ site.kit.guideFormId }}/subscriptions">
       <h2 style="font-size:var(--step-1)">Send me the guide</h2>
-      <input type="hidden" name="source" value="interview-guide">
-      <input type="hidden" name="_next" value="{{ site.url }}/thanks/">
       <label for="g-name">First name</label>
-      <input id="g-name" name="name" autocomplete="given-name" required>
+      <input id="g-name" name="fields[first_name]" autocomplete="given-name" required>
       <label for="g-email">Email address</label>
-      <input id="g-email" type="email" name="email" autocomplete="email" required>
+      <input id="g-email" type="email" name="email_address" autocomplete="email" required>
       <button class="btn" type="submit">Email me the free guide</button>
       <p class="form-note">You'll also get one practical BA lesson a week. Unsubscribe any time. See the <a href="/privacy-policy/">privacy policy</a>.</p>
     </form>

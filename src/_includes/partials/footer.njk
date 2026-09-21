@@ -24,11 +24,10 @@
     </div>
     <div>
       <p class="footer-head">Get one practical BA lesson a week</p>
-      <form name="newsletter" method="POST" action="{{ site.newsletterAction }}" class="newsletter">
-        <input type="hidden" name="_next" value="{{ site.url }}/thanks/">
+      <form name="newsletter" method="POST" action="https://app.kit.com/forms/{{ site.kit.newsletterFormId }}/subscriptions" class="newsletter">
         <label for="nl-email">Email address</label>
         <div class="newsletter-row">
-          <input id="nl-email" type="email" name="email" required autocomplete="email" placeholder="you@example.com">
+          <input id="nl-email" type="email" name="email_address" required autocomplete="email" placeholder="you@example.com">
           <button class="btn" type="submit">Subscribe</button>
         </div>
       </form>

@@ -39,7 +39,6 @@
   },
   "googleVerification": "r6TkFXGBgRVbhXxc7il8rbh5Vn7JUPkDVjK6legwzMc",
   "bingVerification": "7332E0F1BAA83E956B1B8A3CDFDD7D1F",
-  "newsletterAction": "https://REPLACE-ME-with-your-MailerLite-or-Formspree-form-endpoint",
   "logo": "/images/brand/flotog-logo.jpg",
   "clients": [
     {
@@ -62,5 +61,9 @@
       "country": "UK",
       "logo": "/images/brand/client-hotr-london.png"
     }
-  ]
+  ],
+  "kit": {
+    "newsletterFormId": "9943144",
+    "guideFormId": "9943112"
+  }
 }

@@ -5,29 +5,103 @@
   "outputDirectory": "_site",
   "trailingSlash": true,
   "redirects": [
-    { "source": "/book-online", "destination": "/book/", "permanent": true },
-    { "source": "/book-online/:path*", "destination": "/book/", "permanent": true },
-    { "source": "/booking-calendar/:path*", "destination": "/book/", "permanent": true },
-    { "source": "/pricing-plans/:path*", "destination": "/book/", "permanent": true },
-    { "source": "/service-page/digital-transformation-consultation", "destination": "/services/digital-transformation/", "permanent": true },
-    { "source": "/service-page/:path*", "destination": "/book/", "permanent": true },
-    { "source": "/about-4", "destination": "/about/", "permanent": true },
-    { "source": "/post/:slug", "destination": "/blog/:slug/", "permanent": true },
-    { "source": "/blog/categories/:path*", "destination": "/blog/", "permanent": true },
-    { "source": "/blog/page/:path*", "destination": "/blog/", "permanent": true },
-    { "source": "/category/all-products", "destination": "/shop/", "permanent": true },
-    { "source": "/product-page/:slug", "destination": "/shop/", "permanent": true },
-    { "source": "/upcoming-events", "destination": "/events/", "permanent": true },
-    { "source": "/event-details/:path*", "destination": "/events/", "permanent": true }
+    {
+      "source": "/book-online",
+      "destination": "/book/",
+      "permanent": true
+    },
+    {
+      "source": "/book-online/:path*",
+      "destination": "/book/",
+      "permanent": true
+    },
+    {
+      "source": "/booking-calendar/:path*",
+      "destination": "/book/",
+      "permanent": true
+    },
+    {
+      "source": "/pricing-plans/:path*",
+      "destination": "/book/",
+      "permanent": true
+    },
+    {
+      "source": "/service-page/digital-transformation-consultation",
+      "destination": "/services/digital-transformation/",
+      "permanent": true
+    },
+    {
+      "source": "/service-page/:path*",
+      "destination": "/book/",
+      "permanent": true
+    },
+    {
+      "source": "/about-4",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/post/:slug",
+      "destination": "/blog/:slug/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/categories/:path*",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/page/:path*",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/category/all-products",
+      "destination": "/book/",
+      "permanent": true
+    },
+    {
+      "source": "/product-page/:slug",
+      "destination": "/book/",
+      "permanent": true
+    },
+    {
+      "source": "/upcoming-events",
+      "destination": "/book/",
+      "permanent": true
+    },
+    {
+      "source": "/event-details/:path*",
+      "destination": "/book/",
+      "permanent": true
+    }
   ],
   "headers": [
-    { "source": "/(.*)", "headers": [
-      { "key": "X-Content-Type-Options", "value": "nosniff" },
-      { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
-      { "key": "X-Frame-Options", "value": "SAMEORIGIN" }
-    ]},
-    { "source": "/images/(.*)", "headers": [
-      { "key": "Cache-Control", "value": "public, max-age=2592000" }
-    ]}
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        }
+      ]
+    },
+    {
+      "source": "/images/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=2592000"
+        }
+      ]
+    }
   ]
 }
