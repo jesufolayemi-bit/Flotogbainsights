@@ -1,1 +1,38 @@
+name: Migrate Wix blog
+
+# Run manually from the Actions tab. Copies every published Wix blog post
+# (and its images) into the repo, then commits them. Safe to re-run: posts
+# already copied are skipped, so re-running picks up only new Wix posts.
+on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Overwrite posts that were already copied"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Copy posts from Wix
+        run: node scripts/migrate-wix-blog.mjs ${{ inputs.force && '--force' || '' }}
+      - name: Commit changes
+        run: |
+          git config user.name "flotog-migration-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add src/blog src/images/blog
+          if git diff --cached --quiet; then
+            echo "Nothing new to commit"
+          else
+            git commit -m "Migrate blog posts from Wix"
+            git push
+          fi
 
