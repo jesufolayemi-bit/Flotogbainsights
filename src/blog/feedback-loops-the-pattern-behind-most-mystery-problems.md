@@ -6,8 +6,11 @@ day: 3
 dek: "Reinforcing loops that feed on their own success, and balancing loops that quietly resist every fix"
 description: "Reinforcing loops feed on their own success; balancing loops quietly resist every fix. Why pushing harder fails on both, and how a BA can tell which is which."
 date: 2026-10-07T06:00:00.000Z
+cover: "/images/blog/systems-thinking-day-3-feedback-loops.jpg"
 readingTime: 5
 ---
+<img src="/images/blog/systems-thinking-day-3-feedback-loops.jpg" alt="A spiral staircase seen from above" width="1600" height="893" loading="lazy">
+
 Two kinds of loop explain most of the problems that feel genuinely mysterious the first time you run into them, the ones where the obvious cause does not seem to match the size of the effect. A reinforcing loop feeds on its own success, and it is the easier of the two to spot once you know to look for it. A product with more users gets more attention and more word of mouth, which draws in more users, which draws more attention again. Nobody outside the loop is pushing it forward at each step. It is pushing itself, and each trip around the loop tends to move a little faster than the one before, because the loop is now acting on a slightly bigger base than it started with.
 
 A balancing loop does close to the opposite. It quietly resists change and pulls a system back toward wherever it was already sitting. A team adds headcount specifically to speed up delivery, and coordination overhead, the extra meetings, the extra handoffs, the extra onboarding time, grows just enough to absorb most of the intended gain. Push the system, and the system pushes back in roughly the same proportion, which is exactly why the result so often feels disappointing relative to the size of the investment that went in.

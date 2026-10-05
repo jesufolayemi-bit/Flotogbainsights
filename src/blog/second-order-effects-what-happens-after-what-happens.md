@@ -6,8 +6,11 @@ day: 4
 dek: "Training yourself to ask what a change does to the rest of the system, not just whether it solves the immediate problem"
 description: "First-order thinking asks if a change solves the problem. Second-order thinking asks what people do once they live inside it. A two-minute BA habit."
 date: 2026-10-08T06:00:00.000Z
+cover: "/images/blog/systems-thinking-day-4-second-order.jpg"
 readingTime: 5
 ---
+<img src="/images/blog/systems-thinking-day-4-second-order.jpg" alt="Ripples spreading across still water from a dropped stone" width="1600" height="873" loading="lazy">
+
 A finance team I heard about once capped expense approvals at a lower amount specifically to reduce fraud risk. It worked, in the narrow sense it was built for. Fraud dropped, and the dashboard tracking it looked exactly the way the policy was meant to make it look. It also meant legitimate large purchases, the ones a growing team genuinely needed to keep operating, now required three extra approval steps that had not existed before. Those extra steps added roughly two weeks to anything over the new cap. Teams facing that delay, under real pressure to get equipment or services in place on time, started splitting single purchases into several smaller ones specifically to stay under the new limit and skip the wait. The first-order effect, less fraud, was real and measurable. The second-order effect, more purchase-splitting and arguably more risk overall, just in a new and far less visible shape, took longer to show up and was much harder to trace back to its actual cause once it did.
 
 ## Why first-order thinking stops too soon

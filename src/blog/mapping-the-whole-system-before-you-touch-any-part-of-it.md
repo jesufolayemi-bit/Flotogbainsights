@@ -6,8 +6,11 @@ day: 2
 dek: "A practical way to see the loops and dependencies around a problem, not just the problem by itself"
 description: "Process maps show steps in order. A system map shows what pushes back when you change one. How BAs can draw one on a single page, and what to leave off it."
 date: 2026-10-06T06:00:00.000Z
+cover: "/images/blog/systems-thinking-day-2-mapping.jpg"
 readingTime: 5
 ---
+<img src="/images/blog/systems-thinking-day-2-mapping.jpg" alt="A hand drawing a causal loop diagram on paper" width="1600" height="893" loading="lazy">
+
 Most process maps show the steps in order. Step one happens, then step two, then step three. These maps are genuinely useful for exactly what they are built for, and they miss the thing that actually matters once a system is under pressure: what pushes back when you change one of the steps. A system map asks a different question than a process map does. Not what happens next in the sequence, but what else is connected to this particular point, and what happens to those connections if this one thing changes. Yesterday's queue story is a system map waiting to be drawn. Wait time connects to how fast agents close tickets, which connects to what counts as resolved, which connects to repeat contacts, which connects back to wait time again. That last connection, looping back to where it started, is exactly what a simple process map, drawn left to right, has no way of showing.
 
 ## How to actually draw one

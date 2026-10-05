@@ -6,8 +6,11 @@ day: 5
 dek: "Folding this into ordinary requirements and process work, rather than a separate analytical exercise"
 description: "You don't need a system map for every requirement. You need one honest question before most changes ship. How to make systems thinking a daily BA habit."
 date: 2026-10-09T06:00:00.000Z
+cover: "/images/blog/systems-thinking-day-5-daily-habit.jpg"
 readingTime: 5
 ---
+<img src="/images/blog/systems-thinking-day-5-daily-habit.jpg" alt="A laptop with a sticky note showing a hand-drawn loop" width="1600" height="893" loading="lazy">
+
 You do not need a system map for every requirement that crosses your desk, and treating every small change as though it needs a full diagram and a loop analysis will slow a team down for very little real benefit most of the time. What you actually need, in the overwhelming majority of cases, is much smaller than a diagram. One honest question, asked before most changes ship: what else is connected to this, and what is the most likely way the people affected by it will actually respond once they are living inside it rather than simply reading about it in an announcement. That single question carries almost all of the value this entire week has been circling, and it costs a couple of minutes rather than a workshop.
 
 ## What this week actually built, in order
