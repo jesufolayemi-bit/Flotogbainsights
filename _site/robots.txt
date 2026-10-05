@@ -1,6 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /admin/
-Disallow: /thanks/
-
-Sitemap: https://www.flotogbainsights.com/sitemap.xml
