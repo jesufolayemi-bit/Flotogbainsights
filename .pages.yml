@@ -50,6 +50,9 @@ content:
       - name: readingTime
         label: Minutes to read
         type: number
+      - name: linkedinPost
+        label: LinkedIn post text (the "tell your network" box when you publish the article)
+        type: text
       - name: body
         label: Post
         type: rich-text

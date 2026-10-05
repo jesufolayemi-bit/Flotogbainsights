@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Interpreting Data Honestly: Avoiding the Traps That Mislead | Flotog BA Insights</title>
+  <meta name="description" content="DAY 3 | Interpreting Data Honestly: Avoiding the Traps That Mislead">
+  <link rel="canonical" href="https://www.flotogbainsights.com/blog/data-analysis-for-business-analysts-how-to-read-it-interpret-it-honestly-and-make-better-decision-2/">
+  <meta name="google-site-verification" content="r6TkFXGBgRVbhXxc7il8rbh5Vn7JUPkDVjK6legwzMc">
+  <meta name="msvalidate.01" content="7332E0F1BAA83E956B1B8A3CDFDD7D1F">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Flotog BA Insights">
+  <meta property="og:title" content="Interpreting Data Honestly: Avoiding the Traps That Mislead | Flotog BA Insights">
+  <meta property="og:description" content="DAY 3 | Interpreting Data Honestly: Avoiding the Traps That Mislead">
+  <meta property="og:url" content="https://www.flotogbainsights.com/blog/data-analysis-for-business-analysts-how-to-read-it-interpret-it-honestly-and-make-better-decision-2/">
+  <meta property="og:image" content="https://www.flotogbainsights.com/images/blog/f4dc16_06c091f8588844d09d1ced5a06d2fe67.png">
+  <meta property="og:locale" content="en_AE">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Interpreting Data Honestly: Avoiding the Traps That Mislead | Flotog BA Insights">
+  <meta name="twitter:description" content="DAY 3 | Interpreting Data Honestly: Avoiding the Traps That Mislead">
+  <meta name="twitter:image" content="https://www.flotogbainsights.com/images/blog/f4dc16_06c091f8588844d09d1ced5a06d2fe67.png">
+
+  <link rel="icon" href="/images/brand/flotog-logo.jpg" type="image/jpeg">
+  <link rel="apple-touch-icon" href="/images/brand/flotog-logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;700;800&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap">
+  <link rel="stylesheet" href="/css/site.css">
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.flotogbainsights.com/#website",
+      "url": "https://www.flotogbainsights.com/",
+      "name": "Flotog BA Insights",
+      "publisher": {
+        "@id": "https://www.flotogbainsights.com/#organization"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": [
+        "ProfessionalService",
+        "EducationalOrganization"
+      ],
+      "@id": "https://www.flotogbainsights.com/#organization",
+      "name": "Flotog BA Insights",
+      "legalName": "Flotog Business Analysis Insights",
+      "url": "https://www.flotogbainsights.com/",
+      "logo": "https://www.flotogbainsights.com/images/brand/flotog-logo.jpg",
+      "image": "https://www.flotogbainsights.com/images/og-default.jpg",
+      "description": "Business analyst training, mentorship and interview coaching from a Dubai-based practitioner with 13+ years' experience. Online worldwide and in the UAE.",
+      "telephone": "+971508026896",
+      "email": "info@flotogbainsights.com",
+      "foundingDate": "2012",
+      "priceRange": "Free–AED 400",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Al Rabee'a 2 Street, Al Thanyah First",
+        "addressLocality": "Barsha Heights",
+        "addressRegion": "Dubai",
+        "addressCountry": "AE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 25.0957,
+        "longitude": 55.174
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "United Arab Emirates"
+        },
+        {
+          "@type": "Place",
+          "name": "Worldwide (online)"
+        }
+      ],
+      "founder": {
+        "@id": "https://www.flotogbainsights.com/#tosin-ogunkoya"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/105396274",
+        "https://www.youtube.com/@FlotogBAInsights",
+        "https://www.instagram.com/flotogba_insights",
+        "https://www.tiktok.com/@flotogbainsights",
+        "https://www.facebook.com/profile.php?id=61567370939011"
+      ],
+      "knowsAbout": [
+        "Business analysis",
+        "Requirements engineering",
+        "Business process improvement",
+        "Digital transformation",
+        "Lean Six Sigma",
+        "Business analyst interview preparation"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.flotogbainsights.com/#tosin-ogunkoya",
+      "name": "Tosin Ogunkoya",
+      "jobTitle": "Founder and Lead BA Mentor",
+      "image": "https://www.flotogbainsights.com/images/brand/tosin-ogunkoya.jpg",
+      "worksFor": {
+        "@id": "https://www.flotogbainsights.com/#organization"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Dubai",
+        "addressCountry": "AE"
+      },
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Lean Six Sigma Black Belt (LSSBB)"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Lean Six Sigma Green Belt (LSSGB)"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "ITIL 4"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "ISEB Business Analysis Foundation"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "MSc Software Technology"
+        }
+      ],
+      "knowsAbout": [
+        "Business analysis",
+        "Requirements engineering",
+        "Business process improvement",
+        "Digital transformation",
+        "Lean Six Sigma",
+        "Business analyst interview preparation"
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/oluwatosin-ogunkoya/"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.flotogbainsights.com/blog/data-analysis-for-business-analysts-how-to-read-it-interpret-it-honestly-and-make-better-decision-2/#webpage",
+      "url": "https://www.flotogbainsights.com/blog/data-analysis-for-business-analysts-how-to-read-it-interpret-it-honestly-and-make-better-decision-2/",
+      "name": "Interpreting Data Honestly: Avoiding the Traps That Mislead | Flotog BA Insights",
+      "description": "DAY 3 | Interpreting Data Honestly: Avoiding the Traps That Mislead",
+      "isPartOf": {
+        "@id": "https://www.flotogbainsights.com/#website"
+      },
+      "about": {
+        "@id": "https://www.flotogbainsights.com/#organization"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.flotogbainsights.com/blog/data-analysis-for-business-analysts-how-to-read-it-interpret-it-honestly-and-make-better-decision-2/#article",
+      "mainEntityOfPage": {
+        "@id": "https://www.flotogbainsights.com/blog/data-analysis-for-business-analysts-how-to-read-it-interpret-it-honestly-and-make-better-decision-2/#webpage"
+      },
+      "headline": "Interpreting Data Honestly: Avoiding the Traps That Mislead",
+      "description": "DAY 3 | Interpreting Data Honestly: Avoiding the Traps That Mislead",
+      "datePublished": "2026-06-11T05:05:21.265Z",
+      "dateModified": "2026-06-11T05:05:21.265Z",
+      "author": {
+        "@id": "https://www.flotogbainsights.com/#tosin-ogunkoya"
+      },
+      "publisher": {
+        "@id": "https://www.flotogbainsights.com/#organization"
+      },
+      "inLanguage": "en",
+      "image": "https://www.flotogbainsights.com/images/blog/f4dc16_06c091f8588844d09d1ced5a06d2fe67.png",
+      "isPartOf": {
+        "@type": "CreativeWorkSeries",
+        "name": "Data Analysis for Business Analysts: How to Read It, Interpret It Honestly, and Make Better Decisions",
+        "url": "https://www.flotogbainsights.com/blog/series/data-analysis-for-business-analysts-how-to-read-it-interpret-it-honestly-and/"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.flotogbainsights.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.flotogbainsights.com/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Data Analysis for Business Analysts: How to Read It, Interpret It Honestly, and Make Better Decisions",
+          "item": "https://www.flotogbainsights.com/blog/series/data-analysis-for-business-analysts-how-to-read-it-interpret-it-honestly-and/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Interpreting Data Honestly: Avoiding the Traps That Mislead",
+          "item": "https://www.flotogbainsights.com/blog/data-analysis-for-business-analysts-how-to-read-it-interpret-it-honestly-and-make-better-decision-2/"
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/" aria-label="Flotog BA Insights home">
+      <img class="brand-mark" src="/images/brand/flotog-logo.jpg" width="44" height="44" alt="">
+      <span>Flotog <span class="brand-sub">BA Insights</span></span>
+    </a>
+    <nav class="main-nav" aria-label="Main">
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label">Menu</label>
+      <ul>
+        <li><a href="/coaching/">Coaching</a></li>
+        <li><a href="/ba-launchpad/">BA Launchpad</a></li>
+        <li><a href="/services/digital-transformation/">For business</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a class="btn btn-small" href="https://cal.com/flotogbainsights/free-consultation">Book a free call</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <main id="main">
+    <article class="post">
+  <header class="post-head">
+    <div class="wrap-narrow">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a> / <a href="/blog/">Blog</a> / <a href="/blog/series/data-analysis-for-business-analysts-how-to-read-it-interpret-it-honestly-and/">Data Analysis for Business Analysts: How to Read It, Interpret It Honestly, and Make Better Decisions</a>
+      </nav>
+      <p class="eyebrow">Day 3 · <a href="/blog/series/data-analysis-for-business-analysts-how-to-read-it-interpret-it-honestly-and/">Data Analysis for Business Analysts: How to Read It, Interpret It Honestly, and Make Better Decisions</a></p>
+      <h1>Interpreting Data Honestly: Avoiding the Traps That Mislead</h1>
+      <p class="post-meta">
+        By <a href="/about/">Tosin Ogunkoya</a> ·
+        <time datetime="2026-06-11T05:05:21.265Z">11 June 2026</time> · 6 min read
+      </p>
+    </div>
+  </header>
+
+  <div class="wrap-narrow post-body">
+    <img src="/images/blog/f4dc16_06c091f8588844d09d1ced5a06d2fe67.png" alt="Interpreting Data Honestly: Avoiding the Traps That Mislead" width="1424" height="736" loading="lazy">
+<p><strong>Here is a single fact about a business, presented two ways.</strong></p>
+<ul>
+<li>Version one: customer complaints rose by 40% last quarter. A serious problem that demands attention.</li>
+<li>Version two: customer complaints rose from 10 to 14 last quarter, against a total of 50,000 transactions. A negligible change well within normal variation.</li>
+</ul>
+<p>Both statements describe the same data. Both are factually true. And they lead a reader to completely opposite conclusions about whether there is a problem. This is the central challenge of interpreting data, and it is the reason this is the most important article in this week's series. Data does not interpret itself. People interpret it, and people bring their beliefs, their incentives, and their blind spots to the work. The Business Analyst's job is to be the person who interprets honestly, especially when honest interpretation is inconvenient.</p>
+<h4>Why Misleading Data Is Usually Not a Lie</h4>
+<p>It is tempting to think of misleading data as deception, as someone deliberately manipulating numbers to fool an audience. This happens, but it is the exception. The far more common situation is that people present data in a way that supports what they already believe, without any conscious intent to mislead. The marketing team genuinely believes the campaign worked, so they present the metrics that show it working. The operations manager genuinely believes they need more resources, so they present the data that demonstrates the strain. The project team genuinely believes the project is on track, so they present the measures that are green and explain away the ones that are red. Everyone is being honest in their own mind. Everyone is presenting a partial truth. And the sum of all these partial truths is an organisation making decisions on a distorted picture of reality. This is why the BA's role matters so much. The BA is one of the few people in the organisation whose job is to care about the whole picture rather than the part that supports a particular position. That neutrality is the BA's most valuable contribution to data-informed decision-making.</p>
+<h4>The Traps That Mislead</h4>
+<h2>The Truncated Axis</h2>
+<p>The most common visual trap is a chart where the vertical axis does not start at zero. By starting the axis near the lowest data point, a small change is stretched to fill the chart and looks dramatic. A change from 50 to 52 can be made to look like a doubling if the axis runs from 49 to 53. When you see a chart that shows a dramatic trend, the first thing to check is the axis. If it does not start at zero, ask whether the change is genuinely as significant as the chart makes it look. Sometimes it is. Often it is not.</p>
+<h2>The Cherry-Picked Time Period</h2>
+<p>Any trend can be reversed by choosing the right start and end points. A business in long-term decline can show growth by starting the chart at its lowest recent point. A volatile metric can be made to look stable by choosing a period that happens to begin and end at similar values. When you see a trend over a specific time period, ask why that period was chosen. What does the data look like over a longer period? What happens if you move the start point? A trend that only exists for one carefully chosen window is not a trend. It is a selection.</p>
+<h2>The Misleading Average</h2>
+<p>We covered this yesterday, and it belongs here too because it is one of the most common interpretation traps. An average can hide a distribution that tells a completely different story. When someone presents an average, ask about the spread. Ask whether there are outliers pulling the average in one direction. Ask whether the median tells a different story.</p>
+<h2>Correlation Presented as Causation</h2>
+<p>Two things moving together does not mean one causes the other. Ice cream sales and drowning deaths both rise in summer. Ice cream does not cause drowning. They share a common cause: warm weather. In business data, this trap is everywhere. A new initiative launched, and sales went up; therefore, the initiative caused the increase. Perhaps. Or perhaps sales were rising anyway, or a seasonal effect was responsible, or a competitor left the market at the same time. When you see a causal claim built on two things moving together, ask what else could explain the relationship.</p>
+<h2>The Missing Denominator</h2>
+<p>A number on its own often means nothing without the total it came from. 14 complaints sounds different depending on whether it is out of 50 transactions or 50,000. A raw number without its denominator is one of the most common ways data misleads, because it triggers a reaction without providing the context needed to judge whether the reaction is warranted. Whenever you are given a raw number, ask: out of how many? The denominator is often where the real story lives.</p>
+<h2>Survivorship Bias</h2>
+<p>This trap occurs when the data only includes the cases that made it through some filter, and the cases that did not are invisible. If you analyse the characteristics of your current customers to understand what makes a good customer, you are missing everyone who tried your product and left. The data you can see is shaped by who survived to be in it. When analysing any dataset, ask who or what is not in it. The cases that are missing are often more informative than the cases that remain.</p>
+<h4>How to Interpret Honestly</h4>
+<p>Spotting the traps is the defensive skill. Interpreting honestly is the positive practice that the traps are a part of. Honest interpretation rests on a few habits that a Business Analyst can build deliberately.</p>
+<ol>
+<li>The first habit is to separate what the data shows from what you want it to show. Before interpreting any dataset, it is worth naming, even just to yourself, what conclusion you are hoping for or expecting. Naming it makes it easier to notice when you are bending the interpretation toward it. The most honest analysts are the ones most aware of their own bias.</li>
+<li>The second habit is to actively look for the alternative explanation. Whenever the data appears to support a conclusion, ask what else could explain the same pattern. If you cannot rule out the alternatives, the conclusion is weaker than it looks. This single habit prevents most of the causation errors that lead organisations astray.</li>
+<li>The third habit is to state the limitations alongside the findings. Honest data interpretation does not present a conclusion as more certain than the data supports. It says what the data shows, and it says what the data cannot tell us. A recommendation that acknowledges its own limitations is more trustworthy, not less, and a stakeholder who has been given the limitations can make a better decision than one who has been given false certainty.</li>
+<li>The fourth habit is to be willing to deliver the inconvenient interpretation. This is the hardest one. When the data does not support what everyone wants it to support, the honest interpretation is the unwelcome one. The BA who can deliver that interpretation with clarity and tact, who can say the data does not show what we hoped it would, is doing the single most valuable thing a Business Analyst can do with data.</li>
+</ol>
+<h4>The BA as the Honest Broker</h4>
+<p>In most organisations, almost everyone who presents data has a stake in the conclusion. The Business Analyst is one of the few people positioned to be a neutral interpreter, an honest broker who cares more about getting the interpretation right than about which conclusion it supports. This neutrality is not a soft skill. It is a discipline. It requires resisting the pressure to give people the answer they want. It requires the confidence to say the data is inconclusive when it is inconclusive, rather than manufacturing a finding to satisfy the demand for one. And it requires the integrity to apply the same scrutiny to data that supports your own view as to data that challenges it.</p>
+<p>The BA who builds a reputation as an honest broker of data becomes something rare and valuable in an organisation: a trusted source of interpretation that people rely on precisely because they know it is not bent toward a predetermined answer. That reputation is one of the most powerful professional assets a Business Analyst can have.</p>
+<p><strong><em>Go out and be successful.</em></strong></p>
+<h2>Oluwatosin Ogunkoya | Flotog BA Insights | www.flotogbainsights.com</h2>
+<p><em>Tomorrow: From Data to Decision. How to turn numbers into analytical judgement, how to present data so it informs rather than manipulates, and how to build a recommendation that data genuinely supports.</em></p>
+
+  </div>
+
+  <aside class="wrap-narrow post-cta" aria-label="Work with Tosin">
+    <h2>Want help applying this to your own career?</h2>
+    <p>Book a free 30-minute call and we'll look at where you are, where you want to be, and the fastest honest route between the two.</p>
+    <div class="btn-row">
+      <a class="btn" href="https://cal.com/flotogbainsights/free-consultation">Book a free call</a>
+      <a class="btn btn-ghost" href="/free-ba-interview-guide/">Get the free interview guide</a>
+    </div>
+    <p class="muted" style="margin:1.5rem 0 .5rem">Prefer video? Follow for short lessons:</p>
+    <ul class="social-links">
+  <li><a href="https://www.youtube.com/@FlotogBAInsights" rel="me noopener" target="_blank">YouTube</a></li>
+  <li><a href="https://www.linkedin.com/in/oluwatosin-ogunkoya/" rel="me noopener" target="_blank">Tosin on LinkedIn</a></li>
+  <li><a href="https://www.linkedin.com/company/105396274" rel="me noopener" target="_blank">Flotog on LinkedIn</a></li>
+  <li><a href="https://www.instagram.com/flotogba_insights" rel="me noopener" target="_blank">Instagram</a></li>
+  <li><a href="https://www.tiktok.com/@flotogbainsights" rel="me noopener" target="_blank">TikTok</a></li>
+  <li><a href="https://www.facebook.com/profile.php?id=61567370939011" rel="me noopener" target="_blank">Facebook</a></li>
+</ul>
+
+  </aside>
+  <nav class="wrap-narrow series-nav" aria-label="More from this series">
+    <h2>The full series: Data Analysis for Business Analysts: How to Read It, Interpret It Honestly, and Make Better Decisions</h2>
+    <ol>
+      <li><a href="/blog/data-analysis-for-business-analysts-how-to-read-it-interpret-it-honestly-and-make-better-decision/">Day 1: Why Every Business Analyst Needs to Be Comfortable With Data</a></li>
+      <li><a href="/blog/data-analysis-for-business-analysts-how-to-read-it-interpret-it-honestly-and-make-better-decision-1/">Day 2: Reading Data: The Foundations Every BA Must Master</a></li>
+      <li><strong aria-current="page">Day 3: Interpreting Data Honestly: Avoiding the Traps That Mislead</strong></li>
+      <li><a href="/blog/data-analysis-for-business-analysts-how-to-read-it-interpret-it-honestly-and-make-better-decision-3/">Day 4: From Data to Decision: Turning Numbers Into Analytical Judgement</a></li>
+      <li><a href="/blog/data-analysis-for-business-analysts-how-to-read-it-interpret-it-honestly-and-make-better-decision-4/">Day 5: The Data Analysis Toolkit: Your Practical Reference Guide</a></li>
+    </ol>
+  </nav>
+</article>
+
+  </main>
+  <footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <p class="footer-brand">Flotog BA Insights</p>
+      <p>Business analyst training, mentorship and consultancy since 2012.</p>
+      <address>
+        Al Rabee&#39;a 2 Street, Al Thanyah First<br>
+        Barsha Heights, Dubai<br>
+        United Arab Emirates<br>
+        <a href="tel:+971508026896">+971 50 802 6896</a><br>
+        <a href="mailto:info@flotogbainsights.com">info@flotogbainsights.com</a>
+      </address>
+    </div>
+    <div>
+      <p class="footer-head">Explore</p>
+      <ul class="footer-links">
+        <li><a href="/coaching/">Coaching tracks</a></li>
+        <li><a href="/coaching/ai-for-business-analysts/">AI for business analysts</a></li>
+        <li><a href="/coaching/process-improvement/">Process improvement coaching</a></li>
+        <li><a href="/book/">Book a session</a></li>
+        <li><a href="/services/digital-transformation/">Digital transformation for business</a></li>
+        <li><a href="/blog/">BA career blog</a></li>
+        <li><a href="/ba-launchpad/">BA Launchpad programme</a></li>
+        <li><a href="/ba-readiness-check/">BA readiness check</a></li>
+        <li><a href="/free-ba-interview-guide/">Free BA interview guide</a></li>
+        <li><a href="/about/">About Tosin Ogunkoya</a></li>
+        <li><a href="/privacy-policy/">Privacy policy</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-head">Get one practical BA lesson a week</p>
+      <form name="newsletter" method="POST" action="https://app.kit.com/forms/9943144/subscriptions" class="newsletter">
+        <label for="nl-email">Email address</label>
+        <div class="newsletter-row">
+          <input id="nl-email" type="email" name="email_address" required autocomplete="email" placeholder="you@example.com">
+          <button class="btn" type="submit">Subscribe</button>
+        </div>
+      </form>
+      <p class="footer-head" style="margin-top:1.75rem">Follow for short video lessons</p>
+      <ul class="social-links">
+  <li><a href="https://www.youtube.com/@FlotogBAInsights" rel="me noopener" target="_blank">YouTube</a></li>
+  <li><a href="https://www.linkedin.com/in/oluwatosin-ogunkoya/" rel="me noopener" target="_blank">Tosin on LinkedIn</a></li>
+  <li><a href="https://www.linkedin.com/company/105396274" rel="me noopener" target="_blank">Flotog on LinkedIn</a></li>
+  <li><a href="https://www.instagram.com/flotogba_insights" rel="me noopener" target="_blank">Instagram</a></li>
+  <li><a href="https://www.tiktok.com/@flotogbainsights" rel="me noopener" target="_blank">TikTok</a></li>
+  <li><a href="https://www.facebook.com/profile.php?id=61567370939011" rel="me noopener" target="_blank">Facebook</a></li>
+</ul>
+
+    </div>
+  </div>
+  <div class="wrap footer-base"><p>© 2026 Flotog Business Analysis Insights. Dubai, UAE.</p></div>
+</footer>
+
+</body>
+</html>

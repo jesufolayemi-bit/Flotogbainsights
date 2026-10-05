@@ -45,6 +45,35 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("head", (arr, n) => (arr || []).slice(0, n));
   eleventyConfig.addFilter("xmlEscape", (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"));
 
+  // --- LinkedIn copy pages -------------------------------------------------
+  // LinkedIn's article editor accepts pasted rich text, but only a small set of
+  // tags: headings, paragraphs, bold, italic, lists, links and blockquotes. It
+  // drops custom elements (our .callout dialogue boxes) and it will not fetch
+  // images by URL on paste — those have to be uploaded by hand. So for the
+  // copy page we turn callouts into blockquotes and strip images out, listing
+  // them separately so none get forgotten.
+  eleventyConfig.addFilter("linkedinHtml", (html) => {
+    let out = String(html ?? "");
+    // .callout dialogue boxes -> blockquote (LinkedIn renders these properly)
+    out = out.replace(/<div class="callout">([\s\S]*?)<\/div>/g, "<blockquote>$1</blockquote>");
+    // images are uploaded to LinkedIn separately; drop them from the paste body
+    out = out.replace(/<img\b[^>]*>/g, "");
+    // tidy up the empty paragraphs those removals can leave behind
+    out = out.replace(/<p>\s*<\/p>/g, "");
+    return out.trim();
+  });
+
+  // Every image used in a post, so the copy page can list them for upload.
+  eleventyConfig.addFilter("postImages", (html) => {
+    const seen = new Set();
+    for (const m of String(html ?? "").matchAll(/<img\b[^>]*\bsrc="([^"]+)"[^>]*>/g)) seen.add(m[1]);
+    return [...seen];
+  });
+
+  // Plain text of the post, for the character counts LinkedIn cares about.
+  eleventyConfig.addFilter("plainText", (html) =>
+    String(html ?? "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim());
+
   // All blog posts, newest first
   eleventyConfig.addCollection("posts", (api) =>
     api.getFilteredByGlob("src/blog/*.md").sort((a, b) => b.date - a.date));

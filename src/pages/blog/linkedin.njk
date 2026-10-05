@@ -1,0 +1,156 @@
+---
+pagination:
+  data: collections.posts
+  size: 1
+  alias: post
+permalink: "{{ post.url }}linkedin/"
+layout: layouts/base.njk
+noindex: true
+titleIsFull: true
+eleventyExcludeFromCollections: true
+eleventyComputed:
+  title: "LinkedIn copy — {{ post.data.title }}"
+  description: "Private helper page for reposting this article to LinkedIn."
+---
+{%- set d = post.data -%}
+{%- set bodyHtml = post.templateContent | linkedinHtml -%}
+{%- set images = post.templateContent | postImages -%}
+{%- set liveUrl = post.url | absUrl(site.url) -%}
+
+<div class="wrap-narrow lic">
+
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/linkedin/">All LinkedIn copy</a> / <a href="{{ post.url }}">View the live article</a></nav>
+
+  <p class="eyebrow">LinkedIn copy · unlisted page</p>
+  <h1>{{ d.title }}</h1>
+  <p class="post-meta">Publishes <time datetime="{{ post.date | isoDate }}">{{ post.date | readableDate }}</time>{% if d.series %} · Day {{ d.day }} of {{ d.series }}{% endif %}</p>
+
+  <ol class="lic-steps">
+    <li>Open LinkedIn → <strong>Write article</strong>.</li>
+    <li>Work down this page in order. Each box has a <strong>Copy</strong> button.</li>
+    <li>Paste the post text into the box LinkedIn shows when you hit Publish.</li>
+  </ol>
+
+  <!-- 1. Cover -->
+  <section class="lic-step">
+    <h2><span class="lic-num">1</span> Cover image</h2>
+    {%- if d.cover %}
+    <img class="lic-cover" src="{{ d.cover }}" alt="Cover for {{ d.title }}">
+    <p><a class="btn" href="{{ d.cover }}" download>Download cover</a>
+       <span class="muted">Then use LinkedIn's “Add a cover image” button at the top of the editor.</span></p>
+    {%- else %}
+    <p class="lic-warn">No cover image is set for this post. LinkedIn articles without a cover get noticeably less reach — worth adding one in Pages CMS before you publish.</p>
+    {%- endif %}
+  </section>
+
+  <!-- 2. Title -->
+  <section class="lic-step">
+    <h2><span class="lic-num">2</span> Title</h2>
+    <div class="lic-box"><p id="lic-title">{{ d.title }}</p></div>
+    <button class="btn btn-ghost" data-copy-text="#lic-title">Copy title</button>
+    <span class="muted lic-count">{{ d.title | length }} characters</span>
+  </section>
+
+  <!-- 3. Subtitle -->
+  {%- if d.dek %}
+  <section class="lic-step">
+    <h2><span class="lic-num">3</span> Subtitle</h2>
+    <div class="lic-box"><p id="lic-dek">{{ d.dek }}</p></div>
+    <button class="btn btn-ghost" data-copy-text="#lic-dek">Copy subtitle</button>
+    <p class="muted">LinkedIn has no subtitle field — paste this as the first line of the article, in italics.</p>
+  </section>
+  {%- endif %}
+
+  <!-- 4. Body -->
+  <section class="lic-step">
+    <h2><span class="lic-num">4</span> Article body</h2>
+    <p class="muted">Formatting is preserved on paste. Your callout boxes have become quote blocks, which is the closest thing LinkedIn supports.</p>
+    <button class="btn" data-copy-html="#lic-body">Copy body with formatting</button>
+    <span class="muted lic-count">about {{ (post.templateContent | plainText | length / 5) | round }} words</span>
+    <div class="lic-box lic-body" id="lic-body">
+      {{ bodyHtml | safe }}
+    </div>
+  </section>
+
+  <!-- 5. Images -->
+  {%- if images.length %}
+  <section class="lic-step">
+    <h2><span class="lic-num">5</span> Images inside the article</h2>
+    <p class="lic-warn">LinkedIn cannot pull these in from the paste — upload each one by hand where it belongs in the article.</p>
+    <ul class="lic-images">
+      {%- for img in images %}
+      <li><img src="{{ img }}" alt=""><a class="btn btn-ghost" href="{{ img }}" download>Download</a></li>
+      {%- endfor %}
+    </ul>
+  </section>
+  {%- endif %}
+
+  <!-- 6. Post text -->
+  <section class="lic-step">
+    <h2><span class="lic-num">{% if images.length %}6{% else %}5{% endif %}</span> Your post text</h2>
+    <p class="muted">This goes in the “Tell your network what your article is about” box when you publish, so the post and the article go out together.</p>
+    {%- if d.linkedinPost %}
+    <div class="lic-box"><p id="lic-post" style="white-space:pre-wrap">{{ d.linkedinPost }}</p></div>
+    <button class="btn" data-copy-text="#lic-post">Copy post text</button>
+    <span class="muted lic-count">{{ d.linkedinPost | length }} characters — LinkedIn truncates at about 200 with a “see more”</span>
+    {%- else %}
+    <div class="lic-box"><p id="lic-post" style="white-space:pre-wrap">{{ d.dek or d.description }}
+
+Full article: {{ liveUrl }}</p></div>
+    <button class="btn" data-copy-text="#lic-post">Copy fallback text</button>
+    <p class="muted">No post text was written for this one, so that's a fallback built from the subtitle. Add a <strong>LinkedIn post text</strong> in Pages CMS to replace it.</p>
+    {%- endif %}
+  </section>
+
+  <!-- 7. Link back -->
+  <section class="lic-step">
+    <h2><span class="lic-num">{% if images.length %}7{% else %}6{% endif %}</span> Link back to your site</h2>
+    <p class="muted">Put this at the foot of the LinkedIn article. It sends readers to the original and is the only part of this that helps your own SEO.</p>
+    <div class="lic-box"><p id="lic-link">Originally published at {{ liveUrl }}</p></div>
+    <button class="btn btn-ghost" data-copy-text="#lic-link">Copy link line</button>
+  </section>
+
+</div>
+
+<script>
+(function () {
+  function flash(btn, msg) {
+    var old = btn.textContent;
+    btn.textContent = msg;
+    btn.classList.add("is-copied");
+    setTimeout(function () { btn.textContent = old; btn.classList.remove("is-copied"); }, 1600);
+  }
+  function selectNode(el) {
+    var r = document.createRange(); r.selectNodeContents(el);
+    var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+  }
+  document.addEventListener("click", function (e) {
+    var btn = e.target.closest("[data-copy-text],[data-copy-html]");
+    if (!btn) return;
+    var isHtml = btn.hasAttribute("data-copy-html");
+    var el = document.querySelector(btn.getAttribute(isHtml ? "data-copy-html" : "data-copy-text"));
+    if (!el) return;
+    var text = el.innerText;
+    if (!isHtml) {
+      navigator.clipboard.writeText(text)
+        .then(function () { flash(btn, "Copied"); })
+        .catch(function () { selectNode(el); flash(btn, "Press Ctrl+C"); });
+      return;
+    }
+    // Rich copy: hand the clipboard both HTML and a plain-text fallback so the
+    // formatting survives the paste into LinkedIn's editor.
+    var html = el.innerHTML;
+    if (window.ClipboardItem && navigator.clipboard && navigator.clipboard.write) {
+      navigator.clipboard.write([new ClipboardItem({
+        "text/html": new Blob([html], { type: "text/html" }),
+        "text/plain": new Blob([text], { type: "text/plain" })
+      })])
+        .then(function () { flash(btn, "Copied with formatting"); })
+        .catch(function () { selectNode(el); flash(btn, "Press Ctrl+C"); });
+    } else {
+      selectNode(el);
+      flash(btn, "Selected — press Ctrl+C");
+    }
+  });
+})();
+</script>

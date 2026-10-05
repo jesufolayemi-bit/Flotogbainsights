@@ -1,0 +1,24 @@
+---
+permalink: /linkedin/
+layout: layouts/base.njk
+title: "LinkedIn copy pages"
+titleIsFull: true
+description: "Private index of the LinkedIn copy pages."
+noindex: true
+eleventyExcludeFromCollections: true
+---
+<div class="wrap-narrow lic">
+  <p class="eyebrow">Unlisted page</p>
+  <h1>LinkedIn copy pages</h1>
+  <p class="lead">One page per article, set up for pasting into LinkedIn's editor. Scheduled posts appear here only once they are live on the site.</p>
+  <p class="muted">These pages are not indexed by search engines and are not linked from anywhere public — but anyone with the address can open them, so treat the links as semi-private.</p>
+
+  <ul class="lic-list">
+    {%- for post in collections.posts %}
+    <li>
+      <a href="{{ post.url }}linkedin/">{{ post.data.title }}</a>
+      <span class="muted">{{ post.date | readableDate }}{% if post.data.series %} · Day {{ post.data.day }}{% endif %}{% if not post.data.linkedinPost %} · <em>no post text yet</em>{% endif %}</span>
+    </li>
+    {%- endfor %}
+  </ul>
+</div>
