@@ -61,3 +61,9 @@ The hardest part of this habit is not the thinking itself, which usually takes l
 Tomorrow closes the week by folding everything so far, the queue, the map, the loops, the second-order question, into something that fits inside ordinary daily BA work rather than sitting apart from it as a separate analytical exercise.
 
 <strong><em>Go out and be successful.</em></strong>
+
+<strong>Oluwatosin Ogunkoya</strong> <strong>·  Flotog BA Insights  ·  1:1 mentoring and coaching for BAs at every career stage  ·</strong>  [<strong>www.flotogbainsights.com</strong>](/)
+
+<em>TOMORROW</em>
+
+<em>Thinking in Systems as a Daily BA Habit - Folding this into ordinary requirements and process work, instead of treating it as a separate analytical exercise.</em>

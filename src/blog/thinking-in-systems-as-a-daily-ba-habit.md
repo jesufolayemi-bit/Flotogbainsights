@@ -33,3 +33,9 @@ I think about the queue story from Monday often, not because it was unusual, but
 None of the five days this week asked you to become a systems modeler, and none of them required software, training, or a certification sitting between where you are now and being able to use this. What they asked for was smaller and, I think, more durable: a short list of questions worth carrying into ordinary work, asked often enough that they stop feeling like extra effort and start feeling like how the work is simply done. What else is connected to this. Is this effect feeding itself or resisting me. What happens after people have had time to actually live inside the change. Three questions, each one cheap to ask and expensive to skip, and that is most of what a system view actually adds to the job most days.
 
 <strong><em>Go out and be successful.</em></strong>
+
+<strong>Oluwatosin Ogunkoya</strong> <strong>·  Flotog BA Insights  ·  1:1 mentoring and coaching for BAs at every career stage  ·</strong>  [<strong>www.flotogbainsights.com</strong>](/)
+
+<em>NEXT WEEK</em>
+
+<em>Lean Six Sigma for BAs Who Aren't Black Belts - What actually transfers from Lean Six Sigma into everyday BA work, without needing the full certification.</em>

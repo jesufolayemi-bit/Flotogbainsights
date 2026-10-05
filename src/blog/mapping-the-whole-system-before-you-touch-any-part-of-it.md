@@ -51,3 +51,9 @@ A map drawn once also has a second life worth planning for from the start. The f
 Tomorrow goes one level deeper into the specific shape that causes the most damage inside these maps: the loop that feeds itself, and the loop that quietly fights every fix aimed at it.
 
 <strong><em>Go out and be successful.</em></strong>
+
+<strong>Oluwatosin Ogunkoya</strong> <strong>·  Flotog BA Insights  ·  1:1 mentoring and coaching for BAs at every career stage  ·</strong>  [<strong>www.flotogbainsights.com</strong>](/)
+
+<em>TOMORROW</em>
+
+<em>Feedback Loops: The Pattern Behind Most Mystery Problems - Reinforcing loops that quietly run away, and balancing loops that fight every fix you try.</em>

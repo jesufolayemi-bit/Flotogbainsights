@@ -57,3 +57,9 @@ A practical way to sort this out in an ordinary meeting, without any formal mode
 Tomorrow pushes one step further into the same territory: not just what a change does immediately, but what it does after that, and after that again.
 
 <strong><em>Go out and be successful.</em></strong>
+
+<strong>Oluwatosin Ogunkoya</strong> <strong>·  Flotog BA Insights  ·  1:1 mentoring and coaching for BAs at every career stage  ·</strong>  [<strong>www.flotogbainsights.com</strong>](/)
+
+<em>TOMORROW</em>
+
+<em>Second-Order Effects: What Happens After What Happens - Training yourself to ask what a change does to the rest of the system, not just whether it solves the problem in front of you.</em>
