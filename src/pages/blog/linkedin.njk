@@ -16,6 +16,7 @@ eleventyComputed:
 {%- set bodyHtml = post.templateContent | linkedinHtml -%}
 {%- set images = post.templateContent | postImages -%}
 {%- set liveUrl = post.url | absUrl(site.url) -%}
+{%- set n = 0 -%}
 
 <div class="wrap-narrow lic">
 
@@ -33,7 +34,7 @@ eleventyComputed:
 
   <!-- 1. Cover -->
   <section class="lic-step">
-    <h2><span class="lic-num">1</span> Cover image</h2>
+    {%- set n = n + 1 -%}<h2><span class="lic-num">{{ n }}</span> Cover image</h2>
     {%- if d.cover %}
     <img class="lic-cover" src="{{ d.cover }}" alt="Cover for {{ d.title }}">
     <p><a class="btn" href="{{ d.cover }}" download>Download cover</a>
@@ -45,7 +46,7 @@ eleventyComputed:
 
   <!-- 2. Title -->
   <section class="lic-step">
-    <h2><span class="lic-num">2</span> Title</h2>
+    {%- set n = n + 1 -%}<h2><span class="lic-num">{{ n }}</span> Title</h2>
     <div class="lic-box"><p id="lic-title">{{ d.title }}</p></div>
     <button class="btn btn-ghost" data-copy-text="#lic-title">Copy title</button>
     <span class="muted lic-count">{{ d.title | length }} characters</span>
@@ -54,7 +55,7 @@ eleventyComputed:
   <!-- 3. Subtitle -->
   {%- if d.dek %}
   <section class="lic-step">
-    <h2><span class="lic-num">3</span> Subtitle</h2>
+    {%- set n = n + 1 -%}<h2><span class="lic-num">{{ n }}</span> Subtitle</h2>
     <div class="lic-box"><p id="lic-dek">{{ d.dek }}</p></div>
     <button class="btn btn-ghost" data-copy-text="#lic-dek">Copy subtitle</button>
     <p class="muted">LinkedIn has no subtitle field — paste this as the first line of the article, in italics.</p>
@@ -63,7 +64,7 @@ eleventyComputed:
 
   <!-- 4. Body -->
   <section class="lic-step">
-    <h2><span class="lic-num">4</span> Article body</h2>
+    {%- set n = n + 1 -%}<h2><span class="lic-num">{{ n }}</span> Article body</h2>
     <p class="muted">Formatting is preserved on paste. Your callout boxes have become quote blocks, which is the closest thing LinkedIn supports.</p>
     <button class="btn" data-copy-html="#lic-body">Copy body with formatting</button>
     <span class="muted lic-count">about {{ (post.templateContent | plainText | length / 5) | round }} words</span>
@@ -75,7 +76,7 @@ eleventyComputed:
   <!-- 5. Images -->
   {%- if images.length %}
   <section class="lic-step">
-    <h2><span class="lic-num">5</span> Images inside the article</h2>
+    {%- set n = n + 1 -%}<h2><span class="lic-num">{{ n }}</span> Images inside the article</h2>
     <p class="lic-warn">LinkedIn cannot pull these in from the paste — upload each one by hand where it belongs in the article.</p>
     <ul class="lic-images">
       {%- for img in images %}
@@ -87,7 +88,7 @@ eleventyComputed:
 
   <!-- 6. Post text -->
   <section class="lic-step">
-    <h2><span class="lic-num">{% if images.length %}6{% else %}5{% endif %}</span> Your post text</h2>
+    {%- set n = n + 1 -%}<h2><span class="lic-num">{{ n }}</span> Your post text</h2>
     <p class="muted">This goes in the “Tell your network what your article is about” box when you publish, so the post and the article go out together.</p>
     {%- if d.linkedinPost %}
     <div class="lic-box"><p id="lic-post" style="white-space:pre-wrap">{{ d.linkedinPost }}</p></div>
@@ -104,7 +105,7 @@ Full article: {{ liveUrl }}</p></div>
 
   <!-- 7. Link back -->
   <section class="lic-step">
-    <h2><span class="lic-num">{% if images.length %}7{% else %}6{% endif %}</span> Link back to your site</h2>
+    {%- set n = n + 1 -%}<h2><span class="lic-num">{{ n }}</span> Link back to your site</h2>
     <p class="muted">Put this at the foot of the LinkedIn article. It sends readers to the original and is the only part of this that helps your own SEO.</p>
     <div class="lic-box"><p id="lic-link">Originally published at {{ liveUrl }}</p></div>
     <button class="btn btn-ghost" data-copy-text="#lic-link">Copy link line</button>
