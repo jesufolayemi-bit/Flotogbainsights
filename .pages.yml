@@ -39,7 +39,7 @@ content:
         type: text
         required: true
       - name: date
-        label: Publish date
+        label: Publish date (pick a future date to schedule; it goes live at about 6am Dubai that day)
         type: date
         options:
           time: true

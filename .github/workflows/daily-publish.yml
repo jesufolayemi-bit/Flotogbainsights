@@ -1,0 +1,31 @@
+name: Daily publish
+
+# Rebuilds the live site every morning so scheduled (future-dated) blog posts
+# appear on their publish date. Posts are hidden until their date arrives in
+# Dubai time; see the "Scheduled publishing" note in eleventy.config.js.
+#
+# Needs one repository secret: VERCEL_DEPLOY_HOOK
+#   Vercel -> project -> Settings -> Git -> Deploy Hooks -> name "daily-publish",
+#   branch "main" -> copy the URL -> GitHub repo -> Settings -> Secrets and
+#   variables -> Actions -> New repository secret.
+on:
+  schedule:
+    # 01:50 UTC = 05:50 Dubai. Slightly before 06:00 because GitHub often starts
+    # scheduled runs a few minutes late.
+    - cron: "50 1 * * *"
+  workflow_dispatch: # "Run workflow" button for a manual rebuild
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Vercel production deploy
+        env:
+          HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: |
+          if [ -z "$HOOK" ]; then
+            echo "::error::VERCEL_DEPLOY_HOOK secret is not set. See the comment at the top of this file."
+            exit 1
+          fi
+          curl -fsS -X POST "$HOOK"
+          echo "Rebuild triggered."

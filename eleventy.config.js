@@ -2,7 +2,28 @@ const slugify = (s) =>
   String(s).toLowerCase().normalize("NFKD").replace(/[\u0300-\u036f]/g, "")
     .replace(/&/g, " and ").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").replace(/^(.{0,80})(-.*)?$/, "$1").replace(/-+$/, "");
 
+// Scheduled publishing: a blog post dated in the future is left out of the build
+// entirely (no page, not in the blog index, series pages, RSS feed or sitemap)
+// until its publish date arrives in Dubai. A daily rebuild at 06:00 Dubai
+// (.github/workflows/daily-publish.yml) makes each day's post appear.
+// Rule: a post goes live on its calendar date (the date typed in Pages CMS);
+// the time of day is ignored. Set SHOW_SCHEDULED=1 to preview future posts locally.
+const todayInDubai = () =>
+  new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Dubai" }).format(new Date()); // YYYY-MM-DD
+const postDay = (d) => {
+  if (typeof d === "string" && /^\d{4}-\d{2}-\d{2}/.test(d)) return d.slice(0, 10);
+  const dt = d instanceof Date ? d : new Date(d);
+  return isNaN(dt) ? null : dt.toISOString().slice(0, 10);
+};
+
 export default function (eleventyConfig) {
+  eleventyConfig.addPreprocessor("scheduled-posts", "md", (data) => {
+    if (process.env.SHOW_SCHEDULED === "1") return;
+    if (!data.page?.inputPath?.includes("/blog/")) return;
+    const day = postDay(data.date ?? data.page.date);
+    if (day && day > todayInDubai()) return false; // not yet — skip this post
+  });
+
   eleventyConfig.addGlobalData("year", () => new Date().getFullYear());
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/images");
