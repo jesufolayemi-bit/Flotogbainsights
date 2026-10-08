@@ -4,6 +4,10 @@
   "buildCommand": "npm run build",
   "outputDirectory": "_site",
   "trailingSlash": true,
+  "crons": [
+    { "path": "/api/publish/", "schedule": "50 1 * * *" },
+    { "path": "/api/publish/", "schedule": "20 2 * * *" }
+  ],
   "redirects": [
     { "source": "/post/:slug", "destination": "/blog/:slug/", "permanent": true },
     { "source": "/post/:slug/", "destination": "/blog/:slug/", "permanent": true },

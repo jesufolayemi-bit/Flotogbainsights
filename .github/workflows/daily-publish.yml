@@ -10,14 +10,10 @@ name: Daily publish
 #   variables -> Actions -> New repository secret.
 on:
   schedule:
-    # 01:50 UTC = 05:50 Dubai. Slightly before 06:00 because GitHub often starts
-    # scheduled runs a few minutes late.
+    # The main morning trigger is now Vercel Cron (vercel.json -> api/publish.js),
+    # because GitHub ran these scheduled jobs 6-9 hours late on 6-8 Oct 2026.
+    # This stays as a safety net only; an extra rebuild is harmless.
     - cron: "50 1 * * *"
-    # Backups. GitHub's scheduler is best-effort and sometimes skips a run
-    # entirely (it skipped 6 Oct 2026). An extra rebuild is harmless: it just
-    # republishes the same site.
-    - cron: "17 2 * * *"   # 06:17 Dubai
-    - cron: "43 3 * * *"   # 07:43 Dubai
   workflow_dispatch: # "Run workflow" button for a manual rebuild
 
 jobs:
