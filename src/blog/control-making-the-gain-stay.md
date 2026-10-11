@@ -6,6 +6,7 @@ day: 5
 dek: "The phase that decides whether the improvement lasts, and how all five phases map onto the BA lifecycle you already run"
 description: "Most improvements fade after the project closes. How a BA builds a control plan, maps DMAIC onto the BA lifecycle, and knows when a Black Belt is needed."
 date: 2026-10-16T06:00:00.000Z
+cover: "/images/blog/lean-six-sigma-day-5-control.jpg"
 readingTime: 5
 linkedinPost: |
   The pilot worked. The numbers moved. The sponsor was pleased and the project closed on time.
@@ -22,6 +23,8 @@ linkedinPost: |
 
   #BusinessAnalysis #LeanSixSigma #ProcessImprovement #ContinuousImprovement #FlotogBAInsights
 ---
+<img src="/images/blog/lean-six-sigma-day-5-control.jpg" alt="A control checklist and a steady run chart pinned to an office wall with an owner's name card" width="1600" height="893" loading="lazy">
+
 The pilot worked, the numbers moved, the sponsor was pleased and the project closed on schedule. Six months later the process has drifted back to where it started, and nobody can say when it slipped. The engineer who knew why there was a Monday slot has moved teams, a new coordinator was never told about it, and nobody was watching the one number that would have shown the slide. This is the most common ending for improvement projects that otherwise did everything right, and it is the reason Control is a full phase of DMAIC. Improvements do not hold by themselves. A process drifts toward whatever its people, habits and incentives support, so a gain that is not deliberately anchored is a gain on loan.
 
 ## Control is a plan, not a hope

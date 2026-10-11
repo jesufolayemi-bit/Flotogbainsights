@@ -6,6 +6,7 @@ day: 1
 dek: "What it actually is, what the belts are for, and which parts transfer straight into BA work"
 description: "Lean Six Sigma without the belts: what it is, what the belts are for, and the parts that transfer straight into everyday business analysis work."
 date: 2026-10-12T06:00:00.000Z
+cover: "/images/blog/lean-six-sigma-day-1-without-belts.jpg"
 readingTime: 5
 linkedinPost: |
   I hold a Lean Six Sigma Black Belt. In more than a decade of requirements work, nobody has ever asked to see it.
@@ -22,6 +23,8 @@ linkedinPost: |
 
   #BusinessAnalysis #LeanSixSigma #ProcessImprovement #BusinessProcess #FlotogBAInsights
 ---
+<img src="/images/blog/lean-six-sigma-day-1-without-belts.jpg" alt="A black belt set aside on a desk beside a notebook with a hand-drawn five-box flow" width="1600" height="893" loading="lazy">
+
 I hold a Lean Six Sigma Black Belt and a Green Belt, and in more than a decade of requirements work, nobody has ever asked to see either of them. What gets used every week is something much smaller: two questions that took me far longer to learn than they take to explain. What does the customer count as a defect? And how much does this process vary from one case to the next? Those two questions are the working core of Lean Six Sigma, and neither needs a belt, a statistics package, or permission from a continuous improvement team. Yet many analysts quietly rule the whole discipline out. It sounds like something that belongs to factory floors and operations departments, with its own vocabulary, its own certificates and its own gatekeepers. So the useful parts never get applied where analysts actually work, which is a real loss, because those parts fix some of the most common weaknesses in BA output: vague problem statements, claims of improvement with no baseline behind them, and fixes that fade within a month of the project closing.
 
 ## Two ideas under all the vocabulary

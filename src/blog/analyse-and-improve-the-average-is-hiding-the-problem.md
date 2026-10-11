@@ -6,6 +6,7 @@ day: 4
 dek: "Finding where the failures concentrate, then testing a change before announcing it"
 description: "An average of 4.1 days hid a quarter of late cases. How BAs split data to find where failures concentrate, then pilot a fix before rolling it out."
 date: 2026-10-15T06:00:00.000Z
+cover: "/images/blog/lean-six-sigma-day-4-analyse-improve.jpg"
 readingTime: 5
 linkedinPost: |
   An average of 4.1 days looks fine against a five-day promise. Thirty out of 120 tenants waited longer anyway.
@@ -22,6 +23,8 @@ linkedinPost: |
 
   #BusinessAnalysis #LeanSixSigma #ProcessImprovement #RootCause #FlotogBAInsights
 ---
+<img src="/images/blog/lean-six-sigma-day-4-analyse-improve.jpg" alt="A hand circling the long tail of a hand-drawn histogram, with a Thursday ringed on a desk calendar" width="1600" height="893" loading="lazy">
+
 An average of 4.1 working days looks comfortable against a five-day promise, and that comfort is exactly the problem. Thirty of the 120 requests still took longer than five days, because customers do not experience averages. They experience their own case, and a process can beat its average while failing a quarter of the people it serves. The Analyse phase is where a baseline turns into an explanation, and the explanation starts with a change in what you look at. Stop asking how the process performs overall and start asking where the failures live.
 
 ## Variation is the real culprit

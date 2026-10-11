@@ -6,6 +6,7 @@ day: 2
 dek: "Turning \"the process is slow\" into a problem you can measure, and fitting it on one page"
 description: "Turn 'the process is slow' into a defect you can count. The Define phase for BAs: customer requirements, a testable problem and a one-page charter."
 date: 2026-10-13T06:00:00.000Z
+cover: "/images/blog/lean-six-sigma-day-2-define.jpg"
 readingTime: 5
 linkedinPost: |
   "The approval process is too slow." I have heard that sentence in more kickoff meetings than I can count. It has never once been a problem statement.
@@ -22,6 +23,8 @@ linkedinPost: |
 
   #BusinessAnalysis #LeanSixSigma #ProcessImprovement #ProblemSolving #FlotogBAInsights
 ---
+<img src="/images/blog/lean-six-sigma-day-2-define.jpg" alt="A tenant request form on a clipboard in front of a calendar with five working days highlighted and the sixth circled" width="1600" height="893" loading="lazy">
+
 "The approval process is too slow." I have heard that sentence in more kickoff meetings than I can count, and it has never once been a usable problem statement. It is a complaint, and complaints are fine as starting points, but nothing in it can be measured, so nothing in it can ever be proven fixed. The cost of that vagueness shows up months later. The project closes, someone says things feel faster, someone else says they feel the same, and neither of them is wrong, because "slow" was never defined. The Define phase exists to prevent that argument by settling, before any work starts, what is failing, for whom, and how anyone would know.
 
 ## A defect is whatever the customer says it is

@@ -6,6 +6,7 @@ day: 3
 dek: "How to find out how the process really performs today, and why that number protects you later"
 description: "A baseline turns 'did it work?' into a comparison. How a BA measures a process today, and why the failure rate tells you more than the average."
 date: 2026-10-14T06:00:00.000Z
+cover: "/images/blog/lean-six-sigma-day-3-measure.jpg"
 readingTime: 5
 linkedinPost: |
   "It takes about four days." That was the team's answer, and the answer was accurate. It was also the least useful number available.
@@ -22,6 +23,8 @@ linkedinPost: |
 
   #BusinessAnalysis #LeanSixSigma #ProcessImprovement #DataDrivenDecisions #FlotogBAInsights
 ---
+<img src="/images/blog/lean-six-sigma-day-3-measure.jpg" alt="A clipboard with a hand-drawn tally chart and a stopwatch beside a laptop spreadsheet" width="1600" height="893" loading="lazy">
+
 "It takes about four days." That was the property team's answer when asked how long a fit-out request takes to decide, and the answer was accurate. It was also the least useful number available, because it described the process in the one way that hid nearly everything worth knowing. Before anyone fixes a process, someone has to say how it performs today, in numbers, measured in a way that two different people would reproduce. That statement is the baseline, and the Measure phase exists to produce it. Teams skip it because the process feels familiar and the pressure to act is high. They pay for the skip later, when nobody can prove whether the fix did anything.
 
 ## Decide what to measure before you collect anything
