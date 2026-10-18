@@ -22,6 +22,8 @@ linkedinPost: |
   What is the most expensive failure an integration has ever caused on your project?
 
   #BusinessAnalysis #API #RiskManagement #Integration #FlotogBAInsights
+tableImages:
+  - "/images/blog/tables/when-the-integration-breaks-table-1.png"
 ---
 <img src="/images/blog/api-literacy-day-4-when-it-breaks.jpg" alt="A line of identical tickets on a rail with two duplicates flagged in gold and a stopwatch beside it" width="1600" height="893" loading="lazy">
 

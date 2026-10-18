@@ -22,6 +22,8 @@ linkedinPost: |
   What is the first failure scenario you would test in your current integration?
 
   #BusinessAnalysis #API #AcceptanceCriteria #Testing #FlotogBAInsights
+tableImages:
+  - "/images/blog/tables/testing-an-integration-and-working-with-developers-and-vendors-table-1.png"
 ---
 <img src="/images/blog/api-literacy-day-5-testing.jpg" alt="A wooden block bridge carrying a gold weight between two platforms, with a ticked checklist card beside it" width="1600" height="893" loading="lazy">
 

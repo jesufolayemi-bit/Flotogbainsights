@@ -22,6 +22,8 @@ linkedinPost: |
   Which integration question did your team only ask after go-live?
 
   #BusinessAnalysis #Requirements #SystemsIntegration #DataMapping #FlotogBAInsights
+tableImages:
+  - "/images/blog/tables/writing-requirements-for-an-integration-table-1.png"
 ---
 <img src="/images/blog/api-literacy-day-3-requirements.jpg" alt="Two grids of navy and teal index cards connected by gold string, like a field mapping" width="1600" height="893" loading="lazy">
 

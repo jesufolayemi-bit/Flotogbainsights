@@ -13,7 +13,7 @@ eleventyComputed:
   description: "Private helper page for reposting this article to LinkedIn."
 ---
 {%- set d = post.data -%}
-{%- set bodyHtml = post.templateContent | linkedinHtml -%}
+{%- set bodyHtml = post.templateContent | linkedinHtml(d.tableImages) -%}
 {%- set images = post.templateContent | postImages -%}
 {%- set liveUrl = post.url | absUrl(site.url) -%}
 {%- set n = 0 -%}
@@ -81,6 +81,19 @@ eleventyComputed:
     <ul class="lic-images">
       {%- for img in images %}
       <li><img src="{{ img }}" alt=""><a class="btn btn-ghost" href="{{ img }}" download>Download</a></li>
+      {%- endfor %}
+    </ul>
+  </section>
+  {%- endif %}
+
+  <!-- Table images -->
+  {%- if d.tableImages and d.tableImages.length %}
+  <section class="lic-step">
+    {%- set n = n + 1 -%}<h2><span class="lic-num">{{ n }}</span> Table images</h2>
+    <p class="lic-warn">LinkedIn articles can't show tables. In the pasted body, each table is replaced by a bold line like <strong>[ Insert table image 1 here ]</strong>. Put your cursor on that line, upload the matching image below, then delete the marker line.</p>
+    <ul class="lic-images">
+      {%- for img in d.tableImages %}
+      <li><img src="{{ img }}" alt="Table {{ loop.index }}"><a class="btn btn-ghost" href="{{ img }}" download>Download table {{ loop.index }}</a></li>
       {%- endfor %}
     </ul>
   </section>

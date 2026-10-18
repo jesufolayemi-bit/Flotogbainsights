@@ -22,6 +22,8 @@ linkedinPost: |
   When did you last read a vendor's API documentation before the kick-off meeting?
 
   #BusinessAnalysis #API #Integration #TechnicalSkills #FlotogBAInsights
+tableImages:
+  - "/images/blog/tables/reading-api-documentation-without-being-a-developer-table-1.png"
 ---
 <img src="/images/blog/api-literacy-day-2-reading-docs.jpg" alt="An analyst reading a long documentation page on a laptop, with sections marked by teal tabs and one block boxed in gold" width="1600" height="893" loading="lazy">
 

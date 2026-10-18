@@ -52,8 +52,17 @@ export default function (eleventyConfig) {
   // images by URL on paste — those have to be uploaded by hand. So for the
   // copy page we turn callouts into blockquotes and strip images out, listing
   // them separately so none get forgotten.
-  eleventyConfig.addFilter("linkedinHtml", (html) => {
+  eleventyConfig.addFilter("linkedinHtml", (html, tableImages) => {
     let out = String(html ?? "");
+    // If the tables have been rendered as images (scripts/render-table-images.py),
+    // swap each title+table for a marker showing where to insert its image.
+    if (tableImages && tableImages.length) {
+      let i = 0;
+      out = out.replace(/(?:<p class="table-title"><strong>([\s\S]*?)<\/strong><\/p>\s*)?<table>[\s\S]*?<\/table>/g, (_, title) => {
+        i += 1;
+        return `<p><strong>[ Insert table image ${i} here${title ? ": " + title : ""} ]</strong></p>`;
+      });
+    }
     // .callout dialogue boxes -> blockquote (LinkedIn renders these properly)
     out = out.replace(/<div class="callout">([\s\S]*?)<\/div>/g, "<blockquote>$1</blockquote>");
     // LinkedIn articles have no tables: turn each row into a bullet, e.g.
