@@ -56,6 +56,21 @@ export default function (eleventyConfig) {
     let out = String(html ?? "");
     // .callout dialogue boxes -> blockquote (LinkedIn renders these properly)
     out = out.replace(/<div class="callout">([\s\S]*?)<\/div>/g, "<blockquote>$1</blockquote>");
+    // LinkedIn articles have no tables: turn each row into a bullet, e.g.
+    // "Method (POST). What it tells you: The action..."
+    out = out.replace(/<table>([\s\S]*?)<\/table>/g, (_, t) => {
+      const strip = (s) => s.replace(/<[^>]+>/g, "").trim();
+      const heads = [...t.matchAll(/<th>([\s\S]*?)<\/th>/g)].map((m) => strip(m[1]));
+      const rows = [...t.matchAll(/<tr>([\s\S]*?)<\/tr>/g)]
+        .map((m) => [...m[1].matchAll(/<td>([\s\S]*?)<\/td>/g)].map((c) => strip(c[1])))
+        .filter((r) => r.length);
+      const dot = (s) => (/[.?!]$/.test(s) ? s : s + ".");
+      const items = rows.map((r) => {
+        const rest = r.slice(1).map((c, i) => `${heads[i + 1] ? heads[i + 1] + ": " : ""}${dot(c)}`).join(" ");
+        return `<li><strong>${dot(r[0])}</strong> ${rest}</li>`;
+      });
+      return `<ul>${items.join("")}</ul>`;
+    });
     // images are uploaded to LinkedIn separately; drop them from the paste body
     out = out.replace(/<img\b[^>]*>/g, "");
     // tidy up the empty paragraphs those removals can leave behind
