@@ -6,7 +6,7 @@ day: 2
 dek: "What to include, what to leave out, and how to keep sensitive information out of the prompt"
 description: "Two prompts asked for the same thing: one 18 words, one 120. What context to give an AI assistant, what to leave out, and what never to paste."
 date: 2026-10-27T06:00:00.000Z
-cover: "/images/blog/prompting-day-2-context.jpg"
+cover: "/images/blog/prompting-day-2-context-v2.jpg"
 readingTime: 6
 linkedinPost: |
   Two prompts asked for the same thing. One was 18 words and the other was 120.
@@ -27,7 +27,7 @@ linkedinPost: |
 tableImages:
   - "/images/blog/tables/context-is-the-whole-game-table-1.png"
 ---
-<img src="/images/blog/prompting-day-2-context.jpg" alt="Index cards sorted into two piles, one under a gold clip and one under a teal glass paperweight, below a pinned sample document" width="1600" height="893" loading="lazy">
+<img src="/images/blog/prompting-day-2-context-v2.jpg" alt="Illustration of index cards sorted into two piles, one under a gold clip and one under a teal glass paperweight, below a pinned sample document" width="1600" height="893" loading="lazy">
 
 Two analysts ask an AI assistant for the same thing: a draft set of requirements for a service request form. One prompt runs to 18 words and the other to about 120. The short one returns a generic list that could have come from any organisation. The long one returns something the facilities manager looks at and says, within a minute, "that is our building." The assistant in both cases was identical. What differed was what each analyst had been willing to tell it. If you are joining us on day two, here is where we are. This week is five days on prompting for business analysts, following one analyst who is writing the requirements for a service request intake form for a facilities team that currently takes requests by email, where repairs get lost and urgency is unclear. On day one we saw that a prompt is a specification, and that a good one has five parts: role, task, context, constraints and format. Today we take the part that does most of the work, which is context.
 
