@@ -53,6 +53,33 @@ content:
       - name: linkedinPost
         label: LinkedIn post text (the "tell your network" box when you publish the article)
         type: text
+      - name: linkedinFormat
+        label: LinkedIn format for this day (article is the default; leave blank for article)
+        type: select
+        options:
+          values:
+            - { value: article, label: Article (default) }
+            - { value: carousel, label: PDF carousel }
+            - { value: poll, label: Poll }
+      - name: carouselPdf
+        label: Carousel PDF (carousel days only)
+        type: file
+        options:
+          path: src/images/blog/carousels
+          extensions: [pdf]
+      - name: carouselCaption
+        label: Carousel caption (carousel days only)
+        type: text
+      - name: pollQuestion
+        label: Poll question (poll days only, 140 characters max)
+        type: string
+      - name: pollOptions
+        label: Poll options (2 to 4, each 30 characters max)
+        type: string
+        list: true
+      - name: pollIntro
+        label: Poll intro text (poll days only)
+        type: text
       - name: body
         label: Post
         type: rich-text
