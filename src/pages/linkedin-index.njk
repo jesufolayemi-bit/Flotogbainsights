@@ -17,7 +17,7 @@ eleventyExcludeFromCollections: true
     {%- for post in collections.posts %}
     <li>
       <a href="{{ post.url }}linkedin/">{{ post.data.title }}</a>
-      <span class="muted">{{ post.date | readableDate }}{% if post.data.series %} · Day {{ post.data.day }}{% endif %}{% if not post.data.linkedinPost %} · <em>no post text yet</em>{% endif %}</span>
+      <span class="muted">{{ post.date | readableDate }}{% if post.data.series %} · Day {{ post.data.day }}{% endif %}{% if post.data.linkedinFormat and post.data.linkedinFormat != "article" %} · <strong>{{ post.data.linkedinFormat }}</strong>{% elif not post.data.linkedinPost %} · <em>no post text yet</em>{% endif %}</span>
     </li>
     {%- endfor %}
   </ul>

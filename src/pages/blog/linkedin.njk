@@ -17,6 +17,7 @@ eleventyComputed:
 {%- set images = post.templateContent | postImages -%}
 {%- set liveUrl = post.url | absUrl(site.url) -%}
 {%- set n = 0 -%}
+{%- set fmt = d.linkedinFormat or "article" -%}
 
 <div class="wrap-narrow lic">
 
@@ -26,12 +27,78 @@ eleventyComputed:
   <h1>{{ d.title }}</h1>
   <p class="post-meta">Publishes <time datetime="{{ post.date | isoDate }}">{{ post.date | readableDate }}</time>{% if d.series %} · Day {{ d.day }} of {{ d.series }}{% endif %}</p>
 
+  {%- if fmt == "carousel" %}
+  <p class="lic-warn"><strong>Carousel day.</strong> Today's LinkedIn post is a PDF carousel, not an article. The full article stays on the website; the link goes in the first comment.</p>
+  <ol class="lic-steps">
+    <li>Open LinkedIn → <strong>Start a post</strong> → <strong>Add a document</strong> (the “+” menu), and upload the PDF below.</li>
+    <li>Paste the caption into the post box and publish.</li>
+    <li>Straight after publishing, paste the link line into the first comment.</li>
+  </ol>
+  {%- elif fmt == "poll" %}
+  <p class="lic-warn"><strong>Poll day.</strong> Today's LinkedIn post is a poll, not an article. A poll cannot carry an image or document. The full article stays on the website; the link goes in the first comment.</p>
+  <ol class="lic-steps">
+    <li>Open LinkedIn → <strong>Start a post</strong> → <strong>Create a poll</strong> (the “+” menu).</li>
+    <li>Paste the question and each option into its own box, then choose how long the poll runs.</li>
+    <li>Paste the intro text into the post box and publish, then paste the link line into the first comment.</li>
+  </ol>
+  {%- else %}
   <ol class="lic-steps">
     <li>Open LinkedIn → <strong>Write article</strong>.</li>
     <li>Work down this page in order. Each box has a <strong>Copy</strong> button.</li>
     <li>Paste the post text into the box LinkedIn shows when you hit Publish.</li>
   </ol>
+  {%- endif %}
 
+  {%- if fmt == "carousel" %}
+  <section class="lic-step">
+    {%- set n = n + 1 -%}<h2><span class="lic-num">{{ n }}</span> Carousel PDF</h2>
+    {%- if d.carouselPdf %}
+    <p><a class="btn" href="{{ d.carouselPdf }}" download>Download carousel PDF</a>
+       <span class="muted">Upload this as a document when you start the post.</span></p>
+    {%- else %}
+    <p class="lic-warn">No carousel PDF is set for this post. Add one in Pages CMS (Carousel PDF) before you publish.</p>
+    {%- endif %}
+  </section>
+  <section class="lic-step">
+    {%- set n = n + 1 -%}<h2><span class="lic-num">{{ n }}</span> Carousel caption</h2>
+    <p class="muted">Ends with a question. Keep it as written so the hook shows before “see more”.</p>
+    <div class="lic-box"><p id="lic-caption" style="white-space:pre-wrap">{{ d.carouselCaption or d.linkedinPost }}</p></div>
+    <button class="btn" data-copy-text="#lic-caption">Copy caption</button>
+    <span class="muted lic-count">{{ (d.carouselCaption or d.linkedinPost or "") | length }} characters</span>
+  </section>
+  <section class="lic-step">
+    {%- set n = n + 1 -%}<h2><span class="lic-num">{{ n }}</span> First comment (link to the article)</h2>
+    <div class="lic-box"><p id="lic-fc">Read the full article here: {{ liveUrl }}</p></div>
+    <button class="btn btn-ghost" data-copy-text="#lic-fc">Copy first comment</button>
+  </section>
+  {%- elif fmt == "poll" %}
+  <section class="lic-step">
+    {%- set n = n + 1 -%}<h2><span class="lic-num">{{ n }}</span> Poll question</h2>
+    <div class="lic-box"><p id="lic-pq">{{ d.pollQuestion }}</p></div>
+    <button class="btn" data-copy-text="#lic-pq">Copy question</button>
+    <span class="muted lic-count">{{ (d.pollQuestion or "") | length }} of 140 characters</span>
+  </section>
+  <section class="lic-step">
+    {%- set n = n + 1 -%}<h2><span class="lic-num">{{ n }}</span> Poll options</h2>
+    <p class="muted">LinkedIn allows 2 to 4 options of up to 30 characters each. Copy them one at a time.</p>
+    {%- for opt in d.pollOptions %}
+    <div class="lic-box"><p id="lic-po{{ loop.index }}">{{ opt }}</p></div>
+    <button class="btn btn-ghost" data-copy-text="#lic-po{{ loop.index }}">Copy option {{ loop.index }}</button>
+    <span class="muted lic-count">{{ opt | length }} of 30 characters</span>
+    {%- endfor %}
+  </section>
+  <section class="lic-step">
+    {%- set n = n + 1 -%}<h2><span class="lic-num">{{ n }}</span> Poll intro text</h2>
+    <div class="lic-box"><p id="lic-pi" style="white-space:pre-wrap">{{ d.pollIntro or d.linkedinPost }}</p></div>
+    <button class="btn" data-copy-text="#lic-pi">Copy intro text</button>
+    <span class="muted lic-count">{{ (d.pollIntro or d.linkedinPost or "") | length }} characters</span>
+  </section>
+  <section class="lic-step">
+    {%- set n = n + 1 -%}<h2><span class="lic-num">{{ n }}</span> First comment (link to the article)</h2>
+    <div class="lic-box"><p id="lic-fc">Read the full article here: {{ liveUrl }}</p></div>
+    <button class="btn btn-ghost" data-copy-text="#lic-fc">Copy first comment</button>
+  </section>
+  {%- else %}
   <!-- 1. Cover -->
   <section class="lic-step">
     {%- set n = n + 1 -%}<h2><span class="lic-num">{{ n }}</span> Cover image</h2>
@@ -123,6 +190,8 @@ Full article: {{ liveUrl }}</p></div>
     <div class="lic-box"><p id="lic-link">Originally published at {{ liveUrl }}</p></div>
     <button class="btn btn-ghost" data-copy-text="#lic-link">Copy link line</button>
   </section>
+
+  {%- endif %}
 
 </div>
 
